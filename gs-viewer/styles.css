@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    width: 940px;
+    height: 480px;
+    margin: 0;
+}
+
+.left-panel {
+    width: 260px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2b2b;
+}
+
+.file-select-area {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #1a1a1a00;
+    border: 1px solid #444;
+}
+
+.file-select-area button {
+    padding: 10px 20px;
+    background-color: #333;
+    border: none;
+    border-radius: 0px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 14px;
+}
+
+.file-select-area button:hover {
+    background-color: #444;
+}
+
+.file-select-area button:active {
+    background-color: #555;
+}
+
+.info-table {
+    flex: 1;
+    margin-top: 0;
+}
+
+.info-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-table td {
+    padding: 8px;
+    border: 1px solid #444;
+}
+
+.info-table td:first-child {
+    width: 40%;
+    background-color: #333;
+}
+
+.right-panel {
+    flex: 1;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+}
+
+.image-container {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.scroll-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#preview {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.scroll-container::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 4px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.drop-zone p {
+    margin: 5px 0;
+    color: #ccc;
+}
