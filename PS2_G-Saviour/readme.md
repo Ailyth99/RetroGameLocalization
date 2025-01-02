@@ -8,9 +8,12 @@ This toolkit is designed for handling text and image resources of PS2's G-Saviou
 游戏包含两种文本：<br>
 The game contains two types of text:
 - ELF文件`SLPS_250.09`中的系统文本 ：包含记忆卡操作提示和任务评价<br>
-  System text in ELF file (`SLPS_250.09`): Including memory card operations and mission evaluations
-- EB文件中的剧情文本：主要游戏剧情对话<br>
-  Story text in EB files: Main game dialogue
+  System text in ELF file (`SLPS_250.09`): Including memory card info and dialog after completing a mission
+- `EB文件`中的剧情文本：主要游戏剧情对话<br>
+  Story text in `EB files`: Main game dialogue
+
+以上提到的文本已经导出，在本仓库的`GAME_SCRIPT`目录中<br>
+The text mentioned above has been exported to the `GAME_SCRIPT` directory in this repository.
 
 所有文本使用`EUC-JP`编码。<br>
 All texts are encoded in `EUC-JP`.
@@ -46,7 +49,7 @@ eb_importer.exe -tbl tbl.csv -eb EV431.EB -tr script.txt -align center
 |--------------------|----------------------------------------------------------------------|
 | BR01~BR07.EB          | 任务简报 / Mission briefings                                       |
 | MSSEL**.EB           | MS选择时的对话 / MS selection dialogue                            |
-| EV***.EB             | 每关卡对话，EV1开头的就是第一关，EV5开头的就是第五关，以此类推 <br> Dialogue for each level, EV1 is the first level, EV5 is the fifth level, and so on <br>标注为 center 的  居中对齐的，其他都是居左 <br> The text marked as center is centered, others are left |
+| EV***.EB             | 每关卡对话，EV1开头的就是第一关，EV5开头的就是第五关，以此类推 <br> Dialogue for each level, EV1 is the first level, EV5 is the fifth level, and so on <br> `GAME_SCRIPT`里面标注为 center 的  居中对齐，其他都是居左 <br> The script in  `GAME_SCRIPT` marked as center is centered, others are left |
 
 ## 图像处理 / Image Processing
 游戏里面的菜单选项都是图片，格式为gs，为一种位图格式。 <br>game's menu options are images, the format is gs, which is a bitmap format.
@@ -80,7 +83,7 @@ the gs file of gsp must be the same bpp type as the original
 <br>
 
 2. 图像转换 / Image Conversion :
-   - bmp2gs.py: BMP转换为GS格式 / Convert BMP to GS format
+   - bmp2gs.py: 用于把BMP转换为GS格式 / Convert BMP to GS format
    - 把gs转换成bmp可以请使用这个项目：https://github.com/ScornMandark/G-SaviourExtract
 
 ### 转换格式说明 / Image Format 
@@ -89,7 +92,7 @@ the gs file of gsp must be the same bpp type as the original
   - 8bpp (256色索引模式 / 256 colors indexed)
 - 透明色处理 / Transparency:
   - 纯黑色 (#000000) 将显示为透明（即把alpha通道设置为0） <br>pure pure black (#000000) will be displayed as transparent
-- 判断原始GS的bpp类型，拿16进制编辑器可以查看0x2位置的值 / original GS's Bpp Detection(offset 0x2):
+- 判断原始GS的bpp类型，拿16进制编辑器查看，0x2的值对应bpp类型 / original GS's Bpp Detection(offset 0x2):
   - 0x14 : 4bpp
   - 0x13 : 8bpp
 
