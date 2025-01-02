@@ -32,7 +32,7 @@ elf_importer.exe -tbl tbl.csv -elf SLPS_250.09 -tr script.txt
 eb_importer.exe -tbl tbl.csv -eb EV431.EB -tr script.txt -align center
 ```
 ### 参数说明 / Parameters
-| 参数/Param | 说明/Description | 示例/Example |
+| 参数/Param | 说明/Desc | example |
 |------------|-----------------|--------------|
 | -tbl       | 字符编码表文件 / Character encoding table | tbl.csv |
 | -elf       | ELF目标文件 / Target ELF file | SLPS_250.09 |
@@ -40,7 +40,7 @@ eb_importer.exe -tbl tbl.csv -eb EV431.EB -tr script.txt -align center
 | -tr        | 译文文件 / Translation file | *.txt |
 | -align     | 文本对齐方式(仅EB工具) / Text alignment(EB tool only) | left/center |
 
-### EB文本分类 / EB Text Classification
+### EB文本分类 / EB files
 - BR01~BR07: 任务简报 / Mission briefings
 - MSSEL**: MS选择时的对话 / MS selection dialogue
 - EV***: 每关卡对话，EV1开头的就是第一关，EV5开头的就是第五关，以此类推 / Dialogue for each level, EV1 is the first level, EV5 is the fifth level, and so on
@@ -54,7 +54,7 @@ eb_importer.exe -tbl tbl.csv -eb EV431.EB -tr script.txt -align center
 - *.gsp: gs容器，包含多个gs文件 / gs package container, containing multiple gs 
 
 ### gs工具说明 / Tools Desc
-相关工具为python编写，需要确保有numpy和wxpython<br>
+为了使用numpy处理像素数据，相关工具为python编写，需要确保有numpy和wxpython<br>
 the tools need to ensure that numpy and wxpython are installed.
 
 1. GSP处理 / GSP Processing :
@@ -82,7 +82,13 @@ the gs file of gsp must be the same bpp type as the original
   - 0x14 : 4bpp
   - 0x13 : 8bpp
 
-
 ### 已知问题 / Known Issues
 目前不支持真彩色(24/32位)GS文件的处理。部分游戏中的GS文件使用真彩色而非索引色模式。<br>
 Currently does not support true color (24/32-bit) GS files processing. Some GS files in the game use true color instead of indexed color mode.
+
+## 字体 / Font
+本游戏字体文件为 KANJI.FNT,KANJI21.FNT,KANJI22.FNT,ANK.FNT，其中几个KANJI.FNT为全角字符，包括5000+汉字，远超游戏实际使用的字数。
+ANK.FNT为半角字符，包括常见标点符号以及数字，拉丁字母<br>本仓库的KANJI.FNT是已经修改过的版本，配合编码表tbl.csv使用。<br>
+The font files are KANJI.FNT, KANJI21.FNT, KANJI22.FNT, and ANK.FNT. Among these, the KANJI.FNT files contain full-width characters, including over 5000 characters. The ANK.FNT file contains half-width characters, including common punctuation marks, numbers, and Latin letters.
+The KANJI.FNT files in this repository are modified versions, designed to be used with the encoding table tbl.csv.
+
