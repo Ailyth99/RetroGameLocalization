@@ -30,7 +30,7 @@ go run eb_importer.go -参数/parameters
 ```bash
 elf_importer.exe -tbl tbl.csv -elf SLPS_250.09 -tr script.txt
 eb_importer.exe -tbl tbl.csv -eb EV431.EB -tr script.txt -align center
-
+```
 ### 参数说明 / Parameters
 | 参数/Param | 说明/Description | 示例/Example |
 |------------|-----------------|--------------|
@@ -47,7 +47,7 @@ eb_importer.exe -tbl tbl.csv -eb EV431.EB -tr script.txt -align center
 - 标注为 center 的是居中对齐的，其他都是居左 / The text marked as center is centered, others are left
 
 ## 图像处理 / Image Processing
-游戏里面的菜单选项都是图片，格式为gs，为一种位图格式。 /game's menu options are images, the format is gs, which is a bitmap format.
+游戏里面的菜单选项都是图片，格式为gs，为一种位图格式。 <br>game's menu options are images, the format is gs, which is a bitmap format.
 
 ### 文件格式 / gs' Formats
 - *.gs: 单个图片文件 / Single gs image file
@@ -58,25 +58,27 @@ eb_importer.exe -tbl tbl.csv -eb EV431.EB -tr script.txt -align center
 the tools need to ensure that numpy and wxpython are installed.
 
 1. GSP处理 / GSP Processing :
-   - gsp_unpacker.py: 解包GSP文件并生成索引JSON<br>
+   - gsp_unpacker.py:<br>
+    解包GSP文件并生成索引JSON<br>
       Unpack GSP and generate index JSON
-   - gsp_importer.py: 导入GS文件到GSP（需要索引JSON）<br>
+   - gsp_importer.py: <br>导入GS文件到GSP（需要索引JSON）<br>
       Import GS files to GSP (requires index JSON)
-导入gsp的gs图片需要和原始gs图片的bpp类型一致，否则会报错。<br>
+
+   - 导入gsp的gs图片需要和原始gs图片的bpp类型一致，否则会报错。<br>
 the gs file of gsp must be the same bpp type as the original
 
 
 2. 图像转换 / Image Conversion :
    - bmp2gs.py: BMP转换为GS格式 / Convert BMP to GS format
-   把gs转换成bmp可以请使用这个项目：https://github.com/ScornMandark/G-SaviourExtract
+   - 把gs转换成bmp可以请使用这个项目：https://github.com/ScornMandark/G-SaviourExtract
 
 ### 图像格式说明 / Image Format 
 - 支持的BMP格式 / Supported BMP BPP:
   - 4bpp (16色索引模式 / 16 colors indexed)
   - 8bpp (256色索引模式 / 256 colors indexed)
 - 透明色设置 / Transparency:
-  - 纯黑色 (#000000) 将显示为透明（即把alpha通道设置为0） / pure pure black (#000000) will be displayed as transparent
-- 格式判断，拿16进制编辑器可以查看0x2位置的值 / Format Detection:
+  - 纯黑色 (#000000) 将显示为透明（即把alpha通道设置为0） <br>pure pure black (#000000) will be displayed as transparent
+- 格式判断，拿16进制编辑器可以查看0x2位置的值 / Format Detection(offset 0x2):
   - 0x14 : 4bpp
   - 0x13 : 8bpp
 
