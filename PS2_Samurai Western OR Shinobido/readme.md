@@ -1,6 +1,16 @@
 ## VOLUME.DAT Format Specification
 
-## Samurai Western (PS2) - Way of the Samurai 2
+## サムライウエスタン 活劇侍道 Samurai Western (PS2) 
+##  忍道 戒 Shinobido: Way of the Ninja （PS2）
+
+Unapck volume.dat
+```bash
+unpack_volume volume.dat [output dir]
+```
+
+```bash
+pack_volume volume_extracted [output file]
+```
 
 ### File Structure
 
@@ -24,7 +34,7 @@
 
 | Offset | Type   | Description              |
 |--------|--------|--------------------------|
-| 0x00   | uint32 | Filename hash            |
+| 0x00   | uint32 | ???           |
 | 0x04   | uint32 | File offset (relative)   |
 | 0x08   | uint32 | File size                |
 | 0x0C   | uint32 | Zero padding             |
