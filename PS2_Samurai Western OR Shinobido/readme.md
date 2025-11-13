@@ -1,13 +1,14 @@
-## VOLUME.DAT Format Specification
+## VOLUME.DAT（ACQUIRE）Tool
 
-## サムライウエスタン 活劇侍道 Samurai Western (PS2) 
-##  忍道 戒 Shinobido: Way of the Ninja （PS2）
+### サムライウエスタン 活劇侍道 Samurai Western (PS2) 
+###  忍道 戒 Shinobido: Way of the Ninja （PS2）
 
-Unapck volume.dat
+Unpack volume.dat
 ```bash
 unpack_volume volume.dat [output dir]
 ```
 
+Pack volume.dat
 ```bash
 pack_volume volume_extracted [output file]
 ```
