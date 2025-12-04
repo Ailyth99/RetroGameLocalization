@@ -72,25 +72,18 @@ func UnswizzleCSM1_32(entries []uint32) []uint32 {
 // Part 2: 像素重排 - 基础 & 8/16/32bpp
 // ---------------------------------------------------------------------------
 
-// Unswizzle8 对应 Python _convert_ps2_8bit
-// 严格匹配 Python 的位运算逻辑
 func Unswizzle8(data []byte, width, height int) []byte {
 	out := make([]byte, len(data))
 	for y := 0; y < height; y++ {
 		for x := 0; x < width; x++ {
-			// Python: block_location = (y & (~0xF)) * img_width + (x & (~0xF)) * 2
 			blockLoc := (y & (^0xF)) * width + (x & (^0xF)) * 2
 			
-			// Python: swap_selector = (((y + 2) >> 2) & 0x1) * 4
 			swapSel := (((y + 2) >> 2) & 0x1) * 4
 			
-			// Python: pos_y = (((y & (~3)) >> 1) + (y & 1)) & 0x7
 			posY := (((y & (^3)) >> 1) + (y & 1)) & 0x7
 			
-			// Python: column_location = pos_y * img_width * 2 + ((x + swap_selector) & 0x7) * 4
 			colLoc := posY * width * 2 + ((x + swapSel) & 0x7) * 4
 			
-			// Python: byte_num = ((y >> 1) & 1) + ((x >> 2) & 2)
 			byteNum := ((y >> 1) & 1) + ((x >> 2) & 2)
 			
 			swizzleIdx := blockLoc + colLoc + byteNum
@@ -165,8 +158,6 @@ func pixel16Offset(x, y, width int) int {
 
 func Unswizzle4By8(data []byte, width, height int) []byte {
 	// 1. Unpack 4bpp -> 8bpp
-	// Python: input_pixels_8bpp[i * 2] = nybble_low
-	// Python: input_pixels_8bpp[i * 2 + 1] = nybble_high
 	// Low nibble (0-3 bits) -> Even index
 	// High nibble (4-7 bits) -> Odd index
 	temp8 := make([]byte, width*height)
@@ -184,7 +175,6 @@ func Unswizzle4By8(data []byte, width, height int) []byte {
 	unswizzled8 := Unswizzle8(temp8, width, height)
 
 	// 3. Repack 8bpp -> 4bpp
-	// Python: byte_value = (nybble_high << 4) | nybble_low
 	out := make([]byte, len(data))
 	for i := 0; i < len(out); i++ {
 		p1 := uint8(0)
@@ -255,10 +245,8 @@ func Unswizzle4(data []byte, width, height int) []byte {
 			inputPage := make([]byte, pageBufSize)
 			
 			for k := 0; k < nInputHeight; k++ {
-				// Python: src_offset = k * n_input_width_byte * n_page_w
 				srcOffset := po0Offset + k * nInputWidthByte * nPageW
 				
-				// Python: dst_offset = k * n_page32_width_byte
 				// n_page32_width_byte = 64 * 4 = 256
 				dstOffset := k * (psmct32PageW * 4)
 				
@@ -270,14 +258,11 @@ func Unswizzle4(data []byte, width, height int) []byte {
 
 			outputPage := unswizzle4ConvertPage(psmt4PageW, psmt4PageH, inputPage, index32H, index32V)
 
-			// Python: pi0_offset = (n_output_width_byte * n_output_height) * n_page_w * i + n_output_width_byte * j
 			pi0Offset := (nOutputWidthByte * nOutputHeight) * nPageW * i + nOutputWidthByte * j
 			
 			for k := 0; k < nOutputHeight; k++ {
-				// Python: src_offset = k * n_page4_width_byte
 				srcOffset := k * (psmt4PageW / 2)
 				
-				// Python: dst_offset = pi0_offset + k * n_output_width_byte * n_page_w
 				dstOffset := pi0Offset + k * nOutputWidthByte * nPageW
 				
 				copyLen := nOutputWidthByte
@@ -594,10 +579,8 @@ func Swizzle4(linearData []byte, width, height int) []byte {
 			inputPage := make([]byte, (psmt4PageW/2)*psmt4PageH)
 			
 			for k := 0; k < nInputHeight; k++ {
-				// Python: src_idx = (n_input_width_byte * n_input_height) * n_page_w * i + n_input_width_byte * j + k * n_input_width_byte * n_page_w
 				srcIdx := (nInputWidthByte * nInputHeight) * nPageW * i + nInputWidthByte * j + k * nInputWidthByte * nPageW
 				
-				// Python: dst_idx = k * n_page4_width_byte
 				dstIdx := k * (psmt4PageW / 2)
 				
 				copyLen := nInputWidthByte
@@ -609,10 +592,8 @@ func Swizzle4(linearData []byte, width, height int) []byte {
 			outputPage := swizzle4ConvertPage(psmt4PageW, psmt4PageH, inputPage, index32H, index32V)
 
 			for k := 0; k < nOutputHeight; k++ {
-				// Python: src_idx = k * n_page32_width_byte
 				srcIdx := k * (psmct32PageW * 4)
 				
-				// Python: dst_idx = (n_output_width_byte * n_output_height) * n_page_w * i + n_output_width_byte * j + k * n_output_width_byte * n_page_w
 				dstIdx := (nOutputWidthByte * nOutputHeight) * nPageW * i + nOutputWidthByte * j + k * nOutputWidthByte * nPageW
 				
 				copyLen := nOutputWidthByte
