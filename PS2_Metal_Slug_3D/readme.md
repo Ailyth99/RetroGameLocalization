@@ -4,35 +4,48 @@ Below are the usage instructions for each tool:
 
 ### **pak_unpacker**
 Used for unpacking `.pak` files. It also handles the decompression of enclosed `.pklz` files automatically.
+
 **Usage:**
+
 `pak_unpacker <pak_file> [output_directory]`
 
 ### **pklz_decmp**
 A standalone tool for decompressing `.pklz` files.
+
 **Usage:**
+
 `pklz_decmp <path_to_pklz_file>`
 
 ### **pklz_maker.exe**
 There are two variants of the PKLZ format: headers starting with **PK02** indicate compressed data, while **PK00** indicates uncompressed data. Since the game engine supports uncompressed data, re-compression is not strictly necessary. You can simply use this tool to create a `.pklz` file with a **PK00** header (raw data) and pack it back into a PAK file.
+
 **Usage:**
+
 `pklz_maker <input_file>`
 
 ### **pak_packer**
 A tool for rebuilding/repacking `.pak` files.
+
 **Usage:**
+
 `pak_packer <input_folder> <MAGIC_TYPE>`
+
 **Example:**
+
 `pak_packer m_title_j MENU`
 
 ### **ms3dTx_tool**
 **Texture Tool** *(Note: Please include `swizzle.go` and `utils.go` when compiling)*.
 This tool is used to export textures as PNGs from texture containers and inject PNGs back into them. These texture containers (`.bin`) are obtained after decompressing the PKLZ files.
+
 **Usage:**
+
 *   **Scan a file:** `ms3dTx_tool.exe -scan <file.bin>`
 *   **Extract from a dir:** `ms3dTx_tool.exe -ex <folder_path>`
 *   **Inject into a file:** `ms3dTx_tool.exe -inject <in.png> <in.bin> <tex_id> [-o <out.bin>]`
 
 
+---
 
 ### 1. PAK Container Format
 A standard archive format consisting of a header, an offset table, and file data.
@@ -51,7 +64,7 @@ A standard archive format consisting of a header, an offset table, and file data
     *   File data follows the offset table.
     *   Each file is typically aligned to a **16-byte** boundary (padded with `00`).
 
----
+
 
 ### 2. PKLZ Compression Format
 A custom compression format based on the **LZSS** algorithm.
@@ -67,4 +80,5 @@ A custom compression format based on the **LZSS** algorithm.
         *   **Type 0 (Short)**: Uses 2 bits for length + 1 byte for offset.
         *   **Type 1 (General)**: Uses 2 bytes to encode a larger offset and length.
         
+
  

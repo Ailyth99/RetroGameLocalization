@@ -1,3 +1,24 @@
+
+/*
+Package swizzle implements PlayStation 2 texture swizzling and unswizzling algorithms.
+
+Author: aikika/ailyth99
+Date: 2025.11
+License: GPL-3.0
+------------------------------------------------------------------------------
+Portions of the pixel swizzling algorithms (specifically Unswizzle4/Native and LUTs) 
+are derived from the Python library "reversebox".
+Original Author: Copyright © 2024-2025 Bartłomiej Duda
+License: GPL-3.0
+------------------------------------------------------------------------------
+
+This library is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+*/
+
+
 package main
 
 //---------------------------------------------------------------------------
