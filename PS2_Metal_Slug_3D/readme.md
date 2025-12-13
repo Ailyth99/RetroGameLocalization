@@ -1,5 +1,5 @@
 The game's primary archive format is **AFS**, which contains numerous **PAK** files. Inside these PAK files lies a custom compression format I have named **PKLZ**. You must decompress these PKLZ files to access the actual texture files.
-
+Some other SNK PS2 games can also use these tools, such as KOF - Maximum.
 Below are the usage instructions for each tool:
 
 ### **pak_unpacker**
