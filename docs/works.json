@@ -52,7 +52,7 @@
     "title": "PS2/影之塔 深渊",
     "subtitle": "Fromsoftware最后一部第一人称暗黑幻想游戏",
     "tags": ["ARPG","PS2","Fromsoftware"],
-    "image": "/assets/abyss.png",
+    "image": "/assets/abyss.webp",
     "size": "small"
   },
   {
@@ -60,7 +60,7 @@
     "title": "NDS/女子高中生快点逃 - 灵异方块学园",
     "subtitle": "打着恐怖游戏外衣的三消游戏",
     "tags": ["PUZZLE","NDS"],
-    "image": "/assets/jk.png",
+    "image": "/assets/jk.webp",
     "size": "small"
   },
   {
@@ -68,7 +68,7 @@
     "title": "DC/彩虹棉花小魔女",
     "subtitle": "Cotton系列唯一的3D游戏",
     "tags": ["DC","STG"],
-    "image": "/assets/cotton.png",
+    "image": "/assets/cotton.webp",
     "size": "small"
   },
   {
@@ -76,7 +76,7 @@
     "title": "PS2/THE 大量地狱",
     "subtitle": "SIMPLE2000系列最猎奇的一作",
     "tags": ["AVG","PS2"],
-    "image": "/assets/jk2.png",
+    "image": "/assets/jk2.webp",
     "size": "small"
   },
   {
@@ -84,7 +84,7 @@
     "title": "PS1/厄 友情谈译",
     "subtitle": "IDEA FACTORY出道作，怪诞AVG",
     "tags": ["AVG","PS1"],
-    "image": "/assets/yaku.png",
+    "image": "/assets/yaku.webp",
     "size": "small"
   },
   {
@@ -92,7 +92,7 @@
     "title": "XBOX/O・TO・GI 〜御伽〜",
     "subtitle": "Fromsoftware和风动作游戏",
     "tags": ["ACT","XBOX"],
-    "image": "/assets/otogi.png",
+    "image": "/assets/otogi.webp",
     "size": "small"
   },
   {
@@ -100,7 +100,7 @@
     "title": "XBOX/铁甲飞龙ORTA",
     "subtitle": "铁甲飞龙系列的绝唱",
     "tags": ["XBOX","STG"],
-    "image": "/assets/orta.png",
+    "image": "/assets/orta.webp",
     "size": "small"
   },
   {
@@ -108,7 +108,7 @@
     "title": "XBOX/铁甲飞龙",
     "subtitle": "系列第一作的XBOX复刻版",
     "tags": ["STG","XBOX"],
-    "image": "/assets/panzer.png",
+    "image": "/assets/panzer.webp",
     "size": "small"
   },
   {
@@ -116,7 +116,7 @@
     "title": "PS2/THE 落武者",
     "subtitle": "挨打抖M动作游戏",
     "tags": ["ACT","PS2"],
-    "image": "/assets/dom.png",
+    "image": "/assets/dom.webp",
     "size": "small"
   },
   {
@@ -124,7 +124,7 @@
     "title": "DC/甲胄巨神",
     "subtitle": "Fromsoftware的魔法版装甲核心",
     "tags": ["ACT","DC"],
-    "image": "/assets/frame.png",
+    "image": "/assets/frame.webp",
     "size": "small"
   },
   {
@@ -140,7 +140,7 @@
     "title": "DC/德尔塔空军",
     "subtitle": "KONAMI的皇牌空战",
     "tags": ["STG","DC"],
-    "image": "/assets/delta.png",
+    "image": "/assets/delta.webp",
     "size": "small"
   },
   {
@@ -148,7 +148,7 @@
     "title": "PS1/哆啦A梦 大雄与复活之星",
     "subtitle": "剧情堪比剧场版，就是玩法实在是……",
     "tags": ["ACT","PS1"],
-    "image": "/assets/dora.png",
+    "image": "/assets/dora.webp",
     "size": "small"
   },
   {
@@ -156,7 +156,7 @@
     "title": "DC/鸦",
     "subtitle": "DC最后的SEGA官方授权游戏",
     "tags": ["STG","DC"],
-    "image": "/assets/kara.png",
+    "image": "/assets/kara.webp",
     "size": "small"
   },
   {
@@ -164,7 +164,7 @@
     "title": "DC/死亡火枪OX",
     "subtitle": "粪作之王续作的光枪版",
     "tags": ["DC","STG"],
-    "image": "/assets/ox.jpg",
+    "image": "/assets/ox.webp",
     "size": "small"
   },
   {
@@ -172,7 +172,7 @@
     "title": "PS1/恐怖照片~心灵写真奇谭~",
     "subtitle": "拍照驱鬼的恐怖游戏",
     "tags": ["AVG","PS1"],
-    "image": "/assets/shinrei.png",
+    "image": "/assets/shinrei.webp",
     "size": "small"
   },
   {
@@ -180,7 +180,7 @@
     "title": "PS2/蚊",
     "subtitle": "名字最短的游戏，蚊子模拟器",
     "tags": ["ACT","PS2"],
-    "image": "/assets/ka.png",
+    "image": "/assets/ka.webp",
     "size": "small"
   },
   {
@@ -188,7 +188,7 @@
     "title": "PS2/高达G救世主",
     "subtitle": "PS2第一个高达游戏，同名电影的游戏版",
     "tags": ["ACT","PS2"],
-    "image": "/assets/GS.png",
+    "image": "/assets/GS.webp",
     "size": "small"
   }
 ]
