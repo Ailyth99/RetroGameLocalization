@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KF2文本贴图生成器</title>
+    <link rel="stylesheet" href="verdite.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <div class="sidebar-header">
+        <h2 style="margin:0; color:var(--primary); letter-spacing:1px;">KF2 TEXT TOOL</h2>
+        <span class="version">PS1 Style Generator v10</span>
+    </div>
+
+    <div class="scroll-content">
+        <div class="control-group">
+            <label>参考背景</label>
+            <div class="file-upload-wrapper">
+                <input type="file" id="refInput" accept="image/*">
+                <div class="file-upload-btn">加载背景图</div>
+            </div>
+            <div class="row mt-2" id="refControls" style="display:none;">
+                <input type="range" id="refOpacity" min="0" max="100" value="50" title="不透明度">
+                <button class="btn-secondary" onclick="clearRef()" style="width: auto; padding: 2px 8px;">×</button>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label>字体设置</label>
+            <button id="btnLoadFonts" class="btn-secondary" style="width:100%; margin-bottom:5px;">读取系统字体</button>
+            <select id="fontSelect" class="mb-2">
+                <option value="sans-serif">默认 (Sans-Serif)</option>
+                <option value="MS Gothic">MS Gothic</option>
+                <option value="SimSun">SimSun (宋体)</option>
+            </select>
+            <input type="text" id="fontManual" placeholder="手动输入字体名...">
+        </div>
+
+        <div class="control-group">
+            <label>文本内容</label>
+            <textarea id="textInput" rows="5" placeholder="输入文本...">测试文本显示</textarea>
+        </div>
+
+        <div class="control-group">
+            <label>坐标偏移</label>
+            <div class="row">
+                <div class="input-wrap">
+                    <span>X</span>
+                    <input type="number" id="offsetX" value="8">
+                </div>
+                <div class="input-wrap">
+                    <span>Y</span>
+                    <input type="number" id="offsetY" value="9">
+                </div>
+            </div>
+            <div class="mt-2">
+                <label class="tool-checkbox">
+                    <input type="checkbox" id="boldCheck"> <span>粗体 (Bold)</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label>噪声</label>
+            <div class="mb-2">
+                <label class="tool-checkbox">
+                    <input type="checkbox" id="textureCheck" checked> <span>启用噪声纹理</span>
+                </label>
+            </div>
+            <select id="texturePreset" class="mb-2">
+                <option value="preset1">噪声1 (微绿白)</option>
+                <option value="preset2">噪声2 (金色)</option>
+            </select>
+            
+            <label class="row-label">二值化阈值</label>
+            <div class="row">
+                <input type="range" id="binaryThreshold" min="1" max="254" value="120" style="flex:1;">
+                <span id="threshVal" style="font-size:10px; width:30px; text-align:right;">120</span>
+            </div>
+        </div>
+
+        <div class="control-group" style="border-bottom:none;">
+            <label>图片转噪声</label>
+            <div class="file-upload-wrapper">
+                <input type="file" id="imgNoiseInput" accept="image/*">
+                <div class="file-upload-btn">上传图片应用纹理</div>
+            </div>
+            <div id="noiseImgStatus" class="status" style="display:none; color:var(--primary);">
+                [图片模式已激活] <a href="#" onclick="clearNoiseImg()" style="color:#fff;">清除</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar-footer">
+        <button id="btnDownload" class="btn-primary">💾保存PNG</button>
+    </div>
+</div>
+
+<div class="main-area">
+    <div class="toolbar">
+        <div class="tool-title">文字排版</div>
+        
+        <div class="divider"></div>
+
+        <div class="tool-group">
+            <span class="tool-label">宽:</span>
+            <input type="number" id="canvasW" value="256" style="width:50px;">
+            <span class="tool-label">高:</span>
+            <input type="number" id="canvasH" value="256" style="width:50px;">
+        </div>
+        
+        <div class="divider"></div>
+
+        <div class="tool-group">
+            <span class="tool-label">字号:</span>
+            <input type="number" id="fontSize" value="16" style="width:45px;">
+            <span class="tool-label">行距:</span>
+            <input type="number" id="lineGap" value="2" style="width:45px;">
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="tool-group">
+            <select id="textAlign" class="btn-mini-toggle" style="width: auto; padding: 4px;">
+                <option value="left">居左</option>
+                <option value="center">居中</option>
+            </select>
+        </div>
+
+        <div class="tool-group" style="margin-left: auto; padding-right: 10px;">
+            <span class="tool-label">缩放: <span id="zoomDisplay">100%</span></span>
+            <input type="range" id="zoomSlider" min="10" max="800" value="100" style="width:100px;">
+            <button class="btn-mini-toggle" onclick="resetZoom()">1:1</button>
+        </div>
+    </div>
+
+    <div class="workspace" id="workspace">
+        <div id="scrollContainer">
+            <div id="canvasWrapper">
+                <img id="refImage" src="" alt="" style="display: none;">
+                <canvas id="mainCanvas"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="verdite.js"></script>
+</body>
+</html>
