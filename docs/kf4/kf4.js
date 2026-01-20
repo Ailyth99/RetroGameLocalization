@@ -1,24 +1,63 @@
 const go = new Go();
 let wasmLoaded = false;
 
-//游戏版本数据
 const GAME_VERSIONS = {
     "SLPS_250.57": { offset: 0x3A6EE0, offsetFOV: 0x1C09C8, name: "汉化版/日版 (JP)", canFOV: true },
-    "SLUS_203.18": { offset: 0x3A85E0, offsetFOV: 0x1C2108, name: "美版 (US)", canFOV: true }, 
+    "SLUS_203.18": { offset: 0x3A85E0, offsetFOV: 0x1C2108, name: "美版 (US)", canFOV: true },
     "SLES_509.20": { offset: 0x3EA5A0, offsetFOV: 0, name: "欧版 (EU)", canFOV: false }
 };
+
 const OFFSET_ELF_JP = 0x3136E0;
 const CHUNK_SIZE = 4096;
-const WRITE_CHUNK_SIZE = 128 * 1024 * 1024; //按照128MB下载分块
+const WRITE_CHUNK_SIZE = 128 * 1024 * 1024;
 
-//加载 WASM
-WebAssembly.instantiateStreaming(fetch("kf4_patcher.wasm"), go.importObject).then((result) => {
-    go.run(result.instance);
-    wasmLoaded = true;
-    console.log("✅ WASM Core Loaded Successfully");
-}).catch(err => {
-    alert("WASM加载失败");
-});
+const loadingBar = document.getElementById('loadingBar');
+const loadingText = document.getElementById('loadingText');
+const loadingOverlay = document.getElementById('loadingOverlay');
+
+fetch("kf4_patcher.wasm").then(response => {
+    const contentLength = response.headers.get('Content-Length');
+    const total = parseInt(contentLength, 10);
+    let loaded = 0;
+
+    const reader = response.body.getReader();
+    const stream = new ReadableStream({
+        start(controller) {
+            function push() {
+                reader.read().then(({ done, value }) => {
+                    if (done) {
+                        controller.close();
+                        return;
+                    }
+                    loaded += value.byteLength;
+                    if (total) {
+                        const progress = Math.round((loaded / total) * 100);
+                        loadingBar.style.width = progress + '%';
+                        loadingText.innerText = progress + '%';
+                    }
+                    controller.enqueue(value);
+                    push();
+                });
+            }
+            push();
+        }
+    });
+
+    return new Response(stream, { headers: { 'Content-Type': 'application/wasm' } });
+}).then(response => response.arrayBuffer())
+  .then(bytes => WebAssembly.instantiate(bytes, go.importObject))
+  .then(result => {
+      go.run(result.instance);
+      wasmLoaded = true;
+      setTimeout(() => {
+          loadingOverlay.style.opacity = '0';
+          setTimeout(() => loadingOverlay.style.display = 'none', 500);
+      }, 300);
+  }).catch(err => {
+      loadingText.innerText = "ERROR";
+      loadingText.style.color = "red";
+      alert("核心组件加载失败，请检查网络或文件完整性。");
+  });
 
 let currentFile = null;
 let detected = null;
@@ -40,6 +79,8 @@ dropArea.addEventListener('drop', e => {
 
 fileInput.addEventListener('change', e => processFiles(e.target.files));
 
+function handleFileInput(input) { processFiles(input.files); }
+
 function processFiles(files) {
     if (!wasmLoaded) return;
     currentFile = files[0];
@@ -50,7 +91,7 @@ function processFiles(files) {
 
     const reader = new FileReader();
     reader.onload = e => analyzeHeader(new Uint8Array(e.target.result));
-    reader.readAsArrayBuffer(currentFile.slice(0, 2 * 1024 * 1024)); // 读取前 2MB 用于识别
+    reader.readAsArrayBuffer(currentFile.slice(0, 2 * 1024 * 1024));
 }
 
 function analyzeHeader(data) {
@@ -65,7 +106,7 @@ function analyzeHeader(data) {
             detected = GAME_VERSIONS[match[1].toUpperCase()];
             finalizeLoad(detected);
         } else {
-            alert("无法自动识别版本。请确保上传的是有效的国王密令4 ISO镜像。");
+            alert("无法自动识别版本。请确保上传的是有效的国王密令4 ISO 镜像。");
             document.getElementById('versionDisplay').innerText = "识别失败";
         }
     }
@@ -78,7 +119,7 @@ async function finalizeLoad(info) {
     const rates = kf4_AnalyzeChunk(paramChunk);
     
     if (rates.error) {
-        alert("分析失败");
+        alert("分析失败：数据不符合特征。");
         return;
     }
 
@@ -94,14 +135,14 @@ async function finalizeLoad(info) {
     const fovSect = document.getElementById('fovSection');
     if (info.canFOV) {
         fovSect.style.opacity = "1"; fovSect.style.pointerEvents = "auto";
-        document.getElementById('fovNotice').innerText = "已匹配到视野修改点。";
+        document.getElementById('fovNotice').innerText = "已匹配视野修改地址";
         const fovData = new Uint8Array(await currentFile.slice(info.offsetFOV, info.offsetFOV + 2).arrayBuffer());
         const fovLabel = kf4_AnalyzeFOV(fovData);
         const radio = document.querySelector(`input[name="fov"][value="${fovLabel}"]`);
         if (radio) radio.checked = true;
     } else {
         fovSect.style.opacity = "0.3"; fovSect.style.pointerEvents = "none";
-        document.getElementById('fovNotice').innerText = "该版本暂不支持视角修改功能。";
+        document.getElementById('fovNotice').innerText = "该版本不支持视野修改";
     }
 }
 
@@ -130,11 +171,17 @@ async function applyPatch() {
         const lastIdx = name.lastIndexOf('.');
         const saveName = lastIdx !== -1 ? name.substring(0, lastIdx) + "_patched" + name.substring(lastIdx) : name + "_patched";
 
-        overlay.style.display = 'flex';
-        sText.innerText = "WRITING... (STAGE 1/2)";
-
         if (window.showSaveFilePicker) {
             const handle = await window.showSaveFilePicker({ suggestedName: saveName, types: [{ description: 'ISO Image', accept: {'application/octet-stream': ['.iso', '.bin', '.elf']} }] });
+            
+            if (handle.name === currentFile.name) {
+                alert("安全警告：严禁使用原文件名保存！这将导致源文件清空损坏。\n请务必修改文件名（例如增加 _v2 后缀）。");
+                return;
+            }
+
+            overlay.style.display = 'flex';
+            sText.innerText = "WRITING... (STAGE 1/2)";
+            
             const writable = await handle.createWritable();
             const total = currentFile.size;
             let wrote = 0;
@@ -163,7 +210,7 @@ async function applyPatch() {
                 pos = end;
             }
 
-            sText.innerText = "FINALIZING...";
+            sText.innerText = "FINALIZING... (PLEASE WAIT)";
             pBar.classList.add('processing');
             pPct.innerText = "BUILDING...";
             await new Promise(r => setTimeout(r, 300));
@@ -174,18 +221,30 @@ async function applyPatch() {
             alert("修改后的文件保存成功！");
         } 
         else {
+            overlay.style.display = 'flex';
             sText.innerText = "GENERATING BLOB...";
             pBar.classList.add('processing');
-            const parts = [currentFile.slice(0, detected.offset)]; //移动端暂不强制注入 FOV，防止过于复杂 OOM
+            
+            const parts = [];
+            if (detected.canFOV) {
+                parts.push(currentFile.slice(0, detected.offsetFOV));
+                parts.push(fovBytes);
+                parts.push(currentFile.slice(detected.offsetFOV + 2, detected.offset));
+            } else {
+                parts.push(currentFile.slice(0, detected.offset));
+            }
             parts.push(patchedParams);
             parts.push(currentFile.slice(detected.offset + CHUNK_SIZE));
+
             const blob = new Blob(parts, {type: "application/octet-stream"});
             const a = document.createElement("a");
             a.href = URL.createObjectURL(blob); a.download = saveName; a.click();
             overlay.style.display = 'none';
+            pBar.classList.remove('processing');
         }
     } catch (e) {
         overlay.style.display = 'none';
+        pBar.classList.remove('processing');
         if (e.name !== 'AbortError') alert("错误: " + e.message);
     }
 }

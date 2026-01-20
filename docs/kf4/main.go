@@ -6,6 +6,9 @@ import (
 	"syscall/js"
 )
 
+// ==========================================
+// 核心数据 (Vanilla Values)
+// ==========================================
 
 var VanillaValues = map[int][]float32{
 	0:   {12.0, 12.0, 8.0, 6.0, 6.0, 0.0},
@@ -20,7 +23,7 @@ var VanillaValues = map[int][]float32{
 	240: {6.666667, 6.666667, 0.333333, 0.333333, 0.030000, 0.0},
 }
 
-
+// 辅助函数
 func intToString(n int) string {
 	if n == 0 { return "0" }
 	s := ""
@@ -54,14 +57,14 @@ func analyzeChunk(this js.Value, args []js.Value) interface{} {
 	return result
 }
 
-
+// 分析 FOV 字节
 func analyzeFOV(this js.Value, args []js.Value) interface{} {
 	if len(args) < 1 { return "unknown" }
 	jsData := args[0]
 	data := make([]byte, 2)
 	js.CopyBytesToGo(data, jsData)
 	
-	
+	// 修正：移除未使用的 hexVal 声明
 	hexStr := ""
 	if data[0] == 0x80 && data[1] == 0x3F { hexStr = "1.0" } else
 	if data[0] == 0xA0 && data[1] == 0x3F { hexStr = "1.25" } else
@@ -72,7 +75,7 @@ func analyzeFOV(this js.Value, args []js.Value) interface{} {
 	return hexStr
 }
 
-
+// 修改物理参数块
 func patchChunk(this js.Value, args []js.Value) interface{} {
 	if len(args) < 2 { return nil }
 	jsInputData := args[0]

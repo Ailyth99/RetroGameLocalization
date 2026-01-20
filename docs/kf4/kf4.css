@@ -43,7 +43,6 @@ h1.title { font-size: 2.2rem; text-align: center; margin-bottom: 25px; text-shad
 }
 .file-drop-area.dragover { border-color: var(--accent-color); color: var(--accent-color); background: rgba(255, 42, 109, 0.1); }
 
-/* 文字提示区 */
 .notice-box { margin-top: 15px; font-size: 0.85rem; color: #888; border-top: 1px solid #333; padding-top: 12px; line-height: 1.5; }
 
 .instruction-card { border-color: #444; }
@@ -54,8 +53,9 @@ h1.title { font-size: 2.2rem; text-align: center; margin-bottom: 25px; text-shad
 .instruction-content p { margin: 8px 0; }
 .instruction-content b { color: var(--accent-color); }
 
-/* 参数表格 */
 #fileInfo { margin-top: 12px; font-size: 0.95rem; color: var(--accent-color); min-height: 1.2em; display: flex; justify-content: space-between; align-items: center; }
+.version-tag { font-weight: bold; font-family: monospace; }
+
 .params-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 15px; margin-top: 10px; }
 .param-group { background: rgba(255, 255, 255, 0.03); padding: 12px; border-left: 2px solid #333; display: flex; align-items: center; justify-content: space-between; transition: 0.2s; }
 .param-group:hover { border-left-color: var(--accent-color); background: rgba(255, 255, 255, 0.05); }
@@ -70,14 +70,25 @@ h1.title { font-size: 2.2rem; text-align: center; margin-bottom: 25px; text-shad
 .fov-option { cursor: pointer; display: flex; align-items: center; gap: 8px; color: #ccc; }
 .fov-option input { accent-color: var(--accent-color); transform: scale(1.2); }
 
-.action-btn { display: block; width: 100%; background: var(--accent-color); color: #000; font-family: 'cmmFont', sans-serif; font-size: 1.1rem; font-weight: bold; padding: 14px; border: none; cursor: pointer; margin-top: 25px; transition: 0.2s; }
+.action-btn { display: block; width: 100%; background: var(--accent-color); color: #000; font-family: 'cmmFont', sans-serif; font-size: 1.1rem; font-weight: bold; padding: 14px; border: none; cursor: pointer; margin-top: 25px; transition: 0.2s; border-radius: 0; }
 .action-btn:hover { background: #fff; box-shadow: 0 0 15px var(--accent-color); }
 .action-btn:disabled { background: #333; color: #666; cursor: not-allowed; }
 
-/* 覆盖进度层 */
 #globalOverlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.95); z-index: 99999; display: none; flex-direction: column; align-items: center; justify-content: center; backdrop-filter: blur(8px); }
-.progress-status-text { font-family: 'cmmFont', sans-serif; font-size: 1.6rem; color: var(--accent-color); margin-bottom: 25px; letter-spacing: 2px; }
-.progress-bar-bg { width: 80%; max-width: 600px; height: 40px; background: #1a1a1a; border: 1px solid #333; overflow: hidden; position: relative; }
+
+/* 修正后的进度条容器：更宽 */
+.progress-box { width: 90%; max-width: 800px; text-align: center; }
+
+/* 修正后的提示文字：更小 */
+.progress-status-text { 
+    font-family: 'cmmFont', sans-serif; 
+    font-size: 1.1rem; /* 减小字号 */
+    color: var(--accent-color); 
+    margin-bottom: 25px; 
+    letter-spacing: 2px; 
+}
+
+.progress-bar-bg { width: 100%; height: 40px; background: #1a1a1a; border: 1px solid #333; overflow: hidden; position: relative; }
 .progress-bar-fill { height: 100%; width: 0%; background: var(--accent-color); transition: width 0.1s linear; }
 .progress-bar-fill.processing {
     width: 100% !important;
@@ -86,6 +97,8 @@ h1.title { font-size: 2.2rem; text-align: center; margin-bottom: 25px; text-shad
 }
 @keyframes move-stripes { from { background-position: 0 0; } to { background-position: 40px 0; } }
 .progress-percent { margin-top: 15px; font-family: monospace; color: var(--accent-color); font-size: 1.3rem; }
+
+#loadingOverlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 100000; display: flex; flex-direction: column; align-items: center; justify-content: center; }
 
 .footer { padding: 25px; color: #444; font-size: 0.75rem; text-align: center; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; } }
