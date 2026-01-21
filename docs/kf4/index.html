@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>国王密令4 ISO 速度/视野修改器</title>
+    <title>KING'S FIELD 4 ISO 速度/视野修改器</title>
     <link rel="stylesheet" href="kf4.css">
     <script src="wasm_exec.js"></script>
 </head>
@@ -33,7 +33,7 @@
         <h1 class="title">King's Field IV ISO Modifier</h1>
 
         <div class="tool-card">
-            <h2 class="section-title">1. 上传 ISO 镜像</h2>
+            <h2 class="section-title">上传 ISO 镜像</h2>
             <div class="file-drop-area" id="dropArea">
                 <p style="margin:0;">点击选择或拖拽文件至此</p>
                 <input type="file" id="fileInput" style="display: none">
@@ -52,7 +52,7 @@
 
         <div class="tool-card" id="settingsCard" style="opacity: 0.4; pointer-events: none;">
             <div id="fovSection" style="margin-bottom: 30px;">
-                <h2 class="section-title">2. 视野修改 (Field Of View)</h2>
+                <h2 class="section-title">视野修改 (Field Of View)</h2>
                 <p id="fovNotice" style="font-size:0.8rem; color:#888; margin-top:-10px;">仅限日版/汉化版</p>
                 <div class="fov-group" id="fovGroup">
                     <label class="fov-option"><input type="radio" name="fov" value="1.0" checked> 默认 (1.0)</label>
@@ -62,7 +62,7 @@
                 </div>
             </div>
 
-            <h2 class="section-title">3. 速度与物理参数</h2>
+            <h2 class="section-title">速度与物理参数</h2>
             <div class="params-grid">
                 <div class="param-group">
                     <div class="param-label-container">
@@ -71,7 +71,7 @@
                     </div>
                     <div class="param-input-container">
                         <input type="number" id="p_0" step="0.1" value="1.0">
-                        <span class="base-val">Base: 12.0</span>
+                        <span class="base-val">推荐：1.5</span>
                     </div>
                 </div>
                 <div class="param-group">
@@ -81,7 +81,7 @@
                     </div>
                     <div class="param-input-container">
                         <input type="number" id="p_24" step="0.1" value="1.0">
-                        <span class="base-val">Base: 1.2</span>
+                        <span class="base-val">推荐：10</span>
                     </div>
                 </div>
                 <div class="param-group">
@@ -91,7 +91,8 @@
                     </div>
                     <div class="param-input-container">
                         <input type="number" id="p_48" step="0.1" value="1.0">
-                        <span class="base-val">Base: 1.2</span>
+                        <span class="base-val">推荐：10</span>
+
                     </div>
                 </div>
                 <div class="param-group">
@@ -101,7 +102,8 @@
                     </div>
                     <div class="param-input-container">
                         <input type="number" id="p_72" step="0.1" value="1.0">
-                        <span class="base-val">Base: 0.029</span>
+                      <span class="base-val">推荐：1.8</span>
+
                     </div>
                 </div>
                 <div class="param-group">
@@ -111,7 +113,8 @@
                     </div>
                     <div class="param-input-container">
                         <input type="number" id="p_96" step="0.1" value="1.0">
-                        <span class="base-val">Base: 0.002</span>
+                        <span class="base-val">推荐：10</span>
+
                     </div>
                 </div>
                 <div class="param-group">
@@ -121,7 +124,8 @@
                     </div>
                     <div class="param-input-container">
                         <input type="number" id="p_192" step="0.1" value="1.0">
-                        <span class="base-val">Base: 0.002</span>
+                      <span class="base-val">推荐：10</span>
+
                     </div>
                 </div>
                 <div class="param-group">
@@ -131,7 +135,7 @@
                     </div>
                     <div class="param-input-container">
                         <input type="number" id="p_144" step="0.1" value="1.0">
-                        <span class="base-val">Base: 0.026</span>
+                        <span class="base-val">推荐：1.5</span>
                     </div>
                 </div>
                 <div class="param-group">
@@ -141,7 +145,7 @@
                     </div>
                     <div class="param-input-container">
                         <input type="number" id="p_168" step="0.1" value="1.0">
-                        <span class="base-val">Base: 0.002</span>
+<span class="base-val">推荐：10</span>
                     </div>
                 </div>
                 <div class="param-group">
@@ -151,7 +155,7 @@
                     </div>
                     <div class="param-input-container">
                         <input type="number" id="p_216" step="0.1" value="1.0">
-                        <span class="base-val">Base: 0.033</span>
+<span class="base-val">推荐：10</span>
                     </div>
                 </div>
                 <div class="param-group">
@@ -161,7 +165,7 @@
                     </div>
                     <div class="param-input-container">
                         <input type="number" id="p_240" step="0.1" value="1.0">
-                        <span class="base-val">Base: 6.66</span>
+                        <span class="base-val"></span>
                     </div>
                 </div>
             </div>
@@ -175,9 +179,9 @@
             <div class="instruction-content">
                 <p>1. 游戏的移动有三个参数：基础移动速度、加速度和减速度。从 0 起步到最高速度需要一定时间，停止时亦然，这在视觉上表现为一种移动的“粘滞感”。</p>
                 <p>2. <b>移动速度</b>即前后行走的基准速度，增加倍率将直接让角色走得更快。</p>
-                <p>3. <b>移动加速度</b>倍率越大，从起步加速到目标速度的时间越短；<b>减速度</b>则控制停止的速度。建议将这两个值调至 5 倍左右，角色移动即可做到即启即停，完全消除粘滞感。</p>
+                <p>3. <b>移动加速度</b>倍率越大，从起步加速到目标速度的时间越短；<b>减速度</b>则控制停止的速度。建议将这两个值调至10倍左右，角色移动即可做到即启即停，完全消除粘滞感。</p>
                 <p>4. <b>左右转身</b>动作同样包含上限、加减速三个参数。<b>转身上限</b>决定了单次点按方向键时旋转的速度和范围。值过大会导致视角瞬间转动过快（如点按一下转体 180°），建议设置在 1.8 倍左右。 </p>
-                <p>5. <b>转身加减速</b>逻辑与移动相同，建议直接改为 5 倍，使转身手感趋近于线性，实现视角的精确控制。</p>
+                <p>5. <b>转身加减速</b>逻辑与移动相同，建议直接改为10倍，使转身手感趋近于线性，实现视角的精确控制。</p>
                 <p>6. 具体数值请根据您的手感喜好自行尝试调整。</p>
             </div>
         </div>
@@ -185,7 +189,7 @@
     </div>
 
     <div class="footer">
-        <p style="font-family: 'cmmFont';">POWERED BY CHIMMR & GO WASM | 2026</p>
+        <p style="font-family: 'cmmFont';">aikika | 2026</p>
     </div>
 
     <script src="kf4.js"></script>

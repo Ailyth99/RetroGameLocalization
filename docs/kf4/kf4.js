@@ -175,7 +175,7 @@ async function applyPatch() {
             const handle = await window.showSaveFilePicker({ suggestedName: saveName, types: [{ description: 'ISO Image', accept: {'application/octet-stream': ['.iso', '.bin', '.elf']} }] });
             
             if (handle.name === currentFile.name) {
-                alert("安全警告：严禁使用原文件名保存！这将导致源文件清空损坏。\n请务必修改文件名（例如增加 _v2 后缀）。");
+                alert("安全警告：不要使用原文件名保存，这将导致源文件清空损坏。\n请务必修改文件名保存。");
                 return;
             }
 
@@ -212,7 +212,7 @@ async function applyPatch() {
 
             sText.innerText = "FINALIZING... (PLEASE WAIT)";
             pBar.classList.add('processing');
-            pPct.innerText = "BUILDING...";
+            pPct.innerText = "构建中...";
             await new Promise(r => setTimeout(r, 300));
             await writable.close();
 
