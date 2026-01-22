@@ -135,7 +135,7 @@ async function finalizeLoad(info) {
     const fovSect = document.getElementById('fovSection');
     if (info.canFOV) {
         fovSect.style.opacity = "1"; fovSect.style.pointerEvents = "auto";
-        document.getElementById('fovNotice').innerText = "已匹配视野修改地址";
+        document.getElementById('fovNotice').innerText = "注意：修改FOV会导致装备预览3D模型变小并移位，但是不影响游玩，具体看后面的说明。";
         const fovData = new Uint8Array(await currentFile.slice(info.offsetFOV, info.offsetFOV + 2).arrayBuffer());
         const fovLabel = kf4_AnalyzeFOV(fovData);
         const radio = document.querySelector(`input[name="fov"][value="${fovLabel}"]`);

@@ -1,198 +1,182 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
 <link rel="icon" type="image/png" href="icon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KING'S FIELD 4 ISO 速度/视野修改器</title>
-    <link rel="stylesheet" href="kf4.css">
-    <script src="wasm_exec.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KING'S FIELD 4 ISO 速度/视野修改器</title>
+<link rel="stylesheet" href="kf4.css">
+<script src="wasm_exec.js"></script>
 </head>
 <body>
-
-    <div id="loadingOverlay">
-        <div class="progress-box">
-            <div class="progress-status-text">INITIALIZING SYSTEM...</div>
-            <div class="progress-bar-bg">
-                <div id="loadingBar" class="progress-bar-fill" style="width: 0%"></div>
-            </div>
-            <div id="loadingText" class="progress-percent">0%</div>
-        </div>
-    </div>
-
-    <div id="globalOverlay">
-        <div class="progress-box">
-            <div id="statusText" class="progress-status-text">INITIATING...</div>
-            <div class="progress-bar-bg">
-                <div id="globalProgressBar" class="progress-bar-fill"></div>
-            </div>
-            <div id="globalProgressPercent" class="progress-percent">0.0%</div>
-        </div>
-    </div>
-
-    <div class="container">
-        <h1 class="title">King's Field IV ISO Modifier</h1>
-
-        <div class="tool-card">
-            <h2 class="section-title">上传 ISO 镜像</h2>
-            <div class="file-drop-area" id="dropArea">
-                <p style="margin:0;">点击选择或拖拽文件至此</p>
-                <input type="file" id="fileInput" style="display: none">
-            </div>
-            
-            <div id="fileInfo">
-                <span id="fileNameDisplay"></span>
-                <span id="versionDisplay" class="version-tag"></span>
-            </div>
-            
-            <div class="notice-box">
-                <p>🔒 本工具基于WebAssembly技术，您的文件仅在本地浏览器处理，不会上传至任何服务器。</p>
-                <p>⚠️ 本工具通过修改游戏主程序的物理参数实现。如出现预料外的问题，请切换至原版游戏进行。</p>
-            </div>
-        </div>
-
-        <div class="tool-card" id="settingsCard" style="opacity: 0.4; pointer-events: none;">
-            <div id="fovSection" style="margin-bottom: 30px;">
-                <h2 class="section-title">视野修改 (Field Of View)</h2>
-                <p id="fovNotice" style="font-size:0.8rem; color:#888; margin-top:-10px;">仅限日版/汉化版</p>
-                <div class="fov-group" id="fovGroup">
-                    <label class="fov-option"><input type="radio" name="fov" value="1.0" checked> 默认 (1.0)</label>
-                    <label class="fov-option"><input type="radio" name="fov" value="1.25"> 广角 (1.25)</label>
-                    <label class="fov-option"><input type="radio" name="fov" value="1.5"> 超广角 (1.5)</label>
-                    <label class="fov-option"><input type="radio" name="fov" value="1.75"> 极宽 (1.75)</label>
-                </div>
-            </div>
-
-            <h2 class="section-title">速度与物理参数</h2>
-            <div class="params-grid">
-                <div class="param-group">
-                    <div class="param-label-container">
-                        <div class="zh-label">最大移动速度</div>
-                        <div class="en-label">Move Speed</div>
-                    </div>
-                    <div class="param-input-container">
-                        <input type="number" id="p_0" step="0.1" value="1.0">
-                        <span class="base-val">推荐：1.5</span>
-                    </div>
-                </div>
-                <div class="param-group">
-                    <div class="param-label-container">
-                        <div class="zh-label">移动加速度</div>
-                        <div class="en-label">Move Acceleration</div>
-                    </div>
-                    <div class="param-input-container">
-                        <input type="number" id="p_24" step="0.1" value="1.0">
-                        <span class="base-val">推荐：10</span>
-                    </div>
-                </div>
-                <div class="param-group">
-                    <div class="param-label-container">
-                        <div class="zh-label">移动减速度</div>
-                        <div class="en-label">Move Deceleration</div>
-                    </div>
-                    <div class="param-input-container">
-                        <input type="number" id="p_48" step="0.1" value="1.0">
-                        <span class="base-val">推荐：10</span>
-
-                    </div>
-                </div>
-                <div class="param-group">
-                    <div class="param-label-container">
-                        <div class="zh-label">左右转身上限</div>
-                        <div class="en-label">Turn Cap</div>
-                    </div>
-                    <div class="param-input-container">
-                        <input type="number" id="p_72" step="0.1" value="1.0">
-                      <span class="base-val">推荐：1.8</span>
-
-                    </div>
-                </div>
-                <div class="param-group">
-                    <div class="param-label-container">
-                        <div class="zh-label">转身加速度</div>
-                        <div class="en-label">Turn Acceleration</div>
-                    </div>
-                    <div class="param-input-container">
-                        <input type="number" id="p_96" step="0.1" value="1.0">
-                        <span class="base-val">推荐：10</span>
-
-                    </div>
-                </div>
-                <div class="param-group">
-                    <div class="param-label-container">
-                        <div class="zh-label">转身减速度</div>
-                        <div class="en-label">Turn Deceleration</div>
-                    </div>
-                    <div class="param-input-container">
-                        <input type="number" id="p_192" step="0.1" value="1.0">
-                      <span class="base-val">推荐：10</span>
-
-                    </div>
-                </div>
-                <div class="param-group">
-                    <div class="param-label-container">
-                        <div class="zh-label">上下视角上限</div>
-                        <div class="en-label">Look Cap</div>
-                    </div>
-                    <div class="param-input-container">
-                        <input type="number" id="p_144" step="0.1" value="1.0">
-                        <span class="base-val">推荐：1.5</span>
-                    </div>
-                </div>
-                <div class="param-group">
-                    <div class="param-label-container">
-                        <div class="zh-label">上下视角加速度</div>
-                        <div class="en-label">Look Acceleration</div>
-                    </div>
-                    <div class="param-input-container">
-                        <input type="number" id="p_168" step="0.1" value="1.0">
+<div id="loadingOverlay">
+<div class="progress-box">
+<div class="progress-status-text">INITIALIZING SYSTEM...</div>
+<div class="progress-bar-bg">
+<div id="loadingBar" class="progress-bar-fill" style="width: 0%"></div>
+</div>
+<div id="loadingText" class="progress-percent">0%</div>
+</div>
+</div>
+<div id="globalOverlay">
+<div class="progress-box">
+<div id="statusText" class="progress-status-text">INITIATING...</div>
+<div class="progress-bar-bg">
+<div id="globalProgressBar" class="progress-bar-fill"></div>
+</div>
+<div id="globalProgressPercent" class="progress-percent">0.0%</div>
+</div>
+</div>
+<div class="container">
+<h1 class="title">King's Field IV ISO Modifier</h1>
+<div class="tool-card">
+<h2 class="section-title">上传 ISO 镜像</h2>
+<div class="file-drop-area" id="dropArea">
+<p style="margin:0;">点击选择或拖拽文件至此</p>
+<input type="file" id="fileInput" style="display: none">
+</div>
+<div id="fileInfo">
+<span id="fileNameDisplay"></span>
+<span id="versionDisplay" class="version-tag"></span>
+</div>
+<div class="notice-box">
+<p>🔒 本工具基于WebAssembly技术，您的文件仅在本地浏览器处理，不会上传至任何服务器。</p>
+<p>⚠️ 本工具通过修改游戏主程序的物理参数实现。如出现预料外的问题，请切换至原版游戏进行。</p>
+</div>
+</div>
+<div class="tool-card" id="settingsCard" style="opacity: 0.4; pointer-events: none;">
+<div id="fovSection" style="margin-bottom: 30px;">
+<h2 class="section-title">视野修改 (Field Of View)</h2>
+<p id="fovNotice" style="font-size:0.8rem; color:#888; margin-top:-10px;">注意：修改FOV会导致装备预览3D模型变小并移位，但是不影响游玩，具体看后面的说明。</p>
+<div class="fov-group" id="fovGroup">
+<label class="fov-option"><input type="radio" name="fov" value="1.0" checked> 默认 (1.0)</label>
+<label class="fov-option"><input type="radio" name="fov" value="1.25"> 广角 (1.25)</label>
+<label class="fov-option"><input type="radio" name="fov" value="1.5"> 超广角 (1.5)</label>
+<label class="fov-option"><input type="radio" name="fov" value="1.75"> 极宽 (1.75)</label>
+</div>
+</div>
+<h2 class="section-title">速度与物理参数</h2>
+<div class="params-grid">
+<div class="param-group">
+<div class="param-label-container">
+<div class="zh-label">最大移动速度</div>
+<div class="en-label">Move Speed</div>
+</div>
+<div class="param-input-container">
+<input type="number" id="p_0" step="0.1" value="1.0">
+<span class="base-val">推荐：1.5</span>
+</div>
+</div>
+<div class="param-group">
+<div class="param-label-container">
+<div class="zh-label">移动加速度</div>
+<div class="en-label">Move Acceleration</div>
+</div>
+<div class="param-input-container">
+<input type="number" id="p_24" step="0.1" value="1.0">
 <span class="base-val">推荐：10</span>
-                    </div>
-                </div>
-                <div class="param-group">
-                    <div class="param-label-container">
-                        <div class="zh-label">视角回正速度</div>
-                        <div class="en-label">Recenter Speed</div>
-                    </div>
-                    <div class="param-input-container">
-                        <input type="number" id="p_216" step="0.1" value="1.0">
+</div>
+</div>
+<div class="param-group">
+<div class="param-label-container">
+<div class="zh-label">移动减速度</div>
+<div class="en-label">Move Deceleration</div>
+</div>
+<div class="param-input-container">
+<input type="number" id="p_48" step="0.1" value="1.0">
 <span class="base-val">推荐：10</span>
-                    </div>
-                </div>
-                <div class="param-group">
-                    <div class="param-label-container">
-                        <div class="zh-label">重力</div>
-                        <div class="en-label">Gravity</div>
-                    </div>
-                    <div class="param-input-container">
-                        <input type="number" id="p_240" step="0.1" value="1.0">
-                        <span class="base-val"></span>
-                    </div>
-                </div>
-            </div>
-
-            <button class="action-btn" id="patchBtn" onclick="applyPatch()" disabled>立即生成并下载修改版 ISO</button>
-            <p style="text-align:center; color:#ff2a6d; font-size:0.9rem; margin-top:15px; font-weight:bold;">⚠️ 不要覆盖原始文件。请新保存一个镜像文件</p>
-        </div>
-
-        <div class="tool-card instruction-card">
-            <h2 class="section-title">说明：</h2>
-            <div class="instruction-content">
-                <p>1. 游戏的移动有三个参数：基础移动速度、加速度和减速度。从 0 起步到最高速度需要一定时间，停止时亦然，这在视觉上表现为一种移动的“粘滞感”。</p>
-                <p>2. <b>移动速度</b>即前后行走的基准速度，增加倍率将直接让角色走得更快。</p>
-                <p>3. <b>移动加速度</b>倍率越大，从起步加速到目标速度的时间越短；<b>减速度</b>则控制停止的速度。建议将这两个值调至10倍左右，角色移动即可做到即启即停，完全消除粘滞感。</p>
-                <p>4. <b>左右转身</b>动作同样包含上限、加减速三个参数。<b>转身上限</b>决定了单次点按方向键时旋转的速度和范围。值过大会导致视角瞬间转动过快（如点按一下转体 180°），建议设置在 1.8 倍左右。 </p>
-                <p>5. <b>转身加减速</b>逻辑与移动相同，建议直接改为10倍，使转身手感趋近于线性，实现视角的精确控制。</p>
-                <p>6. 具体数值请根据您的手感喜好自行尝试调整。</p>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="footer">
-        <p style="font-family: 'cmmFont';">aikika | 2026</p>
-    </div>
-
-    <script src="kf4.js"></script>
+</div>
+</div>
+<div class="param-group">
+<div class="param-label-container">
+<div class="zh-label">左右转身上限</div>
+<div class="en-label">Turn Cap</div>
+</div>
+<div class="param-input-container">
+<input type="number" id="p_72" step="0.1" value="1.0">
+<span class="base-val">推荐：1.8</span>
+</div>
+</div>
+<div class="param-group">
+<div class="param-label-container">
+<div class="zh-label">转身加速度</div>
+<div class="en-label">Turn Acceleration</div>
+</div>
+<div class="param-input-container">
+<input type="number" id="p_96" step="0.1" value="1.0">
+<span class="base-val">推荐：10</span>
+</div>
+</div>
+<div class="param-group">
+<div class="param-label-container">
+<div class="zh-label">转身减速度</div>
+<div class="en-label">Turn Deceleration</div>
+</div>
+<div class="param-input-container">
+<input type="number" id="p_192" step="0.1" value="1.0">
+<span class="base-val">推荐：10</span>
+</div>
+</div>
+<div class="param-group">
+<div class="param-label-container">
+<div class="zh-label">上下视角上限</div>
+<div class="en-label">Look Cap</div>
+</div>
+<div class="param-input-container">
+<input type="number" id="p_144" step="0.1" value="1.0">
+<span class="base-val">推荐：1.5</span>
+</div>
+</div>
+<div class="param-group">
+<div class="param-label-container">
+<div class="zh-label">上下视角加速度</div>
+<div class="en-label">Look Acceleration</div>
+</div>
+<div class="param-input-container">
+<input type="number" id="p_168" step="0.1" value="1.0">
+<span class="base-val">推荐：10</span>
+</div>
+</div>
+<div class="param-group">
+<div class="param-label-container">
+<div class="zh-label">视角回正速度</div>
+<div class="en-label">Recenter Speed</div>
+</div>
+<div class="param-input-container">
+<input type="number" id="p_216" step="0.1" value="1.0">
+<span class="base-val">推荐：10</span>
+</div>
+</div>
+<div class="param-group">
+<div class="param-label-container">
+<div class="zh-label">重力</div>
+<div class="en-label">Gravity</div>
+</div>
+<div class="param-input-container">
+<input type="number" id="p_240" step="0.1" value="1.0">
+<span class="base-val"></span>
+</div>
+</div>
+</div>
+<button class="action-btn" id="patchBtn" onclick="applyPatch()" disabled>立即生成并下载修改版 ISO</button>
+<p style="text-align:center; color:#ff2a6d; font-size:0.9rem; margin-top:15px; font-weight:bold;">⚠️ 不要覆盖原始文件。请新保存一个镜像文件</p>
+</div>
+<div class="tool-card instruction-card">
+<h2 class="section-title">说明：</h2>
+<div class="instruction-content">
+<p>1. 修改FOV会影响游戏所有3D模型投影，由于装备菜单里面的预览也是3D模型，所以FOV改大了会让模型变小并左移，但是不影响游玩，就是观感变差了。具体可以看<a href="https://pic1.imgdb.cn/item/69723ffd2d08d4bddaa74360.jpg" target="_blank" style="color:#ff2a6d;text-decoration:none;">对比图</a>。</p>
+<p>2. 游戏的移动有三个参数：基础移动速度、加速度和减速度。从 0 起步到最高速度需要一定时间，停止时亦然，这在视觉上表现为一种移动的“粘滞感”。</p>
+<p>3. <b>移动速度</b>即前后行走的基准速度，增加倍率将直接让角色走得更快。</p>
+<p>4. <b>移动加速度</b>倍率越大，从起步加速到目标速度的时间越短；<b>减速度</b>则控制停止的速度。建议将这两个值调至10倍左右，角色移动即可做到即启即停，完全消除粘滞感。</p>
+<p>5. <b>左右转身</b>动作同样包含上限、加减速三个参数。<b>转身上限</b>决定了单次点按方向键时旋转的速度和范围。值过大会导致视角瞬间转动过快（如点按一下转体 180°），建议设置在 1.8 倍左右。 </p>
+<p>6. <b>转身加减速</b>逻辑与移动相同，建议直接改为10倍，使转身手感趋近于线性，实现视角的流畅控制。</p>
+<p>7. 具体数值请根据您的手感喜好自行尝试调整。</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p style="font-family: 'cmmFont';"><a href="https://space.bilibili.com/3405001" target="_blank" style="color:#fff;text-decoration:none;">aikika</a> | 2026</p>
+</div>
+<script src="kf4.js"></script>
 </body>
 </html>

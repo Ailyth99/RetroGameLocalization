@@ -1,103 +1,83 @@
 @font-face {
-    font-family: 'cmmFont';
-    src: url('PS2_dev/chimmr.ttf') format('truetype');
+font-family: 'cmmFont';
+src: url('PS2_dev/chimmr.ttf') format('truetype');
 }
-
 :root {
-    --bg-color: #111;
-    --stripe-color: #1a1a1a;
-    --accent-color: #ff2a6d;
-    --text-color: #e0e0e0;
-    --card-bg: rgba(0, 0, 0, 0.85);
-    --input-bg: #222;
-    --border-color: #444;
+--bg-color: #111;
+--stripe-color: #1a1a1a;
+--accent-color: #ff2a6d;
+--text-color: #e0e0e0;
+--card-bg: rgba(0, 0, 0, 0.85);
+--input-bg: #222;
+--border-color: #444;
 }
-
 body {
-    margin: 0; padding: 0;
-    background-color: var(--bg-color);
-    background-image: repeating-linear-gradient(45deg, var(--bg-color), var(--bg-color) 10px, var(--stripe-color) 10px, var(--stripe-color) 20px);
-    color: var(--text-color);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    min-height: 100vh;
-    display: flex; flex-direction: column; align-items: center;
-    font-size: 14px;
+margin: 0; padding: 0;
+background-color: var(--bg-color);
+background-image: repeating-linear-gradient(45deg, var(--bg-color), var(--bg-color) 10px, var(--stripe-color) 10px, var(--stripe-color) 20px);
+color: var(--text-color);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+min-height: 100vh;
+display: flex; flex-direction: column; align-items: center;
+font-size: 14px;
 }
-
 h1, h2, h3 { font-family: 'cmmFont', sans-serif; text-transform: uppercase; color: var(--accent-color); margin: 0; letter-spacing: 1px; }
-
 .container { width: 90%; max-width: 900px; margin-top: 40px; margin-bottom: 30px; animation: fadeIn 0.6s ease-out; }
 h1.title { font-size: 2.2rem; text-align: center; margin-bottom: 25px; text-shadow: 0 0 8px rgba(255, 42, 109, 0.4); }
-
 .tool-card {
-    background: var(--card-bg); border: 1px solid var(--accent-color); padding: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6); margin-bottom: 20px; position: relative;
+background: var(--card-bg); border: 1px solid var(--accent-color); padding: 20px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.6); margin-bottom: 20px; position: relative;
 }
 .tool-card::before { content: ''; position: absolute; top: -1px; left: -1px; width: 10px; height: 10px; border-top: 2px solid var(--accent-color); border-left: 2px solid var(--accent-color); }
 .tool-card::after { content: ''; position: absolute; bottom: -1px; right: -1px; width: 10px; height: 10px; border-bottom: 2px solid var(--accent-color); border-right: 2px solid var(--accent-color); }
-
 .section-title { border-bottom: 1px solid #333; padding-bottom: 8px; margin-bottom: 15px; font-size: 1.2rem; color: #fff; }
-
 .file-drop-area {
-    border: 1px dashed var(--border-color); padding: 30px 10px; text-align: center; cursor: pointer; transition: all 0.2s; background: var(--input-bg); color: #888;
+border: 1px dashed var(--border-color); padding: 30px 10px; text-align: center; cursor: pointer; transition: all 0.2s; background: var(--input-bg); color: #888;
 }
 .file-drop-area.dragover { border-color: var(--accent-color); color: var(--accent-color); background: rgba(255, 42, 109, 0.1); }
-
 .notice-box { margin-top: 15px; font-size: 0.85rem; color: #888; border-top: 1px solid #333; padding-top: 12px; line-height: 1.5; }
-
 .instruction-card { border-color: #444; }
-.instruction-content { 
-    font-family: "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
-    color: #bbb; line-height: 1.7; font-size: 0.95rem; 
+.instruction-content {
+font-family: "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+color: #bbb; line-height: 1.7; font-size: 0.95rem;
 }
 .instruction-content p { margin: 8px 0; }
 .instruction-content b { color: var(--accent-color); }
-
 #fileInfo { margin-top: 12px; font-size: 0.95rem; color: var(--accent-color); min-height: 1.2em; display: flex; justify-content: space-between; align-items: center; }
 .version-tag { font-weight: bold; font-family: monospace; }
-
 .params-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 15px; margin-top: 10px; }
 .param-group { background: rgba(255, 255, 255, 0.03); padding: 12px; border-left: 2px solid #333; display: flex; align-items: center; justify-content: space-between; transition: 0.2s; }
 .param-group:hover { border-left-color: var(--accent-color); background: rgba(255, 255, 255, 0.05); }
-
 .zh-label { font-size: 0.95rem; color: #eee; margin-bottom: 2px; }
 .en-label { font-size: 0.75rem; color: #777; font-family: monospace; }
 .param-input-container { display: flex; align-items: center; gap: 10px; }
 .param-group input { width: 65px; background: #000; border: 1px solid var(--border-color); color: var(--accent-color); padding: 6px; text-align: center; font-family: monospace; border-radius: 0; }
 .base-val { font-size: 0.75rem; color: #555; width: 85px; text-align: right; font-family: monospace; }
-
 .fov-group { display: flex; gap: 20px; flex-wrap: wrap; padding: 15px; background: rgba(255, 255, 255, 0.02); border: 1px solid #222; }
 .fov-option { cursor: pointer; display: flex; align-items: center; gap: 8px; color: #ccc; }
 .fov-option input { accent-color: var(--accent-color); transform: scale(1.2); }
-
 .action-btn { display: block; width: 100%; background: var(--accent-color); color: #000; font-family: 'cmmFont', sans-serif; font-size: 1.1rem; font-weight: bold; padding: 14px; border: none; cursor: pointer; margin-top: 25px; transition: 0.2s; border-radius: 0; }
 .action-btn:hover { background: #fff; box-shadow: 0 0 15px var(--accent-color); }
 .action-btn:disabled { background: #333; color: #666; cursor: not-allowed; }
-
 #globalOverlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.95); z-index: 99999; display: none; flex-direction: column; align-items: center; justify-content: center; backdrop-filter: blur(8px); }
-
 .progress-box { width: 90%; max-width: 800px; text-align: center; }
-
-.progress-status-text { 
-    font-family: 'cmmFont', sans-serif; 
-    font-size: 1.1rem; 
-    color: var(--accent-color); 
-    margin-bottom: 25px; 
-    letter-spacing: 2px; 
+.progress-status-text {
+font-family: 'cmmFont', sans-serif;
+font-size: 1.1rem;
+color: var(--accent-color);
+margin-bottom: 25px;
+letter-spacing: 2px;
 }
-
 .progress-bar-bg { width: 100%; height: 40px; background: #1a1a1a; border: 1px solid #333; overflow: hidden; position: relative; }
 .progress-bar-fill { height: 100%; width: 0%; background: var(--accent-color); transition: width 0.1s linear; }
 .progress-bar-fill.processing {
-    width: 100% !important;
-    background-image: linear-gradient(45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent);
-    background-size: 40px 40px; animation: move-stripes 1s linear infinite;
+width: 100% !important;
+background-image: linear-gradient(45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent);
+background-size: 40px 40px; animation: move-stripes 1s linear infinite;
 }
 @keyframes move-stripes { from { background-position: 0 0; } to { background-position: 40px 0; } }
 .progress-percent { margin-top: 15px; font-family: monospace; color: var(--accent-color); font-size: 1.3rem; }
-
 #loadingOverlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 100000; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-
-.footer { padding: 25px; color: #444; font-size: 0.75rem; text-align: center; }
+.footer { padding: 35px; color: #fff; font-size: 0.9rem; text-align: center; opacity: 1; font-weight: bold; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; } }
 @media (max-width: 600px) { .params-grid { grid-template-columns: 1fr; } .progress-bar-bg { width: 90%; } }
