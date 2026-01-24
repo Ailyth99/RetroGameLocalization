@@ -1,0 +1,1 @@
+An unpacking and packing tool for the .mb archive format used in the PS2 game Mobile Suit Gundam: Lost War Chronicles (機動戦士ガンダム戦記 Lost War Chronicles). This format may also be used in other PS2 titles, including various Gundam games, though they have not been strictly tested.
