@@ -1,3 +1,5 @@
+也适用于XBOX版的文件，但没有严格测试。
+
 \## 1. Convert QTX to PNG  / 转换QTX到PNG
 
 
