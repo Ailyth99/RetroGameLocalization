@@ -21,8 +21,10 @@ This repository contains a collection of tools that I used as part of a retro ga
 | PS2 | Metal Slug 3D<br>合金弹头3D | PAK档案、PKLZ压缩、贴图处理 | 档案解包打包、压缩解压、贴图转换，也适用于KOF3D |
 | PS2 | Samurai Western / Shinobido<br>西部侍道 / 忍道 | VOLUME.DAT档案处理 | 解包、打包 |
 | PS2 | Red Ninja<br>红忍 | QTX贴图、RBB档案、字体处理 | 贴图转换、档案处理、字体注入，也可以拆包XBOX版本 |
+| PS2 | DOG OF BAY<br>港湾之犬 | 拆包，重建镜像 | 处理自定义的镜像文件系统，导出隐藏文件，支持导回 |
+| PS2 | Shakugan No Shana <br>灼眼的夏娜 | 贴图处理、解压缩、字库 | 分块压缩贴图转换转回、字库导入导出，校验机制破除 |
 | PS2 | TAMSOFT TOOL <br>TAMSOFT 工具 | CMP压缩、TI贴图处理 | 压缩解压、贴图转换、GUI查看器 |
-| 通用 | Multi-CLUT Tile Font Tool<br>多CLUT平铺字体工具 | PS2双clut tile字体处理 | 4bpp双层字体提取、重打包 |
+| 通用 | Multi-CLUT Tile Font Tool<br>多CLUT tile字体工具 | PS2双clut tile字体处理 | 4bpp双层字体提取、重打包 |
 
 ---
 

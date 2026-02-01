@@ -1,6 +1,6 @@
 ### Build
 
-**Windows (PowerShell/CMD):**
+
 ```bash
 go build -o shana_font.exe shana_font.go
 go build -o pr_tool.exe pr_tool.go
@@ -50,6 +50,12 @@ shana_tx_inject -i modified.png -ref original.obj -o new.obj -c 256
 ```
 
 ---
+破除校验机制/CHECKSUM PATCH
+
+把SLPS_255.99中绿色的值都改成00 / Change SLPS_255.99's all green numbers to 00.
+
+![](https://pic1.imgdb.cn/item/697ef5ff04eab1333e9666e1.png)
+
 
 
 

@@ -211,7 +211,6 @@ func BytesToImg(data []byte) (image.Image, error) {
 
 
 
-// DecompressLZSS: 针对该格式优化的 LZSS 解压
 // data: 压缩数据, decompSize: 预期的解压后大小, dicOff: 字典初始偏移 (默认 0xFEE)
 func DecompressLZSS(data []byte, decompSize int, dicOff int) []byte {
 	dict := make([]byte, 0x1000) // 4096 字节字典
@@ -231,7 +230,7 @@ func DecompressLZSS(data []byte, decompSize int, dicOff int) []byte {
 		}
 
 		if (mask & cb) != 0 {
-			// 直接复制
+			
 			if inOff >= len(data) || outOff >= decompSize { break }
 			val := data[inOff]
 			dec[outOff] = val
@@ -240,7 +239,7 @@ func DecompressLZSS(data []byte, decompSize int, dicOff int) []byte {
 			inOff++
 			dicOff = (dicOff + 1) & 0xFFF
 		} else {
-			// 字典引用
+			
 			if inOff+1 >= len(data) { break }
 			b1 := data[inOff]
 			b2 := data[inOff+1]
@@ -258,7 +257,6 @@ func DecompressLZSS(data []byte, decompSize int, dicOff int) []byte {
 				dicOff = (dicOff + 1) & 0xFFF
 			}
 		}
-		// 只有 Go 需要注意 uint8 溢出处理，这里和 Godot 逻辑一致
 		mask = (mask << 1)
 	}
 	return dec
@@ -271,7 +269,7 @@ func CompressLZSS(input []byte, dicOff int) []byte {
 
 	var out []byte
 	dict := make([]byte, 4096)
-	// 初始化字典，通常为 0
+	
 	for i := range dict { dict[i] = 0 }
 	
 	inPos := 0
@@ -279,7 +277,7 @@ func CompressLZSS(input []byte, dicOff int) []byte {
 
 	for inPos < inputLen {
 		flagPos := len(out)
-		out = append(out, 0) // 占位符
+		out = append(out, 0) 
 		var flags uint8 = 0
 
 		for i := 0; i < 8; i++ {
@@ -288,19 +286,16 @@ func CompressLZSS(input []byte, dicOff int) []byte {
 			bestLen := 0
 			bestDist := 0
 
-			// 限制匹配长度: 3 到 18 (0x0F + 3)
 			maxMatch := 18
 			if inputLen-inPos < maxMatch {
 				maxMatch = inputLen - inPos
 			}
 
-			// 搜索整个字典寻找最长匹配
 			if maxMatch >= 3 {
 				for d := 0; d < 4096; d++ {
 					currLen := 0
 					for currLen < maxMatch {
-						// 环形比较：支持重叠匹配 (RLE)
-						// 比较 input 当前位置和字典里的位置
+					
 						if input[inPos+currLen] != dict[(d+currLen)&0xFFF] {
 							break
 						}
@@ -315,19 +310,17 @@ func CompressLZSS(input []byte, dicOff int) []byte {
 			}
 
 			if bestLen >= 3 {
-				// 匹配模式：标志位 0
 				b1 := uint8(bestDist & 0xFF)
 				b2 := uint8((bestDist>>4)&0xF0) | uint8(bestLen-3)
 				out = append(out, b1, b2)
 
-				// 关键：每处理一个字节，必须更新一次字典！
 				for j := 0; j < bestLen; j++ {
 					dict[writePos] = input[inPos]
 					writePos = (writePos + 1) & 0xFFF
 					inPos++
 				}
 			} else {
-				// 字面量模式：标志位 1
+				
 				flags |= (1 << i)
 				val := input[inPos]
 				out = append(out, val)
