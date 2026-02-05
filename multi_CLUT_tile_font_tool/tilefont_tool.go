@@ -20,9 +20,9 @@ var (
 	img2Path    string
 	outPath     string
 	offsetStr   string
-	tileW       int
+	tileW       int //tile宽高
 	tileH       int
-	tilesPerRow int
+	tilesPerRow int  //导出的每行几个字
 )
 
 
@@ -30,8 +30,8 @@ var (
 //这里是用纯黑当底色A，纯白为字色D，中间用两种灰色作为过渡色B/C。
 //核心的原理是：四种颜色，在4BPP CLUT中，按照ABCDABCDABCDABCD 以及 AAAABBBBCCCCDDD 这两种排列来处理。
 //当然有些游戏不一定使用，可能它CLUT颜色不一定是从深到浅或从浅到深，可能它是浅灰-黑-白-深灰，但是CLUT的颜色排列一定遵守上面的组合。
-//还有这个支持线性排列的像素数据，万一遇到那种需要高低位互换的，就不能直接用这个，需要改一些。
-
+//还有这个支持线性排列的数据，万一遇到那种需要高低位互换的，就不能直接用这个，需要改一下。
+//这类方法还能扩展到8BPP，让一个图对应+4组特定排列CLUT实现一组像素数据显示4幅画面（4色），比如PS1《玉茧物语》的字体文件
 
 var StandardColors = []color.RGBA{
 	{0, 0, 0, 255},
@@ -40,11 +40,12 @@ var StandardColors = []color.RGBA{
 	{255, 255, 255, 255},
 }
 
-var ExportPalette = color.Palette{
+var ExportPalette = color.Palette{ 
 	color.RGBA{0, 0, 0, 0},
 	color.RGBA{141, 141, 141, 255},
 	color.RGBA{218, 218, 218, 255},
 	color.RGBA{255, 255, 255, 255},
+	//以上是自定义的通用CLUT，按照最常见的组合来，即黑底白字+两个过渡灰色
 }
 
 func init() {
@@ -81,7 +82,7 @@ func main() {
 
 func printUsage() {
 	fmt.Println("==============================================================================")
-	fmt.Println("MULTI-CLUT TileFont Tool - PS2 Tiled Linear 4bpp multi-CLUT Font TOOL - aikika")
+	fmt.Println("PS2 Tiled Linear 4bpp multi-CLUT Font TOOL - aikika")
 	fmt.Println("==============================================================================")
 	fmt.Println("\n[Options]")
 	fmt.Println("  -i    <file>   Input binary file (Required)")
@@ -120,9 +121,9 @@ func parseOffset(s string) int64 {
 	return val
 }
 
-//--------------------------------------------------------
+
 //导出字库图像，分别按照像素+调色板1，+调色板2，输出两张图
-//------------------------------------------------------
+
 
 func doExtract(fpath string, offset int64) {
 	tileBytes := (tileW * tileH) / 2
@@ -188,9 +189,8 @@ func doExtract(fpath string, offset int64) {
 
 
 
-//----------------
+
 //重建tile字库文件
-//----------------
 
 
 
@@ -238,7 +238,7 @@ func doRepack(origPath, p1Path, p2Path, outPath string, offset int64) {
 				val_p0 := (idx2_p0 << 2) | idx1_p0
 				val_p1 := (idx2_p1 << 2) | idx1_p1
 
-				//把两个像素打包进一个字节里面 (低位优先)
+				//把两个像素打包进一个字节里面(低位优先)
 				b := (val_p0 & 0x0F) | ((val_p1 & 0x0F) << 4)
 				currentTileData[ty*(tileW/2)+txByte] = b
 			}

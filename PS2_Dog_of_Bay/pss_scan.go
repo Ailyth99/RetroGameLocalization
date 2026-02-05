@@ -10,12 +10,12 @@ import (
 	"path/filepath"
 )
 
-// MPEG 核心常量
+//MPEg常量
 const (
 	PackStartCode      = 0x000001BA
 	SystemHeaderCode   = 0x000001BB
 	ProgramEndCode     = 0x000001B9
-	PacketStartPrefix  = 0x00000100 // 修正后的前缀
+	PacketStartPrefix  = 0x00000100 
 	SectorSize         = 2048
 )
 
@@ -100,9 +100,8 @@ func main() {
 
 func findMpegEnd(f *os.File, startAddr int64, verbose bool) (int64, error) {
 	curr := startAddr
-	headerBuf := make([]byte, 16) // 稍微大一点的缓冲
+	headerBuf := make([]byte, 16) 
 
-	// 限制搜索长度，防止在非 MPEG 文件中无限跑下去（比如 1GB 的限制）
 	maxSearch := startAddr + 1024*1024*1024 
 
 	for curr < maxSearch {
@@ -124,11 +123,11 @@ func findMpegEnd(f *os.File, startAddr int64, verbose bool) (int64, error) {
 			curr += 6 + hLen
 
 		default:
-			// 修正后的判断：只要是以 0x000001 开头的 Packet
+			
 			if (code & 0xFFFFFF00) == PacketStartPrefix {
 				pktLen := int64(binary.BigEndian.Uint16(headerBuf[4:6]))
 				if pktLen == 0 {
-					// 某些特殊的 Padding 数据包可能长度不规范
+					
 					curr += 4 
 				} else {
 					curr += 6 + pktLen

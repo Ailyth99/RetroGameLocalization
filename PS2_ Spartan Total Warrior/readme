@@ -1,0 +1,9 @@
+Spartan: Total Warrior PAK format tool
+
+用法 (Usage):
+  1. 解包 (Extract):
+     spartan_pak_tool.exe -e <file.pak>
+  2. 重建 (Repack):
+     spartan_pak_tool.exe -r <original.pak> <input_dir> <output.pak>
+  -e    Extract mode (解包模式)
+  -r    Repack mode (重建模式)

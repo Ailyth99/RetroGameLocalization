@@ -10,7 +10,6 @@ import (
 	"strings"
 )
 
-// 配置常量 (基于你的逆向结果)
 const (
 	TableStart   = 0x11E580 //表格起始
 	TableEnd     = 0x11FA80 //表格结束
@@ -197,7 +196,7 @@ func cleanPath(raw string) string {
 	s := strings.Replace(raw, "cdrom0:", "", 1)
 	s = strings.ReplaceAll(s, "\\", "/")
 	s = strings.TrimPrefix(s, "/")
-	// 去掉目录里面的文件名后头的版本号 ;1 
+	//去掉目录里面的文件名后头的版本号 ;1 。常规光盘ISO9660系统都有这东西
 	if idx := strings.Index(s, ";"); idx != -1 {
 		s = s[:idx]
 	}
