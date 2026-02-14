@@ -11,7 +11,7 @@ This repository contains a collection of tools that I used as part of a retro ga
 | PS1 | King's Field<br>国王密令 | T文件、TIM/RTIM贴图、对话文本处理 | 文件拆分、贴图转换、文本生成，也适用于一些FS其他的PS1游戏 |
 | PS2 | King's Field 4 <br>国王密令4 | 字体贴图处理 | 转换、重建KF4的双CLUT字体贴图.tmr格式 |
 | PS2 | Chou Aniki<br>超兄貴 | CMP/PAC档案处理 | 解压缩、压缩（自定义LZSS） |
-| PS2 | Detective Conan<br>名探偵コナン 大英帝国の遺産 | HED/DAT档案处理 | 解包、重打包（原地注入） |
+| PS2 | Detective Conan<br>名探偵コナン 大英帝国の遺産 | HED/DAT档案处理，字体 | 解包、重打包（原地注入）。字体文件导出(PNG)，导入 |
 | PS2 | Dragon Ball Z: Budokai Tenkaichi 3<br>龙珠Z电光火石3 | 字体贴图处理 | 提取、重建（双CLUT）字体贴图 |
 | PS2 | G-Saviour<br>G救世主 | 文本、GS/GSP图像、字体处理 | 文本提取导入（EUC-JP）、图像转换、自定义字体 |
 | PS2 | Mobile Suit Gundam: Lost War Chronicles<br>高达战记 | MB档案处理 | 解包、打包。也适用于其他一些PS2高达游戏 |
