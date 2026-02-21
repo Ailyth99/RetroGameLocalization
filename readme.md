@@ -9,6 +9,7 @@ This repository contains a collection of tools that I used as part of a retro ga
 | - | NAME | DESC | FEATURE |
 |------|--------|----------|----------|
 | PS1 | King's Field<br>国王密令 | T文件、TIM/RTIM贴图、对话文本处理 | 文件拆分、贴图转换、文本生成，也适用于一些FS其他的PS1游戏 |
+| PS1 | Zutto Issho<br>一直在一起 | OPEN.DAT处理 | 解压OPEN.DAT为多个TIM，并支持重新压缩为新OPEN.DAT |
 | PS2 | King's Field 4 <br>国王密令4 | 字体贴图处理 | 转换、重建KF4的双CLUT字体贴图.tmr格式 |
 | PS2 | Chou Aniki<br>超兄貴 | CMP/PAC档案处理 | 解压缩、压缩（自定义LZSS） |
 | PS2 | Detective Conan<br>名探偵コナン 大英帝国の遺産 | HED/DAT档案处理，字体 | 解包、重打包（原地注入）。字体文件导出(PNG)，导入 |
