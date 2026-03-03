@@ -1,0 +1,26 @@
+####################################
+# Dino Crisis 3 og xbox *.itk dump #
+#  by  h3x3r
+####################################
+get BaseFileName basename
+comType lzss0
+
+idstring "ITK1"
+get DataBaseOffset uint32
+get ResourceCount uint32
+get TotalFileSize uint32
+
+for i = 0  < ResourceCount
+	getdstring ResourceName 0x40
+	get CompFlag uint32
+	get ZSize uint32
+	get Offset uint32
+	get Size uint32
+	
+	string FileName p= "%s/%s" BaseFileName ResourceName
+	if CompFlag == 0
+		log FileName Offset Size
+	else
+		clog FileName Offset ZSize Size
+	endif
+next i

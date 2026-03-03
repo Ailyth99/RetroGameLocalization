@@ -1,6 +1,6 @@
 
 Zutto Issho OPEN.DAT Tool
-A command-line utility to unpack and repack the OPEN.DAT archive for the PS1 game Zutto Issho. It supports the custom RLE decompression and compression required to handle the game's subtitle assets.
+Unpack and repack the OPEN.DAT archive for the PS1 game Zutto Issho. It supports the custom RLE decompression and compression required to handle the game's subtitle assets.
 
 Usage
 Unpack and decompress: 
