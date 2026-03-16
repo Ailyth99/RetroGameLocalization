@@ -7,10 +7,9 @@ Sample：
 
 Extracts font data into two PNG
 
-![](https://pic1.imgdb.cn/item/694e59f9b34383fd59c5d02e.png)
+![](https://pic1.imgdb.cn/item/69a92c0ba1838fcbddfc260c.png)
 
 
-![](https://pic1.imgdb.cn/item/694e59f9b34383fd59c5d02d.png)
 
 
 ## Build
