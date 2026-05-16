@@ -25,10 +25,13 @@ This repository contains a collection of tools that I used as part of a retro ga
 | PS2 | DOG OF BAY<br>港湾之犬 | 拆包，重建镜像 | 处理自定义的镜像文件系统，导出隐藏文件，支持导回 |
 | PS2 | Shakugan No Shana <br>灼眼的夏娜 | 贴图处理、解压缩、字库 | 分块压缩贴图转换转回、字库导入导出，校验机制破除 |
 | PS2 | Spartan: Total Warrior <br>全面战士 斯巴达 | PAK文件处理 | PAK文件的解包，以及重建 |
+| PS2 | Van Helsing<br>范海辛 | GRP.bin文件，TEX贴图等 | 贴图，文本，字库，LBA表处理 |
 | PS2 | TAMSOFT TOOL <br>TAMSOFT 工具 | CMP压缩、TI贴图处理 | 压缩解压、贴图转换、GUI查看器 |
 | NDS | TENCHU DARK SHADOWS<br>天诛 暗影 | BD1/FARC解包工具 | 解包/打包BD1/FARC文件 |
 | NDS | SD GUNDAM SANGOKUDEN<br>SD高达三国传 | dat文本文件 | 导出/导入.DAT里面的unicode文本 |
 | PSP | Airou de Puazzle<br>艾露猫方块 | PAK/ARC文件 | 导出/导入.PAK/ARC封包文件，并自动解压/压缩 |
+| XBOX | Van Helsing<br>范海辛 | GRP.bin文件，TEX贴图等 | 贴图，文本，字库，LBA表处理（部分文件和PS2版不同） |
+| XBOX | XBOX XISO TOOL | XISO镜像 | 重建，解包XISO镜像，比支持插入，导入单个文件 |
 | 通用 | Multi-CLUT Tile Font Tool<br>多CLUT tile字体工具 | PS2双clut tile字体处理 | 4bpp双层字体提取、重打包 |
 
 ---
