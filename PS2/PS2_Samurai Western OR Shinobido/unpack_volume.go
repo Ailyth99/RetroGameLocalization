@@ -34,10 +34,13 @@ type ArchiveMetadata struct {
 }
 
 type FileOrder struct {
-	Index    int    `json:"index"`
-	Filename string `json:"filename"`
-	NameHash uint32 `json:"name_hash"`
-	Size     int64  `json:"size"`
+	Index      int    `json:"index"`
+	Filename   string `json:"filename"`
+	NameHash   uint32 `json:"name_hash"`
+	Size       int64  `json:"size"`
+	Offset     int64  `json:"offset"`
+	NameOffset int64  `json:"name_offset"`
+	NameSize   int64  `json:"name_size"`
 }
 
 func readBEUint32(r io.Reader) (uint32, error) {
@@ -120,6 +123,15 @@ func unpackVolume(volumePath string, outputDir string) error {
 			fmt.Printf("  [SKIP] Entry %d (empty filename, %d bytes)\n", entry.Index, entry.Size)
 			stats.skipped++
 			stats.skippedSize += entry.Size
+			metadata.FileOrder = append(metadata.FileOrder, FileOrder{
+				Index:      entry.Index,
+				Filename:   "",
+				NameHash:   entry.NameHash,
+				Size:       entry.Size,
+				Offset:     entry.Offset - int64(dataOff),
+				NameOffset: entry.NameOffset - int64(dataOff),
+				NameSize:   entry.NameSize,
+			})
 			continue
 		}
 
@@ -149,10 +161,13 @@ func unpackVolume(volumePath string, outputDir string) error {
 		stats.totalSize += entry.Size
 
 		metadata.FileOrder = append(metadata.FileOrder, FileOrder{
-			Index:    entry.Index,
-			Filename: filename,
-			NameHash: entry.NameHash,
-			Size:     entry.Size,
+			Index:      entry.Index,
+			Filename:   filename,
+			NameHash:   entry.NameHash,
+			Size:       entry.Size,
+			Offset:     entry.Offset - int64(dataOff),
+			NameOffset: entry.NameOffset - int64(dataOff),
+			NameSize:   entry.NameSize,
 		})
 	}
 

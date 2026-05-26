@@ -109,8 +109,11 @@ func packVolume(inputDir string, outputFile string) error {
 	fmt.Printf("Found %d files\n", len(entries))
 
 	metadataFile := filepath.Join(inputDir, "archive_metadata.json")
+	var metadata ArchiveMetadata
+	filesCount1 := uint32(len(entries))
+	filesCount2 := uint32(len(entries))
+
 	if data, err := os.ReadFile(metadataFile); err == nil {
-		var metadata ArchiveMetadata
 		if json.Unmarshal(data, &metadata) == nil {
 			fmt.Printf("Loaded metadata with original order\n")
 
@@ -128,7 +131,9 @@ func packVolume(inputDir string, outputFile string) error {
 			}
 
 			entries = orderedEntries
-			fmt.Printf("Reordered %d files\n", len(entries))
+			filesCount1 = metadata.FilesCount1
+			filesCount2 = metadata.FilesCount2
+			fmt.Printf("Reordered %d files (count1=%d, count2=%d)\n", len(entries), filesCount1, filesCount2)
 		}
 	} else {
 		fmt.Printf("Warning: No metadata found, files may not work!\n")
@@ -146,7 +151,13 @@ func packVolume(inputDir string, outputFile string) error {
 	magic := []byte{0xfa, 0xde, 0xba, 0xbe}
 	headerSize := 4 + 16
 	entrySize := 24
-	dataOffset := uint32(headerSize + len(entries)*entrySize)
+	calculatedHeaderSize := uint32(headerSize + int(filesCount1)*entrySize)
+
+	// 对齐 dataOffset 到 2048 的倍数
+	dataOffset := calculatedHeaderSize
+	if dataOffset%alignment != 0 {
+		dataOffset = ((dataOffset / alignment) + 1) * alignment
+	}
 
 	type EntryOffset struct {
 		FileOffset, NameOffset uint32
@@ -166,14 +177,13 @@ func packVolume(inputDir string, outputFile string) error {
 	totalDataSize := currentOffset
 
 	f.Write(magic)
-	filesCount := uint32(len(entries))
-	writeBEUint32(f, filesCount)
-	writeBEUint32(f, filesCount)
+	writeBEUint32(f, filesCount1)
+	writeBEUint32(f, filesCount2)
 	writeBEUint32(f, dataOffset)
-	writeBEUint32(f, totalDataSize)
+	writeBEUint32(f, uint32(totalDataSize))
 
-	fmt.Printf("Header: count=%d, offset=0x%08X, size=0x%08X (%.2f MB)\n\n",
-		filesCount, dataOffset, totalDataSize, float64(totalDataSize)/1024/1024)
+	fmt.Printf("Header: count1=%d, count2=%d, offset=0x%08X, size=0x%08X (%.2f MB)\n\n",
+		filesCount1, filesCount2, dataOffset, uint32(totalDataSize), float64(totalDataSize)/1024/1024)
 
 	fmt.Printf("Writing entries...\n")
 	for i, entry := range entries {
@@ -184,6 +194,24 @@ func packVolume(inputDir string, outputFile string) error {
 		writeBEUint32(f, offsets[i].NameOffset)
 		writeBEUint32(f, uint32(len(entry.OriginalPath))+1)
 		fmt.Printf("  [%4d] %-50s (%10d bytes)\n", i, entry.OriginalPath, len(entry.Data))
+	}
+
+	// 写入空条目
+	emptyCount := filesCount1 - uint32(len(entries))
+	for i := 0; i < int(emptyCount); i++ {
+		writeBEUint32(f, 0) // hash
+		writeBEUint32(f, 0) // offset
+		writeBEUint32(f, 0) // size
+		writeBEUint32(f, 0) // unused
+		writeBEUint32(f, 0) // nameOffset
+		writeBEUint32(f, 0) // nameSize
+		fmt.Printf("  [%4d] (empty entry)\n", len(entries)+i)
+	}
+
+	// 填充到 dataOffset
+	currentPos, _ := f.Seek(0, io.SeekCurrent)
+	if pad := int64(dataOffset) - currentPos; pad > 0 {
+		f.Write(make([]byte, pad))
 	}
 
 	fmt.Printf("\nWriting data...\n")
