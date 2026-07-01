@@ -12,6 +12,7 @@ EN
 |------|--------|----------|----------|
 | PS1 | King's Field | T file, TIM/RTIM texture, and dialogue text processing | File splitting, texture conversion, and text generation; also applicable to some other PS1 games by FromSoftware. |
 | PS1 | Zutto Issho | OPEN.DAT processing | Extracts OPEN.DAT into multiple TIM files, and supports repacking into a new OPEN.DAT. |
+| PS1 | Ace Combat | MISC.DAT processing | Extracts MIS.DAT into multiple LZSS files,Decompress LZSS, and supports repacking into a new MIS.DAT. |
 | PS2 | King's Field 4 | Font texture processing | Converts and rebuilds the dual-CLUT font texture .tmr format for KF4. |
 | PS2 | Chou Aniki | CMP/PAC archive processing | Decompression and compression (custom LZSS). |
 | PS2 | Detective Conan | HED/DAT archive processing, fonts | Unpacking, repacking (in-place injection). Font file export (PNG) and import. |
@@ -46,6 +47,7 @@ CN
 |------|--------|----------|----------|
 | PS1 | King's Field<br>国王密令 | T文件、TIM/RTIM贴图、对话文本处理 | 文件拆分、贴图转换、文本生成，也适用于一些FS其他的PS1游戏 |
 | PS1 | Zutto Issho<br>一直在一起 | OPEN.DAT处理 | 解压OPEN.DAT为多个TIM，并支持重新压缩为新OPEN.DAT |
+| PS1 | Ace Combat<br>皇牌空战 | MIS.DAT处理 | 解包MIS.DAT里面的LZSS压缩文件，并进行解压，重新打包为DAT |
 | PS2 | King's Field 4 <br>国王密令4 | 字体贴图处理 | 转换、重建KF4的双CLUT字体贴图.tmr格式 |
 | PS2 | Chou Aniki<br>超兄貴 | CMP/PAC档案处理 | 解压缩、压缩（自定义LZSS） |
 | PS2 | Detective Conan<br>名探偵コナン 大英帝国の遺産 | HED/DAT档案处理，字体 | 解包、重打包（原地注入）。字体文件导出(PNG)，导入 |
