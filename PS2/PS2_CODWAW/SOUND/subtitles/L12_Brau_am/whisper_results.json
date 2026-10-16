@@ -1,0 +1,4369 @@
+{
+  "0000__US_0_inform_incoming_grenade_00__95252799.mp3": {
+    "asr_text": "GRENADE!",
+    "translation": "手雷！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0000__US_0_inform_incoming_grenade_00__95252799.mp3",
+      "applied_translation": "手雷！"
+    }
+  },
+  "0001__US_0_inform_incoming_grenade_01__95333F1A.mp3": {
+    "asr_text": "GRENADE GET DOWN!",
+    "translation": "手雷，趴下！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0001__US_0_inform_incoming_grenade_01__95333F1A.mp3",
+      "applied_translation": "手雷，趴下！"
+    }
+  },
+  "0002__US_0_inform_incoming_grenade_02__9541569B.mp3": {
+    "asr_text": "GET OUTTA HERE!",
+    "translation": "快离开那儿！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0002__US_0_inform_incoming_grenade_02__9541569B.mp3",
+      "applied_translation": "快离开那儿！"
+    }
+  },
+  "0003__US_0_inform_incoming_grenade_03__954F6E1C.mp3": {
+    "asr_text": "GRENADE!",
+    "translation": "手雷！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0003__US_0_inform_incoming_grenade_03__954F6E1C.mp3",
+      "applied_translation": "手雷！"
+    }
+  },
+  "0004__US_0_inform_incoming_grenade_05__956B9D1E.mp3": {
+    "asr_text": "GET AWAY FROM IT!",
+    "translation": "离它远点！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0004__US_0_inform_incoming_grenade_05__956B9D1E.mp3",
+      "applied_translation": "离它远点！"
+    }
+  },
+  "0005__US_0_inform_incoming_grenade_07__9587CC20.mp3": {
+    "asr_text": "HIT THE DECK!",
+    "translation": "卧倒！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0005__US_0_inform_incoming_grenade_07__9587CC20.mp3",
+      "applied_translation": "卧倒！"
+    }
+  },
+  "0006__US_0_inform_attack_grenade_00__4AABC977.mp3": {
+    "asr_text": "FIRE IN THE HOLE!",
+    "translation": "要炸了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0006__US_0_inform_attack_grenade_00__4AABC977.mp3",
+      "applied_translation": "要炸了！"
+    }
+  },
+  "0007__US_0_inform_attack_grenade_01__4AB9E0F8.mp3": {
+    "asr_text": "GRENADE GOING IN!",
+    "translation": "手雷进去了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0007__US_0_inform_attack_grenade_01__4AB9E0F8.mp3",
+      "applied_translation": "手雷进去了！"
+    }
+  },
+  "0008__US_0_inform_attack_grenade_02__4AC7F879.mp3": {
+    "asr_text": "Throw in grenade! Get back, fellas!",
+    "translation": "扔手雷进去！退后，伙计们！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0008__US_0_inform_attack_grenade_02__4AC7F879.mp3",
+      "applied_translation": "扔手雷进去！退后，伙计们！"
+    }
+  },
+  "0009__US_0_inform_attack_grenade_03__4AD60FFA.mp3": {
+    "asr_text": "I'm pulling the pin, look out!",
+    "translation": "我拔销了，小心！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0009__US_0_inform_attack_grenade_03__4AD60FFA.mp3",
+      "applied_translation": "我拔销了，小心！"
+    }
+  },
+  "0010__US_0_inform_attack_grenade_04__4AE4277B.mp3": {
+    "asr_text": "WATCH IT! LIVE GRENADE!",
+    "translation": "小心！手雷要炸了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0010__US_0_inform_attack_grenade_04__4AE4277B.mp3",
+      "applied_translation": "小心！手雷要炸了！"
+    }
+  },
+  "0011__US_0_inform_attack_grenade_07_A__137B38E0.mp3": {
+    "asr_text": "THIS'LL WAKE EM UP!",
+    "translation": "这下够他们清醒的！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0011__US_0_inform_attack_grenade_07_A__137B38E0.mp3",
+      "applied_translation": "这下够他们清醒的！"
+    }
+  },
+  "0012__US_0_inform_killfirm_generic_00__6AD259BA.mp3": {
+    "asr_text": "There you go!",
+    "translation": "好样的！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0012__US_0_inform_killfirm_generic_00__6AD259BA.mp3",
+      "applied_translation": "好样的！"
+    }
+  },
+  "0013__US_0_inform_killfirm_generic_01_A__86D960DD.mp3": {
+    "asr_text": "Hoo-ha!",
+    "translation": "呼哈！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0013__US_0_inform_killfirm_generic_01_A__86D960DD.mp3",
+      "applied_translation": "呼哈！"
+    }
+  },
+  "0014__US_0_inform_killfirm_generic_01_D__8703A760.mp3": {
+    "asr_text": "Hoo-wee!",
+    "translation": "喔呼！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0014__US_0_inform_killfirm_generic_01_D__8703A760.mp3",
+      "applied_translation": "喔呼！"
+    }
+  },
+  "0015__US_0_inform_killfirm_generic_03_A__F0A5D75F.mp3": {
+    "asr_text": "THAT'S THE WAY YOU DO IT!",
+    "translation": "就该这么打！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0015__US_0_inform_killfirm_generic_03_A__F0A5D75F.mp3",
+      "applied_translation": "就该这么打！"
+    }
+  },
+  "0016__US_0_inform_killfirm_generic_05_A__5A724DE1.mp3": {
+    "asr_text": "NICE ONE!",
+    "translation": "漂亮！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0016__US_0_inform_killfirm_generic_05_A__5A724DE1.mp3",
+      "applied_translation": "漂亮！"
+    }
+  },
+  "0017__US_0_reaction_casualty_generic_00__D99E47A6.mp3": {
+    "asr_text": "MEDEK!",
+    "translation": "卫生员！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0017__US_0_reaction_casualty_generic_00__D99E47A6.mp3",
+      "applied_translation": "卫生员！"
+    }
+  },
+  "0018__US_0_reaction_casualty_generic_01__D9AC5F27.mp3": {
+    "asr_text": "GET A MEDIC OVER HERE!",
+    "translation": "卫生员！这边！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0018__US_0_reaction_casualty_generic_01__D9AC5F27.mp3",
+      "applied_translation": "卫生员！这边！"
+    }
+  },
+  "0019__US_0_reaction_casualty_generic_02__D9BA76A8.mp3": {
+    "asr_text": "GET A MEDIC OVER HERE!",
+    "translation": "卫生员！这边！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0019__US_0_reaction_casualty_generic_02__D9BA76A8.mp3",
+      "applied_translation": "卫生员！这边！"
+    }
+  },
+  "0020__US_0_reaction_casualty_generic_03__D9C88E29.mp3": {
+    "asr_text": "Doc! Where's Doc?!",
+    "translation": "军医！军医在哪？！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0020__US_0_reaction_casualty_generic_03__D9C88E29.mp3",
+      "applied_translation": "军医！军医在哪？！"
+    }
+  },
+  "0021__US_0_reaction_casualty_generic_06__D9F2D4AC.mp3": {
+    "asr_text": "THEY GOT ME!",
+    "translation": "我中弹了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0021__US_0_reaction_casualty_generic_06__D9F2D4AC.mp3",
+      "applied_translation": "我中弹了！"
+    }
+  },
+  "0022__US_0_reaction_casualty_generic_07__DA00EC2D.mp3": {
+    "asr_text": "YEAH I'M HIT!",
+    "translation": "啊，我中弹了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0022__US_0_reaction_casualty_generic_07__DA00EC2D.mp3",
+      "applied_translation": "啊，我中弹了！"
+    }
+  },
+  "0023__US_0_inform_reloading_00__0EA8B023.mp3": {
+    "asr_text": "RELOADING!",
+    "translation": "换弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0023__US_0_inform_reloading_00__0EA8B023.mp3",
+      "applied_translation": "换弹！"
+    }
+  },
+  "0024__US_0_inform_reloading_01__0EB6C7A4.mp3": {
+    "asr_text": "RELOADING!",
+    "translation": "换弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0024__US_0_inform_reloading_01__0EB6C7A4.mp3",
+      "applied_translation": "换弹！"
+    }
+  },
+  "0025__US_0_order_cover_generic_00__A9EB81E6.mp3": {
+    "asr_text": "GET DOWN!",
+    "translation": "趴下！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0025__US_0_order_cover_generic_00__A9EB81E6.mp3",
+      "applied_translation": "趴下！"
+    }
+  },
+  "0026__US_0_order_cover_generic_01__A9F99967.mp3": {
+    "asr_text": "FIND SOME COVER!",
+    "translation": "找掩体！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0026__US_0_order_cover_generic_01__A9F99967.mp3",
+      "applied_translation": "找掩体！"
+    }
+  },
+  "0027__US_0_order_cover_generic_02__AA07B0E8.mp3": {
+    "asr_text": "TAKE COVER!",
+    "translation": "隐蔽！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0027__US_0_order_cover_generic_02__AA07B0E8.mp3",
+      "applied_translation": "隐蔽！"
+    }
+  },
+  "0028__US_0_order_cover_generic_03__AA15C869.mp3": {
+    "asr_text": "GET OUTTA HERE!",
+    "translation": "快离开那儿！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0028__US_0_order_cover_generic_03__AA15C869.mp3",
+      "applied_translation": "快离开那儿！"
+    }
+  },
+  "0029__US_0_order_cover_generic_04__AA23DFEA.mp3": {
+    "asr_text": "ХИТ-АНТАК!",
+    "translation": "卧倒！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0029__US_0_order_cover_generic_04__AA23DFEA.mp3",
+      "applied_translation": "卧倒！"
+    }
+  },
+  "0030__US_0_order_cover_generic_05__AA31F76B.mp3": {
+    "asr_text": "GET YOUR HEAD DOWN!",
+    "translation": "低头！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0030__US_0_order_cover_generic_05__AA31F76B.mp3",
+      "applied_translation": "低头！"
+    }
+  },
+  "0031__US_0_order_move_forward_00__5525B4EE.mp3": {
+    "asr_text": "Come on!",
+    "translation": "快点！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0031__US_0_order_move_forward_00__5525B4EE.mp3",
+      "applied_translation": "快点！"
+    }
+  },
+  "0032__US_0_order_move_forward_01__5533CC6F.mp3": {
+    "asr_text": "What's the holdup?",
+    "translation": "磨蹭什么呢？",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0032__US_0_order_move_forward_01__5533CC6F.mp3",
+      "applied_translation": "磨蹭什么呢？"
+    }
+  },
+  "0033__US_0_order_move_forward_02__5541E3F0.mp3": {
+    "asr_text": "KEEP IT MOVING!",
+    "translation": "继续走！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0033__US_0_order_move_forward_02__5541E3F0.mp3",
+      "applied_translation": "继续走！"
+    }
+  },
+  "0034__US_0_order_move_forward_03__554FFB71.mp3": {
+    "asr_text": "STRAIGHT AHEAD!",
+    "translation": "正前方！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0034__US_0_order_move_forward_03__554FFB71.mp3",
+      "applied_translation": "正前方！"
+    }
+  },
+  "0035__US_0_order_move_forward_04__555E12F2.mp3": {
+    "asr_text": "THIS WAY!",
+    "translation": "这边！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0035__US_0_order_move_forward_04__555E12F2.mp3",
+      "applied_translation": "这边！"
+    }
+  },
+  "0036__US_0_order_move_forward_05__556C2A73.mp3": {
+    "asr_text": "AHEAD! MOVE MOVE MOVE!",
+    "translation": "前进！走！走！走！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0036__US_0_order_move_forward_05__556C2A73.mp3",
+      "applied_translation": "前进！走！走！走！"
+    }
+  },
+  "0037__US_0_order_action_suppress_00__E6D2C3B7.mp3": {
+    "asr_text": "NOW!",
+    "translation": "就现在！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0037__US_0_order_action_suppress_00__E6D2C3B7.mp3",
+      "applied_translation": "就现在！"
+    }
+  },
+  "0038__US_0_order_action_suppress_01__E6E0DB38.mp3": {
+    "asr_text": "POUR IT ON EM BOYS!",
+    "translation": "使劲招呼他们，弟兄们！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0038__US_0_order_action_suppress_01__E6E0DB38.mp3",
+      "applied_translation": "使劲招呼他们，弟兄们！"
+    }
+  },
+  "0039__US_0_order_action_suppress_02__E6EEF2B9.mp3": {
+    "asr_text": "PIN HIM DOWN!",
+    "translation": "压住他！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0039__US_0_order_action_suppress_02__E6EEF2B9.mp3",
+      "applied_translation": "压住他！"
+    }
+  },
+  "0040__US_0_order_action_suppress_03__E6FD0A3A.mp3": {
+    "asr_text": "Target those positions!",
+    "translation": "瞄准那些阵地！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0040__US_0_order_action_suppress_03__E6FD0A3A.mp3",
+      "applied_translation": "瞄准那些阵地！"
+    }
+  },
+  "0041__US_0_order_action_suppress_04__E70B21BB.mp3": {
+    "asr_text": "FIRE ON THOSE BASTARDS!",
+    "translation": "朝那帮狗杂种开火！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0041__US_0_order_action_suppress_04__E70B21BB.mp3",
+      "applied_translation": "朝那帮狗杂种开火！"
+    }
+  },
+  "0042__US_0_order_action_suppress_05__E719393C.mp3": {
+    "asr_text": "TAKE EM DOWN!",
+    "translation": "干掉他们！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0042__US_0_order_action_suppress_05__E719393C.mp3",
+      "applied_translation": "干掉他们！"
+    }
+  },
+  "0043__US_0_inform_suppressed_generic_00__9D0B2302.mp3": {
+    "asr_text": "We're getting our asses handed to us!",
+    "translation": "我们被打得满地找牙！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0043__US_0_inform_suppressed_generic_00__9D0B2302.mp3",
+      "applied_translation": "我们被打得满地找牙！"
+    }
+  },
+  "0044__US_0_inform_suppressed_generic_01__9D193A83.mp3": {
+    "asr_text": "WHERE'S THAT FIRE COMING FROM?!",
+    "translation": "火力从哪来的？！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0044__US_0_inform_suppressed_generic_01__9D193A83.mp3",
+      "applied_translation": "火力从哪来的？！"
+    }
+  },
+  "0045__US_0_inform_suppressed_generic_02__9D275204.mp3": {
+    "asr_text": "We're getting slaughtered over here!",
+    "translation": "我们这边要被屠光了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0045__US_0_inform_suppressed_generic_02__9D275204.mp3",
+      "applied_translation": "我们这边要被屠光了！"
+    }
+  },
+  "0046__US_0_inform_suppressed_generic_03__9D356985.mp3": {
+    "asr_text": "WE COULD USE A LITTLE HELP!",
+    "translation": "这边需要支援！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0046__US_0_inform_suppressed_generic_03__9D356985.mp3",
+      "applied_translation": "这边需要支援！"
+    }
+  },
+  "0047__US_0_inform_suppressed_generic_04__9D438106.mp3": {
+    "asr_text": "THEY GOT US ZEROED!",
+    "translation": "他们锁定我们了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0047__US_0_inform_suppressed_generic_04__9D438106.mp3",
+      "applied_translation": "他们锁定我们了！"
+    }
+  },
+  "0048__US_0_inform_suppressed_generic_05__9D519887.mp3": {
+    "asr_text": "Bastards are everywhere!",
+    "translation": "这帮狗杂种到处都是！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0048__US_0_inform_suppressed_generic_05__9D519887.mp3",
+      "applied_translation": "这帮狗杂种到处都是！"
+    }
+  },
+  "0090__US_1_inform_incoming_grenade_00__1D556778.mp3": {
+    "asr_text": "GRENADE!",
+    "translation": "手雷！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0107__US_1_inform_incoming_grenade_00__1D556778.mp3",
+      "applied_translation": "手雷！"
+    }
+  },
+  "0091__US_1_inform_incoming_grenade_01__1D637EF9.mp3": {
+    "asr_text": "GRENADE TAKE COVER!",
+    "translation": "手雷，隐蔽！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0108__US_1_inform_incoming_grenade_01__1D637EF9.mp3",
+      "applied_translation": "手雷，隐蔽！"
+    }
+  },
+  "0092__US_1_inform_incoming_grenade_02__1D71967A.mp3": {
+    "asr_text": "DAMMIT! GRENADE!",
+    "translation": "我操！手雷来了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0109__US_1_inform_incoming_grenade_02__1D71967A.mp3",
+      "applied_translation": "我操！手雷来了！"
+    }
+  },
+  "0093__US_1_inform_incoming_grenade_03__1D7FADFB.mp3": {
+    "asr_text": "GRENADE, LOOK OUT!",
+    "translation": "手雷，小心！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0110__US_1_inform_incoming_grenade_03__1D7FADFB.mp3",
+      "applied_translation": "手雷，小心！"
+    }
+  },
+  "0094__US_1_inform_incoming_grenade_04__1D8DC57C.mp3": {
+    "asr_text": "MOVE!",
+    "translation": "走！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0111__US_1_inform_incoming_grenade_04__1D8DC57C.mp3",
+      "applied_translation": "走！"
+    }
+  },
+  "0095__US_1_inform_incoming_grenade_05__1D9BDCFD.mp3": {
+    "asr_text": "GO!",
+    "translation": "走！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0112__US_1_inform_incoming_grenade_05__1D9BDCFD.mp3",
+      "applied_translation": "走！"
+    }
+  },
+  "0096__US_1_inform_attack_grenade_00__4B587516.mp3": {
+    "asr_text": "GRENADE GO IT IN!",
+    "translation": "手雷进去了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0113__US_1_inform_attack_grenade_00__4B587516.mp3",
+      "applied_translation": "手雷进去了！"
+    }
+  },
+  "0097__US_1_inform_attack_grenade_01__4B668C97.mp3": {
+    "asr_text": "FIRE IN THE HOLE!",
+    "translation": "要炸了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0114__US_1_inform_attack_grenade_01__4B668C97.mp3",
+      "applied_translation": "要炸了！"
+    }
+  },
+  "0098__US_1_inform_attack_grenade_02__4B74A418.mp3": {
+    "asr_text": "Stand back, I'm throwing it!",
+    "translation": "退后，我扔了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0115__US_1_inform_attack_grenade_02__4B74A418.mp3",
+      "applied_translation": "退后，我扔了！"
+    }
+  },
+  "0099__US_1_inform_attack_grenade_03__4B82BB99.mp3": {
+    "asr_text": "You're back boys! Pineapple going in!",
+    "translation": "弟兄们，退后！扔手雷了！",
+    "needs_review": true,
+    "note": "文本审核：pineapple 为手榴弹俗称，已修正；前半句疑为 Get back, boys，暂按退后警告译，须听音确认。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0116__US_1_inform_attack_grenade_03__4B82BB99.mp3",
+      "applied_translation": "弟兄们，退后！扔手雷了！"
+    }
+  },
+  "0100__US_1_inform_attack_grenade_04__4B90D31A.mp3": {
+    "asr_text": "WATCH IT!",
+    "translation": "小心！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0117__US_1_inform_attack_grenade_04__4B90D31A.mp3",
+      "applied_translation": "小心！"
+    }
+  },
+  "0101__US_1_inform_attack_grenade_05__4B9EEA9B.mp3": {
+    "asr_text": "WATCH YOUR TOES, BOYS!",
+    "translation": "脚底下小心，弟兄们！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0118__US_1_inform_attack_grenade_05__4B9EEA9B.mp3",
+      "applied_translation": "脚底下小心，弟兄们！"
+    }
+  },
+  "0102__US_1_inform_killfirm_generic_00__F3029999.mp3": {
+    "asr_text": "YEAH!",
+    "translation": "好！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0119__US_1_inform_killfirm_generic_00__F3029999.mp3",
+      "applied_translation": "好！"
+    }
+  },
+  "0103__US_1_inform_killfirm_generic_01__F310B11A.mp3": {
+    "asr_text": "ALRIGHT!",
+    "translation": "好！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0120__US_1_inform_killfirm_generic_01__F310B11A.mp3",
+      "applied_translation": "好！"
+    }
+  },
+  "0104__US_1_inform_killfirm_generic_02__F31EC89B.mp3": {
+    "asr_text": "FINALLY!",
+    "translation": "总算！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0121__US_1_inform_killfirm_generic_02__F31EC89B.mp3",
+      "applied_translation": "总算！"
+    }
+  },
+  "0105__US_1_inform_killfirm_generic_03__F32CE01C.mp3": {
+    "asr_text": "OKAY!",
+    "translation": "好！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0122__US_1_inform_killfirm_generic_03__F32CE01C.mp3",
+      "applied_translation": "好！"
+    }
+  },
+  "0106__US_1_inform_killfirm_generic_04__F33AF79D.mp3": {
+    "asr_text": "Right on target!",
+    "translation": "正中目标！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0123__US_1_inform_killfirm_generic_04__F33AF79D.mp3",
+      "applied_translation": "正中目标！"
+    }
+  },
+  "0107__US_1_inform_killfirm_generic_05__F3490F1E.mp3": {
+    "asr_text": "GOOD SHOT!",
+    "translation": "打得好！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0124__US_1_inform_killfirm_generic_05__F3490F1E.mp3",
+      "applied_translation": "打得好！"
+    }
+  },
+  "0108__US_1_reaction_casualty_generic_00__16BE0BC5.mp3": {
+    "asr_text": "MEDIC!",
+    "translation": "卫生员！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0125__US_1_reaction_casualty_generic_00__16BE0BC5.mp3",
+      "applied_translation": "卫生员！"
+    }
+  },
+  "0109__US_1_reaction_casualty_generic_01__16CC2346.mp3": {
+    "asr_text": "MEDIC UP FRONT! MEDIC UP FRONT!",
+    "translation": "前面要卫生员！前面要卫生员！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0126__US_1_reaction_casualty_generic_01__16CC2346.mp3",
+      "applied_translation": "前面要卫生员！前面要卫生员！"
+    }
+  },
+  "0110__US_1_reaction_casualty_generic_02__16DA3AC7.mp3": {
+    "asr_text": "GET SOME MORPHINE UP HERE!",
+    "translation": "快拿吗啡上来！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0127__US_1_reaction_casualty_generic_02__16DA3AC7.mp3",
+      "applied_translation": "快拿吗啡上来！"
+    }
+  },
+  "0111__US_1_reaction_casualty_generic_03__16E85248.mp3": {
+    "asr_text": "GET HIM OUT OF THERE!",
+    "translation": "把他拖出来！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0128__US_1_reaction_casualty_generic_03__16E85248.mp3",
+      "applied_translation": "把他拖出来！"
+    }
+  },
+  "0112__US_1_reaction_casualty_generic_04__16F669C9.mp3": {
+    "asr_text": "HELP ME CARRY HIM!",
+    "translation": "帮我抬他！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0129__US_1_reaction_casualty_generic_04__16F669C9.mp3",
+      "applied_translation": "帮我抬他！"
+    }
+  },
+  "0113__US_1_reaction_casualty_generic_05__1704814A.mp3": {
+    "asr_text": "Where's Doc?!",
+    "translation": "军医在哪？！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0130__US_1_reaction_casualty_generic_05__1704814A.mp3",
+      "applied_translation": "军医在哪？！"
+    }
+  },
+  "0114__US_1_inform_reloading_00__92D8FD24.mp3": {
+    "asr_text": "RELOADING!",
+    "translation": "换弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0131__US_1_inform_reloading_00__92D8FD24.mp3",
+      "applied_translation": "换弹！"
+    }
+  },
+  "0115__US_1_inform_reloading_01__92E714A5.mp3": {
+    "asr_text": "RELOADING!",
+    "translation": "换弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0132__US_1_inform_reloading_01__92E714A5.mp3",
+      "applied_translation": "换弹！"
+    }
+  },
+  "0116__US_1_order_cover_generic_00__9ABC8945.mp3": {
+    "asr_text": "TAKE COVER!",
+    "translation": "隐蔽！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0133__US_1_order_cover_generic_00__9ABC8945.mp3",
+      "applied_translation": "隐蔽！"
+    }
+  },
+  "0117__US_1_order_cover_generic_01__9ACAA0C6.mp3": {
+    "asr_text": "GET DOWN!",
+    "translation": "趴下！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0134__US_1_order_cover_generic_01__9ACAA0C6.mp3",
+      "applied_translation": "趴下！"
+    }
+  },
+  "0118__US_1_order_cover_generic_02__9AD8B847.mp3": {
+    "asr_text": "GET YOUR HEAD DOWN!",
+    "translation": "低头！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0135__US_1_order_cover_generic_02__9AD8B847.mp3",
+      "applied_translation": "低头！"
+    }
+  },
+  "0119__US_1_order_cover_generic_03__9AE6CFC8.mp3": {
+    "asr_text": "TAKING FIRE! FIND COVER!",
+    "translation": "遭到射击！找掩体！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0136__US_1_order_cover_generic_03__9AE6CFC8.mp3",
+      "applied_translation": "遭到射击！找掩体！"
+    }
+  },
+  "0120__US_1_order_cover_generic_04__9AF4E749.mp3": {
+    "asr_text": "GET OUTTA THERE!",
+    "translation": "快从那儿撤出来！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0137__US_1_order_cover_generic_04__9AF4E749.mp3",
+      "applied_translation": "快从那儿撤出来！"
+    }
+  },
+  "0121__US_1_order_cover_generic_05__9B02FECA.mp3": {
+    "asr_text": "GET OUT OF THE OPEN!",
+    "translation": "别站在空地上！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0138__US_1_order_cover_generic_05__9B02FECA.mp3",
+      "applied_translation": "别站在空地上！"
+    }
+  },
+  "0122__US_1_order_move_forward_01__8E84DD30.mp3": {
+    "asr_text": "Move forward!",
+    "translation": "向前推进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0139__US_1_order_move_forward_01__8E84DD30.mp3",
+      "applied_translation": "向前推进！"
+    }
+  },
+  "0123__US_1_order_move_forward_02__8E92F4B1.mp3": {
+    "asr_text": "KEEP IT MOVIN'!",
+    "translation": "继续走！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0140__US_1_order_move_forward_02__8E92F4B1.mp3",
+      "applied_translation": "继续走！"
+    }
+  },
+  "0124__US_1_order_move_forward_03__8EA10C32.mp3": {
+    "asr_text": "DOUBLE TIME!",
+    "translation": "跑步前进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0141__US_1_order_move_forward_03__8EA10C32.mp3",
+      "applied_translation": "跑步前进！"
+    }
+  },
+  "0125__US_1_order_move_forward_04__8EAF23B3.mp3": {
+    "asr_text": "FORWARD MEN!",
+    "translation": "前进，弟兄们！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0142__US_1_order_move_forward_04__8EAF23B3.mp3",
+      "applied_translation": "前进，弟兄们！"
+    }
+  },
+  "0126__US_1_order_move_forward_05__8EBD3B34.mp3": {
+    "asr_text": "Come on, man!",
+    "translation": "快点，老兄！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0143__US_1_order_move_forward_05__8EBD3B34.mp3",
+      "applied_translation": "快点，老兄！"
+    }
+  },
+  "0127__US_1_order_action_suppress_00__E77F6F56.mp3": {
+    "asr_text": "SUPPRESSING FIRE!",
+    "translation": "火力压制！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0144__US_1_order_action_suppress_00__E77F6F56.mp3",
+      "applied_translation": "火力压制！"
+    }
+  },
+  "0128__US_1_order_action_suppress_01__E78D86D7.mp3": {
+    "asr_text": "GO! START FIRING!",
+    "translation": "打！开火！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0145__US_1_order_action_suppress_01__E78D86D7.mp3",
+      "applied_translation": "打！开火！"
+    }
+  },
+  "0129__US_1_order_action_suppress_02__E79B9E58.mp3": {
+    "asr_text": "FIRE!",
+    "translation": "开火！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0146__US_1_order_action_suppress_02__E79B9E58.mp3",
+      "applied_translation": "开火！"
+    }
+  },
+  "0130__US_1_order_action_suppress_03__E7A9B5D9.mp3": {
+    "asr_text": "DON'T LET UP!",
+    "translation": "别停！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0147__US_1_order_action_suppress_03__E7A9B5D9.mp3",
+      "applied_translation": "别停！"
+    }
+  },
+  "0131__US_1_order_action_suppress_04__E7B7CD5A.mp3": {
+    "asr_text": "FIRE!",
+    "translation": "开火！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0148__US_1_order_action_suppress_04__E7B7CD5A.mp3",
+      "applied_translation": "开火！"
+    }
+  },
+  "0132__US_1_order_action_suppress_05__E7C5E4DB.mp3": {
+    "asr_text": "CONCENTRATE YOUR FIRE!",
+    "translation": "集中火力！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0149__US_1_order_action_suppress_05__E7C5E4DB.mp3",
+      "applied_translation": "集中火力！"
+    }
+  },
+  "0174__US_2_inform_incoming_grenade_00__A585A757.mp3": {
+    "asr_text": "LOOK OUT!",
+    "translation": "小心！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0198__US_2_inform_incoming_grenade_00__A585A757.mp3",
+      "applied_translation": "小心！"
+    }
+  },
+  "0175__US_2_inform_incoming_grenade_01__A593BED8.mp3": {
+    "asr_text": "HIT THE DIRT!",
+    "translation": "趴下！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0199__US_2_inform_incoming_grenade_01__A593BED8.mp3",
+      "applied_translation": "趴下！"
+    }
+  },
+  "0176__US_2_inform_incoming_grenade_02__A5A1D659.mp3": {
+    "asr_text": "GRENADE!",
+    "translation": "手雷！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0200__US_2_inform_incoming_grenade_02__A5A1D659.mp3",
+      "applied_translation": "手雷！"
+    }
+  },
+  "0177__US_2_inform_incoming_grenade_03__A5AFEDDA.mp3": {
+    "asr_text": "GET DOWN!",
+    "translation": "趴下！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0201__US_2_inform_incoming_grenade_03__A5AFEDDA.mp3",
+      "applied_translation": "趴下！"
+    }
+  },
+  "0178__US_2_inform_incoming_grenade_04__A5BE055B.mp3": {
+    "asr_text": "WATCH IT!",
+    "translation": "小心！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0202__US_2_inform_incoming_grenade_04__A5BE055B.mp3",
+      "applied_translation": "小心！"
+    }
+  },
+  "0179__US_2_inform_incoming_grenade_05__A5CC1CDC.mp3": {
+    "asr_text": "ENEMY GRENADE!",
+    "translation": "敌人手雷！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0203__US_2_inform_incoming_grenade_05__A5CC1CDC.mp3",
+      "applied_translation": "敌人手雷！"
+    }
+  },
+  "0180__US_2_inform_attack_grenade_00__4C0520B5.mp3": {
+    "asr_text": "GRENADE GOING IN!",
+    "translation": "手雷进去了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0204__US_2_inform_attack_grenade_00__4C0520B5.mp3",
+      "applied_translation": "手雷进去了！"
+    }
+  },
+  "0181__US_2_inform_attack_grenade_01__4C133836.mp3": {
+    "asr_text": "WATCH YOURSELF!",
+    "translation": "当心！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0205__US_2_inform_attack_grenade_01__4C133836.mp3",
+      "applied_translation": "当心！"
+    }
+  },
+  "0182__US_2_inform_attack_grenade_02__4C214FB7.mp3": {
+    "asr_text": "GET BACK!",
+    "translation": "退后！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0206__US_2_inform_attack_grenade_02__4C214FB7.mp3",
+      "applied_translation": "退后！"
+    }
+  },
+  "0183__US_2_inform_attack_grenade_03__4C2F6738.mp3": {
+    "asr_text": "Hold on a sec!",
+    "translation": "等一下！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0207__US_2_inform_attack_grenade_03__4C2F6738.mp3",
+      "applied_translation": "等一下！"
+    }
+  },
+  "0184__US_2_inform_attack_grenade_04__4C3D7EB9.mp3": {
+    "asr_text": "H้ Lu",
+    "translation": "小心！手雷！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0208__US_2_inform_attack_grenade_04__4C3D7EB9.mp3",
+      "applied_translation": "小心！手雷！"
+    }
+  },
+  "0185__US_2_inform_attack_grenade_05__4C4B963A.mp3": {
+    "asr_text": "WATCH IT!",
+    "translation": "小心！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0209__US_2_inform_attack_grenade_05__4C4B963A.mp3",
+      "applied_translation": "小心！"
+    }
+  },
+  "0186__US_2_inform_killfirm_generic_00__7B32D978.mp3": {
+    "asr_text": "THAT DID IT!",
+    "translation": "干掉了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0210__US_2_inform_killfirm_generic_00__7B32D978.mp3",
+      "applied_translation": "干掉了！"
+    }
+  },
+  "0187__US_2_inform_killfirm_generic_01__7B40F0F9.mp3": {
+    "asr_text": "BOOM!",
+    "translation": "轰！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0211__US_2_inform_killfirm_generic_01__7B40F0F9.mp3",
+      "applied_translation": "轰！"
+    }
+  },
+  "0188__US_2_inform_killfirm_generic_02__7B4F087A.mp3": {
+    "asr_text": "DIRECT HIT!",
+    "translation": "正中目标！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0212__US_2_inform_killfirm_generic_02__7B4F087A.mp3",
+      "applied_translation": "正中目标！"
+    }
+  },
+  "0189__US_2_inform_killfirm_generic_03__7B5D1FFB.mp3": {
+    "asr_text": "NICE SHOT!",
+    "translation": "好枪法！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0213__US_2_inform_killfirm_generic_03__7B5D1FFB.mp3",
+      "applied_translation": "好枪法！"
+    }
+  },
+  "0190__US_2_inform_killfirm_generic_04__7B6B377C.mp3": {
+    "asr_text": "Way to go!",
+    "translation": "干得好！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0214__US_2_inform_killfirm_generic_04__7B6B377C.mp3",
+      "applied_translation": "干得好！"
+    }
+  },
+  "0191__US_2_inform_killfirm_generic_05__7B794EFD.mp3": {
+    "asr_text": "Good going!",
+    "translation": "干得好！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0215__US_2_inform_killfirm_generic_05__7B794EFD.mp3",
+      "applied_translation": "干得好！"
+    }
+  },
+  "0192__US_2_reaction_casualty_generic_00__53DDCFE4.mp3": {
+    "asr_text": "MEDIC!",
+    "translation": "卫生员！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0216__US_2_reaction_casualty_generic_00__53DDCFE4.mp3",
+      "applied_translation": "卫生员！"
+    }
+  },
+  "0193__US_2_reaction_casualty_generic_01__53EBE765.mp3": {
+    "asr_text": "WHERE'S THE MEDIC?!",
+    "translation": "卫生员呢？！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0217__US_2_reaction_casualty_generic_01__53EBE765.mp3",
+      "applied_translation": "卫生员呢？！"
+    }
+  },
+  "0194__US_2_reaction_casualty_generic_02__53F9FEE6.mp3": {
+    "asr_text": "HE'S HIT!",
+    "translation": "他中弹了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0218__US_2_reaction_casualty_generic_02__53F9FEE6.mp3",
+      "applied_translation": "他中弹了！"
+    }
+  },
+  "0195__US_2_reaction_casualty_generic_03__54081667.mp3": {
+    "asr_text": "I need some help over here!",
+    "translation": "这边来个人帮忙！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0219__US_2_reaction_casualty_generic_03__54081667.mp3",
+      "applied_translation": "这边来个人帮忙！"
+    }
+  },
+  "0196__US_2_reaction_casualty_generic_04__54162DE8.mp3": {
+    "asr_text": "I'VE GOT A MAN DOWN!",
+    "translation": "我这儿有人倒了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0220__US_2_reaction_casualty_generic_04__54162DE8.mp3",
+      "applied_translation": "我这儿有人倒了！"
+    }
+  },
+  "0197__US_2_reaction_casualty_generic_05__54244569.mp3": {
+    "asr_text": "WE NEED A TURNICATE!",
+    "translation": "需要止血带！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0221__US_2_reaction_casualty_generic_05__54244569.mp3",
+      "applied_translation": "需要止血带！"
+    }
+  },
+  "0198__US_2_inform_reloading_00__17094A25.mp3": {
+    "asr_text": "RELOADING!",
+    "translation": "换弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0222__US_2_inform_reloading_00__17094A25.mp3",
+      "applied_translation": "换弹！"
+    }
+  },
+  "0199__US_2_inform_reloading_01__171761A6.mp3": {
+    "asr_text": "Reloading!",
+    "translation": "换弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0223__US_2_inform_reloading_01__171761A6.mp3",
+      "applied_translation": "换弹！"
+    }
+  },
+  "0200__US_2_order_cover_generic_00__8B8D90A4.mp3": {
+    "asr_text": "TAKE COVER!",
+    "translation": "隐蔽！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0224__US_2_order_cover_generic_00__8B8D90A4.mp3",
+      "applied_translation": "隐蔽！"
+    }
+  },
+  "0201__US_2_order_cover_generic_01__8B9BA825.mp3": {
+    "asr_text": "LOOK OUT!",
+    "translation": "小心！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0225__US_2_order_cover_generic_01__8B9BA825.mp3",
+      "applied_translation": "小心！"
+    }
+  },
+  "0202__US_2_order_cover_generic_02__8BA9BFA6.mp3": {
+    "asr_text": "GET DOWN!",
+    "translation": "趴下！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0226__US_2_order_cover_generic_02__8BA9BFA6.mp3",
+      "applied_translation": "趴下！"
+    }
+  },
+  "0203__US_2_order_cover_generic_03__8BB7D727.mp3": {
+    "asr_text": "GET YOUR HEAD DOWN!",
+    "translation": "低头！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0227__US_2_order_cover_generic_03__8BB7D727.mp3",
+      "applied_translation": "低头！"
+    }
+  },
+  "0204__US_2_order_cover_generic_04__8BC5EEA8.mp3": {
+    "asr_text": "FIND SOME COVER!",
+    "translation": "找掩体！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0228__US_2_order_cover_generic_04__8BC5EEA8.mp3",
+      "applied_translation": "找掩体！"
+    }
+  },
+  "0205__US_2_order_cover_generic_05__8BD40629.mp3": {
+    "asr_text": "GET OUT OF THE OPEN!",
+    "translation": "别站在空地上！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0229__US_2_order_cover_generic_05__8BD40629.mp3",
+      "applied_translation": "别站在空地上！"
+    }
+  },
+  "0206__US_2_order_move_forward_00__C7C7D670.mp3": {
+    "asr_text": "MOVE UP!",
+    "translation": "前进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0230__US_2_order_move_forward_00__C7C7D670.mp3",
+      "applied_translation": "前进！"
+    }
+  },
+  "0207__US_2_order_move_forward_01__C7D5EDF1.mp3": {
+    "asr_text": "STOP FALLING BEHIND!",
+    "translation": "别掉队！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0231__US_2_order_move_forward_01__C7D5EDF1.mp3",
+      "applied_translation": "别掉队！"
+    }
+  },
+  "0208__US_2_order_move_forward_02__C7E40572.mp3": {
+    "asr_text": "KEEP IT MOVING!",
+    "translation": "继续走！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0232__US_2_order_move_forward_02__C7E40572.mp3",
+      "applied_translation": "继续走！"
+    }
+  },
+  "0209__US_2_order_move_forward_03__C7F21CF3.mp3": {
+    "asr_text": "COME ON!",
+    "translation": "快点！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0233__US_2_order_move_forward_03__C7F21CF3.mp3",
+      "applied_translation": "快点！"
+    }
+  },
+  "0210__US_2_order_move_forward_04__C8003474.mp3": {
+    "asr_text": "YOU'RE SLOWING ME DOWN!",
+    "translation": "你拖我后腿！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0234__US_2_order_move_forward_04__C8003474.mp3",
+      "applied_translation": "你拖我后腿！"
+    }
+  },
+  "0211__US_2_order_move_forward_05__C80E4BF5.mp3": {
+    "asr_text": "JUST KEEP GOING!",
+    "translation": "继续走！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0235__US_2_order_move_forward_05__C80E4BF5.mp3",
+      "applied_translation": "继续走！"
+    }
+  },
+  "0212__US_2_order_action_suppress_00__E82C1AF5.mp3": {
+    "asr_text": "SUPPRESSING FIRE!",
+    "translation": "火力压制！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0236__US_2_order_action_suppress_00__E82C1AF5.mp3",
+      "applied_translation": "火力压制！"
+    }
+  },
+  "0213__US_2_order_action_suppress_01__E83A3276.mp3": {
+    "asr_text": "FIRE! NOW!",
+    "translation": "开火！就现在！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0237__US_2_order_action_suppress_01__E83A3276.mp3",
+      "applied_translation": "开火！就现在！"
+    }
+  },
+  "0214__US_2_order_action_suppress_02__E84849F7.mp3": {
+    "asr_text": "SHOOT EM MARINES!",
+    "translation": "打，弟兄们！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0238__US_2_order_action_suppress_02__E84849F7.mp3",
+      "applied_translation": "打，弟兄们！"
+    }
+  },
+  "0215__US_2_order_action_suppress_03__E8566178.mp3": {
+    "asr_text": "HIT EM HARD!",
+    "translation": "狠狠打！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0239__US_2_order_action_suppress_03__E8566178.mp3",
+      "applied_translation": "狠狠打！"
+    }
+  },
+  "0216__US_2_order_action_suppress_04__E86478F9.mp3": {
+    "asr_text": "GET THAT FIRE ON THE RIGHT FLANK!",
+    "translation": "火力调到右翼！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0240__US_2_order_action_suppress_04__E86478F9.mp3",
+      "applied_translation": "火力调到右翼！"
+    }
+  },
+  "0217__US_2_order_action_suppress_05__E872907A.mp3": {
+    "asr_text": "SHOOT THE BASTARDS!",
+    "translation": "打死这帮狗杂种！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0241__US_2_order_action_suppress_05__E872907A.mp3",
+      "applied_translation": "打死这帮狗杂种！"
+    }
+  },
+  "0218__US_2_inform_suppressed_generic_00__174AAB40.mp3": {
+    "asr_text": "TAKING FIRE!",
+    "translation": "遭到射击！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0242__US_2_inform_suppressed_generic_00__174AAB40.mp3",
+      "applied_translation": "遭到射击！"
+    }
+  },
+  "0219__US_2_inform_suppressed_generic_01__1758C2C1.mp3": {
+    "asr_text": "Get behind something!",
+    "translation": "找个东西躲后面！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0243__US_2_inform_suppressed_generic_01__1758C2C1.mp3",
+      "applied_translation": "找个东西躲后面！"
+    }
+  },
+  "0220__US_2_inform_suppressed_generic_02__1766DA42.mp3": {
+    "asr_text": "WHERE THE HELL ARE THEY?!",
+    "translation": "他们到底在哪？！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0244__US_2_inform_suppressed_generic_02__1766DA42.mp3",
+      "applied_translation": "他们到底在哪？！"
+    }
+  },
+  "0221__US_2_inform_suppressed_generic_03__1774F1C3.mp3": {
+    "asr_text": "WHERE THE HELL DID THEY COME FROM?!",
+    "translation": "这帮家伙到底从哪冒出来的？！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0245__US_2_inform_suppressed_generic_03__1774F1C3.mp3",
+      "applied_translation": "这帮家伙到底从哪冒出来的？！"
+    }
+  },
+  "0222__US_2_inform_suppressed_generic_04__17830944.mp3": {
+    "asr_text": "THEY'VE GOT US OUTNUMBERED!",
+    "translation": "他们人比我们多！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0246__US_2_inform_suppressed_generic_04__17830944.mp3",
+      "applied_translation": "他们人比我们多！"
+    }
+  },
+  "0223__US_2_inform_suppressed_generic_05__179120C5.mp3": {
+    "asr_text": "THERE'S TOO MANY OF THEM!",
+    "translation": "他们人太多了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0247__US_2_inform_suppressed_generic_05__179120C5.mp3",
+      "applied_translation": "他们人太多了！"
+    }
+  },
+  "0265__US_3_inform_incoming_grenade_00__2DB5E736.mp3": {
+    "asr_text": "Japanese grenade! RUN!",
+    "translation": "（日语）鬼子的手雷！快跑！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0296__US_3_inform_incoming_grenade_00__2DB5E736.mp3",
+      "applied_translation": "（日语）鬼子的手雷！快跑！"
+    }
+  },
+  "0266__US_3_inform_incoming_grenade_01__2DC3FEB7.mp3": {
+    "asr_text": "GET THE HELL OUTTA HERE!",
+    "translation": "快滚开！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0297__US_3_inform_incoming_grenade_01__2DC3FEB7.mp3",
+      "applied_translation": "快滚开！"
+    }
+  },
+  "0267__US_3_inform_incoming_grenade_02__2DD21638.mp3": {
+    "asr_text": "GET THE HELL OUTTA HERE!",
+    "translation": "快滚开！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0298__US_3_inform_incoming_grenade_02__2DD21638.mp3",
+      "applied_translation": "快滚开！"
+    }
+  },
+  "0268__US_3_inform_incoming_grenade_03__2DE02DB9.mp3": {
+    "asr_text": "GRENADE!",
+    "translation": "手雷！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0299__US_3_inform_incoming_grenade_03__2DE02DB9.mp3",
+      "applied_translation": "手雷！"
+    }
+  },
+  "0269__US_3_inform_incoming_grenade_04__2DEE453A.mp3": {
+    "asr_text": "RUN!",
+    "translation": "跑！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0300__US_3_inform_incoming_grenade_04__2DEE453A.mp3",
+      "applied_translation": "跑！"
+    }
+  },
+  "0270__US_3_inform_incoming_grenade_05__2DFC5CBB.mp3": {
+    "asr_text": "GO GO GO!",
+    "translation": "走！走！走！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0301__US_3_inform_incoming_grenade_05__2DFC5CBB.mp3",
+      "applied_translation": "走！走！走！"
+    }
+  },
+  "0271__US_3_inform_attack_grenade_00__4CB1CC54.mp3": {
+    "asr_text": "Grenade going in!",
+    "translation": "手雷进去了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0302__US_3_inform_attack_grenade_00__4CB1CC54.mp3",
+      "applied_translation": "手雷进去了！"
+    }
+  },
+  "0272__US_3_inform_attack_grenade_01__4CBFE3D5.mp3": {
+    "asr_text": "Grenade! Get back!",
+    "translation": "手雷！退后！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0303__US_3_inform_attack_grenade_01__4CBFE3D5.mp3",
+      "applied_translation": "手雷！退后！"
+    }
+  },
+  "0273__US_3_inform_attack_grenade_02__4CCDFB56.mp3": {
+    "asr_text": "Hold on, I've got a grenade!",
+    "translation": "等等，我有手雷！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0304__US_3_inform_attack_grenade_02__4CCDFB56.mp3",
+      "applied_translation": "等等，我有手雷！"
+    }
+  },
+  "0274__US_3_inform_attack_grenade_03__4CDC12D7.mp3": {
+    "asr_text": "FIRE IN THE HOLE!",
+    "translation": "要炸了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0305__US_3_inform_attack_grenade_03__4CDC12D7.mp3",
+      "applied_translation": "要炸了！"
+    }
+  },
+  "0275__US_3_inform_attack_grenade_04__4CEA2A58.mp3": {
+    "asr_text": "LOOK OUT!",
+    "translation": "小心！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0306__US_3_inform_attack_grenade_04__4CEA2A58.mp3",
+      "applied_translation": "小心！"
+    }
+  },
+  "0276__US_3_inform_attack_grenade_05__4CF841D9.mp3": {
+    "asr_text": "HEAR A GRENADE!",
+    "translation": "手雷！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0307__US_3_inform_attack_grenade_05__4CF841D9.mp3",
+      "applied_translation": "手雷！"
+    }
+  },
+  "0277__US_3_inform_killfirm_generic_00__03631957.mp3": {
+    "asr_text": "DAMN!",
+    "translation": "妈的！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0308__US_3_inform_killfirm_generic_00__03631957.mp3",
+      "applied_translation": "妈的！"
+    }
+  },
+  "0278__US_3_inform_killfirm_generic_01__037130D8.mp3": {
+    "asr_text": "THAT DID IT!",
+    "translation": "干掉了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0309__US_3_inform_killfirm_generic_01__037130D8.mp3",
+      "applied_translation": "干掉了！"
+    }
+  },
+  "0279__US_3_inform_killfirm_generic_02__037F4859.mp3": {
+    "asr_text": "Direct hit!",
+    "translation": "正中目标！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0310__US_3_inform_killfirm_generic_02__037F4859.mp3",
+      "applied_translation": "正中目标！"
+    }
+  },
+  "0280__US_3_inform_killfirm_generic_03__038D5FDA.mp3": {
+    "asr_text": "ABOUT TIME!",
+    "translation": "总算搞定了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0311__US_3_inform_killfirm_generic_03__038D5FDA.mp3",
+      "applied_translation": "总算搞定了！"
+    }
+  },
+  "0281__US_3_inform_killfirm_generic_04__039B775B.mp3": {
+    "asr_text": "Thank God!",
+    "translation": "谢天谢地！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0312__US_3_inform_killfirm_generic_04__039B775B.mp3",
+      "applied_translation": "谢天谢地！"
+    }
+  },
+  "0282__US_3_inform_killfirm_generic_05__03A98EDC.mp3": {
+    "asr_text": "Target destroyed!",
+    "translation": "目标摧毁！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0313__US_3_inform_killfirm_generic_05__03A98EDC.mp3",
+      "applied_translation": "目标摧毁！"
+    }
+  },
+  "0283__US_3_reaction_casualty_generic_00__90FD9403.mp3": {
+    "asr_text": "HE'S HIT!",
+    "translation": "他中弹了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0314__US_3_reaction_casualty_generic_00__90FD9403.mp3",
+      "applied_translation": "他中弹了！"
+    }
+  },
+  "0284__US_3_reaction_casualty_generic_01__910BAB84.mp3": {
+    "asr_text": "MAN DOWN!",
+    "translation": "有人倒了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0315__US_3_reaction_casualty_generic_01__910BAB84.mp3",
+      "applied_translation": "有人倒了！"
+    }
+  },
+  "0285__US_3_reaction_casualty_generic_02__9119C305.mp3": {
+    "asr_text": "MELEK!",
+    "translation": "卫生员！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0316__US_3_reaction_casualty_generic_02__9119C305.mp3",
+      "applied_translation": "卫生员！"
+    }
+  },
+  "0286__US_3_reaction_casualty_generic_03__9127DA86.mp3": {
+    "asr_text": "WHERE THE HELL'S THE MEDIC?!",
+    "translation": "卫生员死哪去了？！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0317__US_3_reaction_casualty_generic_03__9127DA86.mp3",
+      "applied_translation": "卫生员死哪去了？！"
+    }
+  },
+  "0287__US_3_reaction_casualty_generic_04__9135F207.mp3": {
+    "asr_text": "HE'S DEAD!",
+    "translation": "他死了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0318__US_3_reaction_casualty_generic_04__9135F207.mp3",
+      "applied_translation": "他死了！"
+    }
+  },
+  "0288__US_3_reaction_casualty_generic_05__91440988.mp3": {
+    "asr_text": "WHERE'D THAT SHOT COME FROM?!",
+    "translation": "那一枪哪来的？！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0319__US_3_reaction_casualty_generic_05__91440988.mp3",
+      "applied_translation": "那一枪哪来的？！"
+    }
+  },
+  "0289__US_3_inform_reloading_00__9B399726.mp3": {
+    "asr_text": "RELOADING!",
+    "translation": "换弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0320__US_3_inform_reloading_00__9B399726.mp3",
+      "applied_translation": "换弹！"
+    }
+  },
+  "0290__US_3_inform_reloading_01__9B47AEA7.mp3": {
+    "asr_text": "RELOADING!",
+    "translation": "换弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0321__US_3_inform_reloading_01__9B47AEA7.mp3",
+      "applied_translation": "换弹！"
+    }
+  },
+  "0291__US_3_order_cover_generic_00__7C5E9803.mp3": {
+    "asr_text": "GET DOWN!",
+    "translation": "趴下！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0322__US_3_order_cover_generic_00__7C5E9803.mp3",
+      "applied_translation": "趴下！"
+    }
+  },
+  "0292__US_3_order_cover_generic_01__7C6CAF84.mp3": {
+    "asr_text": "FIND SOME COVER!",
+    "translation": "找掩体！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0323__US_3_order_cover_generic_01__7C6CAF84.mp3",
+      "applied_translation": "找掩体！"
+    }
+  },
+  "0293__US_3_order_cover_generic_02__7C7AC705.mp3": {
+    "asr_text": "GET OUT OF THERE!",
+    "translation": "快撤出来！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0324__US_3_order_cover_generic_02__7C7AC705.mp3",
+      "applied_translation": "快撤出来！"
+    }
+  },
+  "0294__US_3_order_cover_generic_03__7C88DE86.mp3": {
+    "asr_text": "TAKE COVER!",
+    "translation": "隐蔽！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0325__US_3_order_cover_generic_03__7C88DE86.mp3",
+      "applied_translation": "隐蔽！"
+    }
+  },
+  "0295__US_3_order_cover_generic_04__7C96F607.mp3": {
+    "asr_text": "HIT THE DICK!",
+    "translation": "趴下！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0326__US_3_order_cover_generic_04__7C96F607.mp3",
+      "applied_translation": "趴下！"
+    }
+  },
+  "0296__US_3_order_cover_generic_05__7CA50D88.mp3": {
+    "asr_text": "STAY DOWN!",
+    "translation": "趴着别动！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0327__US_3_order_cover_generic_05__7CA50D88.mp3",
+      "applied_translation": "趴着别动！"
+    }
+  },
+  "0297__US_3_order_move_forward_00__0118E731.mp3": {
+    "asr_text": "FORWARD!",
+    "translation": "前进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0328__US_3_order_move_forward_00__0118E731.mp3",
+      "applied_translation": "前进！"
+    }
+  },
+  "0298__US_3_order_move_forward_01__0126FEB2.mp3": {
+    "asr_text": "MOVE UP!",
+    "translation": "前进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0329__US_3_order_move_forward_01__0126FEB2.mp3",
+      "applied_translation": "前进！"
+    }
+  },
+  "0299__US_3_order_move_forward_02__01351633.mp3": {
+    "asr_text": "Straight ahead!",
+    "translation": "正前方！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0330__US_3_order_move_forward_02__01351633.mp3",
+      "applied_translation": "正前方！"
+    }
+  },
+  "0300__US_3_order_move_forward_03__01432DB4.mp3": {
+    "asr_text": "THIS WAY!",
+    "translation": "这边！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0331__US_3_order_move_forward_03__01432DB4.mp3",
+      "applied_translation": "这边！"
+    }
+  },
+  "0301__US_3_order_move_forward_04__01514535.mp3": {
+    "asr_text": "KEEP MOVING UP!",
+    "translation": "继续前进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0332__US_3_order_move_forward_04__01514535.mp3",
+      "applied_translation": "继续前进！"
+    }
+  },
+  "0302__US_3_order_move_forward_05__015F5CB6.mp3": {
+    "asr_text": "Dead ahead, move!",
+    "translation": "正前方，走！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0333__US_3_order_move_forward_05__015F5CB6.mp3",
+      "applied_translation": "正前方，走！"
+    }
+  },
+  "0303__US_3_order_action_suppress_00__E8D8C694.mp3": {
+    "asr_text": "Come on, start firing!",
+    "translation": "快开火！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0334__US_3_order_action_suppress_00__E8D8C694.mp3",
+      "applied_translation": "快开火！"
+    }
+  },
+  "0304__US_3_order_action_suppress_01__E8E6DE15.mp3": {
+    "asr_text": "LAY SOME FIRE DOWN!",
+    "translation": "开火压制！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0335__US_3_order_action_suppress_01__E8E6DE15.mp3",
+      "applied_translation": "开火压制！"
+    }
+  },
+  "0305__US_3_order_action_suppress_02__E8F4F596.mp3": {
+    "asr_text": "PUT DOWN A BASE OF FIRE!",
+    "translation": "建立火力支援！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0336__US_3_order_action_suppress_02__E8F4F596.mp3",
+      "applied_translation": "建立火力支援！"
+    }
+  },
+  "0306__US_3_order_action_suppress_03__E9030D17.mp3": {
+    "asr_text": "NOOOOOO!",
+    "translation": "不——！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0337__US_3_order_action_suppress_03__E9030D17.mp3",
+      "applied_translation": "不——！"
+    }
+  },
+  "0307__US_3_order_action_suppress_04__E9112498.mp3": {
+    "asr_text": "WE NEED MORE FIRE!",
+    "translation": "火力不够！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0338__US_3_order_action_suppress_04__E9112498.mp3",
+      "applied_translation": "火力不够！"
+    }
+  },
+  "0308__US_3_order_action_suppress_05__E91F3C19.mp3": {
+    "asr_text": "SHOOT THOSE BASTARDS!",
+    "translation": "打死这帮狗杂种！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0339__US_3_order_action_suppress_05__E91F3C19.mp3",
+      "applied_translation": "打死这帮狗杂种！"
+    }
+  },
+  "0309__US_3_inform_suppressed_generic_00__546A6F5F.mp3": {
+    "asr_text": "TAKE IT FIRE!",
+    "translation": "遭到射击！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0340__US_3_inform_suppressed_generic_00__546A6F5F.mp3",
+      "applied_translation": "遭到射击！"
+    }
+  },
+  "0310__US_3_inform_suppressed_generic_01__547886E0.mp3": {
+    "asr_text": "WHERE'S THAT COMING FROM?!",
+    "translation": "哪打来的？！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0341__US_3_inform_suppressed_generic_01__547886E0.mp3",
+      "applied_translation": "哪打来的？！"
+    }
+  },
+  "0311__US_3_inform_suppressed_generic_02__54869E61.mp3": {
+    "asr_text": "WHERE ARE THEY?!",
+    "translation": "他们在哪？！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0342__US_3_inform_suppressed_generic_02__54869E61.mp3",
+      "applied_translation": "他们在哪？！"
+    }
+  },
+  "0312__US_3_inform_suppressed_generic_03__5494B5E2.mp3": {
+    "asr_text": "RETURN FIRE!",
+    "translation": "还击！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0343__US_3_inform_suppressed_generic_03__5494B5E2.mp3",
+      "applied_translation": "还击！"
+    }
+  },
+  "0313__US_3_inform_suppressed_generic_04__54A2CD63.mp3": {
+    "asr_text": "WE NEED TO FALL BACK!",
+    "translation": "得撤了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0344__US_3_inform_suppressed_generic_04__54A2CD63.mp3",
+      "applied_translation": "得撤了！"
+    }
+  },
+  "0314__US_3_inform_suppressed_generic_05__54B0E4E4.mp3": {
+    "asr_text": "THERE'S TOO MANY OF THEM!",
+    "translation": "他们人太多了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0345__US_3_inform_suppressed_generic_05__54B0E4E4.mp3",
+      "applied_translation": "他们人太多了！"
+    }
+  },
+  "0356__US_1_inform_suppressed_generic_00__DA2AE721.mp3": {
+    "asr_text": "TAKING HEAVY FIRE!",
+    "translation": "火力太猛了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0394__US_1_inform_suppressed_generic_00__DA2AE721.mp3",
+      "applied_translation": "火力太猛了！"
+    }
+  },
+  "0357__US_1_inform_suppressed_generic_01__DA38FEA2.mp3": {
+    "asr_text": "THEY'RE NOT LETTING UP!",
+    "translation": "他们没停过！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0395__US_1_inform_suppressed_generic_01__DA38FEA2.mp3",
+      "applied_translation": "他们没停过！"
+    }
+  },
+  "0358__US_1_inform_suppressed_generic_02__DA471623.mp3": {
+    "asr_text": "WHERE'S THE RETURN FIRE?!",
+    "translation": "还击呢？！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0396__US_1_inform_suppressed_generic_02__DA471623.mp3",
+      "applied_translation": "还击呢？！"
+    }
+  },
+  "0359__US_1_inform_suppressed_generic_03__DA552DA4.mp3": {
+    "asr_text": "Bring up that ammo!",
+    "translation": "弹药拿上来！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0397__US_1_inform_suppressed_generic_03__DA552DA4.mp3",
+      "applied_translation": "弹药拿上来！"
+    }
+  },
+  "0360__US_1_inform_suppressed_generic_04__DA634525.mp3": {
+    "asr_text": "WATCH OUR FLANK!",
+    "translation": "注意侧翼！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0398__US_1_inform_suppressed_generic_04__DA634525.mp3",
+      "applied_translation": "注意侧翼！"
+    }
+  },
+  "0361__US_1_inform_suppressed_generic_05__DA715CA6.mp3": {
+    "asr_text": "GET MORE FIRE UP HERE!",
+    "translation": "这边需要更多火力支援！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。",
+    "voice_work_source": {
+      "collection": "common_US",
+      "filename": "0399__US_1_inform_suppressed_generic_05__DA715CA6.mp3",
+      "applied_translation": "这边需要更多火力支援！"
+    }
+  },
+  "0049__GE_0_inform_incoming_grenade_00__944FEE7F.mp3": {
+    "asr_text": "HANDGENAUTE! RAUSTER!",
+    "translation": "（德语）手雷！快躲开！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0049__GE_0_inform_incoming_grenade_00__944FEE7F.mp3",
+      "applied_translation": "（德语）手雷！快躲开！"
+    }
+  },
+  "0050__GE_0_inform_incoming_grenade_01__945E0600.mp3": {
+    "asr_text": "Vorsicht, Kanata!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0050__GE_0_inform_incoming_grenade_01__945E0600.mp3",
+      "applied_translation": "（德语）小心，手雷！"
+    }
+  },
+  "0051__GE_0_inform_incoming_grenade_02__946C1D81.mp3": {
+    "asr_text": "WANDER GEKONNAUTE!",
+    "translation": "（德语）敌人扔手雷了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0051__GE_0_inform_incoming_grenade_02__946C1D81.mp3",
+      "applied_translation": "（德语）敌人扔手雷了！"
+    }
+  },
+  "0052__GE_0_inform_incoming_grenade_03__947A3502.mp3": {
+    "asr_text": "Helikarate, weg hier!",
+    "translation": "（德语）有手雷！快躲！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0052__GE_0_inform_incoming_grenade_03__947A3502.mp3",
+      "applied_translation": "（德语）有手雷！快躲！"
+    }
+  },
+  "0053__GE_0_inform_incoming_grenade_04__94884C83.mp3": {
+    "asr_text": "GRENADE DER GREFFE IST DER KONG!",
+    "translation": "（德语）手雷！找掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0053__GE_0_inform_incoming_grenade_04__94884C83.mp3",
+      "applied_translation": "（德语）手雷！找掩护！"
+    }
+  },
+  "0054__GE_0_inform_incoming_grenade_05__94966404.mp3": {
+    "asr_text": "Granate im Achtel!",
+    "translation": "（德语）手雷！快躲！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0054__GE_0_inform_incoming_grenade_05__94966404.mp3",
+      "applied_translation": "（德语）手雷！快躲！"
+    }
+  },
+  "0055__GE_0_inform_attack_grenade_00__138711DD.mp3": {
+    "asr_text": "Hier, ein Geschenk für die deutsche Armee!",
+    "translation": "（德语）德国军队送你的大礼！",
+    "needs_review": true,
+    "note": "ASR的für疑似应为von；参照其他演员明确识别出的同类喊话拟译，待听音。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0055__GE_0_inform_attack_grenade_00__138711DD.mp3",
+      "applied_translation": "（德语）德国军队送你的大礼！"
+    }
+  },
+  "0056__GE_0_inform_attack_grenade_01__1395295E.mp3": {
+    "asr_text": "DER IDIOT FANG DAS HIER!",
+    "translation": "（德语）蠢货，接着！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0056__GE_0_inform_attack_grenade_01__1395295E.mp3",
+      "applied_translation": "（德语）蠢货，接着！"
+    }
+  },
+  "0057__GE_0_inform_attack_grenade_02__13A340DF.mp3": {
+    "asr_text": "Eine Granate! Kommt sofort!",
+    "translation": "（德语）给你来颗手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0057__GE_0_inform_attack_grenade_02__13A340DF.mp3",
+      "applied_translation": "（德语）给你来颗手雷！"
+    }
+  },
+  "0058__GE_0_inform_attack_grenade_03__13B15860.mp3": {
+    "asr_text": "Achtung, Granate!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0058__GE_0_inform_attack_grenade_03__13B15860.mp3",
+      "applied_translation": "（德语）小心，手雷！"
+    }
+  },
+  "0059__GE_0_inform_attack_grenade_04__13BF6FE1.mp3": {
+    "asr_text": "ACHT AUG! WERFELDENKANATE!",
+    "translation": "（德语）小心，我扔手雷了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0059__GE_0_inform_attack_grenade_04__13BF6FE1.mp3",
+      "applied_translation": "（德语）小心，我扔手雷了！"
+    }
+  },
+  "0060__GE_0_inform_attack_grenade_05__13CD8762.mp3": {
+    "asr_text": "Hier hast du eine Granate, Kommunistenschwein!",
+    "translation": "",
+    "needs_review": true,
+    "note": "按本条ASR中的Kommunistenschwein翻译，未因其它关卡背景改写；请重点听音。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0060__GE_0_inform_attack_grenade_05__13CD8762.mp3",
+      "applied_translation": ""
+    }
+  },
+  "0061__GE_0_inform_killfirm_generic_00__69FD20A0.mp3": {
+    "asr_text": "HABANAN!",
+    "translation": "（德语）干掉一个！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0061__GE_0_inform_killfirm_generic_00__69FD20A0.mp3",
+      "applied_translation": "（德语）干掉一个！"
+    }
+  },
+  "0062__GE_0_inform_killfirm_generic_01__6A0B3821.mp3": {
+    "asr_text": "Betrug eliminiert!",
+    "translation": "（德语）目标干掉了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0062__GE_0_inform_killfirm_generic_01__6A0B3821.mp3",
+      "applied_translation": "（德语）目标干掉了！"
+    }
+  },
+  "0063__GE_0_inform_killfirm_generic_02__6A194FA2.mp3": {
+    "asr_text": "Sterbt, ihr Bastarde!",
+    "translation": "（德语）去死吧，混蛋！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0063__GE_0_inform_killfirm_generic_02__6A194FA2.mp3",
+      "applied_translation": "（德语）去死吧，混蛋！"
+    }
+  },
+  "0064__GE_0_reaction_casualty_generic_00__B932ED0C.mp3": {
+    "asr_text": "EIN HERZEWISCHT!",
+    "translation": "（德语）有人中弹了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0064__GE_0_reaction_casualty_generic_00__B932ED0C.mp3",
+      "applied_translation": "（德语）有人中弹了！"
+    }
+  },
+  "0065__GE_0_reaction_casualty_generic_01__B941048D.mp3": {
+    "asr_text": "MANNERBODEN!",
+    "translation": "（德语）有人倒下了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0065__GE_0_reaction_casualty_generic_01__B941048D.mp3",
+      "applied_translation": "（德语）有人倒下了！"
+    }
+  },
+  "0066__GE_0_reaction_casualty_generic_02__B94F1C0E.mp3": {
+    "asr_text": "SONITETA!",
+    "translation": "（德语）卫生员！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0066__GE_0_reaction_casualty_generic_02__B94F1C0E.mp3",
+      "applied_translation": "（德语）卫生员！"
+    }
+  },
+  "0067__GE_0_reaction_casualty_generic_03__B95D338F.mp3": {
+    "asr_text": "Er braucht Hilfe! Er wurde getroffen!",
+    "translation": "（德语）他中弹了！快帮他！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0067__GE_0_reaction_casualty_generic_03__B95D338F.mp3",
+      "applied_translation": "（德语）他中弹了！快帮他！"
+    }
+  },
+  "0068__GE_0_inform_reloading_00__BE8F3FFD.mp3": {
+    "asr_text": "LADENACH!",
+    "translation": "（德语）装弹！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0068__GE_0_inform_reloading_00__BE8F3FFD.mp3",
+      "applied_translation": "（德语）装弹！"
+    }
+  },
+  "0069__GE_0_inform_reloading_01__BE9D577E.mp3": {
+    "asr_text": "Verdammt! Leergeschossen! Lade nach!",
+    "translation": "（德语）妈的，打空了！装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0069__GE_0_inform_reloading_01__BE9D577E.mp3",
+      "applied_translation": "（德语）妈的，打空了！装弹！"
+    }
+  },
+  "0070__GE_0_order_cover_generic_00__69A9ABCC.mp3": {
+    "asr_text": "ENDEKON!",
+    "translation": "（德语）找掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0070__GE_0_order_cover_generic_00__69A9ABCC.mp3",
+      "applied_translation": "（德语）找掩护！"
+    }
+  },
+  "0071__GE_0_order_cover_generic_01__69B7C34D.mp3": {
+    "asr_text": "Hintekom!",
+    "translation": "（德语）快躲起来！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0071__GE_0_order_cover_generic_01__69B7C34D.mp3",
+      "applied_translation": "（德语）快躲起来！"
+    }
+  },
+  "0072__GE_0_order_cover_generic_02__69C5DACE.mp3": {
+    "asr_text": "In Tech-O-Game los!",
+    "translation": "（德语）快找掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0072__GE_0_order_cover_generic_02__69C5DACE.mp3",
+      "applied_translation": "（德语）快找掩护！"
+    }
+  },
+  "0073__GE_0_order_cover_generic_03__69D3F24F.mp3": {
+    "asr_text": "DECK ON! GEH DECK ON!",
+    "translation": "（德语）掩护！快躲！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0073__GE_0_order_cover_generic_03__69D3F24F.mp3",
+      "applied_translation": "（德语）掩护！快躲！"
+    }
+  },
+  "0074__GE_0_order_move_forward_00__A5A7B648.mp3": {
+    "asr_text": "FIGHTER FORWARD!",
+    "translation": "（德语）继续前进！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0074__GE_0_order_move_forward_00__A5A7B648.mp3",
+      "applied_translation": "（德语）继续前进！"
+    }
+  },
+  "0075__GE_0_order_move_forward_01__A5B5CDC9.mp3": {
+    "asr_text": "Auf die feindlichen Positionen vorrücken!",
+    "translation": "（德语）朝敌军阵地推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0075__GE_0_order_move_forward_01__A5B5CDC9.mp3",
+      "applied_translation": "（德语）朝敌军阵地推进！"
+    }
+  },
+  "0076__GE_0_order_move_forward_02__A5C3E54A.mp3": {
+    "asr_text": "VORWIRTZ!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0076__GE_0_order_move_forward_02__A5C3E54A.mp3",
+      "applied_translation": "（德语）前进！"
+    }
+  },
+  "0077__GE_0_order_move_forward_03__A5D1FCCB.mp3": {
+    "asr_text": "NEIN F plots",
+    "translation": "（德语）往前！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0077__GE_0_order_move_forward_03__A5D1FCCB.mp3",
+      "applied_translation": "（德语）往前！"
+    }
+  },
+  "0078__GE_0_order_move_forward_04__A5E0144C.mp3": {
+    "asr_text": "WEITER VORSTOßEN!",
+    "translation": "（德语）继续推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0078__GE_0_order_move_forward_04__A5E0144C.mp3",
+      "applied_translation": "（德语）继续推进！"
+    }
+  },
+  "0079__GE_0_order_move_forward_05__A5EE2BCD.mp3": {
+    "asr_text": "VORWÄTS!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0079__GE_0_order_move_forward_05__A5EE2BCD.mp3",
+      "applied_translation": "（德语）前进！"
+    }
+  },
+  "0080__GE_0_order_action_suppress_00__AFAE0C1D.mp3": {
+    "asr_text": "SPÄHRFÄHR!",
+    "translation": "（德语）压制射击！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0080__GE_0_order_action_suppress_00__AFAE0C1D.mp3",
+      "applied_translation": "（德语）压制射击！"
+    }
+  },
+  "0081__GE_0_order_action_suppress_01__AFBC239E.mp3": {
+    "asr_text": "Gebt's mehr Feiermühle!",
+    "translation": "（德语）弟兄们，火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0081__GE_0_order_action_suppress_01__AFBC239E.mp3",
+      "applied_translation": "（德语）弟兄们，火力压制！"
+    }
+  },
+  "0082__GE_0_order_action_suppress_02__AFCA3B1F.mp3": {
+    "asr_text": "Legen wir sie unter starken Beschuss!",
+    "translation": "（德语）狠狠压住他们！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0082__GE_0_order_action_suppress_02__AFCA3B1F.mp3",
+      "applied_translation": "（德语）狠狠压住他们！"
+    }
+  },
+  "0083__GE_0_order_action_suppress_03__AFD852A0.mp3": {
+    "asr_text": "BASCHIST, DIESE ZIELE!",
+    "translation": "（德语）朝那些目标开火！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0083__GE_0_order_action_suppress_03__AFD852A0.mp3",
+      "applied_translation": "（德语）朝那些目标开火！"
+    }
+  },
+  "0084__GE_0_order_action_suppress_04__AFE66A21.mp3": {
+    "asr_text": "FIRE SHOTS!",
+    "translation": "（德语）火力掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0084__GE_0_order_action_suppress_04__AFE66A21.mp3",
+      "applied_translation": "（德语）火力掩护！"
+    }
+  },
+  "0085__GE_0_order_action_suppress_05__AFF481A2.mp3": {
+    "asr_text": "IHR BRAUCHEN SPÄHRFEUER!",
+    "translation": "（德语）我们需要火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0085__GE_0_order_action_suppress_05__AFF481A2.mp3",
+      "applied_translation": "（德语）我们需要火力压制！"
+    }
+  },
+  "0086__GE_0_inform_suppressed_generic_00__7C9FC868.mp3": {
+    "asr_text": "ICH STEHE UNTER SCHMÄLER BESCHOß!",
+    "translation": "（德语）敌人火力太猛了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0086__GE_0_inform_suppressed_generic_00__7C9FC868.mp3",
+      "applied_translation": "（德语）敌人火力太猛了！"
+    }
+  },
+  "0087__GE_0_inform_suppressed_generic_01__7CADDFE9.mp3": {
+    "asr_text": "Sie haben uns festgelagert!",
+    "translation": "（德语）我们被压得动不了了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0087__GE_0_inform_suppressed_generic_01__7CADDFE9.mp3",
+      "applied_translation": "（德语）我们被压得动不了了！"
+    }
+  },
+  "0088__GE_0_inform_suppressed_generic_02__7CBBF76A.mp3": {
+    "asr_text": "SCHWÄRE BISCHUS!",
+    "translation": "（德语）火力太猛了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0088__GE_0_inform_suppressed_generic_02__7CBBF76A.mp3",
+      "applied_translation": "（德语）火力太猛了！"
+    }
+  },
+  "0089__GE_0_inform_suppressed_generic_03__7CCA0EEB.mp3": {
+    "asr_text": "ON THE PICIOUS!",
+    "translation": "（德语）我们遭到射击！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0089__GE_0_inform_suppressed_generic_03__7CCA0EEB.mp3",
+      "applied_translation": "（德语）我们遭到射击！"
+    }
+  },
+  "0133__GE_1_inform_incoming_grenade_00__1C802E5E.mp3": {
+    "asr_text": "Handgranate! Raus da!",
+    "translation": "（德语）手雷！快躲开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0133__GE_1_inform_incoming_grenade_00__1C802E5E.mp3",
+      "applied_translation": "（德语）手雷！快躲开！"
+    }
+  },
+  "0134__GE_1_inform_incoming_grenade_01__1C8E45DF.mp3": {
+    "asr_text": "Vorsicht, Granate!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0134__GE_1_inform_incoming_grenade_01__1C8E45DF.mp3",
+      "applied_translation": "（德语）小心，手雷！"
+    }
+  },
+  "0135__GE_1_inform_incoming_grenade_02__1C9C5D60.mp3": {
+    "asr_text": "Fight League Granate!",
+    "translation": "（德语）敌人扔手雷了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0135__GE_1_inform_incoming_grenade_02__1C9C5D60.mp3",
+      "applied_translation": "（德语）敌人扔手雷了！"
+    }
+  },
+  "0136__GE_1_inform_incoming_grenade_03__1CAA74E1.mp3": {
+    "asr_text": "Eine Granate! Weg hier!",
+    "translation": "（德语）有手雷！快躲！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0136__GE_1_inform_incoming_grenade_03__1CAA74E1.mp3",
+      "applied_translation": "（德语）有手雷！快躲！"
+    }
+  },
+  "0137__GE_1_inform_incoming_grenade_04__1CB88C62.mp3": {
+    "asr_text": "Granatenangriff! Entdeckung!",
+    "translation": "（德语）手雷！找掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0137__GE_1_inform_incoming_grenade_04__1CB88C62.mp3",
+      "applied_translation": "（德语）手雷！找掩护！"
+    }
+  },
+  "0138__GE_1_inform_incoming_grenade_05__1CC6A3E3.mp3": {
+    "asr_text": "Granate macht schnell!",
+    "translation": "（德语）手雷！快躲！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0138__GE_1_inform_incoming_grenade_05__1CC6A3E3.mp3",
+      "applied_translation": "（德语）手雷！快躲！"
+    }
+  },
+  "0139__GE_1_inform_attack_grenade_00__1433BD7C.mp3": {
+    "asr_text": "Ah!",
+    "translation": "",
+    "needs_review": true,
+    "note": "ASR仅识别到叫喊，译作喊声，未按文件名补造台词。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0139__GE_1_inform_attack_grenade_00__1433BD7C.mp3",
+      "applied_translation": ""
+    }
+  },
+  "0140__GE_1_inform_attack_grenade_01__1441D4FD.mp3": {
+    "asr_text": "Hey du Idiot, fang das hier!",
+    "translation": "（德语）蠢货，接着！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0140__GE_1_inform_attack_grenade_01__1441D4FD.mp3",
+      "applied_translation": "（德语）蠢货，接着！"
+    }
+  },
+  "0141__GE_1_inform_attack_grenade_02__144FEC7E.mp3": {
+    "asr_text": "Eine Granate! Kommt sofort!",
+    "translation": "（德语）给你来颗手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0141__GE_1_inform_attack_grenade_02__144FEC7E.mp3",
+      "applied_translation": "（德语）给你来颗手雷！"
+    }
+  },
+  "0142__GE_1_inform_attack_grenade_03__145E03FF.mp3": {
+    "asr_text": "Achtung, Granate!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0142__GE_1_inform_attack_grenade_03__145E03FF.mp3",
+      "applied_translation": "（德语）小心，手雷！"
+    }
+  },
+  "0143__GE_1_inform_attack_grenade_04__146C1B80.mp3": {
+    "asr_text": "Achtung, werfe eine Granate!",
+    "translation": "（德语）小心，我扔手雷了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0143__GE_1_inform_attack_grenade_04__146C1B80.mp3",
+      "applied_translation": "（德语）小心，我扔手雷了！"
+    }
+  },
+  "0144__GE_1_inform_attack_grenade_05__147A3301.mp3": {
+    "asr_text": "Hier, ein Geschenk von der deutschen Armee!",
+    "translation": "（德语）德国军队送你的大礼！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0144__GE_1_inform_attack_grenade_05__147A3301.mp3",
+      "applied_translation": "（德语）德国军队送你的大礼！"
+    }
+  },
+  "0145__GE_1_inform_killfirm_generic_00__F22D607F.mp3": {
+    "asr_text": "Hab einen!",
+    "translation": "（德语）干掉一个！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0145__GE_1_inform_killfirm_generic_00__F22D607F.mp3",
+      "applied_translation": "（德语）干掉一个！"
+    }
+  },
+  "0146__GE_1_inform_killfirm_generic_01__F23B7800.mp3": {
+    "asr_text": "Bedrohung eliminiert!",
+    "translation": "（德语）目标干掉了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0146__GE_1_inform_killfirm_generic_01__F23B7800.mp3",
+      "applied_translation": "（德语）目标干掉了！"
+    }
+  },
+  "0147__GE_1_inform_killfirm_generic_02__F2498F81.mp3": {
+    "asr_text": "Sterbt, ihr Bastarde!",
+    "translation": "（德语）去死吧，混蛋！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0147__GE_1_inform_killfirm_generic_02__F2498F81.mp3",
+      "applied_translation": "（德语）去死吧，混蛋！"
+    }
+  },
+  "0148__GE_1_reaction_casualty_generic_00__F652B12B.mp3": {
+    "asr_text": "EINER TÜVÖSCHT!",
+    "translation": "（德语）有人中弹了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0148__GE_1_reaction_casualty_generic_00__F652B12B.mp3",
+      "applied_translation": "（德语）有人中弹了！"
+    }
+  },
+  "0149__GE_1_reaction_casualty_generic_01__F660C8AC.mp3": {
+    "asr_text": "MANN AM BODEN!",
+    "translation": "（德语）有人倒下了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0149__GE_1_reaction_casualty_generic_01__F660C8AC.mp3",
+      "applied_translation": "（德语）有人倒下了！"
+    }
+  },
+  "0150__GE_1_reaction_casualty_generic_02__F66EE02D.mp3": {
+    "asr_text": "Sanitator!",
+    "translation": "（德语）卫生员！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0150__GE_1_reaction_casualty_generic_02__F66EE02D.mp3",
+      "applied_translation": "（德语）卫生员！"
+    }
+  },
+  "0151__GE_1_reaction_casualty_generic_03__F67CF7AE.mp3": {
+    "asr_text": "Er braucht Hilfe! Er wurde getroffen!",
+    "translation": "（德语）他中弹了！快帮他！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0151__GE_1_reaction_casualty_generic_03__F67CF7AE.mp3",
+      "applied_translation": "（德语）他中弹了！快帮他！"
+    }
+  },
+  "0152__GE_1_inform_reloading_00__42BF8CFE.mp3": {
+    "asr_text": "Schnell! Deckung geben! Ich muss nachladen!",
+    "translation": "（德语）快掩护，我要装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0152__GE_1_inform_reloading_00__42BF8CFE.mp3",
+      "applied_translation": "（德语）快掩护，我要装弹！"
+    }
+  },
+  "0153__GE_1_inform_reloading_01__42CDA47F.mp3": {
+    "asr_text": "Brauche Deckung beim Nachladen!",
+    "translation": "（德语）掩护我装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0153__GE_1_inform_reloading_01__42CDA47F.mp3",
+      "applied_translation": "（德语）掩护我装弹！"
+    }
+  },
+  "0154__GE_1_order_cover_generic_00__5A7AB32B.mp3": {
+    "asr_text": "INDECKUNG!",
+    "translation": "（德语）找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0154__GE_1_order_cover_generic_00__5A7AB32B.mp3",
+      "applied_translation": "（德语）找掩护！"
+    }
+  },
+  "0155__GE_1_order_cover_generic_01__5A88CAAC.mp3": {
+    "asr_text": "Geh in Deckung!",
+    "translation": "（德语）快躲起来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0155__GE_1_order_cover_generic_01__5A88CAAC.mp3",
+      "applied_translation": "（德语）快躲起来！"
+    }
+  },
+  "0156__GE_1_order_cover_generic_02__5A96E22D.mp3": {
+    "asr_text": "Entdeckung gehen los!",
+    "translation": "（德语）快找掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0156__GE_1_order_cover_generic_02__5A96E22D.mp3",
+      "applied_translation": "（德语）快找掩护！"
+    }
+  },
+  "0157__GE_1_order_cover_generic_03__5AA4F9AE.mp3": {
+    "asr_text": "DECKUNG GEH IN DECKUNG!",
+    "translation": "（德语）掩护！快躲！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0157__GE_1_order_cover_generic_03__5AA4F9AE.mp3",
+      "applied_translation": "（德语）掩护！快躲！"
+    }
+  },
+  "0158__GE_1_order_move_forward_00__DEF8C709.mp3": {
+    "asr_text": "Weitervorwärts!",
+    "translation": "（德语）继续前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0158__GE_1_order_move_forward_00__DEF8C709.mp3",
+      "applied_translation": "（德语）继续前进！"
+    }
+  },
+  "0159__GE_1_order_move_forward_01__DF06DE8A.mp3": {
+    "asr_text": "Auf die feindlichen Positionen vorrücken!",
+    "translation": "（德语）朝敌军阵地推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0159__GE_1_order_move_forward_01__DF06DE8A.mp3",
+      "applied_translation": "（德语）朝敌军阵地推进！"
+    }
+  },
+  "0160__GE_1_order_move_forward_02__DF14F60B.mp3": {
+    "asr_text": "VORWÄTS!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0160__GE_1_order_move_forward_02__DF14F60B.mp3",
+      "applied_translation": "（德语）前进！"
+    }
+  },
+  "0161__GE_1_order_move_forward_03__DF230D8C.mp3": {
+    "asr_text": "Nach vorne!",
+    "translation": "（德语）往前！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0161__GE_1_order_move_forward_03__DF230D8C.mp3",
+      "applied_translation": "（德语）往前！"
+    }
+  },
+  "0162__GE_1_order_move_forward_04__DF31250D.mp3": {
+    "asr_text": "Weitervorstoßen!",
+    "translation": "（德语）继续推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0162__GE_1_order_move_forward_04__DF31250D.mp3",
+      "applied_translation": "（德语）继续推进！"
+    }
+  },
+  "0163__GE_1_order_move_forward_05__DF3F3C8E.mp3": {
+    "asr_text": "VORWärts!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0163__GE_1_order_move_forward_05__DF3F3C8E.mp3",
+      "applied_translation": "（德语）前进！"
+    }
+  },
+  "0164__GE_1_order_action_suppress_00__B05AB7BC.mp3": {
+    "asr_text": "Sperrfeuer!",
+    "translation": "（德语）压制射击！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0164__GE_1_order_action_suppress_00__B05AB7BC.mp3",
+      "applied_translation": "（德语）压制射击！"
+    }
+  },
+  "0165__GE_1_order_action_suppress_01__B068CF3D.mp3": {
+    "asr_text": "Gib Schmerzfeuer Männer!",
+    "translation": "（德语）弟兄们，火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0165__GE_1_order_action_suppress_01__B068CF3D.mp3",
+      "applied_translation": "（德语）弟兄们，火力压制！"
+    }
+  },
+  "0166__GE_1_order_action_suppress_02__B076E6BE.mp3": {
+    "asr_text": "Legen wir sie unter starken Beschuss!",
+    "translation": "（德语）狠狠压住他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0166__GE_1_order_action_suppress_02__B076E6BE.mp3",
+      "applied_translation": "（德语）狠狠压住他们！"
+    }
+  },
+  "0167__GE_1_order_action_suppress_03__B084FE3F.mp3": {
+    "asr_text": "WIE SCHießT ICH DIESE ZIELE?",
+    "translation": "（德语）朝那些目标开火！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0167__GE_1_order_action_suppress_03__B084FE3F.mp3",
+      "applied_translation": "（德语）朝那些目标开火！"
+    }
+  },
+  "0168__GE_1_order_action_suppress_04__B09315C0.mp3": {
+    "asr_text": "Feuerschutz!",
+    "translation": "（德语）火力掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0168__GE_1_order_action_suppress_04__B09315C0.mp3",
+      "applied_translation": "（德语）火力掩护！"
+    }
+  },
+  "0169__GE_1_order_action_suppress_05__B0A12D41.mp3": {
+    "asr_text": "Wir brauchen Schwerfeuer!",
+    "translation": "（德语）我们需要火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0169__GE_1_order_action_suppress_05__B0A12D41.mp3",
+      "applied_translation": "（德语）我们需要火力压制！"
+    }
+  },
+  "0170__GE_1_inform_suppressed_generic_00__B9BF8C87.mp3": {
+    "asr_text": "Ich stehe unter schwerem Beschuss!",
+    "translation": "（德语）敌人火力太猛了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0170__GE_1_inform_suppressed_generic_00__B9BF8C87.mp3",
+      "applied_translation": "（德语）敌人火力太猛了！"
+    }
+  },
+  "0171__GE_1_inform_suppressed_generic_01__B9CDA408.mp3": {
+    "asr_text": "Sie haben uns festgenagelt!",
+    "translation": "（德语）我们被压得动不了了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0171__GE_1_inform_suppressed_generic_01__B9CDA408.mp3",
+      "applied_translation": "（德语）我们被压得动不了了！"
+    }
+  },
+  "0172__GE_1_inform_suppressed_generic_02__B9DBBB89.mp3": {
+    "asr_text": "SCHWERER BESCHUSS!",
+    "translation": "（德语）火力太猛了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0172__GE_1_inform_suppressed_generic_02__B9DBBB89.mp3",
+      "applied_translation": "（德语）火力太猛了！"
+    }
+  },
+  "0173__GE_1_inform_suppressed_generic_03__B9E9D30A.mp3": {
+    "asr_text": "UNTER BESCHÖSSS!",
+    "translation": "（德语）我们遭到射击！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0173__GE_1_inform_suppressed_generic_03__B9E9D30A.mp3",
+      "applied_translation": "（德语）我们遭到射击！"
+    }
+  },
+  "0224__GE_2_inform_incoming_grenade_00__A4B06E3D.mp3": {
+    "asr_text": "Handgranate raus da!",
+    "translation": "（德语）手雷！快躲开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0224__GE_2_inform_incoming_grenade_00__A4B06E3D.mp3",
+      "applied_translation": "（德语）手雷！快躲开！"
+    }
+  },
+  "0225__GE_2_inform_incoming_grenade_01__A4BE85BE.mp3": {
+    "asr_text": "Vorsicht, Granate!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0225__GE_2_inform_incoming_grenade_01__A4BE85BE.mp3",
+      "applied_translation": "（德语）小心，手雷！"
+    }
+  },
+  "0226__GE_2_inform_incoming_grenade_02__A4CC9D3F.mp3": {
+    "asr_text": "Feindliche Granate!",
+    "translation": "（德语）敌人扔手雷了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0226__GE_2_inform_incoming_grenade_02__A4CC9D3F.mp3",
+      "applied_translation": "（德语）敌人扔手雷了！"
+    }
+  },
+  "0227__GE_2_inform_incoming_grenade_03__A4DAB4C0.mp3": {
+    "asr_text": "Eine Granate! Weg hier!",
+    "translation": "（德语）有手雷！快躲！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0227__GE_2_inform_incoming_grenade_03__A4DAB4C0.mp3",
+      "applied_translation": "（德语）有手雷！快躲！"
+    }
+  },
+  "0228__GE_2_inform_incoming_grenade_04__A4E8CC41.mp3": {
+    "asr_text": "Granatneingriff! Entdeckung!",
+    "translation": "（德语）手雷！找掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0228__GE_2_inform_incoming_grenade_04__A4E8CC41.mp3",
+      "applied_translation": "（德语）手雷！找掩护！"
+    }
+  },
+  "0229__GE_2_inform_incoming_grenade_05__A4F6E3C2.mp3": {
+    "asr_text": "Gerade im Achtel!",
+    "translation": "（德语）手雷！快躲！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0229__GE_2_inform_incoming_grenade_05__A4F6E3C2.mp3",
+      "applied_translation": "（德语）手雷！快躲！"
+    }
+  },
+  "0230__GE_2_inform_attack_grenade_00__14E0691B.mp3": {
+    "asr_text": "UAH!",
+    "translation": "（德语）啊！",
+    "needs_review": true,
+    "note": "ASR仅识别到叫喊，译作喊声，未按文件名补造台词。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0230__GE_2_inform_attack_grenade_00__14E0691B.mp3",
+      "applied_translation": "（德语）啊！"
+    }
+  },
+  "0231__GE_2_inform_attack_grenade_01__14EE809C.mp3": {
+    "asr_text": "Hey, du Idiot! Wann das hier?",
+    "translation": "（德语）蠢货，接着！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0231__GE_2_inform_attack_grenade_01__14EE809C.mp3",
+      "applied_translation": "（德语）蠢货，接着！"
+    }
+  },
+  "0232__GE_2_inform_attack_grenade_02__14FC981D.mp3": {
+    "asr_text": "Eine Granate kommt sofort!",
+    "translation": "（德语）给你来颗手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0232__GE_2_inform_attack_grenade_02__14FC981D.mp3",
+      "applied_translation": "（德语）给你来颗手雷！"
+    }
+  },
+  "0233__GE_2_inform_attack_grenade_03__150AAF9E.mp3": {
+    "asr_text": "Achtung, Granate!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0233__GE_2_inform_attack_grenade_03__150AAF9E.mp3",
+      "applied_translation": "（德语）小心，手雷！"
+    }
+  },
+  "0234__GE_2_inform_attack_grenade_04__1518C71F.mp3": {
+    "asr_text": "Achtung, werfe eine Granate!",
+    "translation": "（德语）小心，我扔手雷了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0234__GE_2_inform_attack_grenade_04__1518C71F.mp3",
+      "applied_translation": "（德语）小心，我扔手雷了！"
+    }
+  },
+  "0235__GE_2_inform_attack_grenade_05__1526DEA0.mp3": {
+    "asr_text": "Hier, ein Geschenk von der deutschen Armee!",
+    "translation": "（德语）德国军队送你的大礼！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0235__GE_2_inform_attack_grenade_05__1526DEA0.mp3",
+      "applied_translation": "（德语）德国军队送你的大礼！"
+    }
+  },
+  "0236__GE_2_inform_killfirm_generic_00__7A5DA05E.mp3": {
+    "asr_text": "Hi Biden!",
+    "translation": "（德语）干掉一个！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0236__GE_2_inform_killfirm_generic_00__7A5DA05E.mp3",
+      "applied_translation": "（德语）干掉一个！"
+    }
+  },
+  "0237__GE_2_inform_killfirm_generic_01__7A6BB7DF.mp3": {
+    "asr_text": "Bedrohung eliminiert!",
+    "translation": "（德语）目标干掉了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0237__GE_2_inform_killfirm_generic_01__7A6BB7DF.mp3",
+      "applied_translation": "（德语）目标干掉了！"
+    }
+  },
+  "0238__GE_2_inform_killfirm_generic_02__7A79CF60.mp3": {
+    "asr_text": "Steht ihr Bastarde!",
+    "translation": "（德语）去死吧，混蛋！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0238__GE_2_inform_killfirm_generic_02__7A79CF60.mp3",
+      "applied_translation": "（德语）去死吧，混蛋！"
+    }
+  },
+  "0239__GE_2_reaction_casualty_generic_00__3372754A.mp3": {
+    "asr_text": "EIN HATZE WESCHT!",
+    "translation": "（德语）有人中弹了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0239__GE_2_reaction_casualty_generic_00__3372754A.mp3",
+      "applied_translation": "（德语）有人中弹了！"
+    }
+  },
+  "0240__GE_2_reaction_casualty_generic_01__33808CCB.mp3": {
+    "asr_text": "Mann am Boden!",
+    "translation": "（德语）有人倒下了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0240__GE_2_reaction_casualty_generic_01__33808CCB.mp3",
+      "applied_translation": "（德语）有人倒下了！"
+    }
+  },
+  "0241__GE_2_reaction_casualty_generic_02__338EA44C.mp3": {
+    "asr_text": "Sunny Täter!",
+    "translation": "（德语）卫生员！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0241__GE_2_reaction_casualty_generic_02__338EA44C.mp3",
+      "applied_translation": "（德语）卫生员！"
+    }
+  },
+  "0242__GE_2_reaction_casualty_generic_03__339CBBCD.mp3": {
+    "asr_text": "Er braucht Hilfe! Er wurde getroffen!",
+    "translation": "（德语）他中弹了！快帮他！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0242__GE_2_reaction_casualty_generic_03__339CBBCD.mp3",
+      "applied_translation": "（德语）他中弹了！快帮他！"
+    }
+  },
+  "0243__GE_2_inform_reloading_00__C6EFD9FF.mp3": {
+    "asr_text": "Schnell! Dekko geben! Ich muss nachladen!",
+    "translation": "（德语）快掩护，我要装弹！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0243__GE_2_inform_reloading_00__C6EFD9FF.mp3",
+      "applied_translation": "（德语）快掩护，我要装弹！"
+    }
+  },
+  "0244__GE_2_inform_reloading_01__C6FDF180.mp3": {
+    "asr_text": "Brauch ich Deckung beim Nachladen?",
+    "translation": "（德语）掩护我装弹！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0244__GE_2_inform_reloading_01__C6FDF180.mp3",
+      "applied_translation": "（德语）掩护我装弹！"
+    }
+  },
+  "0245__GE_2_order_cover_generic_00__4B4BBA8A.mp3": {
+    "asr_text": "IN DECKUNG!",
+    "translation": "（德语）找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0245__GE_2_order_cover_generic_00__4B4BBA8A.mp3",
+      "applied_translation": "（德语）找掩护！"
+    }
+  },
+  "0246__GE_2_order_cover_generic_01__4B59D20B.mp3": {
+    "asr_text": "GEH DAKUM!",
+    "translation": "（德语）快躲起来！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0246__GE_2_order_cover_generic_01__4B59D20B.mp3",
+      "applied_translation": "（德语）快躲起来！"
+    }
+  },
+  "0247__GE_2_order_cover_generic_02__4B67E98C.mp3": {
+    "asr_text": "In Deckung gehen! Los!",
+    "translation": "（德语）快找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0247__GE_2_order_cover_generic_02__4B67E98C.mp3",
+      "applied_translation": "（德语）快找掩护！"
+    }
+  },
+  "0248__GE_2_order_cover_generic_03__4B76010D.mp3": {
+    "asr_text": "Dekong! Geh, Dekong!",
+    "translation": "（德语）掩护！快躲！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0248__GE_2_order_cover_generic_03__4B76010D.mp3",
+      "applied_translation": "（德语）掩护！快躲！"
+    }
+  },
+  "0249__GE_2_order_move_forward_00__1849D7CA.mp3": {
+    "asr_text": "Weiter, vorwärts!",
+    "translation": "（德语）继续前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0249__GE_2_order_move_forward_00__1849D7CA.mp3",
+      "applied_translation": "（德语）继续前进！"
+    }
+  },
+  "0250__GE_2_order_move_forward_01__1857EF4B.mp3": {
+    "asr_text": "Auf die feindlichen Positionen vorrücken!",
+    "translation": "（德语）朝敌军阵地推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0250__GE_2_order_move_forward_01__1857EF4B.mp3",
+      "applied_translation": "（德语）朝敌军阵地推进！"
+    }
+  },
+  "0251__GE_2_order_move_forward_02__186606CC.mp3": {
+    "asr_text": "Vollwärts!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0251__GE_2_order_move_forward_02__186606CC.mp3",
+      "applied_translation": "（德语）前进！"
+    }
+  },
+  "0252__GE_2_order_move_forward_03__18741E4D.mp3": {
+    "asr_text": "LACH VOR!",
+    "translation": "（德语）往前！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0252__GE_2_order_move_forward_03__18741E4D.mp3",
+      "applied_translation": "（德语）往前！"
+    }
+  },
+  "0253__GE_2_order_move_forward_04__188235CE.mp3": {
+    "asr_text": "Weiter vorstoßen!",
+    "translation": "（德语）继续推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0253__GE_2_order_move_forward_04__188235CE.mp3",
+      "applied_translation": "（德语）继续推进！"
+    }
+  },
+  "0254__GE_2_order_move_forward_05__18904D4F.mp3": {
+    "asr_text": "VORWärts!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0254__GE_2_order_move_forward_05__18904D4F.mp3",
+      "applied_translation": "（德语）前进！"
+    }
+  },
+  "0255__GE_2_order_action_suppress_00__B107635B.mp3": {
+    "asr_text": "SPÄHRFEUER!",
+    "translation": "（德语）压制射击！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0255__GE_2_order_action_suppress_00__B107635B.mp3",
+      "applied_translation": "（德语）压制射击！"
+    }
+  },
+  "0256__GE_2_order_action_suppress_01__B1157ADC.mp3": {
+    "asr_text": "GIBT SPÄRFEUERMÄNNER!",
+    "translation": "（德语）弟兄们，火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0256__GE_2_order_action_suppress_01__B1157ADC.mp3",
+      "applied_translation": "（德语）弟兄们，火力压制！"
+    }
+  },
+  "0257__GE_2_order_action_suppress_02__B123925D.mp3": {
+    "asr_text": "Legen wir sie unter starken Beschuss!",
+    "translation": "（德语）狠狠压住他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0257__GE_2_order_action_suppress_02__B123925D.mp3",
+      "applied_translation": "（德语）狠狠压住他们！"
+    }
+  },
+  "0258__GE_2_order_action_suppress_03__B131A9DE.mp3": {
+    "asr_text": "WIE SCHießT DIESE ZIELE?!",
+    "translation": "（德语）朝那些目标开火！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0258__GE_2_order_action_suppress_03__B131A9DE.mp3",
+      "applied_translation": "（德语）朝那些目标开火！"
+    }
+  },
+  "0259__GE_2_order_action_suppress_04__B13FC15F.mp3": {
+    "asr_text": "FIRE SHOTS!",
+    "translation": "（德语）火力掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0259__GE_2_order_action_suppress_04__B13FC15F.mp3",
+      "applied_translation": "（德语）火力掩护！"
+    }
+  },
+  "0260__GE_2_order_action_suppress_05__B14DD8E0.mp3": {
+    "asr_text": "Wir brauchen Speerfeuer!",
+    "translation": "（德语）我们需要火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0260__GE_2_order_action_suppress_05__B14DD8E0.mp3",
+      "applied_translation": "（德语）我们需要火力压制！"
+    }
+  },
+  "0261__GE_2_inform_suppressed_generic_00__F6DF50A6.mp3": {
+    "asr_text": "Ich stehe unter schwerem Beschuss!",
+    "translation": "（德语）敌人火力太猛了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0261__GE_2_inform_suppressed_generic_00__F6DF50A6.mp3",
+      "applied_translation": "（德语）敌人火力太猛了！"
+    }
+  },
+  "0262__GE_2_inform_suppressed_generic_01__F6ED6827.mp3": {
+    "asr_text": "Sie haben uns festgenagelt!",
+    "translation": "（德语）我们被压得动不了了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0262__GE_2_inform_suppressed_generic_01__F6ED6827.mp3",
+      "applied_translation": "（德语）我们被压得动不了了！"
+    }
+  },
+  "0263__GE_2_inform_suppressed_generic_02__F6FB7FA8.mp3": {
+    "asr_text": "Schwerer Beschuss!",
+    "translation": "（德语）火力太猛了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0263__GE_2_inform_suppressed_generic_02__F6FB7FA8.mp3",
+      "applied_translation": "（德语）火力太猛了！"
+    }
+  },
+  "0264__GE_2_inform_suppressed_generic_03__F7099729.mp3": {
+    "asr_text": "UNTER BESCHUSS!",
+    "translation": "（德语）我们遭到射击！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0264__GE_2_inform_suppressed_generic_03__F7099729.mp3",
+      "applied_translation": "（德语）我们遭到射击！"
+    }
+  },
+  "0315__GE_3_inform_incoming_grenade_00__2CE0AE1C.mp3": {
+    "asr_text": "HANDGRANATE, RAUS DA!",
+    "translation": "（德语）手雷！快躲开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0315__GE_3_inform_incoming_grenade_00__2CE0AE1C.mp3",
+      "applied_translation": "（德语）手雷！快躲开！"
+    }
+  },
+  "0316__GE_3_inform_incoming_grenade_01__2CEEC59D.mp3": {
+    "asr_text": "Vorsicht, Granate!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0316__GE_3_inform_incoming_grenade_01__2CEEC59D.mp3",
+      "applied_translation": "（德语）小心，手雷！"
+    }
+  },
+  "0317__GE_3_inform_incoming_grenade_02__2CFCDD1E.mp3": {
+    "asr_text": "Feindliche Granate!",
+    "translation": "（德语）敌人扔手雷了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0317__GE_3_inform_incoming_grenade_02__2CFCDD1E.mp3",
+      "applied_translation": "（德语）敌人扔手雷了！"
+    }
+  },
+  "0318__GE_3_inform_incoming_grenade_03__2D0AF49F.mp3": {
+    "asr_text": "Eine Granate! Weg hier!",
+    "translation": "（德语）有手雷！快躲！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0318__GE_3_inform_incoming_grenade_03__2D0AF49F.mp3",
+      "applied_translation": "（德语）有手雷！快躲！"
+    }
+  },
+  "0319__GE_3_inform_incoming_grenade_04__2D190C20.mp3": {
+    "asr_text": "Granatenangriff in Deckung!",
+    "translation": "（德语）手雷！找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0319__GE_3_inform_incoming_grenade_04__2D190C20.mp3",
+      "applied_translation": "（德语）手雷！找掩护！"
+    }
+  },
+  "0320__GE_3_inform_incoming_grenade_05__2D2723A1.mp3": {
+    "asr_text": "Granate, mach schnell!",
+    "translation": "（德语）手雷！快躲！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0320__GE_3_inform_incoming_grenade_05__2D2723A1.mp3",
+      "applied_translation": "（德语）手雷！快躲！"
+    }
+  },
+  "0321__GE_3_inform_attack_grenade_00__158D14BA.mp3": {
+    "asr_text": "Äh!",
+    "translation": "",
+    "needs_review": true,
+    "note": "ASR仅识别到叫喊，译作喊声，未按文件名补造台词。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0321__GE_3_inform_attack_grenade_00__158D14BA.mp3",
+      "applied_translation": ""
+    }
+  },
+  "0322__GE_3_inform_attack_grenade_01__159B2C3B.mp3": {
+    "asr_text": "Hey du Idiot, fang das!",
+    "translation": "（德语）蠢货，接着！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0322__GE_3_inform_attack_grenade_01__159B2C3B.mp3",
+      "applied_translation": "（德语）蠢货，接着！"
+    }
+  },
+  "0323__GE_3_inform_attack_grenade_02__15A943BC.mp3": {
+    "asr_text": "Hey, die Granate kommt sofort!",
+    "translation": "（德语）给你来颗手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0323__GE_3_inform_attack_grenade_02__15A943BC.mp3",
+      "applied_translation": "（德语）给你来颗手雷！"
+    }
+  },
+  "0324__GE_3_inform_attack_grenade_03__15B75B3D.mp3": {
+    "asr_text": "ARDOR GRANATE!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0324__GE_3_inform_attack_grenade_03__15B75B3D.mp3",
+      "applied_translation": "（德语）小心，手雷！"
+    }
+  },
+  "0325__GE_3_inform_attack_grenade_04__15C572BE.mp3": {
+    "asr_text": "Achtung! Werfe eine Granate!",
+    "translation": "（德语）小心，我扔手雷了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0325__GE_3_inform_attack_grenade_04__15C572BE.mp3",
+      "applied_translation": "（德语）小心，我扔手雷了！"
+    }
+  },
+  "0326__GE_3_inform_attack_grenade_05__15D38A3F.mp3": {
+    "asr_text": "Hier ein Geschenk von der deutschen Armee!",
+    "translation": "（德语）德国军队送你的大礼！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0326__GE_3_inform_attack_grenade_05__15D38A3F.mp3",
+      "applied_translation": "（德语）德国军队送你的大礼！"
+    }
+  },
+  "0327__GE_3_inform_killfirm_generic_00__028DE03D.mp3": {
+    "asr_text": "HABEINEN!",
+    "translation": "（德语）干掉一个！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0327__GE_3_inform_killfirm_generic_00__028DE03D.mp3",
+      "applied_translation": "（德语）干掉一个！"
+    }
+  },
+  "0328__GE_3_inform_killfirm_generic_01__029BF7BE.mp3": {
+    "asr_text": "Bedrohung eliminiert!",
+    "translation": "（德语）目标干掉了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0328__GE_3_inform_killfirm_generic_01__029BF7BE.mp3",
+      "applied_translation": "（德语）目标干掉了！"
+    }
+  },
+  "0329__GE_3_inform_killfirm_generic_02__02AA0F3F.mp3": {
+    "asr_text": "STIRBT, DIE BASTARDE!",
+    "translation": "（德语）去死吧，混蛋！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0329__GE_3_inform_killfirm_generic_02__02AA0F3F.mp3",
+      "applied_translation": "（德语）去死吧，混蛋！"
+    }
+  },
+  "0330__GE_3_reaction_casualty_generic_00__70923969.mp3": {
+    "asr_text": "EINER ZERWISCHT!",
+    "translation": "（德语）有人中弹了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0330__GE_3_reaction_casualty_generic_00__70923969.mp3",
+      "applied_translation": "（德语）有人中弹了！"
+    }
+  },
+  "0331__GE_3_reaction_casualty_generic_01__70A050EA.mp3": {
+    "asr_text": "MANN AM BODEN!",
+    "translation": "（德语）有人倒下了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0331__GE_3_reaction_casualty_generic_01__70A050EA.mp3",
+      "applied_translation": "（德语）有人倒下了！"
+    }
+  },
+  "0332__GE_3_reaction_casualty_generic_02__70AE686B.mp3": {
+    "asr_text": "SONNITÄTER!",
+    "translation": "（德语）卫生员！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0332__GE_3_reaction_casualty_generic_02__70AE686B.mp3",
+      "applied_translation": "（德语）卫生员！"
+    }
+  },
+  "0333__GE_3_reaction_casualty_generic_03__70BC7FEC.mp3": {
+    "asr_text": "Er braucht Hilfe, er wurde getroffen!",
+    "translation": "（德语）他中弹了！快帮他！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0333__GE_3_reaction_casualty_generic_03__70BC7FEC.mp3",
+      "applied_translation": "（德语）他中弹了！快帮他！"
+    }
+  },
+  "0334__GE_3_inform_reloading_00__4B202700.mp3": {
+    "asr_text": "Schnell Deckung geben, ich muss nachladen!",
+    "translation": "（德语）快掩护，我要装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0334__GE_3_inform_reloading_00__4B202700.mp3",
+      "applied_translation": "（德语）快掩护，我要装弹！"
+    }
+  },
+  "0335__GE_3_inform_reloading_01__4B2E3E81.mp3": {
+    "asr_text": "Prochendickung beim Nachladen!",
+    "translation": "（德语）掩护我装弹！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0335__GE_3_inform_reloading_01__4B2E3E81.mp3",
+      "applied_translation": "（德语）掩护我装弹！"
+    }
+  },
+  "0336__GE_3_order_cover_generic_00__3C1CC1E9.mp3": {
+    "asr_text": "INDECKUNG!",
+    "translation": "（德语）找掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0336__GE_3_order_cover_generic_00__3C1CC1E9.mp3",
+      "applied_translation": "（德语）找掩护！"
+    }
+  },
+  "0337__GE_3_order_cover_generic_01__3C2AD96A.mp3": {
+    "asr_text": "Geh in Deckung!",
+    "translation": "（德语）快躲起来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0337__GE_3_order_cover_generic_01__3C2AD96A.mp3",
+      "applied_translation": "（德语）快躲起来！"
+    }
+  },
+  "0338__GE_3_order_cover_generic_02__3C38F0EB.mp3": {
+    "asr_text": "In Deckung gehen, los!",
+    "translation": "（德语）快找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0338__GE_3_order_cover_generic_02__3C38F0EB.mp3",
+      "applied_translation": "（德语）快找掩护！"
+    }
+  },
+  "0339__GE_3_order_cover_generic_03__3C47086C.mp3": {
+    "asr_text": "Deckung, geh in Deckung!",
+    "translation": "（德语）掩护！快躲！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0339__GE_3_order_cover_generic_03__3C47086C.mp3",
+      "applied_translation": "（德语）掩护！快躲！"
+    }
+  },
+  "0340__GE_3_order_move_forward_00__519AE88B.mp3": {
+    "asr_text": "WEITERFALLEN!",
+    "translation": "（德语）继续前进！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0340__GE_3_order_move_forward_00__519AE88B.mp3",
+      "applied_translation": "（德语）继续前进！"
+    }
+  },
+  "0341__GE_3_order_move_forward_01__51A9000C.mp3": {
+    "asr_text": "Auf die feindliche Position vorrücken!",
+    "translation": "（德语）朝敌军阵地推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0341__GE_3_order_move_forward_01__51A9000C.mp3",
+      "applied_translation": "（德语）朝敌军阵地推进！"
+    }
+  },
+  "0342__GE_3_order_move_forward_02__51B7178D.mp3": {
+    "asr_text": "Moment!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0342__GE_3_order_move_forward_02__51B7178D.mp3",
+      "applied_translation": "（德语）前进！"
+    }
+  },
+  "0343__GE_3_order_move_forward_03__51C52F0E.mp3": {
+    "asr_text": "DAFONN!",
+    "translation": "（德语）往前！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0343__GE_3_order_move_forward_03__51C52F0E.mp3",
+      "applied_translation": "（德语）往前！"
+    }
+  },
+  "0344__GE_3_order_move_forward_04__51D3468F.mp3": {
+    "asr_text": "WERD' DER VORSTOßEN?!",
+    "translation": "（德语）继续推进！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0344__GE_3_order_move_forward_04__51D3468F.mp3",
+      "applied_translation": "（德语）继续推进！"
+    }
+  },
+  "0345__GE_3_order_move_forward_05__51E15E10.mp3": {
+    "asr_text": "BALANCE!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0345__GE_3_order_move_forward_05__51E15E10.mp3",
+      "applied_translation": "（德语）前进！"
+    }
+  },
+  "0346__GE_3_order_action_suppress_00__B1B40EFA.mp3": {
+    "asr_text": "SPIRRFEUER!",
+    "translation": "（德语）压制射击！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0346__GE_3_order_action_suppress_00__B1B40EFA.mp3",
+      "applied_translation": "（德语）压制射击！"
+    }
+  },
+  "0347__GE_3_order_action_suppress_01__B1C2267B.mp3": {
+    "asr_text": "Gebt Speerfeuer Männer!",
+    "translation": "（德语）弟兄们，火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0347__GE_3_order_action_suppress_01__B1C2267B.mp3",
+      "applied_translation": "（德语）弟兄们，火力压制！"
+    }
+  },
+  "0348__GE_3_order_action_suppress_02__B1D03DFC.mp3": {
+    "asr_text": "Legen wir sie unter starken Beschuss!",
+    "translation": "（德语）狠狠压住他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0348__GE_3_order_action_suppress_02__B1D03DFC.mp3",
+      "applied_translation": "（德语）狠狠压住他们！"
+    }
+  },
+  "0349__GE_3_order_action_suppress_03__B1DE557D.mp3": {
+    "asr_text": "BESCHieß' DIESE ZIELE!",
+    "translation": "（德语）朝那些目标开火！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0349__GE_3_order_action_suppress_03__B1DE557D.mp3",
+      "applied_translation": "（德语）朝那些目标开火！"
+    }
+  },
+  "0350__GE_3_order_action_suppress_04__B1EC6CFE.mp3": {
+    "asr_text": "HEUER SCHUUTZ!",
+    "translation": "（德语）火力掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0350__GE_3_order_action_suppress_04__B1EC6CFE.mp3",
+      "applied_translation": "（德语）火力掩护！"
+    }
+  },
+  "0351__GE_3_order_action_suppress_05__B1FA847F.mp3": {
+    "asr_text": "IHR MACHEN SPÄRFÄHR!",
+    "translation": "（德语）我们需要火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0351__GE_3_order_action_suppress_05__B1FA847F.mp3",
+      "applied_translation": "（德语）我们需要火力压制！"
+    }
+  },
+  "0352__GE_3_inform_suppressed_generic_00__33FF14C5.mp3": {
+    "asr_text": "Ich stehe unter schweren Beschuss!",
+    "translation": "（德语）敌人火力太猛了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0352__GE_3_inform_suppressed_generic_00__33FF14C5.mp3",
+      "applied_translation": "（德语）敌人火力太猛了！"
+    }
+  },
+  "0353__GE_3_inform_suppressed_generic_01__340D2C46.mp3": {
+    "asr_text": "Sie haben uns festgenagelt!",
+    "translation": "（德语）我们被压得动不了了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0353__GE_3_inform_suppressed_generic_01__340D2C46.mp3",
+      "applied_translation": "（德语）我们被压得动不了了！"
+    }
+  },
+  "0354__GE_3_inform_suppressed_generic_02__341B43C7.mp3": {
+    "asr_text": "SCHWIERBESCHUSS!",
+    "translation": "（德语）火力太猛了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0354__GE_3_inform_suppressed_generic_02__341B43C7.mp3",
+      "applied_translation": "（德语）火力太猛了！"
+    }
+  },
+  "0355__GE_3_inform_suppressed_generic_03__34295B48.mp3": {
+    "asr_text": "UNDEMISCHOS!",
+    "translation": "（德语）我们遭到射击！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。",
+    "voice_work_source": {
+      "collection": "common_GE",
+      "filename": "0355__GE_3_inform_suppressed_generic_03__34295B48.mp3",
+      "applied_translation": "（德语）我们遭到射击！"
+    }
+  },
+  "0362__L12_Mas_76__34225A52.mp3": {
+    "asr_text": "Running out of time here! Head for that exit, on the double! We're gonna have to manually disable that rocket!",
+    "translation": "没时间了！快去那个出口！得亲手把那枚火箭弄哑！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0362__L12_Mas_76__34225A52.mp3",
+      "applied_translation": "没时间了！快去那个出口！得亲手把那枚火箭弄哑！"
+    }
+  },
+  "0363__L12_Mas_71__33DBE4CD.mp3": {
+    "asr_text": "Damn! We can't let them launch that other rocket!",
+    "translation": "妈的，不能让他们把另一枚火箭发射出去！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0363__L12_Mas_71__33DBE4CD.mp3",
+      "applied_translation": "妈的，不能让他们把另一枚火箭发射出去！"
+    }
+  },
+  "0364__L12_Mas_0__3B17C299.mp3": {
+    "asr_text": "Battalion HQ reports no enemy activity on the north bank, but what's left beyond that is anyone's guess.",
+    "translation": "营部说北岸没有敌人活动，可再往前有什么，谁也说不准。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0364__L12_Mas_0__3B17C299.mp3",
+      "applied_translation": "营部说北岸没有敌人活动，可再往前有什么，谁也说不准。"
+    }
+  },
+  "0365__L12_Mas_1__3B25DA1A.mp3": {
+    "asr_text": "That's gonna be our job. We scout out the town, deal with any remaining enemy positions and report back to HQ.",
+    "translation": "所以轮到我们了。侦察镇子，清掉残余敌军阵地，再向营部报告。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0365__L12_Mas_1__3B25DA1A.mp3",
+      "applied_translation": "所以轮到我们了。侦察镇子，清掉残余敌军阵地，再向营部报告。"
+    }
+  },
+  "0366__L12_Tuc_2__1846C7FE.mp3": {
+    "asr_text": "Our artillery and air force boys have already pounded the hell out of that place!",
+    "translation": "咱们的炮兵和空军早把那儿炸翻天了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0366__L12_Tuc_2__1846C7FE.mp3",
+      "applied_translation": "咱们的炮兵和空军早把那儿炸翻天了！"
+    }
+  },
+  "0367__L12_Tuc_6__187F2602.mp3": {
+    "asr_text": "INCOMING!",
+    "translation": "小心！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0367__L12_Tuc_6__187F2602.mp3",
+      "applied_translation": "小心！"
+    }
+  },
+  "0368__L12_MA1_23__63624736.mp3": {
+    "asr_text": "There can't be many more!",
+    "translation": "应该没剩几个了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0368__L12_MA1_23__63624736.mp3",
+      "applied_translation": "应该没剩几个了！"
+    }
+  },
+  "0369__L12_Mas_36__2D4EF7D6.mp3": {
+    "asr_text": "Stay alert!",
+    "translation": "都警醒点！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0369__L12_Mas_36__2D4EF7D6.mp3",
+      "applied_translation": "都警醒点！"
+    }
+  },
+  "0370__L12_Tuc_41__F40550ED.mp3": {
+    "asr_text": "No wonder Intel thought the area was clear. Those bastards have been dug in underground.",
+    "translation": "难怪情报说这片没人。那些家伙全躲在地下。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0370__L12_Tuc_41__F40550ED.mp3",
+      "applied_translation": "难怪情报说这片没人。那些家伙全躲在地下。"
+    }
+  },
+  "0371__L12_MA1_52__6872B992.mp3": {
+    "asr_text": "Battalion on the radio, Sarge. I got incoming artillery support.",
+    "translation": "中士，营部来电，炮火支援就要到了。",
+    "needs_review": true,
+    "note": "ASR的I got疑似we've got，按营部提供炮火支援理解。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0371__L12_MA1_52__6872B992.mp3",
+      "applied_translation": "中士，营部来电，炮火支援就要到了。"
+    }
+  },
+  "0372__L12_Mas_57__30C6C095.mp3": {
+    "asr_text": "Heads down, man! There's gonna be fireworks!",
+    "translation": "弟兄们，低头！要放烟花了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0372__L12_Mas_57__30C6C095.mp3",
+      "applied_translation": "弟兄们，低头！要放烟花了！"
+    }
+  },
+  "0373__L12_Mas_77__343071D3.mp3": {
+    "asr_text": "Gibson, we only have one shot at this, so make it a good one! Get a charge on that rocket! We've got your back! Now go!",
+    "translation": "吉布森，我们只有这一次机会，别失手！去给那枚火箭装炸药，我们掩护你！快去！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0373__L12_Mas_77__343071D3.mp3",
+      "applied_translation": "吉布森，我们只有这一次机会，别失手！去给那枚火箭装炸药，我们掩护你！快去！"
+    }
+  },
+  "0374__L12_Mas_72__33E9FC4E.mp3": {
+    "asr_text": "GET THAT DOOR OPEN!",
+    "translation": "把那扇门打开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0374__L12_Mas_72__33E9FC4E.mp3",
+      "applied_translation": "把那扇门打开！"
+    }
+  },
+  "0375__L12_Mas_13__29BB0015.mp3": {
+    "asr_text": "I want everyone off the bridge! Head for those buildings!",
+    "translation": "所有人离开桥！到那些楼里去！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0375__L12_Mas_13__29BB0015.mp3",
+      "applied_translation": "所有人离开桥！到那些楼里去！"
+    }
+  },
+  "0376__L12_Mas_21__2B53A9B2.mp3": {
+    "asr_text": "TAKE OUT THAT MG!",
+    "translation": "干掉那挺机枪！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0376__L12_Mas_21__2B53A9B2.mp3",
+      "applied_translation": "干掉那挺机枪！"
+    }
+  },
+  "0377__L12_Mas_16__29E54698.mp3": {
+    "asr_text": "Goddamn Battalion Intel! Didn't they say this area was supposed to be clear?",
+    "translation": "该死的营部情报！不是说这一带已经清干净了吗？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0377__L12_Mas_16__29E54698.mp3",
+      "applied_translation": "该死的营部情报！不是说这一带已经清干净了吗？"
+    }
+  },
+  "0378__L12_Mas_54__309C7A12.mp3": {
+    "asr_text": "That's why they're hellbent on defending this ground!",
+    "translation": "难怪他们死也要守住这地方！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0378__L12_Mas_54__309C7A12.mp3",
+      "applied_translation": "难怪他们死也要守住这地方！"
+    }
+  },
+  "0379__L12_Mas_60__3218F4AD.mp3": {
+    "asr_text": "Artillery supports clear the way! Head out before the Krauts have time to recover!",
+    "translation": "炮火把路清出来了！趁敌人还没缓过来，出发！",
+    "needs_review": true,
+    "note": "supports clear疑似support has cleared，按炮火已清出道路理解。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0379__L12_Mas_60__3218F4AD.mp3",
+      "applied_translation": "炮火把路清出来了！趁敌人还没缓过来，出发！"
+    }
+  },
+  "0380__L12_Mas_68__3289B0B5.mp3": {
+    "asr_text": "Ah, hell. Crowd talk ain't my strong point, but it sounds like they're about to launch some kind of rocket.",
+    "translation": "干，我不太懂德语，不过听着像是要发射什么火箭。",
+    "needs_review": true,
+    "note": "Crowd talk疑似Kraut talk，按德语修正，保留角色未能完全听懂的语气。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0380__L12_Mas_68__3289B0B5.mp3",
+      "applied_translation": "干，我不太懂德语，不过听着像是要发射什么火箭。"
+    }
+  },
+  "0381__L12_Mas_25__2B8C07B6.mp3": {
+    "asr_text": "Gibson, get up there and use that MG!",
+    "translation": "吉布森，上去用那挺机枪！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0381__L12_Mas_25__2B8C07B6.mp3",
+      "applied_translation": "吉布森，上去用那挺机枪！"
+    }
+  },
+  "0382__L12_MA1_75__6C06B153.mp3": {
+    "asr_text": "Sarge! Enemy out in the open!",
+    "translation": "中士，敌人在空地上！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0382__L12_MA1_75__6C06B153.mp3",
+      "applied_translation": "中士，敌人在空地上！"
+    }
+  },
+  "0383__L12_MA1_43__66CBF874.mp3": {
+    "asr_text": "How far does this place go back?",
+    "translation": "这地方到底通到多深？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0383__L12_MA1_43__66CBF874.mp3",
+      "applied_translation": "这地方到底通到多深？"
+    }
+  },
+  "0384__L12_Mas_22__2B61C133.mp3": {
+    "asr_text": "Lay down suppressing fire!",
+    "translation": "火力压制！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0384__L12_Mas_22__2B61C133.mp3",
+      "applied_translation": "火力压制！"
+    }
+  },
+  "0385__L12_Mas_10__2990B992.mp3": {
+    "asr_text": "Gibson, take out that MG!",
+    "translation": "吉布森，干掉那挺机枪！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0385__L12_Mas_10__2990B992.mp3",
+      "applied_translation": "吉布森，干掉那挺机枪！"
+    }
+  },
+  "0387__L12_Mas_55__30AA9193.mp3": {
+    "asr_text": "A V2! We must be near the launch site!",
+    "translation": "是V2！我们肯定就在发射场附近！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0387__L12_Mas_55__30AA9193.mp3",
+      "applied_translation": "是V2！我们肯定就在发射场附近！"
+    }
+  },
+  "0388__L12_Mas_12__29ACE894.mp3": {
+    "asr_text": "Squad, stay on me!",
+    "translation": "全班跟紧我！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0388__L12_Mas_12__29ACE894.mp3",
+      "applied_translation": "全班跟紧我！"
+    }
+  },
+  "0389__L12_Mas_79__344CA0D5.mp3": {
+    "asr_text": "_SKIPPED_TOO_LONG_",
+    "translation": "干得漂亮，吉布森！天晓得那玩意儿会打到哪，又能炸死咱们多少人。等营部知道这事，八成得给你申请枚勋章。“卢卡斯·吉布森列兵，杰出服役十字勋章”，听着来劲吧，大兵？",
+    "needs_review": true,
+    "note": "ASR因超长跳过。未使用AM旧稿补写，待补识别或听音。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0389__L12_Mas_79__344CA0D5.mp3",
+      "applied_translation": "干得漂亮，吉布森！天晓得那玩意儿会打到哪，又能炸死咱们多少人。等营部知道这事，八成得给你申请枚勋章。“卢卡斯·吉布森列兵，杰出服役十字勋章”，听着来劲吧，大兵？"
+    }
+  },
+  "0390__L12_Mas_70__33CDCD4C.mp3": {
+    "asr_text": "Don't let him escape! Get through those doors!",
+    "translation": "别让他们跑了！冲过那些门！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0390__L12_Mas_70__33CDCD4C.mp3",
+      "applied_translation": "别让他们跑了！冲过那些门！"
+    }
+  },
+  "0391__L12_Mas_31__2D088251.mp3": {
+    "asr_text": "LAY DOWN SMOKE COVER! WE'RE GONNA TAKE THAT BUILDING!",
+    "translation": "放烟雾掩护！我们要拿下那栋楼！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0391__L12_Mas_31__2D088251.mp3",
+      "applied_translation": "放烟雾掩护！我们要拿下那栋楼！"
+    }
+  },
+  "0392__L12_Mas_7__3B7A6720.mp3": {
+    "asr_text": "GET TO COVER!",
+    "translation": "找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0392__L12_Mas_7__3B7A6720.mp3",
+      "applied_translation": "找掩护！"
+    }
+  },
+  "0393__L12_Mas_32__2D1699D2.mp3": {
+    "asr_text": "Toss a grenade in there!",
+    "translation": "往里面扔颗手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0393__L12_Mas_32__2D1699D2.mp3",
+      "applied_translation": "往里面扔颗手雷！"
+    }
+  },
+  "0394__L12_MA1_29__63B6D43C.mp3": {
+    "asr_text": "They can't all be coming from inside the house.",
+    "translation": "不可能全是从那栋房子里出来的。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0394__L12_MA1_29__63B6D43C.mp3",
+      "applied_translation": "不可能全是从那栋房子里出来的。"
+    }
+  },
+  "0395__L12_MA1_11__61913F95.mp3": {
+    "asr_text": "ANIME TO THE RIGHT!",
+    "translation": "右边有敌人！",
+    "needs_review": true,
+    "note": "ANIME疑似Enemy，按右侧敌情口令修正。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0395__L12_MA1_11__61913F95.mp3",
+      "applied_translation": "右边有敌人！"
+    }
+  },
+  "0396__L12_MA2_51__D045CEF0.mp3": {
+    "asr_text": "Sergeant Mason, German troop convoy heading this way!",
+    "translation": "梅森中士，德军运兵车队正往这边来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0396__L12_MA2_51__D045CEF0.mp3",
+      "applied_translation": "梅森中士，德军运兵车队正往这边来！"
+    }
+  },
+  "0397__L12_MA1_56__68AB1796.mp3": {
+    "asr_text": "Artillery fire imminent, sir!",
+    "translation": "长官，炮火马上就到！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。",
+    "voice_work_source": {
+      "collection": "story_L12_Brau_am",
+      "filename": "0397__L12_MA1_56__68AB1796.mp3",
+      "applied_translation": "长官，炮火马上就到！"
+    }
+  }
+}

@@ -1,0 +1,717 @@
+{
+  "0211__L14_Sul_156__14F2582A.mp3": {
+    "asr_text": "Get on that radio. Tell the skipper the Marines have taken Shuri Castle. Pulaski, Turner, Jackson. Secure the area.",
+    "translation": "接通无线电，告诉上尉，陆战队拿下首里城了。波隆斯基、特纳、杰克逊，控制住周围。",
+    "needs_review": true,
+    "note": "Pulaski疑似Polonsky，人名统一波隆斯基；skipper按陆战队语境译为上尉。"
+  },
+  "0212__L14_Sul_12__741D07C5.mp3": {
+    "asr_text": "Push through it! We've got to get to cover!",
+    "translation": "冲过去！要找个地方躲！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0213__L14_Sul_13__742B1F46.mp3": {
+    "asr_text": "RUN FOR IT!",
+    "translation": "快跑！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0214__L14_Sul_19__747FAC4C.mp3": {
+    "asr_text": "Use the bunkers for cover!",
+    "translation": "借碉堡作掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0215__L14_Pol_16__1DDE7866.mp3": {
+    "asr_text": "Come on, go!",
+    "translation": "快，走！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0216__L14_Sul_21__75C3C8E3.mp3": {
+    "asr_text": "We need to get closer to that castle gate! Keep moving!",
+    "translation": "要靠近城门，继续推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0217__L14_Sul_24__75EE0F66.mp3": {
+    "asr_text": "Looks like we're going right down their damn throats, Marines! Move up!",
+    "translation": "弟兄们，这下要直捣老巢了！往前压！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0218__L14_Sul_32__7786B903.mp3": {
+    "asr_text": "Pick your targets! Make every round count!",
+    "translation": "看准目标！每一发都要打准！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0219__L14_Sul_44__7957C0A4.mp3": {
+    "asr_text": "Miller! Set a charge on that gate! That's an order!",
+    "translation": "米勒！去城门上装炸药！这是命令！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0220__L14_Pol_45__22EEEAC2.mp3": {
+    "asr_text": "Miller's going for the touchdown! Keep him covered!",
+    "translation": "米勒要冲线得分了！掩护他！",
+    "needs_review": true,
+    "note": "保留touchdown的球赛调侃，译为冲线得分。"
+  },
+  "0221__L14_Ma1_46__397D4573.mp3": {
+    "asr_text": "COVERING FIRE!",
+    "translation": "火力掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0222__L14_Ma1_41__3936CFEE.mp3": {
+    "asr_text": "GO!",
+    "translation": "上！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0223__L14_Pol_51__246B655D.mp3": {
+    "asr_text": "Outstanding!",
+    "translation": "干得漂亮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0224__L14_Sul_53__7AFE81C2.mp3": {
+    "asr_text": "Watch out! More enemies charging from the gate!",
+    "translation": "小心！又有敌人从城门冲出来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0225__L14_Sul_55__7B1AB0C4.mp3": {
+    "asr_text": "They're charging! Take them out!",
+    "translation": "他们冲上来了！拦住他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0226__L14_Pol_60__2612267B.mp3": {
+    "asr_text": "Enemy to the east! Over by that gate!",
+    "translation": "东边有敌人！那座门旁边！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0227__L14_Ma1_62__3CAE98AD.mp3": {
+    "asr_text": "HELL, THEY'RE EVERYWHERE!",
+    "translation": "妈的，到处都是鬼子！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0228__L14_Sul_63__7CB35A61.mp3": {
+    "asr_text": "Buy some cover now!",
+    "translation": "马上找掩护！",
+    "needs_review": true,
+    "note": "Buy some cover疑似Find some cover，按寻找掩护口令修正。"
+  },
+  "0229__L14_Sul_64__7CC171E2.mp3": {
+    "asr_text": "Take cover!",
+    "translation": "找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0230__L14_Pol_65__26589C00.mp3": {
+    "asr_text": "The walls! Get behind the walls!",
+    "translation": "墙！躲到墙后面！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0231__L14_Sul_69__7D07E767.mp3": {
+    "asr_text": "MG, top of the staircase to the northeast!",
+    "translation": "机枪！东北边楼梯顶上！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0232__L14_Sul_71__7E4C03FE.mp3": {
+    "asr_text": "Take cover! Polanski, take it out!",
+    "translation": "找掩护！波隆斯基，干掉它！",
+    "needs_review": true,
+    "note": "Polanski疑似Polonsky，人名统一波隆斯基。"
+  },
+  "0233__L14_Pol_74__27FF5D1E.mp3": {
+    "asr_text": "MG Nest, out of commission!",
+    "translation": "机枪火力点哑了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0234__L14_Sul_83__801D0B9F.mp3": {
+    "asr_text": "Get in there, Marines! Go! Go! Go!",
+    "translation": "弟兄们，冲进去！快！快！快！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0235__L14_Sul_85__80393AA1.mp3": {
+    "asr_text": "WATCH THOSE WALLS!",
+    "translation": "留意那些墙！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0236__L14_Ma1_86__4050A7EF.mp3": {
+    "asr_text": "More of them! On the walls!",
+    "translation": "墙上还有敌人！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0237__L14_Sul_109__0C946392.mp3": {
+    "asr_text": "OPEN FIRE!",
+    "translation": "开火！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0238__L14_Sul_107__0C783490.mp3": {
+    "asr_text": "GIVE THEM ALL YOU GOT!",
+    "translation": "狠狠地打！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0239__L14_Pol_101__93BCE88D.mp3": {
+    "asr_text": "Take cover behind those low walls!",
+    "translation": "躲到那些矮墙后面！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0240__L14_Sul_99__82267144.mp3": {
+    "asr_text": "Keep pushing forward, Marines!",
+    "translation": "弟兄们，继续往前压！",
+    "needs_review": true,
+    "note": "本条ASR为继续推进，与AM旧稿的It's a trap不同；明确采用ASR，不补陷阱台词。"
+  },
+  "0241__L14_Ma2_70__A6286F29.mp3": {
+    "asr_text": "Hell we've got another MG",
+    "translation": "妈的，又一挺机枪！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0242__L14_Sul_104__0C4DEE0D.mp3": {
+    "asr_text": "Ah! It's an ambush! Take cover!",
+    "translation": "有埋伏！找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0243__L14_Pol_105__93F54691.mp3": {
+    "asr_text": "Get down! Incoming fire from that building!",
+    "translation": "趴下！那栋楼里有人开火！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0244__L14_Pol_121__972699CB.mp3": {
+    "asr_text": "Uh huh!",
+    "translation": "",
+    "needs_review": true,
+    "note": "ASR为简短语气声，译文按应答拟写，待听音。"
+  },
+  "0245__L14_Ma1_122__50BCD41C.mp3": {
+    "asr_text": "UGH!",
+    "translation": "",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0246__L14_Sul_124__0FB79F4B.mp3": {
+    "asr_text": "Negative. Something doesn't feel right, though.",
+    "translation": "没有，不过总觉得哪里不对。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0247__L14_Pol_132__98E989EB.mp3": {
+    "asr_text": "Place has already been hit by a couple of strays.",
+    "translation": "这地方已经挨过几发偏弹了。",
+    "needs_review": true,
+    "note": "strays按偏离目标的炮弹理解，待结合画面校对。"
+  },
+  "0248__L14_Sul_34__77A2E805.mp3": {
+    "asr_text": "Take covering positions!",
+    "translation": "各就各位，准备掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0249__L14_Sul_48__79901EA8.mp3": {
+    "asr_text": "Let him have it, Marines!",
+    "translation": "弟兄们，狠狠地打！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0250__L14_Ma1_145__5450CBDD.mp3": {
+    "asr_text": "Southside! To the south!",
+    "translation": "南边！南边！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0251__L14_Ma1_136__52AA0ABF.mp3": {
+    "asr_text": "We're surrounded!",
+    "translation": "我们被包围了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0252__L14_Pol_135__9913D06E.mp3": {
+    "asr_text": "We got him coming from the west!",
+    "translation": "他们从西边来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0253__L14_Ma1_18__347AEA98.mp3": {
+    "asr_text": "THEY'RE EVERYWHERE!",
+    "translation": "到处都是敌人！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0254__L14_Ma3_142__7CAF635C.mp3": {
+    "asr_text": "Ah! There's too many!",
+    "translation": "太多了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0255__L14_Ma3_140__7C93345A.mp3": {
+    "asr_text": "Hold them off! Ah! Ha! They're everywhere!",
+    "translation": "挡住他们！啊！到处都是！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0256__L14_Ma2_153__EA2DE47B.mp3": {
+    "asr_text": "YEAH! LOOK AT THAT!",
+    "translation": "好！快看！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0257__L14_Ma2_157__EA66427F.mp3": {
+    "asr_text": "Aye aye, sir!",
+    "translation": "是，长官！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0258__L14_Sul_158__150E872C.mp3": {
+    "asr_text": "Good job, Miller. Good job.",
+    "translation": "干得好，米勒。干得好。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0259__L14_Sul_5__3DC4EECD.mp3": {
+    "asr_text": "Okay, stand by, Marines. We got incoming artillery to soften them up.",
+    "translation": "准备好，弟兄们。咱们的炮火先给他们松松筋骨。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0260__L14_Ma1_6__759142E1.mp3": {
+    "asr_text": "Nobody could have survived that!",
+    "translation": "这么炸，谁还能活下来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0261__L14_Sul_7__3DE11DCF.mp3": {
+    "asr_text": "Okay, let's move up!",
+    "translation": "好，向前推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0262__L13_Sul_20__8C722E24.mp3": {
+    "asr_text": "Why isn't that damn bunker out of action?",
+    "translation": "那座该死的碉堡怎么还没哑火？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0263__L14_Pol_30__20F39C9E.mp3": {
+    "asr_text": "We got an MG nest above the gate!",
+    "translation": "城门上面有机枪火力点！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0264__L14_Pol_39__21727027.mp3": {
+    "asr_text": "DAMMIT WE GOTTA GET TO THAT GATE!",
+    "translation": "干啊，要冲到城门那儿去！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0265__L14_Sul_40__791F62A0.mp3": {
+    "asr_text": "Not with that MG nest in the way. Miller, get to the gate and set a charge. Rest of you men, cover him.",
+    "translation": "那个机枪火力点挡着，过不去。米勒，到城门那儿装炸药。其他人掩护他。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0266__L14_Sul_42__793B91A2.mp3": {
+    "asr_text": "Get going, Miller!",
+    "translation": "米勒，快去！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0267__L14_Sul_102__0C31BF0B.mp3": {
+    "asr_text": "Keep going! Push him back to the building!",
+    "translation": "继续推进！把他们压回楼里！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0268__L14_Ma1_111__4EF9E3FC.mp3": {
+    "asr_text": "More of them in the windows!",
+    "translation": "窗户里还有敌人！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0269__L14_Sul_112__0DE697AA.mp3": {
+    "asr_text": "There's no way through! We gotta find another way!",
+    "translation": "过不去！必须另找条路！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0270__L14_Pol_115__95AA1F30.mp3": {
+    "asr_text": "Japanese troops in the window!",
+    "translation": "窗户里有日军！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0271__L14_Pol_119__95E27D34.mp3": {
+    "asr_text": "You know me, sir!",
+    "translation": "长官，您还不了解我吗！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0272__L14_Ma1_147__546CFADF.mp3": {
+    "asr_text": "Hold on! Army Air Corps on the way!",
+    "translation": "撑住！陆军航空队正在赶来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0273__L14_Sul_149__1367C60E.mp3": {
+    "asr_text": "Get your heads down, Marines!",
+    "translation": "弟兄们，低头！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0274__L14_Ma2_138__E70AA8C2.mp3": {
+    "asr_text": "KEEP FIRING!",
+    "translation": "继续开火！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0275__L14_Ma1_150__55BF2EF7.mp3": {
+    "asr_text": "Incoming! Incoming!",
+    "translation": "来了！来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0276__L14_Ma2_155__EA4A137D.mp3": {
+    "asr_text": "WOOHOO! YEAH! HAHA!",
+    "translation": "呜呼！好啊！哈哈！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0277__L14_Pol_159__9CB5DFB0.mp3": {
+    "asr_text": "So what now, Sergeant? Are we taking it all the way to Japan?",
+    "translation": "中士，接下来呢？一路打到日本去？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0278__L14_Ma1_8__75AD71E3.mp3": {
+    "asr_text": "I can't see anything moving!",
+    "translation": "没看见什么动静！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0279__L14_Sul_14__743936C7.mp3": {
+    "asr_text": "Marines! We need to get to that bunker line! Step on it!",
+    "translation": "弟兄们，要冲到那道碉堡防线！加快！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0280__L14_Ma1_11__34184611.mp3": {
+    "asr_text": "I CAN'T SEE A THING!",
+    "translation": "什么都看不见！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0281__L14_Sul_15__74474E48.mp3": {
+    "asr_text": "ATTACK!",
+    "translation": "进攻！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0282__L14_Sul_22__75D1E064.mp3": {
+    "asr_text": "Keep pushing them back!",
+    "translation": "继续把他们往后压！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0283__L14_Pol_23__1F690A82.mp3": {
+    "asr_text": "WE'RE NAILING THEM!",
+    "translation": "我们压住他们了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0284__L14_Sul_29__763484EB.mp3": {
+    "asr_text": "Push up! Watch the wall up ahead!",
+    "translation": "往前走！留意前面的墙！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0285__L14_Sul_25__75FC26E7.mp3": {
+    "asr_text": "They've got nowhere to go! Keep pushing, man!",
+    "translation": "他们没处跑了！弟兄们，继续压上去！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0286__L14_Sul_27__761855E9.mp3": {
+    "asr_text": "Spread out!",
+    "translation": "散开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0287__L14_Ma2_49__A188B8D5.mp3": {
+    "asr_text": "He's done it!",
+    "translation": "他做到了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0288__L14_Sul_50__7AD43B3F.mp3": {
+    "asr_text": "Get back here and take cover, Miller!",
+    "translation": "米勒，回来找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0289__L14_Pol_43__22D2BBC0.mp3": {
+    "asr_text": "Come on, buddy! We got you covered!",
+    "translation": "快，伙计！我们掩护你！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0290__L14_Pol_52__24797CDE.mp3": {
+    "asr_text": "HAHAHAHA! YEAH!",
+    "translation": "哈哈哈！漂亮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0291__L14_Sul_56__7B28C845.mp3": {
+    "asr_text": "Okay, that's all of them! Get inside the castle!",
+    "translation": "全解决了！进城！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0292__L14_Sul_66__7CDDA0E4.mp3": {
+    "asr_text": "Move up! Get up those stairs!",
+    "translation": "往前走！上楼梯！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0293__L14_Sul_68__7CF9CFE6.mp3": {
+    "asr_text": "On the walls! More enemies! Watch out!",
+    "translation": "墙上又有敌人！小心！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0294__L14_Sul_73__7E683300.mp3": {
+    "asr_text": "They're charging from the gate!",
+    "translation": "他们从城门冲出来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0295__L14_Pol_72__27E32E1C.mp3": {
+    "asr_text": "Aye, Sergeant!",
+    "translation": "是，中士！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0296__L14_Sul_76__7E927983.mp3": {
+    "asr_text": "Easy, man. Take it slow. Remember, buy the numbers.",
+    "translation": "弟兄们，稳住，慢点。记住，按步骤来。",
+    "needs_review": true,
+    "note": "buy the numbers疑似by the numbers，按按步骤执行理解。"
+  },
+  "0297__L14_Sul_77__7EA09104.mp3": {
+    "asr_text": "Miller, I want you on point. Go forward and take a look.",
+    "translation": "米勒，你打头阵。到前面看看。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0298__L14_Pol_84__29B435BD.mp3": {
+    "asr_text": "UP ON THE WALLS!",
+    "translation": "城墙上面！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0299__L14_Ma1_92__41CD228A.mp3": {
+    "asr_text": "Japanese troops in the open!",
+    "translation": "日军在空地上！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0300__L14_Pol_123__9742C8CD.mp3": {
+    "asr_text": "Oh, nice place. How do you suppose it survived the bombing? You think any of the units made it this far, Sergeant?",
+    "translation": "哟，好地方。怎么没被炸掉？中士，你说有别的部队打到这儿了吗？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0301__L14_Sul_127__0FE1E5CE.mp3": {
+    "asr_text": "Hear that? Artillery. Probably defending the temple. That's where we're going.",
+    "translation": "听见没？炮声。他们大概在守那座寺庙，咱们就去那儿。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0302__L14_Ma1_129__511F78A3.mp3": {
+    "asr_text": "Look! An opening up ahead!",
+    "translation": "看！前面有个缺口！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0303__L14_Sul_133__115E6069.mp3": {
+    "asr_text": "Okay, the guns look heavily defended. Won't help him though. Take him out.",
+    "translation": "那些炮守得挺严，不过没用，端掉它们。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0304__L14_Ma1_134__528DDBBD.mp3": {
+    "asr_text": "INCOMING!",
+    "translation": "小心！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0305__L14_Ma1_131__5263953A.mp3": {
+    "asr_text": "Keep it quiet!",
+    "translation": "小声点！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0306__L14_Sul_143__13133908.mp3": {
+    "asr_text": "Hold on, Marines, hold on! Hold on!",
+    "translation": "弟兄们，撑住！撑住！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0307__L14_Sul_146__133D7F8B.mp3": {
+    "asr_text": "They're coming from everywhere!",
+    "translation": "他们从四面八方来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0308__L14_Pol_1__1178368C.mp3": {
+    "asr_text": "How many in there, Sergeant?",
+    "translation": "中士，里面有多少人？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0309__L14_Pol_141__9A904B09.mp3": {
+    "asr_text": "Cover me! Damn it! Over there!",
+    "translation": "掩护我！妈的，那边！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0310__L14_Ma1_17__346CD317.mp3": {
+    "asr_text": "Where'd they all come from?",
+    "translation": "他们都是从哪儿冒出来的？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0311__L14_Pol_96__2B853D5E.mp3": {
+    "asr_text": "Yeah! Got one!",
+    "translation": "好！干掉一个！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0312__L14_Sul_160__1652A3C3.mp3": {
+    "asr_text": "That's the plan, Polonsky. All the way to Tojo's doorstep.",
+    "translation": "就是这么打算的，波隆斯基。一直打到东条英机家门口。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0313__L14_Sul_0__3D7E7948.mp3": {
+    "asr_text": "Okay, Marines. That's Shuri Castle up ahead. Command wants us to take it, but since heavy resistance has been spotted inside, it goes by the numbers. You read me?",
+    "translation": "弟兄们，前面就是首里城。指挥部要我们拿下它，里面守军不少，都给我按步骤来。听明白没有？",
+    "needs_review": true,
+    "note": "按ASR内容翻译；by the numbers为按训练步骤行动，不译成数字。"
+  },
+  "0314__L14_Pol_9__11E8F294.mp3": {
+    "asr_text": "Smoke, Sergeant! We've been spotted!",
+    "translation": "烟！中士，我们被发现了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0315__L14_Sul_10__7400D8C3.mp3": {
+    "asr_text": "Damn it! Get ready, Marines!",
+    "translation": "我干，弟兄们，准备！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0316__L14_Sul_31__7778A182.mp3": {
+    "asr_text": "Get behind the wall for cover!",
+    "translation": "躲到墙后面！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0317__L14_Sul_33__7794D084.mp3": {
+    "asr_text": "Heads down! Watch that MG fire!",
+    "translation": "低头！小心机枪火力！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0318__L14_Pol_35__213A1223.mp3": {
+    "asr_text": "This ain't exactly the best place to be pinned down!",
+    "translation": "被压在这种地方可不是闹着玩的！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0319__L14_Sul_93__81D1E43E.mp3": {
+    "asr_text": "They're charging us! Cut him down!",
+    "translation": "他们冲过来了！拦住他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0320__L14_Pol_106__94035E12.mp3": {
+    "asr_text": "More of them! Move! Move!",
+    "translation": "又有敌人来了！快！快！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0321__L14_Ma2_108__E1EC1EE5.mp3": {
+    "asr_text": "IN THE WINDOWS!",
+    "translation": "在窗户里！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0322__L14_Sul_114__0E02C6AC.mp3": {
+    "asr_text": "Okay, Marines, we're moving out. Get to the staircase, on me!",
+    "translation": "弟兄们，继续走！到楼梯那儿去，跟上我！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0323__L14_Sul_118__0E3B24B0.mp3": {
+    "asr_text": "_SKIPPED_TOO_LONG_",
+    "translation": "听好了弟兄们！穿过这扇门就是城堡庭院。轰炸机随时待命，要把这儿夷为平地。咱们要冲进去，完成清剿后立刻撤离。绝不能出任何岔子！波隆斯基，把门打开！",
+    "needs_review": true,
+    "note": "ASR因超长跳过。未使用AM旧稿补写，待补识别或听音。",
+    "asr_status": "skipped_too_long"
+  },
+  "0324__L14_Sul_120__0F7F4147.mp3": {
+    "asr_text": "The rest of you, keep your eyes open.",
+    "translation": "其他人，眼睛放亮点。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0325__L14_Pol_139__994C2E72.mp3": {
+    "asr_text": "You ain't getting me without a fight!",
+    "translation": "想拿下我，没那么容易！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0326__L14_Pol_148__9AF2EF90.mp3": {
+    "asr_text": "What do you know? Here come the Flyboys!",
+    "translation": "瞧，飞行员们来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0327__L14_Pol_152__9C533B29.mp3": {
+    "asr_text": "HAHA! TAKE THAT YOU BASTARDS!",
+    "translation": "哈哈！接招吧！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0328__L14_Sul_3__3DA8BFCB.mp3": {
+    "asr_text": "Could be a hundred in there, could be a thousand. Enough to keep us busy, that's for sure.",
+    "translation": "可能一百，也可能一千。反正够咱们忙一阵的。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0329__L14_Ma2_151__EA11B579.mp3": {
+    "asr_text": "YEAH! THAT'S IT!",
+    "translation": "好！就是这样！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  }
+}

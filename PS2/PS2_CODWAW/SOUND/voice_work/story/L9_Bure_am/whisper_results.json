@@ -1,0 +1,516 @@
+{
+  "0335__L9_FN1_155__740F6782.mp3": {
+    "asr_text": "They're coming from every direction!",
+    "translation": "他们从四面八方过来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0336__L9_FN2_156__0861EE04.mp3": {
+    "asr_text": "They're in the church grounds now! Hold them back!",
+    "translation": "他们进教堂院子了！挡住他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0337__L9_FN2_102__FFA154E5.mp3": {
+    "asr_text": "Jerry's to the east!",
+    "translation": "东边有德军！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0338__L9_MAD_118__A18E8D70.mp3": {
+    "asr_text": "Sharp, get on the back line.",
+    "translation": "夏普，到车后面去。",
+    "needs_review": true,
+    "note": "back line疑似back, lad；AM可佐证上车后部的口令，仅修正断词。"
+  },
+  "0339__L9_FN1_78__9A86C28C.mp3": {
+    "asr_text": "Good to see you, boys!",
+    "translation": "弟兄们，见到你们太好了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0340__L9_FN2_79__027606EC.mp3": {
+    "asr_text": "Can't believe you came for us!",
+    "translation": "真没想到你们会来救我们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0341__L9_MAD_80__742F445C.mp3": {
+    "asr_text": "No problem, lads. Where's Captain Randall?",
+    "translation": "没事，弟兄们。兰德尔上尉在哪儿？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0342__L9_FN1_81__9BD8F6A4.mp3": {
+    "asr_text": "He's back there, sir!",
+    "translation": "长官，他在后面！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0343__L9_FN2_82__03C83B04.mp3": {
+    "asr_text": "He's taking a bullet in his leg though, Sarge.",
+    "translation": "不过中士，他腿上中了一枪。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0344__L9_TAY_22__9D8925C8.mp3": {
+    "asr_text": "Sharp! Plant the charge!",
+    "translation": "夏普！装炸药！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0345__L9_MAD_11__684B6F84.mp3": {
+    "asr_text": "Through the door!",
+    "translation": "穿过那扇门！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0346__L9_TAY_21__9D7B0E47.mp3": {
+    "asr_text": "Sharp! What are you waiting for? Get over there!",
+    "translation": "夏普！还等什么？快过去！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0347__L9_CPT_132__684946FF.mp3": {
+    "asr_text": "Fine work, Sergeant! My thanks to you and your men! I'll make sure command hear of this!",
+    "translation": "干得好，中士！谢谢你和你的弟兄们。我一定向指挥部报告！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0348__L9_MAD_133__A4B1C929.mp3": {
+    "asr_text": "Just doing our bit, sir. Just doing our bit.",
+    "translation": "分内的事，长官，分内的事。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0349__L9_FN2_125__03354CA6.mp3": {
+    "asr_text": "That was just bloody close!",
+    "translation": "刚才可真够险的！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0350__L9_TAY_143__E244A024.mp3": {
+    "asr_text": "Dammit! Sorry, sir! I lost control on that bend!",
+    "translation": "干！抱歉，长官，过那个弯时没控制住！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0351__L9_MAD_144__A674B949.mp3": {
+    "asr_text": "We'll discuss the technicalities later, Taylor. Just get us out of here!",
+    "translation": "技术问题回头再聊，泰勒。先带我们离开这儿！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0352__L9_MAD_145__A682D0CA.mp3": {
+    "asr_text": "Shut up, keep us covered, lad!",
+    "translation": "夏普，掩护我们！",
+    "needs_review": true,
+    "note": "Shut up疑似Sharpe人名，AM可佐证，译为夏普而非闭嘴。"
+  },
+  "0353__L9_TAY_146__E26EE6A7.mp3": {
+    "asr_text": "The wheels is just spinning! It's stuck!",
+    "translation": "轮子光打转！车动不了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0354__L9_MAD_147__A69EFFCC.mp3": {
+    "asr_text": "Taylor! Get us bloody moving!",
+    "translation": "泰勒！赶紧把车开起来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0355__L9_MAD_131__A4959A27.mp3": {
+    "asr_text": "Bloody hell, nice driving Taylor!",
+    "translation": "牛逼，泰勒，开得真漂亮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0356__L9_TAY_0__80D6F764.mp3": {
+    "asr_text": "So the captain's holed up at the church, pinned down, and we're going in to get him out, right?",
+    "translation": "所以说，上尉被困在教堂里，我们要冲进去把他带出来，对吧？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0357__L9_MAD_1__1C232989.mp3": {
+    "asr_text": "That's about the size of it, Taylor.",
+    "translation": "差不多就这么回事，泰勒。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0358__L9_TAY_2__80F32666.mp3": {
+    "asr_text": "Ha! You reckon we'll get medals?",
+    "translation": "哈！你说会给我们发勋章吗？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0359__L9_MAD_3__1C3F588B.mp3": {
+    "asr_text": "Knowing the captain will be lucky to get a handshake, lad.",
+    "translation": "就上尉那脾气，能握个手就算不错了，小子。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0360__L9_TAY_4__810F5568.mp3": {
+    "asr_text": "There's the church spire behind those buildings.",
+    "translation": "那些楼后面就是教堂尖顶。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0361__L9_TAY_5__811D6CE9.mp3": {
+    "asr_text": "Route looks clear.",
+    "translation": "路上看着没人。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0362__L9_FN2_101__FF933D64.mp3": {
+    "asr_text": "Germans to the north!",
+    "translation": "北边有德军！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0363__L9_TAY_23__9D973D49.mp3": {
+    "asr_text": "BOOM! HAHA! HAVE THAT, SHERRY!",
+    "translation": "嘣！哈哈！接招吧！",
+    "needs_review": true,
+    "note": "Sherry疑似Jerry误识别，战场口语省略称呼。"
+  },
+  "0364__L9_MAD_127__A3354E8E.mp3": {
+    "asr_text": "Taylor, they blocked the road. You'll have to go cross terrain.",
+    "translation": "泰勒，路被堵了，要绕到野地里去。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0365__L9_MAD_128__A343660F.mp3": {
+    "asr_text": "Taylor, you buck, get off the road!",
+    "translation": "泰勒，你这傻子！离开公路！",
+    "needs_review": true,
+    "note": "you buck疑似you berk，AM可佐证，按笨蛋处理。"
+  },
+  "0366__L9_MAD_129__A3517D90.mp3": {
+    "asr_text": "Go straight through the fence, Taylor!",
+    "translation": "泰勒，直接撞穿围栏！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0367__L9_TAY_130__E0658102.mp3": {
+    "asr_text": "Hold on to your hats, lads!",
+    "translation": "弟兄们，坐稳了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0368__L9_MAD_136__A4DC0FAC.mp3": {
+    "asr_text": "Crikey, it's a panzer!",
+    "translation": "我操，是坦克！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0369__L9_MAD_10__683D5803.mp3": {
+    "asr_text": "Shop! Shop! Get up!",
+    "translation": "夏普！夏普！起来！",
+    "needs_review": true,
+    "note": "Shop疑似Sharpe，人名统一夏普。"
+  },
+  "0370__L9_MAD_41__6D69F961.mp3": {
+    "asr_text": "Let's move! Go! Go!",
+    "translation": "走！快！快！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0371__L9_MAD_157__A853D86B.mp3": {
+    "asr_text": "They coming from the south now, Sharp. Have at them, lad.",
+    "translation": "夏普，他们又从南边来了。挡住他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0372__L9_MAD_62__70E1C220.mp3": {
+    "asr_text": "It's not far, come on!",
+    "translation": "没多远了，快！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0373__L9_FN2_83__03D65285.mp3": {
+    "asr_text": "Captain, Sergeant Maddox here.",
+    "translation": "上尉，马多克中士来了。",
+    "needs_review": true,
+    "note": "Maddox/Maddock统一采用现有头顶人名译法马多克。"
+  },
+  "0374__L9_CPT_84__179E8629.mp3": {
+    "asr_text": "Glad you could make it, Sergeant.",
+    "translation": "中士，很高兴你能赶过来。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0375__L9_MAD_85__7475B9E1.mp3": {
+    "asr_text": "So am I, sir. What's the situation?",
+    "translation": "我也是，长官。现在什么情况？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0376__L9_CPT_86__17BAB52B.mp3": {
+    "asr_text": "Jerry got lucky and caught me with a blasted bullet.",
+    "translation": "德国人走运，让我挨了一发该死的子弹。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0377__L9_MAD_87__7491E8E3.mp3": {
+    "asr_text": "Can you walk?",
+    "translation": "还能走吗？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0378__L9_CPT_88__17D6E42D.mp3": {
+    "asr_text": "Unfortunately not.",
+    "translation": "很遗憾，不能。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0379__L9_MAD_89__74AE17E5.mp3": {
+    "asr_text": "We can't hold out forever up here, sir. Not with so many Germans still in town.",
+    "translation": "长官，镇上还有这么多德军，我们不可能一直守在这儿。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0380__L9_CPT_90__191B00C4.mp3": {
+    "asr_text": "Understood, Sergeant. Just make sure you get the men out of here.",
+    "translation": "明白，中士。你要把弟兄们带出去。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0381__L9_MAD_91__75F2347C.mp3": {
+    "asr_text": "So there's no way me and the lads are leaving you behind. If you can't walk, then I'll find us some transport.",
+    "translation": "长官，我和弟兄们绝不会丢下你。走不了，我就去找辆车。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0382__L9_CPT_92__19372FC6.mp3": {
+    "asr_text": "We had to abandon two jeeps nearby. They'd had it, I'm afraid.",
+    "translation": "附近丢了两辆吉普，不过恐怕已经废了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0383__L9_FN3_94__6D7A6F84.mp3": {
+    "asr_text": "Sir, they were knackered. There's no way we can drive them.",
+    "translation": "长官，那车都坏完了，根本开不了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0384__L9_TAY_95__A9A558A4.mp3": {
+    "asr_text": "I was a mechanic back in civvy life, sir. I bet I could have him going in a jiffy.",
+    "translation": "长官，我当兵前是干汽修的，说不定一会儿就能修好。",
+    "needs_review": true,
+    "note": "him疑似them，指待修的吉普车；不额外引入人物。"
+  },
+  "0385__L9_MAD_96__7638AA01.mp3": {
+    "asr_text": "Glad to know you're good for something, Taylor. Get on it, lad.",
+    "translation": "泰勒，总算知道你还有点用。去吧。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0386__L9_CPT_97__197DA54B.mp3": {
+    "asr_text": "If we can just hold Jerry until they come back, we might have a shot at this, Sergeant Maddock.",
+    "translation": "马多克中士，只要能撑到他们回来，就有希望了。",
+    "needs_review": true,
+    "note": "人名沿用现有统一译文马多克。"
+  },
+  "0387__L9_MAD_98__7654D903.mp3": {
+    "asr_text": "Understood, sir. Sharp, keep your eyes peeled and shoot anything not in a British uniform.",
+    "translation": "明白，长官。夏普，盯紧点，认清英军制服，别让敌人靠近。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0388__L9_TAY_63__A46A9FC5.mp3": {
+    "asr_text": "A passage! The church!",
+    "translation": "有条通道！通教堂！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0389__L9_MAD_64__70FDF122.mp3": {
+    "asr_text": "Looks like our boys are in trouble up there!",
+    "translation": "咱们的弟兄在上面有麻烦了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0390__L9_MAD_44__6D943FE4.mp3": {
+    "asr_text": "Here they come! Get down!",
+    "translation": "他们来了！趴下！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0391__L9_MAD_26__6A46BDA8.mp3": {
+    "asr_text": "Step on it, Sharp! Get down that street and knock out the half-track!",
+    "translation": "夏普，快点！沿街下去，干掉那辆半履带车！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0392__L9_MAD_12__68598705.mp3": {
+    "asr_text": "Come on, Sharp. We gotta flank that bloody half-track. If those lads down there are in for it.",
+    "translation": "夏普，快，要绕到那辆半履带车侧面，不然下面的弟兄就危险了。",
+    "needs_review": true,
+    "note": "ASR连句关系疑似if/不然误识别，按下方己方士兵面临火力威胁理解。"
+  },
+  "0393__L9_MAD_13__68679E86.mp3": {
+    "asr_text": "Tyler, get that door open!",
+    "translation": "泰勒，把门打开！",
+    "needs_review": true,
+    "note": "Tyler疑似Taylor，人名统一泰勒。"
+  },
+  "0394__L9_TAY_14__9BF07C2B.mp3": {
+    "asr_text": "Okay Sarge!",
+    "translation": "好，中士！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0395__L9_MAD_126__A327370D.mp3": {
+    "asr_text": "Sharp! Earn your king's shilling, lad! Give us some supporting fire!",
+    "translation": "夏普，别白领军饷！给我们火力支援！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0396__L9_MAD_160__A9A60C83.mp3": {
+    "asr_text": "Taylor, get a charge on that bridge.",
+    "translation": "泰勒，去桥上装炸药。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0397__L9_CPT_117__65260B46.mp3": {
+    "asr_text": "All right, lads, we're leaving.",
+    "translation": "好了，弟兄们，撤了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0398__L9_CPT_139__68ABEB86.mp3": {
+    "asr_text": "Down there! Across the bridge!",
+    "translation": "那边！过桥！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0399__L9_TAY_45__A11D1D89.mp3": {
+    "asr_text": "Damn! That's a Panzer! Get in cover!",
+    "translation": "妈的，是坦克！找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0400__L9_MAD_120__A2D2AA07.mp3": {
+    "asr_text": "Step on it, Tyler!",
+    "translation": "泰勒，踩油门！",
+    "needs_review": true,
+    "note": "Tyler疑似Taylor，人名统一泰勒。"
+  },
+  "0401__L9_TAY_121__DEBEBFE4.mp3": {
+    "asr_text": "Righto!",
+    "translation": "好嘞！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0402__L9_MAD_109__9FE7CC52.mp3": {
+    "asr_text": "SHOP! GET ON THAT MG!",
+    "translation": "夏普！去操纵那挺机枪！",
+    "needs_review": true,
+    "note": "SHOP疑似Sharpe，按人名处理。"
+  },
+  "0403__L9_FN1_100__6B40B6E2.mp3": {
+    "asr_text": "COUNTER ATTACK!",
+    "translation": "敌人反扑了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0404__L9_MAD_24__6A2A8EA6.mp3": {
+    "asr_text": "Nicely done, lads. Let's get through here. Taylor, the door, please.",
+    "translation": "干得好，弟兄们，穿过去。泰勒，开个门。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0405__L9_MAD_19__68BC2B8C.mp3": {
+    "asr_text": "Sharp, Taylor, get across the street and bung a charge on that half-track.",
+    "translation": "夏普、泰勒，穿过街道，给那辆半履带车装上炸药。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0406__L9_TAY_20__9D6CF6C6.mp3": {
+    "asr_text": "Okay, Sarge. Come at sharp. Let's get to it.",
+    "translation": "好，中士。夏普，来，动手吧。",
+    "needs_review": true,
+    "note": "Come at sharp疑似Come on, Sharpe，按招呼夏普行动处理。"
+  },
+  "0407__L9_MAD_15__6883CD88.mp3": {
+    "asr_text": "Damn it! They've got us pinned!",
+    "translation": "妈的，我们被压住了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0408__L9_MAD_42__6D7810E2.mp3": {
+    "asr_text": "We need air support now!",
+    "translation": "马上呼叫空中支援！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0409__L9_TAY_43__A100EE87.mp3": {
+    "asr_text": "I'm on it, sir!",
+    "translation": "正在联系，长官！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0410__L9_TAY_115__DD424549.mp3": {
+    "asr_text": "Did someone order a taxi?",
+    "translation": "谁叫的出租车？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0411__L9_MAD_116__A1725E6E.mp3": {
+    "asr_text": "You wait ages for one and two come along at once, eh?",
+    "translation": "等半天一辆没有，一来就是两辆，对吧？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0412__L9_MAD_8__1C85CE10.mp3": {
+    "asr_text": "Hell, Jerry's a mine the road!",
+    "translation": "干！德军在路上埋了雷！",
+    "needs_review": true,
+    "note": "a mine疑似have mined，按道路埋雷处理。"
+  },
+  "0413__L9_TAY_7__81399BEB.mp3": {
+    "asr_text": "AHHHHH!",
+    "translation": "",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0414__L9_MAD_27__6A54D529.mp3": {
+    "asr_text": "Most of the roads are blocked with debris. We'll have to pick our way through to the church.",
+    "translation": "大半道路都被瓦砾堵了，要找路穿过去，到教堂去。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0415__L9_TAY_28__9DDDB2CE.mp3": {
+    "asr_text": "Jennings everywhere!",
+    "translation": "到处都是德军！",
+    "needs_review": true,
+    "note": "Jennings疑似Jerries，按敌军喊话理解，待听音。"
+  },
+  "0416__L9_MAD_29__6A71042B.mp3": {
+    "asr_text": "Keep moving, we can handle him!",
+    "translation": "继续前进，对付得了他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0417__L9_FN1_105__6B872C67.mp3": {
+    "asr_text": "Stone me! They've got armor down there now!",
+    "translation": "天哪！他们连坦克都开来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "DLLN:L9_BURE_TAY_06:237992C2": {
+    "asr_text": "",
+    "source_text": "Half-track!",
+    "source_text_origin": "am_dlln",
+    "translation": "半履带车！",
+    "needs_review": true,
+    "note": "AM补录文本：本关音频银行没有对应录音，原MP3/ASR导出未包含；此原文来自游戏DLLN，不是Whisper识别。请结合游戏实际显示翻译。"
+  },
+  "DLLN:L9_BURE_TAY_15:252053E0": {
+    "asr_text": "",
+    "source_text": "They've got a damn halftrack up there!",
+    "source_text_origin": "am_dlln",
+    "translation": "妈的，上面有辆半履带车！",
+    "needs_review": true,
+    "note": "AM补录文本：本关音频银行没有对应录音，原MP3/ASR导出未包含；此原文来自游戏DLLN，不是Whisper识别。请结合游戏实际显示翻译。"
+  }
+}

@@ -1,0 +1,986 @@
+{
+  "0049__GE_0_inform_incoming_grenade_00__944FEE7F.mp3": {
+    "asr_text": "HANDGENAUTE! RAUSTER!",
+    "translation": "（德语）手雷！快躲开！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0050__GE_0_inform_incoming_grenade_01__945E0600.mp3": {
+    "asr_text": "Vorsicht, Kanata!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0051__GE_0_inform_incoming_grenade_02__946C1D81.mp3": {
+    "asr_text": "WANDER GEKONNAUTE!",
+    "translation": "（德语）敌人扔手雷了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0052__GE_0_inform_incoming_grenade_03__947A3502.mp3": {
+    "asr_text": "Helikarate, weg hier!",
+    "translation": "（德语）有手雷！快躲！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0053__GE_0_inform_incoming_grenade_04__94884C83.mp3": {
+    "asr_text": "GRENADE DER GREFFE IST DER KONG!",
+    "translation": "（德语）手雷！找掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0054__GE_0_inform_incoming_grenade_05__94966404.mp3": {
+    "asr_text": "Granate im Achtel!",
+    "translation": "（德语）手雷！快躲！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0055__GE_0_inform_attack_grenade_00__138711DD.mp3": {
+    "asr_text": "Hier, ein Geschenk für die deutsche Armee!",
+    "translation": "（德语）德国军队送你的大礼！",
+    "needs_review": true,
+    "note": "ASR的für疑似应为von；参照其他演员明确识别出的同类喊话拟译，待听音。"
+  },
+  "0056__GE_0_inform_attack_grenade_01__1395295E.mp3": {
+    "asr_text": "DER IDIOT FANG DAS HIER!",
+    "translation": "（德语）蠢货，接着！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0057__GE_0_inform_attack_grenade_02__13A340DF.mp3": {
+    "asr_text": "Eine Granate! Kommt sofort!",
+    "translation": "（德语）给你来颗手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0058__GE_0_inform_attack_grenade_03__13B15860.mp3": {
+    "asr_text": "Achtung, Granate!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0059__GE_0_inform_attack_grenade_04__13BF6FE1.mp3": {
+    "asr_text": "ACHT AUG! WERFELDENKANATE!",
+    "translation": "（德语）小心，我扔手雷了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0060__GE_0_inform_attack_grenade_05__13CD8762.mp3": {
+    "asr_text": "Hier hast du eine Granate, Kommunistenschwein!",
+    "translation": "",
+    "needs_review": true,
+    "note": "按本条ASR中的Kommunistenschwein翻译，未因其它关卡背景改写；请重点听音。"
+  },
+  "0061__GE_0_inform_killfirm_generic_00__69FD20A0.mp3": {
+    "asr_text": "HABANAN!",
+    "translation": "（德语）干掉一个！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0062__GE_0_inform_killfirm_generic_01__6A0B3821.mp3": {
+    "asr_text": "Betrug eliminiert!",
+    "translation": "（德语）目标干掉了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0063__GE_0_inform_killfirm_generic_02__6A194FA2.mp3": {
+    "asr_text": "Sterbt, ihr Bastarde!",
+    "translation": "（德语）去死吧，混蛋！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0064__GE_0_reaction_casualty_generic_00__B932ED0C.mp3": {
+    "asr_text": "EIN HERZEWISCHT!",
+    "translation": "（德语）有人中弹了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0065__GE_0_reaction_casualty_generic_01__B941048D.mp3": {
+    "asr_text": "MANNERBODEN!",
+    "translation": "（德语）有人倒下了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0066__GE_0_reaction_casualty_generic_02__B94F1C0E.mp3": {
+    "asr_text": "SONITETA!",
+    "translation": "（德语）卫生员！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0067__GE_0_reaction_casualty_generic_03__B95D338F.mp3": {
+    "asr_text": "Er braucht Hilfe! Er wurde getroffen!",
+    "translation": "（德语）他中弹了！快帮他！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0068__GE_0_inform_reloading_00__BE8F3FFD.mp3": {
+    "asr_text": "LADENACH!",
+    "translation": "（德语）装弹！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0069__GE_0_inform_reloading_01__BE9D577E.mp3": {
+    "asr_text": "Verdammt! Leergeschossen! Lade nach!",
+    "translation": "（德语）妈的，打空了！装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0070__GE_0_order_cover_generic_00__69A9ABCC.mp3": {
+    "asr_text": "ENDEKON!",
+    "translation": "（德语）找掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0071__GE_0_order_cover_generic_01__69B7C34D.mp3": {
+    "asr_text": "Hintekom!",
+    "translation": "（德语）快躲起来！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0072__GE_0_order_cover_generic_02__69C5DACE.mp3": {
+    "asr_text": "In Tech-O-Game los!",
+    "translation": "（德语）快找掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0073__GE_0_order_cover_generic_03__69D3F24F.mp3": {
+    "asr_text": "DECK ON! GEH DECK ON!",
+    "translation": "（德语）掩护！快躲！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0074__GE_0_order_move_forward_00__A5A7B648.mp3": {
+    "asr_text": "FIGHTER FORWARD!",
+    "translation": "（德语）继续前进！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0075__GE_0_order_move_forward_01__A5B5CDC9.mp3": {
+    "asr_text": "Auf die feindlichen Positionen vorrücken!",
+    "translation": "（德语）朝敌军阵地推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0076__GE_0_order_move_forward_02__A5C3E54A.mp3": {
+    "asr_text": "VORWIRTZ!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0077__GE_0_order_move_forward_03__A5D1FCCB.mp3": {
+    "asr_text": "NEIN F plots",
+    "translation": "（德语）往前！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0078__GE_0_order_move_forward_04__A5E0144C.mp3": {
+    "asr_text": "WEITER VORSTOßEN!",
+    "translation": "（德语）继续推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0079__GE_0_order_move_forward_05__A5EE2BCD.mp3": {
+    "asr_text": "VORWÄTS!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0080__GE_0_order_action_suppress_00__AFAE0C1D.mp3": {
+    "asr_text": "SPÄHRFÄHR!",
+    "translation": "（德语）压制射击！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0081__GE_0_order_action_suppress_01__AFBC239E.mp3": {
+    "asr_text": "Gebt's mehr Feiermühle!",
+    "translation": "（德语）弟兄们，火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0082__GE_0_order_action_suppress_02__AFCA3B1F.mp3": {
+    "asr_text": "Legen wir sie unter starken Beschuss!",
+    "translation": "（德语）狠狠压住他们！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0083__GE_0_order_action_suppress_03__AFD852A0.mp3": {
+    "asr_text": "BASCHIST, DIESE ZIELE!",
+    "translation": "（德语）朝那些目标开火！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0084__GE_0_order_action_suppress_04__AFE66A21.mp3": {
+    "asr_text": "FIRE SHOTS!",
+    "translation": "（德语）火力掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0085__GE_0_order_action_suppress_05__AFF481A2.mp3": {
+    "asr_text": "IHR BRAUCHEN SPÄHRFEUER!",
+    "translation": "（德语）我们需要火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0086__GE_0_inform_suppressed_generic_00__7C9FC868.mp3": {
+    "asr_text": "ICH STEHE UNTER SCHMÄLER BESCHOß!",
+    "translation": "（德语）敌人火力太猛了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0087__GE_0_inform_suppressed_generic_01__7CADDFE9.mp3": {
+    "asr_text": "Sie haben uns festgelagert!",
+    "translation": "（德语）我们被压得动不了了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0088__GE_0_inform_suppressed_generic_02__7CBBF76A.mp3": {
+    "asr_text": "SCHWÄRE BISCHUS!",
+    "translation": "（德语）火力太猛了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0089__GE_0_inform_suppressed_generic_03__7CCA0EEB.mp3": {
+    "asr_text": "ON THE PICIOUS!",
+    "translation": "（德语）我们遭到射击！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0133__GE_1_inform_incoming_grenade_00__1C802E5E.mp3": {
+    "asr_text": "Handgranate! Raus da!",
+    "translation": "（德语）手雷！快躲开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0134__GE_1_inform_incoming_grenade_01__1C8E45DF.mp3": {
+    "asr_text": "Vorsicht, Granate!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0135__GE_1_inform_incoming_grenade_02__1C9C5D60.mp3": {
+    "asr_text": "Fight League Granate!",
+    "translation": "（德语）敌人扔手雷了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0136__GE_1_inform_incoming_grenade_03__1CAA74E1.mp3": {
+    "asr_text": "Eine Granate! Weg hier!",
+    "translation": "（德语）有手雷！快躲！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0137__GE_1_inform_incoming_grenade_04__1CB88C62.mp3": {
+    "asr_text": "Granatenangriff! Entdeckung!",
+    "translation": "（德语）手雷！找掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0138__GE_1_inform_incoming_grenade_05__1CC6A3E3.mp3": {
+    "asr_text": "Granate macht schnell!",
+    "translation": "（德语）手雷！快躲！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0139__GE_1_inform_attack_grenade_00__1433BD7C.mp3": {
+    "asr_text": "Ah!",
+    "translation": "",
+    "needs_review": true,
+    "note": "ASR仅识别到叫喊，译作喊声，未按文件名补造台词。"
+  },
+  "0140__GE_1_inform_attack_grenade_01__1441D4FD.mp3": {
+    "asr_text": "Hey du Idiot, fang das hier!",
+    "translation": "（德语）蠢货，接着！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0141__GE_1_inform_attack_grenade_02__144FEC7E.mp3": {
+    "asr_text": "Eine Granate! Kommt sofort!",
+    "translation": "（德语）给你来颗手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0142__GE_1_inform_attack_grenade_03__145E03FF.mp3": {
+    "asr_text": "Achtung, Granate!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0143__GE_1_inform_attack_grenade_04__146C1B80.mp3": {
+    "asr_text": "Achtung, werfe eine Granate!",
+    "translation": "（德语）小心，我扔手雷了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0144__GE_1_inform_attack_grenade_05__147A3301.mp3": {
+    "asr_text": "Hier, ein Geschenk von der deutschen Armee!",
+    "translation": "（德语）德国军队送你的大礼！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0145__GE_1_inform_killfirm_generic_00__F22D607F.mp3": {
+    "asr_text": "Hab einen!",
+    "translation": "（德语）干掉一个！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0146__GE_1_inform_killfirm_generic_01__F23B7800.mp3": {
+    "asr_text": "Bedrohung eliminiert!",
+    "translation": "（德语）目标干掉了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0147__GE_1_inform_killfirm_generic_02__F2498F81.mp3": {
+    "asr_text": "Sterbt, ihr Bastarde!",
+    "translation": "（德语）去死吧，混蛋！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0148__GE_1_reaction_casualty_generic_00__F652B12B.mp3": {
+    "asr_text": "EINER TÜVÖSCHT!",
+    "translation": "（德语）有人中弹了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0149__GE_1_reaction_casualty_generic_01__F660C8AC.mp3": {
+    "asr_text": "MANN AM BODEN!",
+    "translation": "（德语）有人倒下了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0150__GE_1_reaction_casualty_generic_02__F66EE02D.mp3": {
+    "asr_text": "Sanitator!",
+    "translation": "（德语）卫生员！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0151__GE_1_reaction_casualty_generic_03__F67CF7AE.mp3": {
+    "asr_text": "Er braucht Hilfe! Er wurde getroffen!",
+    "translation": "（德语）他中弹了！快帮他！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0152__GE_1_inform_reloading_00__42BF8CFE.mp3": {
+    "asr_text": "Schnell! Deckung geben! Ich muss nachladen!",
+    "translation": "（德语）快掩护，我要装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0153__GE_1_inform_reloading_01__42CDA47F.mp3": {
+    "asr_text": "Brauche Deckung beim Nachladen!",
+    "translation": "（德语）掩护我装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0154__GE_1_order_cover_generic_00__5A7AB32B.mp3": {
+    "asr_text": "INDECKUNG!",
+    "translation": "（德语）找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0155__GE_1_order_cover_generic_01__5A88CAAC.mp3": {
+    "asr_text": "Geh in Deckung!",
+    "translation": "（德语）快躲起来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0156__GE_1_order_cover_generic_02__5A96E22D.mp3": {
+    "asr_text": "Entdeckung gehen los!",
+    "translation": "（德语）快找掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0157__GE_1_order_cover_generic_03__5AA4F9AE.mp3": {
+    "asr_text": "DECKUNG GEH IN DECKUNG!",
+    "translation": "（德语）掩护！快躲！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0158__GE_1_order_move_forward_00__DEF8C709.mp3": {
+    "asr_text": "Weitervorwärts!",
+    "translation": "（德语）继续前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0159__GE_1_order_move_forward_01__DF06DE8A.mp3": {
+    "asr_text": "Auf die feindlichen Positionen vorrücken!",
+    "translation": "（德语）朝敌军阵地推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0160__GE_1_order_move_forward_02__DF14F60B.mp3": {
+    "asr_text": "VORWÄTS!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0161__GE_1_order_move_forward_03__DF230D8C.mp3": {
+    "asr_text": "Nach vorne!",
+    "translation": "（德语）往前！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0162__GE_1_order_move_forward_04__DF31250D.mp3": {
+    "asr_text": "Weitervorstoßen!",
+    "translation": "（德语）继续推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0163__GE_1_order_move_forward_05__DF3F3C8E.mp3": {
+    "asr_text": "VORWärts!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0164__GE_1_order_action_suppress_00__B05AB7BC.mp3": {
+    "asr_text": "Sperrfeuer!",
+    "translation": "（德语）压制射击！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0165__GE_1_order_action_suppress_01__B068CF3D.mp3": {
+    "asr_text": "Gib Schmerzfeuer Männer!",
+    "translation": "（德语）弟兄们，火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0166__GE_1_order_action_suppress_02__B076E6BE.mp3": {
+    "asr_text": "Legen wir sie unter starken Beschuss!",
+    "translation": "（德语）狠狠压住他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0167__GE_1_order_action_suppress_03__B084FE3F.mp3": {
+    "asr_text": "WIE SCHießT ICH DIESE ZIELE?",
+    "translation": "（德语）朝那些目标开火！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0168__GE_1_order_action_suppress_04__B09315C0.mp3": {
+    "asr_text": "Feuerschutz!",
+    "translation": "（德语）火力掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0169__GE_1_order_action_suppress_05__B0A12D41.mp3": {
+    "asr_text": "Wir brauchen Schwerfeuer!",
+    "translation": "（德语）我们需要火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0170__GE_1_inform_suppressed_generic_00__B9BF8C87.mp3": {
+    "asr_text": "Ich stehe unter schwerem Beschuss!",
+    "translation": "（德语）敌人火力太猛了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0171__GE_1_inform_suppressed_generic_01__B9CDA408.mp3": {
+    "asr_text": "Sie haben uns festgenagelt!",
+    "translation": "（德语）我们被压得动不了了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0172__GE_1_inform_suppressed_generic_02__B9DBBB89.mp3": {
+    "asr_text": "SCHWERER BESCHUSS!",
+    "translation": "（德语）火力太猛了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0173__GE_1_inform_suppressed_generic_03__B9E9D30A.mp3": {
+    "asr_text": "UNTER BESCHÖSSS!",
+    "translation": "（德语）我们遭到射击！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0224__GE_2_inform_incoming_grenade_00__A4B06E3D.mp3": {
+    "asr_text": "Handgranate raus da!",
+    "translation": "（德语）手雷！快躲开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0225__GE_2_inform_incoming_grenade_01__A4BE85BE.mp3": {
+    "asr_text": "Vorsicht, Granate!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0226__GE_2_inform_incoming_grenade_02__A4CC9D3F.mp3": {
+    "asr_text": "Feindliche Granate!",
+    "translation": "（德语）敌人扔手雷了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0227__GE_2_inform_incoming_grenade_03__A4DAB4C0.mp3": {
+    "asr_text": "Eine Granate! Weg hier!",
+    "translation": "（德语）有手雷！快躲！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0228__GE_2_inform_incoming_grenade_04__A4E8CC41.mp3": {
+    "asr_text": "Granatneingriff! Entdeckung!",
+    "translation": "（德语）手雷！找掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0229__GE_2_inform_incoming_grenade_05__A4F6E3C2.mp3": {
+    "asr_text": "Gerade im Achtel!",
+    "translation": "（德语）手雷！快躲！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0230__GE_2_inform_attack_grenade_00__14E0691B.mp3": {
+    "asr_text": "UAH!",
+    "translation": "（德语）啊！",
+    "needs_review": true,
+    "note": "ASR仅识别到叫喊，译作喊声，未按文件名补造台词。"
+  },
+  "0231__GE_2_inform_attack_grenade_01__14EE809C.mp3": {
+    "asr_text": "Hey, du Idiot! Wann das hier?",
+    "translation": "（德语）蠢货，接着！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0232__GE_2_inform_attack_grenade_02__14FC981D.mp3": {
+    "asr_text": "Eine Granate kommt sofort!",
+    "translation": "（德语）给你来颗手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0233__GE_2_inform_attack_grenade_03__150AAF9E.mp3": {
+    "asr_text": "Achtung, Granate!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0234__GE_2_inform_attack_grenade_04__1518C71F.mp3": {
+    "asr_text": "Achtung, werfe eine Granate!",
+    "translation": "（德语）小心，我扔手雷了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0235__GE_2_inform_attack_grenade_05__1526DEA0.mp3": {
+    "asr_text": "Hier, ein Geschenk von der deutschen Armee!",
+    "translation": "（德语）德国军队送你的大礼！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0236__GE_2_inform_killfirm_generic_00__7A5DA05E.mp3": {
+    "asr_text": "Hi Biden!",
+    "translation": "（德语）干掉一个！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0237__GE_2_inform_killfirm_generic_01__7A6BB7DF.mp3": {
+    "asr_text": "Bedrohung eliminiert!",
+    "translation": "（德语）目标干掉了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0238__GE_2_inform_killfirm_generic_02__7A79CF60.mp3": {
+    "asr_text": "Steht ihr Bastarde!",
+    "translation": "（德语）去死吧，混蛋！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0239__GE_2_reaction_casualty_generic_00__3372754A.mp3": {
+    "asr_text": "EIN HATZE WESCHT!",
+    "translation": "（德语）有人中弹了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0240__GE_2_reaction_casualty_generic_01__33808CCB.mp3": {
+    "asr_text": "Mann am Boden!",
+    "translation": "（德语）有人倒下了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0241__GE_2_reaction_casualty_generic_02__338EA44C.mp3": {
+    "asr_text": "Sunny Täter!",
+    "translation": "（德语）卫生员！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0242__GE_2_reaction_casualty_generic_03__339CBBCD.mp3": {
+    "asr_text": "Er braucht Hilfe! Er wurde getroffen!",
+    "translation": "（德语）他中弹了！快帮他！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0243__GE_2_inform_reloading_00__C6EFD9FF.mp3": {
+    "asr_text": "Schnell! Dekko geben! Ich muss nachladen!",
+    "translation": "（德语）快掩护，我要装弹！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0244__GE_2_inform_reloading_01__C6FDF180.mp3": {
+    "asr_text": "Brauch ich Deckung beim Nachladen?",
+    "translation": "（德语）掩护我装弹！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0245__GE_2_order_cover_generic_00__4B4BBA8A.mp3": {
+    "asr_text": "IN DECKUNG!",
+    "translation": "（德语）找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0246__GE_2_order_cover_generic_01__4B59D20B.mp3": {
+    "asr_text": "GEH DAKUM!",
+    "translation": "（德语）快躲起来！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0247__GE_2_order_cover_generic_02__4B67E98C.mp3": {
+    "asr_text": "In Deckung gehen! Los!",
+    "translation": "（德语）快找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0248__GE_2_order_cover_generic_03__4B76010D.mp3": {
+    "asr_text": "Dekong! Geh, Dekong!",
+    "translation": "（德语）掩护！快躲！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0249__GE_2_order_move_forward_00__1849D7CA.mp3": {
+    "asr_text": "Weiter, vorwärts!",
+    "translation": "（德语）继续前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0250__GE_2_order_move_forward_01__1857EF4B.mp3": {
+    "asr_text": "Auf die feindlichen Positionen vorrücken!",
+    "translation": "（德语）朝敌军阵地推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0251__GE_2_order_move_forward_02__186606CC.mp3": {
+    "asr_text": "Vollwärts!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0252__GE_2_order_move_forward_03__18741E4D.mp3": {
+    "asr_text": "LACH VOR!",
+    "translation": "（德语）往前！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0253__GE_2_order_move_forward_04__188235CE.mp3": {
+    "asr_text": "Weiter vorstoßen!",
+    "translation": "（德语）继续推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0254__GE_2_order_move_forward_05__18904D4F.mp3": {
+    "asr_text": "VORWärts!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0255__GE_2_order_action_suppress_00__B107635B.mp3": {
+    "asr_text": "SPÄHRFEUER!",
+    "translation": "（德语）压制射击！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0256__GE_2_order_action_suppress_01__B1157ADC.mp3": {
+    "asr_text": "GIBT SPÄRFEUERMÄNNER!",
+    "translation": "（德语）弟兄们，火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0257__GE_2_order_action_suppress_02__B123925D.mp3": {
+    "asr_text": "Legen wir sie unter starken Beschuss!",
+    "translation": "（德语）狠狠压住他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0258__GE_2_order_action_suppress_03__B131A9DE.mp3": {
+    "asr_text": "WIE SCHießT DIESE ZIELE?!",
+    "translation": "（德语）朝那些目标开火！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0259__GE_2_order_action_suppress_04__B13FC15F.mp3": {
+    "asr_text": "FIRE SHOTS!",
+    "translation": "（德语）火力掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0260__GE_2_order_action_suppress_05__B14DD8E0.mp3": {
+    "asr_text": "Wir brauchen Speerfeuer!",
+    "translation": "（德语）我们需要火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0261__GE_2_inform_suppressed_generic_00__F6DF50A6.mp3": {
+    "asr_text": "Ich stehe unter schwerem Beschuss!",
+    "translation": "（德语）敌人火力太猛了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0262__GE_2_inform_suppressed_generic_01__F6ED6827.mp3": {
+    "asr_text": "Sie haben uns festgenagelt!",
+    "translation": "（德语）我们被压得动不了了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0263__GE_2_inform_suppressed_generic_02__F6FB7FA8.mp3": {
+    "asr_text": "Schwerer Beschuss!",
+    "translation": "（德语）火力太猛了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0264__GE_2_inform_suppressed_generic_03__F7099729.mp3": {
+    "asr_text": "UNTER BESCHUSS!",
+    "translation": "（德语）我们遭到射击！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0315__GE_3_inform_incoming_grenade_00__2CE0AE1C.mp3": {
+    "asr_text": "HANDGRANATE, RAUS DA!",
+    "translation": "（德语）手雷！快躲开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0316__GE_3_inform_incoming_grenade_01__2CEEC59D.mp3": {
+    "asr_text": "Vorsicht, Granate!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0317__GE_3_inform_incoming_grenade_02__2CFCDD1E.mp3": {
+    "asr_text": "Feindliche Granate!",
+    "translation": "（德语）敌人扔手雷了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0318__GE_3_inform_incoming_grenade_03__2D0AF49F.mp3": {
+    "asr_text": "Eine Granate! Weg hier!",
+    "translation": "（德语）有手雷！快躲！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0319__GE_3_inform_incoming_grenade_04__2D190C20.mp3": {
+    "asr_text": "Granatenangriff in Deckung!",
+    "translation": "（德语）手雷！找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0320__GE_3_inform_incoming_grenade_05__2D2723A1.mp3": {
+    "asr_text": "Granate, mach schnell!",
+    "translation": "（德语）手雷！快躲！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0321__GE_3_inform_attack_grenade_00__158D14BA.mp3": {
+    "asr_text": "Äh!",
+    "translation": "",
+    "needs_review": true,
+    "note": "ASR仅识别到叫喊，译作喊声，未按文件名补造台词。"
+  },
+  "0322__GE_3_inform_attack_grenade_01__159B2C3B.mp3": {
+    "asr_text": "Hey du Idiot, fang das!",
+    "translation": "（德语）蠢货，接着！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0323__GE_3_inform_attack_grenade_02__15A943BC.mp3": {
+    "asr_text": "Hey, die Granate kommt sofort!",
+    "translation": "（德语）给你来颗手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0324__GE_3_inform_attack_grenade_03__15B75B3D.mp3": {
+    "asr_text": "ARDOR GRANATE!",
+    "translation": "（德语）小心，手雷！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0325__GE_3_inform_attack_grenade_04__15C572BE.mp3": {
+    "asr_text": "Achtung! Werfe eine Granate!",
+    "translation": "（德语）小心，我扔手雷了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0326__GE_3_inform_attack_grenade_05__15D38A3F.mp3": {
+    "asr_text": "Hier ein Geschenk von der deutschen Armee!",
+    "translation": "（德语）德国军队送你的大礼！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0327__GE_3_inform_killfirm_generic_00__028DE03D.mp3": {
+    "asr_text": "HABEINEN!",
+    "translation": "（德语）干掉一个！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0328__GE_3_inform_killfirm_generic_01__029BF7BE.mp3": {
+    "asr_text": "Bedrohung eliminiert!",
+    "translation": "（德语）目标干掉了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0329__GE_3_inform_killfirm_generic_02__02AA0F3F.mp3": {
+    "asr_text": "STIRBT, DIE BASTARDE!",
+    "translation": "（德语）去死吧，混蛋！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0330__GE_3_reaction_casualty_generic_00__70923969.mp3": {
+    "asr_text": "EINER ZERWISCHT!",
+    "translation": "（德语）有人中弹了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0331__GE_3_reaction_casualty_generic_01__70A050EA.mp3": {
+    "asr_text": "MANN AM BODEN!",
+    "translation": "（德语）有人倒下了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0332__GE_3_reaction_casualty_generic_02__70AE686B.mp3": {
+    "asr_text": "SONNITÄTER!",
+    "translation": "（德语）卫生员！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0333__GE_3_reaction_casualty_generic_03__70BC7FEC.mp3": {
+    "asr_text": "Er braucht Hilfe, er wurde getroffen!",
+    "translation": "（德语）他中弹了！快帮他！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0334__GE_3_inform_reloading_00__4B202700.mp3": {
+    "asr_text": "Schnell Deckung geben, ich muss nachladen!",
+    "translation": "（德语）快掩护，我要装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0335__GE_3_inform_reloading_01__4B2E3E81.mp3": {
+    "asr_text": "Prochendickung beim Nachladen!",
+    "translation": "（德语）掩护我装弹！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0336__GE_3_order_cover_generic_00__3C1CC1E9.mp3": {
+    "asr_text": "INDECKUNG!",
+    "translation": "（德语）找掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0337__GE_3_order_cover_generic_01__3C2AD96A.mp3": {
+    "asr_text": "Geh in Deckung!",
+    "translation": "（德语）快躲起来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0338__GE_3_order_cover_generic_02__3C38F0EB.mp3": {
+    "asr_text": "In Deckung gehen, los!",
+    "translation": "（德语）快找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0339__GE_3_order_cover_generic_03__3C47086C.mp3": {
+    "asr_text": "Deckung, geh in Deckung!",
+    "translation": "（德语）掩护！快躲！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0340__GE_3_order_move_forward_00__519AE88B.mp3": {
+    "asr_text": "WEITERFALLEN!",
+    "translation": "（德语）继续前进！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0341__GE_3_order_move_forward_01__51A9000C.mp3": {
+    "asr_text": "Auf die feindliche Position vorrücken!",
+    "translation": "（德语）朝敌军阵地推进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0342__GE_3_order_move_forward_02__51B7178D.mp3": {
+    "asr_text": "Moment!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0343__GE_3_order_move_forward_03__51C52F0E.mp3": {
+    "asr_text": "DAFONN!",
+    "translation": "（德语）往前！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0344__GE_3_order_move_forward_04__51D3468F.mp3": {
+    "asr_text": "WERD' DER VORSTOßEN?!",
+    "translation": "（德语）继续推进！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0345__GE_3_order_move_forward_05__51E15E10.mp3": {
+    "asr_text": "BALANCE!",
+    "translation": "（德语）前进！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0346__GE_3_order_action_suppress_00__B1B40EFA.mp3": {
+    "asr_text": "SPIRRFEUER!",
+    "translation": "（德语）压制射击！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0347__GE_3_order_action_suppress_01__B1C2267B.mp3": {
+    "asr_text": "Gebt Speerfeuer Männer!",
+    "translation": "（德语）弟兄们，火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0348__GE_3_order_action_suppress_02__B1D03DFC.mp3": {
+    "asr_text": "Legen wir sie unter starken Beschuss!",
+    "translation": "（德语）狠狠压住他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0349__GE_3_order_action_suppress_03__B1DE557D.mp3": {
+    "asr_text": "BESCHieß' DIESE ZIELE!",
+    "translation": "（德语）朝那些目标开火！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0350__GE_3_order_action_suppress_04__B1EC6CFE.mp3": {
+    "asr_text": "HEUER SCHUUTZ!",
+    "translation": "（德语）火力掩护！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0351__GE_3_order_action_suppress_05__B1FA847F.mp3": {
+    "asr_text": "IHR MACHEN SPÄRFÄHR!",
+    "translation": "（德语）我们需要火力压制！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0352__GE_3_inform_suppressed_generic_00__33FF14C5.mp3": {
+    "asr_text": "Ich stehe unter schweren Beschuss!",
+    "translation": "（德语）敌人火力太猛了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0353__GE_3_inform_suppressed_generic_01__340D2C46.mp3": {
+    "asr_text": "Sie haben uns festgenagelt!",
+    "translation": "（德语）我们被压得动不了了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0354__GE_3_inform_suppressed_generic_02__341B43C7.mp3": {
+    "asr_text": "SCHWIERBESCHUSS!",
+    "translation": "（德语）火力太猛了！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  },
+  "0355__GE_3_inform_suppressed_generic_03__34295B48.mp3": {
+    "asr_text": "UNDEMISCHOS!",
+    "translation": "（德语）我们遭到射击！",
+    "needs_review": true,
+    "note": "德语ASR疑似谐音/断词错误，结合可辨词及其他演员同类喊话拟译，待听音确认。"
+  }
+}

@@ -1,0 +1,604 @@
+{
+  "0335__L8_MAD_141__D6358E66.mp3": {
+    "asr_text": "Okay. Move.",
+    "translation": "好，走。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0336__L8_TAY_30__3D94BFC5.mp3": {
+    "asr_text": "You heard the gaffer. Let's go, Sharp.",
+    "translation": "听见头儿的话了，走吧，夏普。",
+    "needs_review": true,
+    "note": "Sharp统一为已有中文人名夏普，其余同名喊话同样处理。"
+  },
+  "0337__L8_COO_178__C5BCB5FD.mp3": {
+    "asr_text": "Infantry coming from the front, sir!",
+    "translation": "长官，正面有步兵过来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0338__L8_MAD_61__0F469AFF.mp3": {
+    "asr_text": "What did I tell you? Now they know we're here. Everyone pull out. Now!",
+    "translation": "我怎么说的？这下他们知道我们来了。所有人撤出去，马上！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0339__L8_MAD_9__A5D16931.mp3": {
+    "asr_text": "Sniper, get down!",
+    "translation": "狙击手！趴下！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0340__L8_MAD_86__12F6C1C2.mp3": {
+    "asr_text": "Good question. Wait here, I'm gonna find out.",
+    "translation": "问得好，在这儿等着，我去看看。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0341__L8_MAD_17__0712ECEA.mp3": {
+    "asr_text": "Hurry it up, Sharp! We don't have all night!",
+    "translation": "夏普，快点！没工夫陪你耗一晚上！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0342__L8_MAD_20__08652102.mp3": {
+    "asr_text": "Sharp, take that sniper's rifle and deal with that patrol!",
+    "translation": "夏普，捡那把狙击步枪，收拾那队巡逻兵！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0343__L8_TAY_98__48428F87.mp3": {
+    "asr_text": "Keep your head down sharp.",
+    "translation": "夏普，脑袋低点。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0344__L8_TAY_99__4850A708.mp3": {
+    "asr_text": "There's a sniper in that window to the northwest.",
+    "translation": "西北边的那个窗口有个狙击手。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0345__L8_TAY_100__0B3212C5.mp3": {
+    "asr_text": "These buggers usually work in pairs, but I can't see another one.",
+    "translation": "这些混蛋通常两人一组，可我没看见另一个。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0346__L8_TAY_101__0B402A46.mp3": {
+    "asr_text": "Keep your eyes peeled.",
+    "translation": "把眼睛放亮点。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0347__L8_TAY_102__0B4E41C7.mp3": {
+    "asr_text": "You take him out and I'll signal Sarge.",
+    "translation": "你干掉他，我给中士打信号。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0348__L8_GER_185__4CC8F4EA.mp3": {
+    "asr_text": "Halt!",
+    "translation": "站住！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0349__L8_MAD_175__DB8C7647.mp3": {
+    "asr_text": "Okay, Taylor's gonna set the explosives.",
+    "translation": "好，泰勒去安放炸药。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0350__L8_MAD_54__0DBC08E3.mp3": {
+    "asr_text": "Stick close.",
+    "translation": "跟紧点。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0351__L8_MAD_1__A560AD29.mp3": {
+    "asr_text": "Jerry's been using Bastogntown Square as a supply point for their armor units here. That armor's the reason why the Yanks are having such a hard time breaking through.",
+    "translation": "德国佬把巴斯托涅镇广场当成了这片装甲部队的补给点。就是那些坦克，害得美国人一直打不过来。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0352__L8_MAD_149__D6A64A6E.mp3": {
+    "asr_text": "Looks like that's the last of them.",
+    "translation": "看来全干掉了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0353__L8_TAY_151__13C86561.mp3": {
+    "asr_text": "Yeah, and tell them that we did the hard part for them.",
+    "translation": "对，别忘了告诉他们，难活儿都让咱们干了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0354__L8_MAD_28__08D5DD0A.mp3": {
+    "asr_text": "Form up! We're moving out!",
+    "translation": "集合！准备出发！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0355__L8_GER_26__4E633784.mp3": {
+    "asr_text": "Thank you!",
+    "translation": "谢谢！",
+    "needs_review": true,
+    "note": "ASR仅为Thank you，与AM的无线电问句完全不同；按用户要求保留ASR意思，需重点听音，未以旧稿替换。"
+  },
+  "0356__L8_GER_23__4E38F101.mp3": {
+    "asr_text": "I told you I would kill for the strudel. My rations don't even have chocolate, just bread.",
+    "translation": "早说了，为了那口酥卷我都肯杀人。我的口粮连巧克力都没有，只有面包。",
+    "needs_review": true,
+    "note": "德军角色的ASR输出为英语，按识别语义翻译，未推断实际发声语言。"
+  },
+  "0357__L8_MAD_36__0A6E86A7.mp3": {
+    "asr_text": "Get down!",
+    "translation": "趴下！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0358__L8_MAD_140__D62776E5.mp3": {
+    "asr_text": "Private Davies, seal that door. We don't want anyone following us.",
+    "translation": "戴维斯，把门封住，我可不想有人跟上来。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0359__L8_DAV_42__C32B2ED9.mp3": {
+    "asr_text": "Sir, the infantry from that convoy, they're heading for us!",
+    "translation": "长官，车队里的步兵朝我们来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0360__L8_MAD_56__0DD837E5.mp3": {
+    "asr_text": "Tailor's signaling something. Ah, hell, there's something wrong with the detonators. Sharp, look lively. You'll have to hit them with the sniper rounds to set them off.",
+    "translation": "泰勒在打信号。我操，雷管出了毛病。夏普，快，用狙击枪把炸药打爆！",
+    "needs_review": true,
+    "note": "Tailor疑似Taylor，人名统一泰勒。"
+  },
+  "0361__L8_MAD_64__0F70E182.mp3": {
+    "asr_text": "Excellent work for once, Taylor. Use them to take out the other tanks. Sharp, you too. Don't worry about the ones under repair. Fire only at active Jerry Panzers.",
+    "translation": "泰勒，你总算干了件漂亮事。拿那些家伙去打其它坦克，夏普也去。别管还在修的，只打能动的德军坦克。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0362__L8_DAV_132__05545291.mp3": {
+    "asr_text": "More approaching from the outside as well, sir! Southeast!",
+    "translation": "长官，外面还有敌人过来！东南方向！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0363__L8_COO_72__18961F8C.mp3": {
+    "asr_text": "Sir! Anti-Armor infantry spotted down the alley to the southeast!",
+    "translation": "长官！东南边的小巷里发现反坦克步兵！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0364__L8_MAD_29__08E3F48B.mp3": {
+    "asr_text": "_SKIPPED_TOO_LONG_",
+    "translation": "根据已知情报，我猜敌人早就防着有人会从这潜入，前头可能还有更多敌人在等着我们。泰勒，带上夏普去侦察，注意搜寻狙击手和炮兵观察哨。",
+    "needs_review": true,
+    "note": "ASR因超长跳过。未使用AM旧稿补写，待补识别或听音。",
+    "asr_status": "skipped_too_long"
+  },
+  "0365__L8_DAV_114__0206D055.mp3": {
+    "asr_text": "Spot on!",
+    "translation": "正中目标！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0366__L8_MAD_92__14733C5D.mp3": {
+    "asr_text": "Stay alert lads, this isn't over yet!",
+    "translation": "弟兄们，别松懈，还没完呢！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0367__L8_MAD_10__06B04863.mp3": {
+    "asr_text": "Dammit, now they know we're here! Push up to the windmill and engage them!",
+    "translation": "我干，他们知道我们来了！推进到风车那边，打掉他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0368__L8_COO_115__BB555BC0.mp3": {
+    "asr_text": "Wow, you're quite the marksman!",
+    "translation": "哇，你这枪法够准的！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0369__L8_MAD_173__DB704745.mp3": {
+    "asr_text": "I want you to hold your fire until I give the order. Everything needs to go smoothly or we could end up with half the German army on our heads.",
+    "translation": "我没下令之前，谁也不许开枪。这事必须办得干净利落，不然半个德国陆军都得扑过来。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0370__L8_TAY_2__0A30AA06.mp3": {
+    "asr_text": "Typical Jerry. Always well prepared. He's probably got enough ammo and fuel stacked up to keep him in business here for months, hasn't he?",
+    "translation": "德国佬就这样，什么都准备妥当。弹药燃料怕是够他们在这儿耗上几个月吧？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0371__L8_DAV_163__0A80F3EF.mp3": {
+    "asr_text": "Friendlies inbound, sir! Looks like the 4th Armoured Division!",
+    "translation": "长官，自己人来了！看着是第四装甲师！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0372__L8_COO_80__1A2EC929.mp3": {
+    "asr_text": "I didn't think we were gonna make it out of there in one piece!",
+    "translation": "真没想到我们能毫发无损地从那儿逃出来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0373__L8_MAD_37__0A7C9E28.mp3": {
+    "asr_text": "German convoy! They must be heading to the supply point!",
+    "translation": "德军车队！肯定是往补给点去的！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0374__L8_MAD_47__0C3176C7.mp3": {
+    "asr_text": "Looks like we lost sight of that convoy. We're close to the front lines now. The supply point can't be far off.",
+    "translation": "好像跟丢那支车队了。离前线很近了，补给点应该就在附近。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0375__L8_TAY_44__3F81F668.mp3": {
+    "asr_text": "Uh-oh! Looks like we woke the neighbors!",
+    "translation": "哎哟，看来把邻居吵醒了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0376__L8_MAD_58__0DF466E7.mp3": {
+    "asr_text": "Okay, tailor is clear. Take this shot, Sharp.",
+    "translation": "泰勒已经撤开了。夏普，开枪！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0377__L8_TAY_65__42F9BF27.mp3": {
+    "asr_text": "Yes, sir! Come on, Sharp!",
+    "translation": "是，长官！来吧，夏普！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0378__L8_SER_133__3EDCEBD9.mp3": {
+    "asr_text": "SHOP! COOPER! GIVE HIM SOME BACKUP!",
+    "translation": "夏普！库珀！支援他们！",
+    "needs_review": true,
+    "note": "SHOP疑似Sharpe，按喊人名夏普处理。"
+  },
+  "0379__L8_MAD_73__1117A2A0.mp3": {
+    "asr_text": "Private Sharp, get to the top floor and deal with that Jerry with the Panzer, Shrek!",
+    "translation": "夏普，到顶楼去，干掉那个拿反坦克火箭筒的德国佬！",
+    "needs_review": true,
+    "note": "Panzer, Shrek疑似Panzerschreck，按反坦克火箭筒修正。"
+  },
+  "0380__L8_TAY_112__0D031A66.mp3": {
+    "asr_text": "Nice shooting, Sharp.",
+    "translation": "夏普，打得漂亮。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0381__L8_MAD_185__DD414EE6.mp3": {
+    "asr_text": "Private Sharp, if you're that afraid of one little sniper, use a smoke grenade and get to cover.",
+    "translation": "夏普，要真这么怕那个狙击手，就扔颗烟雾弹，躲到掩体里去。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0382__L8_COO_120__BCC3BEDA.mp3": {
+    "asr_text": "Hurry it up already, Sharp!",
+    "translation": "夏普，快点行不行！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0383__L8_TAY_117__0D498FEB.mp3": {
+    "asr_text": "Quit dawdling, Sharp!",
+    "translation": "夏普，别磨蹭！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0384__L8_TAY_118__0D57A76C.mp3": {
+    "asr_text": "Come on, mate! We're short on time!",
+    "translation": "快，伙计！没时间了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0385__L8_MAD_153__D8069607.mp3": {
+    "asr_text": "Private Sharp, get in there and secure the windmill. I don't want any surprises.",
+    "translation": "夏普，进去控制住风车。我可不想再撞上什么埋伏。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0386__L8_MAD_78__115E1825.mp3": {
+    "asr_text": "I think we've done enough damage for one day lads, let's leave something for the Yanks to do. Time to pull out.",
+    "translation": "弟兄们，今天砸得够多了，给美国人留点活儿干。该撤了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0387__L8_MAD_172___8FFDA118.mp3": {
+    "asr_text": "Right! This is it!",
+    "translation": "好，就是这儿！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0388__L8_MAD_55__0DCA2064.mp3": {
+    "asr_text": "You wait here. I'll send Taylor down to set the explosives on one of those tanks. We'll begin the attack after they're detonated.",
+    "translation": "你们在这儿等着。我派泰勒下去，给一辆坦克装炸药。炸药一响，我们就进攻。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0389__L8_MAD_3__A57CDC2B.mp3": {
+    "asr_text": "_SKIPPED_TOO_LONG_",
+    "translation": "等咱们收拾完他们，就不会了，泰勒。趁美国佬绊住德国鬼子，咱们趁机潜入，拔掉他们的前哨站，然后突进到城镇广场。都明白了吗？好了，开始行动！戴维斯和罗杰斯已经在前头探路了。",
+    "needs_review": true,
+    "note": "ASR因超长跳过。未使用AM旧稿补写，待补识别或听音。",
+    "asr_status": "skipped_too_long"
+  },
+  "0390__L8_MAD_166__D9E5B529.mp3": {
+    "asr_text": "Patton, huh?",
+    "translation": "巴顿，是吧？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0391__L8_TAY_81__462B1261.mp3": {
+    "asr_text": "I think we should be thanking old Sharpshooter there for that.",
+    "translation": "我看该谢谢那边那位神枪手。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0392__L8_GER_24__4E470882.mp3": {
+    "asr_text": "Post Office 1, are you there? Hello? Hello?",
+    "translation": "一号哨所，在吗？喂？喂？",
+    "needs_review": true,
+    "note": "Post Office 1疑似Outpost 1，结合另一条同角色无线电呼叫修正为一号哨所。"
+  },
+  "0393__L8_COO_14__0E753AD4.mp3": {
+    "asr_text": "Two more coming from the windmill, sir! Looks like we spooked them!",
+    "translation": "长官，又有两个从风车那儿来了！看来惊动他们了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0394__L8_MAD_157__D83EF40B.mp3": {
+    "asr_text": "Taylor, get that door open!",
+    "translation": "泰勒，把门打开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0395__L8_MAD_32__0A3628A3.mp3": {
+    "asr_text": "We all clear? Right, let's go!",
+    "translation": "都清干净了？好，走！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0396__L8_TAY_38__3E057BCD.mp3": {
+    "asr_text": "So what do we do Sarge? Flag him down and ask for directions eh?",
+    "translation": "那怎么办，中士？挥手拦下来，问个路？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0397__L8_MAD_40__0BCED240.mp3": {
+    "asr_text": "Crafty Jerry so and so, he's got his root well covered.",
+    "translation": "狡猾的德国佬，把沿路护得够严。",
+    "needs_review": true,
+    "note": "root疑似route，按沿路布防理解。"
+  },
+  "0398__L8_MAD_45__0C1547C5.mp3": {
+    "asr_text": "What are you waiting for, Sharp? A bloody invitation? Move!",
+    "translation": "夏普，还等什么？要我发请帖吗？快走！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0399__L8_MAD_62__0F54B280.mp3": {
+    "asr_text": "Cooper, keep an eye out for enemy reinforcements. Private Sharp, keep us covered.",
+    "translation": "库珀，留意敌人的增援。夏普，掩护我们。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0400__L8_COO_67__1727BC72.mp3": {
+    "asr_text": "Enemy reinforcements! They're coming over the wall to the east!",
+    "translation": "敌人增援！正从东边翻墙进来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0401__L8_COO_70__1879F08A.mp3": {
+    "asr_text": "INCOMING!",
+    "translation": "小心！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0402__L8_TAY_75__44AE97C6.mp3": {
+    "asr_text": "Tiger! I'm bloody big at this too! Over in the north corner!",
+    "translation": "虎式！真他妈大！在北边的角落里！",
+    "needs_review": true,
+    "note": "I'm bloody big at this疑似a bloody big one，按对虎式体型的感叹拟译，待听音。"
+  },
+  "0403__L8_TAY_113__0D1131E7.mp3": {
+    "asr_text": "Great shot!",
+    "translation": "打得漂亮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0404__L8_TAY_188__194993C5.mp3": {
+    "asr_text": "Yeah, cos we're not afraid of him, not at all, no, no.",
+    "translation": "是啊，我们可不怕他，一点都不怕，真的。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0405__L8_MAD_34__0A5257A5.mp3": {
+    "asr_text": "Hmm, with that bomb damage it looks like the main street is the only way for us to take. Let's go!",
+    "translation": "炸成这样，看来只能走主街了。走！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0406__L8_MAD_104__CF8C726D.mp3": {
+    "asr_text": "No, wait a moment.",
+    "translation": "不，先等等。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0407__L8_MAD_105__CF9A89EE.mp3": {
+    "asr_text": "Ugh, there's two more up in that window to the northwest!",
+    "translation": "西北边那个窗口还有两个！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0408__L8_MAD_108__CFC4D071.mp3": {
+    "asr_text": "They're probably in place to lure us out into the open so a sniper can pick us off.",
+    "translation": "八成是想把我们引到空地上，让狙击手一个个打掉。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0409__L8_TAY_109__0BB0E64E.mp3": {
+    "asr_text": "Looks like someone picked up a few tricks after Stalingrad.",
+    "translation": "看来有人在斯大林格勒学了几招。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0410__L8_MAD_110__D108ED08.mp3": {
+    "asr_text": "So it would seem. Sharp, we'll handle him. You find and kill that sniper.",
+    "translation": "看样子是。夏普，这几个交给我们，你去找到那个狙击手，干掉他。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0411__L8_TAY_84__465558E4.mp3": {
+    "asr_text": "Where do you suppose they're off to then?",
+    "translation": "你说他们要去哪儿？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0412__L11_Tay_14__5DCEB96B.mp3": {
+    "asr_text": "There's a patrol moving in at the far end!",
+    "translation": "远处有队巡逻兵过来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0413__L8_MAD_4__A58AF3AC.mp3": {
+    "asr_text": "What's the situation, Private?",
+    "translation": "列兵，情况怎么样？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0414__L8_DAV_5__27614EB6.mp3": {
+    "asr_text": "Small patrol around the farmhouses in front of the windmill, sir. Three at the front and at least one round the back.",
+    "translation": "长官，风车前的农舍周围有支小巡逻队。前面三个，后面至少一个。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0415__L8_MAD_6__A5A722AE.mp3": {
+    "asr_text": "Anyone inside?",
+    "translation": "里面有人吗？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0416__L8_DAV_7__277D7DB8.mp3": {
+    "asr_text": "Can't be sure, sir. Rogers has gone ahead looking for a route in.",
+    "translation": "不能确定，长官。罗杰斯去前面找路了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0417__L8_MAD_8__A5C351B0.mp3": {
+    "asr_text": "Okay, we're moving up to Roger's position. When he gives the signal, we'll sneak past and jump the patrol.",
+    "translation": "好，推进到罗杰斯的位置。他一发信号，我们就摸过去，打巡逻队个措手不及。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0418__L8_MAD_59__0E027E68.mp3": {
+    "asr_text": "Sharp, shoot the explosives!",
+    "translation": "夏普，打那些炸药！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0419__L8_DAV_183__0DEAA52D.mp3": {
+    "asr_text": "Oh my... Sharp! Are you alright?",
+    "translation": "天哪……夏普！你没事吧？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0420__L8_TAY_0__0A147B04.mp3": {
+    "asr_text": "So what's the plan, Sarge?",
+    "translation": "中士，怎么搞？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0421__L8_MAD_167__D9F3CCAA.mp3": {
+    "asr_text": "You see someone get on the line and tell them they took their damn time.",
+    "translation": "谁去接通无线电，告诉他们来得可真够慢的！",
+    "needs_review": true,
+    "note": "ASR句首粘连，参考AM仅修正Someone get on the line的句法。"
+  },
+  "0422__L8_MAD_82__12BE63BE.mp3": {
+    "asr_text": "Come on, the war's not gonna fight itself. Shift yourselves.",
+    "translation": "快点，仗不会自己打完，都动起来。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0423__L8_TAY_27__3C428BAD.mp3": {
+    "asr_text": "Dull conversation anyway. That should put the wind up him for a while, eh?",
+    "translation": "反正他们聊得也够无聊。这下能让那家伙慌上一阵了，是吧？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0424__L8_GER_25__4E552003.mp3": {
+    "asr_text": "Outpost 1, please answer.",
+    "translation": "一号哨所，请回答。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0425__L8_COO_15__0E835255.mp3": {
+    "asr_text": "Area's clear Sarge, looks like we got them all.",
+    "translation": "中士，这片清干净了，应该全解决了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0426__L8_MAD_129__D33C9930.mp3": {
+    "asr_text": "toff",
+    "translation": "真是……",
+    "needs_review": true,
+    "note": "ASR仅有toff，无法可靠辨词；AM为Oh for…，暂拟为未说完的抱怨，需重点听音。"
+  },
+  "0427__L8_MAD_39__0A98CD2A.mp3": {
+    "asr_text": "We follow him. If we cut through this cafe, maybe we can find a way onto the street.",
+    "translation": "跟着他们。穿过这间咖啡馆，兴许能找到路进那条街。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0428__L8_MAD_41__0BDCE9C1.mp3": {
+    "asr_text": "Sharp, we're not gonna last long in this situation. Get rid of that sniper!",
+    "translation": "夏普，这么下去咱们撑不了多久，干掉那个狙击手！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0429__L8_DAV_46__C3638CDD.mp3": {
+    "asr_text": "Blimey! Good workshop!",
+    "translation": "好家伙！干得漂亮，夏普！",
+    "needs_review": true,
+    "note": "Good workshop疑似Good work, Sharpe，按表扬夏普修正。"
+  },
+  "0430__L8_MAD_176__DB9A8DC8.mp3": {
+    "asr_text": "Remember, do not fire until I say otherwise.",
+    "translation": "记住，没有我的命令不许开枪。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0431__L8_TAY_63__42DD9025.mp3": {
+    "asr_text": "Sir, we've secured the crate of Panzerschrax!",
+    "translation": "长官，我们弄到一箱反坦克火箭筒！",
+    "needs_review": true,
+    "note": "Panzerschrax疑似Panzerschrecks，按反坦克火箭筒处理。"
+  },
+  "0432__L8_TAY_131__105EB423.mp3": {
+    "asr_text": "Sir, we got company entering the building from the east wall!",
+    "translation": "长官，有敌人从东墙那边进楼了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0433__L8_MAD_71__10FB739E.mp3": {
+    "asr_text": "Where the hell did that Panzerschreck come from?",
+    "translation": "那支该死的反坦克火箭筒是从哪儿来的？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0434__L8_MAD_76__1141E923.mp3": {
+    "asr_text": "SHOP! TAKE THAT TANK OUT NOW! TAYLOR, COVER HIM!",
+    "translation": "夏普！马上干掉那辆坦克！泰勒，掩护他！",
+    "needs_review": false,
+    "note": "SHOP疑似Sharpe，按喊人名夏普处理。"
+  }
+}

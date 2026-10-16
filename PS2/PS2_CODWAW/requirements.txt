@@ -1,0 +1,6 @@
+# Versions used by the final Windows x64 / Python 3.12 workspace.
+Pillow==11.0.0
+fonttools==4.57.0
+pycdlib==1.14.0
+lz4==4.4.5
+unicorn==2.1.4

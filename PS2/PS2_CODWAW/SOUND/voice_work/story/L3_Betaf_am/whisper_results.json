@@ -1,0 +1,614 @@
+{
+  "0211__L3_POL_115__7DBCACAA.mp3": {
+    "asr_text": "Hell, how much armor do you suppose they got left?",
+    "translation": "妈的，你说他们还剩多少坦克？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0212__L3_POL_105__7C07D40B.mp3": {
+    "asr_text": "Get going, Miller, while there's still an 8th Division left!",
+    "translation": "快点，米勒，别等第八师的人全死光了！",
+    "needs_review": true,
+    "note": "ASR及AM参考均称8th Division，按游戏台词译为第八师，不另按历史编制改写。"
+  },
+  "0213__L3_SUL_101__F4363504.mp3": {
+    "asr_text": "Let's go get up to that structure and take out those MGs!",
+    "translation": "冲到那栋建筑去，干掉那些机枪！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0214__L3_SUL_97__BB131D88.mp3": {
+    "asr_text": "Marines! Who's in command here?",
+    "translation": "弟兄们，这里谁指挥？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0215__L3_8th_98__3A6B0067.mp3": {
+    "asr_text": "No one, sir! The officers are all dead and we're getting worn down!",
+    "translation": "没人了，长官！军官全死了，我们快撑不住了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0216__L3_SUL_99__BB2F4C8A.mp3": {
+    "asr_text": "And it's time we get out of here. All of us. You read me.",
+    "translation": "那就该离开这儿了，一个都不能落下。听明白没有？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0217__L3_SUL_100__F4281D83.mp3": {
+    "asr_text": "Miller! Move forward and find us a route around this place!",
+    "translation": "米勒！到前面去，找条路绕过去！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0218__L3_POL_95__64800123.mp3": {
+    "asr_text": "You kidding me? That place is a fortress!",
+    "translation": "开什么玩笑？那地方简直是座堡垒！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0219__L3_SUL_27__AF21312F.mp3": {
+    "asr_text": "We done? Okay, let's move on.",
+    "translation": "打完了？好，继续走。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0220__L3_SUL_66__B5E67C2A.mp3": {
+    "asr_text": "Move inside! Find the radar equipment and destroy it!",
+    "translation": "冲进去！找到雷达设备，毁掉它！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0221__L3_SUL_33__B09DABCA.mp3": {
+    "asr_text": "Okay Marines, what do you say we give those guys a fighting chance? Time to take out those guns. Mount out!",
+    "translation": "弟兄们，给咱们的人争条活路怎么样？该去端掉那些炮了，出发！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0222__L3_SUL_41__B2365567.mp3": {
+    "asr_text": "You all know the drill. Clear out those trenches and get to those AA guns!",
+    "translation": "都知道怎么干。清掉战壕里的敌人，冲到那些高射炮跟前！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0223__L3_SUL_26__AF1319AE.mp3": {
+    "asr_text": "Keep moving! Spread out and mop up this place!",
+    "translation": "继续推进！散开，把这地方清干净！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0224__L3_SUL_54__B4157489.mp3": {
+    "asr_text": "Good shooting, Miller. Those flyboys owe us one.",
+    "translation": "打得好，米勒。那帮飞行员欠我们一个人情。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0225__L3_SUL_55__B4238C0A.mp3": {
+    "asr_text": "Cutter!",
+    "translation": "卡特！",
+    "needs_review": true,
+    "note": "Cutter疑似人名Carter误识别，结合紧接的卡特回应统一为卡特。"
+  },
+  "0226__L3_CAR_56__4988F2C1.mp3": {
+    "asr_text": "Sergeant Roebuck, battalion says there's an enemy radar station near our position that's coordinating their air defense. They want us to take it out.",
+    "translation": "罗巴克中士，营部说这附近有个敌军雷达站，负责协调他们的防空火力。要我们把它端了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0227__L3_SUL_57__B43FBB0C.mp3": {
+    "asr_text": "Alright Marines, still ain't earned our paychecks today I guess.",
+    "translation": "好吧，弟兄们，看来今天这份军饷还没挣够。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0228__L3_SUL_15__AD50298E.mp3": {
+    "asr_text": "We've got more enemy in those ruins! They got us cold! Take cover!",
+    "translation": "废墟里还有敌人！他们卡住了我们，找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0229__L3_POL_16__56E753AC.mp3": {
+    "asr_text": "Great! We're back to being pinned down again!",
+    "translation": "真棒，又被压得动不了了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0230__L3_SUL_42__B2446CE8.mp3": {
+    "asr_text": "Keep on going! Hear those AA guns? That's our objective!",
+    "translation": "继续走！听见高射炮了吗？那就是目标！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0231__L3_SUL_49__B2A7116F.mp3": {
+    "asr_text": "Do not stop! We do our job so those birds can do theirs.",
+    "translation": "别停！我们干好自己的活，那些飞机才能干好他们的。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0232__L3_POL_83__62AEF982.mp3": {
+    "asr_text": "What, we gotta go bail out the 8th now? Who next, my mother and queens?",
+    "translation": "怎么，又要去救第八师？接下来去救谁，我在皇后区的老妈？",
+    "needs_review": false,
+    "note": "ASR的mother and queens疑似mother in Queens，按皇后区的母亲理解，待听音。"
+  },
+  "0233__L3_CAR_0__6D710F4C.mp3": {
+    "asr_text": "Sergeant Roebuck? Ain't we supposed to be taking the airfield?",
+    "translation": "罗巴克中士，我们不是来拿机场的吗？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0234__L3_MA1_4__C9E0B7D9.mp3": {
+    "asr_text": "Look! Someone's going for that bunker!",
+    "translation": "看！有人朝那个碉堡冲过去了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0235__L3_MA1_8__CA1915DD.mp3": {
+    "asr_text": "I'll be.",
+    "translation": "还真行啊。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0236__L3_POL_10__5692C6A6.mp3": {
+    "asr_text": "What the? They got him!",
+    "translation": "什么？他中弹了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0237__L4_Sul_59__15E8F9AE.mp3": {
+    "asr_text": "Miller, grab that bazooka, that's an order!",
+    "translation": "米勒，拿起那支巴祖卡，这是命令！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0238__L4_Sul_58__15DAE22D.mp3": {
+    "asr_text": "We ain't got all day, Miller! Get that bazooka!",
+    "translation": "没空等你，米勒！快拿巴祖卡！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0239__L3_SUL_65__B5D864A9.mp3": {
+    "asr_text": "Right, Miller! Take care of him!",
+    "translation": "米勒，收拾他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0240__L3_POL_107__7C24030D.mp3": {
+    "asr_text": "There's more of them on the roof. This way, Miller.",
+    "translation": "屋顶上还有敌人。米勒，这边！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0241__L3_POL_102__7BDD8D88.mp3": {
+    "asr_text": "Enemies coming out of that building! Don't stop, push right through them!",
+    "translation": "敌人从那栋楼里出来了！别停，杀过去！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0242__L3_SUL_67__B5F493AB.mp3": {
+    "asr_text": "Good work, Miller! Those enemy fighters will be flying blind now!",
+    "translation": "干得好，米勒！这下敌人的战斗机可要成瞎子了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0243__L3_SUL_45__B26EB36B.mp3": {
+    "asr_text": "Miller, there's a gun up ahead. We'll cover you. Take out the crew.",
+    "translation": "米勒，前面有门炮。我们掩护你，干掉炮手。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0244__L3_POL_58__5DD6E52A.mp3": {
+    "asr_text": "Up ahead! Is that the radar station?",
+    "translation": "前面！那是不是雷达站？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0245__L3_SUL_59__B45BEA0E.mp3": {
+    "asr_text": "Looks like the place. We gotta get inside and shut the radar down.",
+    "translation": "应该就是这儿。要进去把雷达关掉。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0246__L3_POL_60__5F1B01C1.mp3": {
+    "asr_text": "HERE THEY COME!",
+    "translation": "他们来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0247__L3_POL_38__5A6D33EC.mp3": {
+    "asr_text": "Japanese assault! Hell, they're headed straight for us!",
+    "translation": "日本人冲上来了！妈的，直奔咱们来的！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0248__L3_SUL_51__B3EB2E06.mp3": {
+    "asr_text": "Marines! Put some suppressing fire on that position!",
+    "translation": "弟兄们，用火力压住那个阵地！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0249__L3_SUL_84__B933FE66.mp3": {
+    "asr_text": "Let's move out! Semper Fi!",
+    "translation": "出发！永远忠诚！",
+    "needs_review": true,
+    "note": "Semper Fi按陆战队口号译为永远忠诚。"
+  },
+  "0250__L3_POL_74__61083864.mp3": {
+    "asr_text": "Guess they want their radar station back!",
+    "translation": "看来他们想把雷达站抢回去！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0251__L3_SUL_75__B78D3D48.mp3": {
+    "asr_text": "All we're giving them is a kick in the teeth. Let them have it, Marines!",
+    "translation": "那就让他们碰一鼻子灰。弟兄们，狠狠地打！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0252__L3_SUL_1__91F834C3.mp3": {
+    "asr_text": "Yeah, well, the airfield's over there. And we're pinned down here. You got any ideas how we're going to get past the Japanese? Then I'm listening.",
+    "translation": "是啊，机场在那边，我们却被困在这儿。你要是知道怎么突破日军，就说来听听。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0253__L3_POL_5__661C388A.mp3": {
+    "asr_text": "That guy's gotta be out of his mind. Who the hell is he?",
+    "translation": "那家伙疯了吧？他到底是谁？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0254__L3_SUL_9__9268F0CB.mp3": {
+    "asr_text": "That crazy fool just took the whole bunker by himself! On your feet, Marines! Time to get in a fight! HUT!",
+    "translation": "那疯子一个人拿下了整座碉堡！弟兄们，起来！轮到咱们上了！快！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0255__L3_POL_117__7DD8DBAC.mp3": {
+    "asr_text": "Miller! I need a hand here, pal!",
+    "translation": "米勒！伙计，快来帮我一把！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0256__L3_MA1_85__794B6BB4.mp3": {
+    "asr_text": "Enemy armor!",
+    "translation": "敌军坦克！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0257__L3_SUL_103__F4526406.mp3": {
+    "asr_text": "Get inside! Let's clear this place out!",
+    "translation": "冲进去，把这里清干净！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0258__L3_CAR_28__448697E6.mp3": {
+    "asr_text": "Wow! Look at that!",
+    "translation": "哇！看那儿！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0259__L3_POL_30__59FC77E4.mp3": {
+    "asr_text": "Same old Flyboys. As far above the rough stuff as they can get.",
+    "translation": "飞行员还是老样子，离下面这些烂摊子越远越好。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0260__L3_SUL_35__B0B9DACC.mp3": {
+    "asr_text": "Watch out! The runway's mined! Use the craters to get across! Miller, on point!",
+    "translation": "小心！跑道上有雷！借着弹坑穿过去！米勒，打头阵！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0261__L3_POL_68__5F8BBDC9.mp3": {
+    "asr_text": "Ah hell, we got incoming! Japanese armor heading this way!",
+    "translation": "妈的，有敌人过来了！鬼子坦克正朝这边开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0262__L3_SUL_72__B762F6C5.mp3": {
+    "asr_text": "Carter, get on the radio! Time to call in that favor from the Air Corps!",
+    "translation": "卡特，呼叫空中支援！该让那帮飞行员还人情了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0263__L3_SUL_47__B28AE26D.mp3": {
+    "asr_text": "Same drill. Clear the trench and find the gun.",
+    "translation": "老办法。清掉战壕里的敌人，找到那门炮。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0264__L3_POL_17__56F56B2D.mp3": {
+    "asr_text": "You see that? They're coming out of that bunker. Pretty soon they're gonna be crawling all over us. We gotta get out of here, Sergeant, and I mean fast!",
+    "translation": "看见没？他们正从碉堡里出来。再拖下去，到处都是鬼子。中士，咱们得赶紧离开这儿，越快越好！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0265__L3_SUL_19__AD888792.mp3": {
+    "asr_text": "Get that bazooka up here!",
+    "translation": "把巴祖卡拿上来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0266__L3_SUL_20__AEBE8CA8.mp3": {
+    "asr_text": "COVER HIM!",
+    "translation": "掩护他！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0267__L3_SUL_22__AEDABBAA.mp3": {
+    "asr_text": "Get in there, move it!",
+    "translation": "冲进去，快！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0268__L3_POL_21__5855B6C6.mp3": {
+    "asr_text": "Let's go! Come on, Miller!",
+    "translation": "走！跟上，米勒！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0269__L3_SUL_34__B0ABC34B.mp3": {
+    "asr_text": "Need to get across the runway. Move, Marines!",
+    "translation": "要穿过跑道。弟兄们，走！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0270__L3_POL_48__5C220C8B.mp3": {
+    "asr_text": "They're freaking everywhere, I tell you! Get them!",
+    "translation": "我就说他们到处都是！干掉他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0271__L3_SUL_53__B4075D08.mp3": {
+    "asr_text": "Machine guns down! Take out that AA!",
+    "translation": "机枪哑了！干掉那门高射炮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0272__L3_SUL_88__B96C5C6A.mp3": {
+    "asr_text": "Get to that revetment on the other side of the runway. Move it!",
+    "translation": "到跑道另一边的掩体去，快！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0273__L3_SUL_90__BAB07901.mp3": {
+    "asr_text": "Hold your fire! Those are friendlies from the ape!",
+    "translation": "停火！那是第八师的自己人！",
+    "needs_review": true,
+    "note": "ASR的ape疑似8th误识别，结合场景中的第八师援军拟译。"
+  },
+  "0274__L3_SUL_92__BACCA803.mp3": {
+    "asr_text": "Where it is you boys found the enemy HQ?",
+    "translation": "听说你们找到敌军指挥部了？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0275__L3_8th_93__3A248AE2.mp3": {
+    "asr_text": "Yes, sir. But enemy machine gun fires got it locked up tight. We can't get to it. Some of us tried and got pinned down up ahead.",
+    "translation": "是，长官。但敌人的机枪封死了那儿，根本过不去。有些人试着冲过去，被压在前面了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0276__L3_SUL_94__BAE8D705.mp3": {
+    "asr_text": "Is that right? What do you say we move up together and take a peek?",
+    "translation": "是吗？那咱们一起上去瞧瞧，怎么样？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0277__L3_POL_2__65F1F207.mp3": {
+    "asr_text": "I say we just give him Miller. That'll make him surrender for sure.",
+    "translation": "要我说，把米勒送给他们，他们肯定投降。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0278__L3_SUL_6__923EAA48.mp3": {
+    "asr_text": "Whoever he is, he needs covering fire. Get on him!",
+    "translation": "不管他是谁，先掩护他！开火！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0279__L3_SUL_11__AD17CB8A.mp3": {
+    "asr_text": "Damn it! The fire just came from that building! Get in there! He opened up a hole for us! Don't let it go to waste!",
+    "translation": "妈的，枪是从那栋楼打来的！冲进去！他给我们打开了缺口，别白费了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0280__L4_Sul_77__19367BEA.mp3": {
+    "asr_text": "Miller, grab the bazooka and use it on that armor. Buy us some time.",
+    "translation": "米勒，拿巴祖卡打那些坦克，给我们争取点时间。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0281__L3_SUL_96__BB050607.mp3": {
+    "asr_text": "Take cover! Into the trench!",
+    "translation": "找掩护！进战壕！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0282__L3_MA1_120__38B33294.mp3": {
+    "asr_text": "Friendlies! We got support!",
+    "translation": "自己人！援军来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0283__L3_POL_121__7F392745.mp3": {
+    "asr_text": "Well, well! Look who finally decided to show up at the party! It's the sixth marine!",
+    "translation": "哟，总算舍得来凑热闹了！是陆战六师！",
+    "needs_review": true,
+    "note": "原AM和ASR都指第六部队/师，此处沿用游戏所称陆战六师。"
+  },
+  "0284__L3_MA1_123__38DD7917.mp3": {
+    "asr_text": "We got armor too! Those Shermers will chew right through the Japanese tanks!",
+    "translation": "我们也有坦克了！谢尔曼对付日军坦克还不是轻而易举！",
+    "needs_review": true,
+    "note": "Shermers疑似Shermans，按谢尔曼坦克修正。"
+  },
+  "0285__L3_CAR_124__0D5CC44F.mp3": {
+    "asr_text": "I ain't never been so happy to see those damn doggies!",
+    "translation": "我这辈子就没这么盼着见到那帮陆军！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0286__L3_CAR_125__0D6ADBD0.mp3": {
+    "asr_text": "It's battalion, Sergeant! They say enemy resistance on BDO is finished! The island's ours!",
+    "translation": "营部来电，中士！贝蒂奥岛上的敌人已经不行了！这岛归我们了！",
+    "needs_review": true,
+    "note": "BDO疑似Betio谐音，AM可佐证岛名，修正为贝蒂奥。"
+  },
+  "0287__L3_SUL_126__F7E65BC7.mp3": {
+    "asr_text": "Alright, Marines, we got one, but don't kick up your feet yet. We still got plenty more to go. This fight is far from over.",
+    "translation": "好，弟兄们，又拿下一个岛。但还没到歇脚的时候，后头还有的是仗要打。这场仗还远没结束。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0288__L3_SUL_109__F4A6F10C.mp3": {
+    "asr_text": "Good work, Pulaski!",
+    "translation": "干得好，波隆斯基！",
+    "needs_review": true,
+    "note": "Pulaski疑似Polonsky误识别，AM原文及下一句回应可佐证。"
+  },
+  "0289__L3_POL_110__7D763725.mp3": {
+    "asr_text": "Hey, don't look at me, sir. Dank Miller here. Guy's turning into a real tiger.",
+    "translation": "别看我，长官。该谢旁边这位米勒，这家伙越打越猛了。",
+    "needs_review": true,
+    "note": "Dank Miller疑似Thank Miller，按感谢米勒理解。"
+  },
+  "0290__L3_MA1_111__370C7176.mp3": {
+    "asr_text": "We've got enemy infantry!",
+    "translation": "发现敌军步兵！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0291__L3_SUL_112__F5F92524.mp3": {
+    "asr_text": "Ah hell! That counterattack didn't take long. Carter! Get on the radio!",
+    "translation": "妈的，这么快就反扑了。卡特！用无线电呼叫！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0292__L3_CAR_113__0B99D42F.mp3": {
+    "asr_text": "Aye aye, sir! Already on it!",
+    "translation": "是，长官！已经在联系了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0293__L3_SUL_114__F6155426.mp3": {
+    "asr_text": "Support's coming Marines! Just gotta hold out until it gets here!",
+    "translation": "弟兄们，援军正在赶来！撑到他们来就行！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0294__L3_SUL_116__F6318328.mp3": {
+    "asr_text": "Pipe down and keep firing!",
+    "translation": "少废话，继续开火！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0295__L3_SUL_104__F4607B87.mp3": {
+    "asr_text": "Keep on going! Miller, clear the next story!",
+    "translation": "继续推进！米勒，清理上一层！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0296__L3_SUL_40__B2283DE6.mp3": {
+    "asr_text": "Outstanding! Now take that trench up ahead!",
+    "translation": "干得漂亮！拿下前面那条战壕！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0297__L3_SUL_46__B27CCAEC.mp3": {
+    "asr_text": "Good work, Miller. Now let's see about doing the same to the next one.",
+    "translation": "干得好，米勒。下一门也照样收拾。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0298__L3_POL_64__5F535FC5.mp3": {
+    "asr_text": "Up there! Japanese riflemen on the roof!",
+    "translation": "上面！日军步枪手在屋顶上！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0299__L3_POL_13__56BD0D29.mp3": {
+    "asr_text": "Keep moving! Double time!",
+    "translation": "继续走！跑起来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0300__L3_POL_50__5D662922.mp3": {
+    "asr_text": "Machine Gun Nest! They got that AA covered nine ways to Sunday!",
+    "translation": "机枪火力点！他们把那门高射炮护得严严实实！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0301__L3_SUL_61__B5A006A5.mp3": {
+    "asr_text": "Don't let him set up defensive positions. Move forward. Close the gap.",
+    "translation": "别让他们站稳脚跟。往前压，贴近他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0302__L3_SUL_62__B5AE1E26.mp3": {
+    "asr_text": "That's it! Keep at him!",
+    "translation": "对，就这样！继续打！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0303__L3_SUL_63__B5BC35A7.mp3": {
+    "asr_text": "More of them coming out!",
+    "translation": "又有敌人出来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0304__L3_CAR_82__4E6F1E9A.mp3": {
+    "asr_text": "Sergeant, just heard the 8th on the radio. Their guys have located the enemy HQ up ahead, but they're pinned down and need support. Battalion says we're it.",
+    "translation": "中士，刚联系上第八师。他们在前面找到了敌军指挥部，但被火力压住了，需要支援。营部让咱们去。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0305__L3_SUL_76__B79B54C9.mp3": {
+    "asr_text": "Carter! Where's that damn air support?",
+    "translation": "卡特！该死的空中支援呢？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0306__L3_POL_79__614EADE9.mp3": {
+    "asr_text": "Here they come! And just in time!",
+    "translation": "他们来了！来得正好！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0307__L3_SUL_80__B8FBA062.mp3": {
+    "asr_text": "HIT THE DICK!",
+    "translation": "卧倒！",
+    "needs_review": true,
+    "note": "HIT THE DICK疑似Hit the deck误识别，按卧倒口令翻译。"
+  },
+  "0308__L3_SUL_3__921463C5.mp3": {
+    "asr_text": "Polanski! One more crack from Ewan!",
+    "translation": "波隆斯基，你再瞎说一句，我就……",
+    "needs_review": true,
+    "note": "ASR句尾断词，参考AM仅补足语法关系，保留未说完的威胁。"
+  },
+  "0309__L3_POL_7__6638678C.mp3": {
+    "asr_text": "Will you look at that?",
+    "translation": "瞧瞧这个！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0310__L3_POL_12__56AEF5A8.mp3": {
+    "asr_text": "Time to dole out a little payback.",
+    "translation": "该给他们还点颜色了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0311__L4_MA1_76__D931BA36.mp3": {
+    "asr_text": "Aw hell, they've got tanks! Enemy armor on the horizon!",
+    "translation": "我操，他们有坦克！敌军坦克就在前面！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0312__L3_SUL_118__F64DB22A.mp3": {
+    "asr_text": "They're about to make a push. Miller, make sure none of them get into that HQ.",
+    "translation": "他们要冲上来了。米勒，别让他们进指挥部！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  }
+}

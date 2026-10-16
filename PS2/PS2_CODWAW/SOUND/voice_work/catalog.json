@@ -1,0 +1,219 @@
+{
+  "schema_version": "voice_work_1",
+  "created_utc": "2026-10-06T14:24:55.582113+00:00",
+  "sources": [
+    {
+      "level": "L1_Gcan_am",
+      "manifest_sha256": "b62d12ce7d59ff7dc395d6790981fe3129e1865f7a94ee658df8c47f5c6e9852"
+    },
+    {
+      "level": "L2_Betio_am",
+      "manifest_sha256": "1f87fb4832fd454dd40e7de3f5d66d40d5b835de0ac7b1cdd1eed5c4673ddf29"
+    },
+    {
+      "level": "L3_Betaf_am",
+      "manifest_sha256": "f166745ee9f12f1d4817c880234e4363ba9f0071c9f7513063e1c6f9a11f470f"
+    },
+    {
+      "level": "L4_Sai1_am",
+      "manifest_sha256": "846a36fb20d91019d12573e7492e1487af0dbbcaf48ed0f5389f361a3a4e30bc"
+    },
+    {
+      "level": "L5_Tapo_am",
+      "manifest_sha256": "03c1a873d0e3aa288914444649b79d2a2e82ec967a79b423da0ee59b3fd164cb"
+    },
+    {
+      "level": "L6_Ettel_am",
+      "manifest_sha256": "ab721be0e594549136550474aa49670b026889f990a5d62534edda05cceb3b2c"
+    },
+    {
+      "level": "L7_Bast1_am",
+      "manifest_sha256": "0255a132de1988516b78b24a79056a81a0b06b2c5795c37ec95dd48dd371d47b"
+    },
+    {
+      "level": "L8_Bast2_am",
+      "manifest_sha256": "31be85759752f1d77a727694c6dae5e524ec9a6d8a52af7db032301997d2fd2a"
+    },
+    {
+      "level": "L9_Bure_am",
+      "manifest_sha256": "1fd9d80ac0cff02727e54b84520c87936e83ef5fa2837d82f7c20eced3436c2d"
+    },
+    {
+      "level": "L11_Rhin_am",
+      "manifest_sha256": "3a90c71d892e8f6f527da58e64f6f911972e5358d6f86fa79c46d9ab78224beb"
+    },
+    {
+      "level": "L12_Brau_am",
+      "manifest_sha256": "0533176a67791de70ef3b0e0c6be48e0149f5bbacebfb02f7579673c0cca3a4a"
+    },
+    {
+      "level": "L13_Okin_am",
+      "manifest_sha256": "3c1e7a7c246d8fd8f2a8a5c8d7e9ff96d9f1ffcee0251e189a7bd0ec353eaaa8"
+    },
+    {
+      "level": "L14_shur_am",
+      "manifest_sha256": "2351d27595680c61a8907e617ce9878c547c92fe3519dccae6a2aaf9fcefb6b3"
+    }
+  ],
+  "collections": [
+    {
+      "id": "common_US",
+      "path": "common/US",
+      "label": "美军通用",
+      "kind": "common",
+      "entries": 198,
+      "target_copies": 1224,
+      "requires_variant_review": 6
+    },
+    {
+      "id": "common_JA",
+      "path": "common/JA",
+      "label": "日军通用",
+      "kind": "common",
+      "entries": 202,
+      "target_copies": 1414,
+      "requires_variant_review": 33
+    },
+    {
+      "id": "common_GE",
+      "path": "common/GE",
+      "label": "德军通用",
+      "kind": "common",
+      "entries": 164,
+      "target_copies": 984,
+      "requires_variant_review": 26
+    },
+    {
+      "id": "common_UK",
+      "path": "common/UK",
+      "label": "英军通用",
+      "kind": "common",
+      "entries": 171,
+      "target_copies": 513,
+      "requires_variant_review": 12
+    },
+    {
+      "id": "story_L1_Gcan_am",
+      "path": "story/L1_Gcan_am",
+      "label": "剧情 · L1_Gcan",
+      "kind": "story",
+      "entries": 108,
+      "target_copies": 108,
+      "requires_variant_review": 0
+    },
+    {
+      "id": "story_L2_Betio_am",
+      "path": "story/L2_Betio_am",
+      "label": "剧情 · L2_Betio",
+      "kind": "story",
+      "entries": 60,
+      "target_copies": 60,
+      "requires_variant_review": 0
+    },
+    {
+      "id": "story_L3_Betaf_am",
+      "path": "story/L3_Betaf_am",
+      "label": "剧情 · L3_Betaf",
+      "kind": "story",
+      "entries": 102,
+      "target_copies": 102,
+      "requires_variant_review": 0
+    },
+    {
+      "id": "story_L4_Sai1_am",
+      "path": "story/L4_Sai1_am",
+      "label": "剧情 · L4_Sai1",
+      "kind": "story",
+      "entries": 47,
+      "target_copies": 47,
+      "requires_variant_review": 0
+    },
+    {
+      "id": "story_L5_Tapo_am",
+      "path": "story/L5_Tapo_am",
+      "label": "剧情 · L5_Tapo",
+      "kind": "story",
+      "entries": 72,
+      "target_copies": 72,
+      "requires_variant_review": 0
+    },
+    {
+      "id": "story_L6_Ettel_am",
+      "path": "story/L6_Ettel_am",
+      "label": "剧情 · L6_Ettel",
+      "kind": "story",
+      "entries": 93,
+      "target_copies": 93,
+      "requires_variant_review": 0
+    },
+    {
+      "id": "story_L7_Bast1_am",
+      "path": "story/L7_Bast1_am",
+      "label": "剧情 · L7_Bast1",
+      "kind": "story",
+      "entries": 72,
+      "target_copies": 72,
+      "requires_variant_review": 0
+    },
+    {
+      "id": "story_L8_Bast2_am",
+      "path": "story/L8_Bast2_am",
+      "label": "剧情 · L8_Bast2",
+      "kind": "story",
+      "entries": 100,
+      "target_copies": 100,
+      "requires_variant_review": 0
+    },
+    {
+      "id": "story_L9_Bure_am",
+      "path": "story/L9_Bure_am",
+      "label": "剧情 · L9_Bure",
+      "kind": "story",
+      "entries": 83,
+      "target_copies": 83,
+      "requires_variant_review": 0
+    },
+    {
+      "id": "story_L11_Rhin_am",
+      "path": "story/L11_Rhin_am",
+      "label": "剧情 · L11_Rhin",
+      "kind": "story",
+      "entries": 55,
+      "target_copies": 55,
+      "requires_variant_review": 0
+    },
+    {
+      "id": "story_L12_Brau_am",
+      "path": "story/L12_Brau_am",
+      "label": "剧情 · L12_Brau",
+      "kind": "story",
+      "entries": 36,
+      "target_copies": 36,
+      "requires_variant_review": 0
+    },
+    {
+      "id": "story_L13_Okin_am",
+      "path": "story/L13_Okin_am",
+      "label": "剧情 · L13_Okin",
+      "kind": "story",
+      "entries": 48,
+      "target_copies": 48,
+      "requires_variant_review": 0
+    },
+    {
+      "id": "story_L14_shur_am",
+      "path": "story/L14_shur_am",
+      "label": "剧情 · L14_shur",
+      "kind": "story",
+      "entries": 119,
+      "target_copies": 119,
+      "requires_variant_review": 0
+    }
+  ],
+  "summary": {
+    "common": 735,
+    "common_target_copies": 4135,
+    "story": 995,
+    "story_levels": 13
+  }
+}

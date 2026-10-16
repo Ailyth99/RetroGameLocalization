@@ -1,0 +1,554 @@
+{
+  "0362__L6_Mas_102_2__80B2F6ED.mp3": {
+    "asr_text": "The 42's history, let's move!",
+    "translation": "那挺MG42完蛋了，走！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0363__L6_Tuc_4__AE964A1E.mp3": {
+    "asr_text": "Hell no Sarge!",
+    "translation": "当然不是，中士！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0364__L6_Tuc_0__AE5DEC1A.mp3": {
+    "asr_text": "We gotta fall back Sarge!",
+    "translation": "中士，咱们要撤！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0365__L6_MAS_1__D1592D38.mp3": {
+    "asr_text": "You think the US Army sent us all this way just to show the Germans how we fall back?",
+    "translation": "你以为美国陆军派我们跑这么远，就是给德国人表演怎么撤退？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0366__L6_Tuc_2__AE7A1B1C.mp3": {
+    "asr_text": "We ain't getting through on this road. The crowds are throwing everything they got at us.",
+    "translation": "这条路过不去。德国佬把能打的全往咱们身上砸。",
+    "needs_review": true,
+    "note": "crowds疑似Krauts误识别，按德国佬翻译。"
+  },
+  "0367__L6_MAS_3__D1755C3A.mp3": {
+    "asr_text": "Baker Company are pushing up with the tanks. You think they're going to take this town without help from us, Tucker?",
+    "translation": "B连正跟坦克一起往前打。塔克，你觉得没有咱们帮忙，他们拿得下这座镇子？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0368__L6_MAS_5__D1918B3C.mp3": {
+    "asr_text": "Then we're going in, starting with an assault on that house up ahead.",
+    "translation": "那就往里打，先拿下前面那栋房子。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0369__L6_MAS_6__D19FA2BD.mp3": {
+    "asr_text": "We'll use this stream to flank their position. Go! Get off the road!",
+    "translation": "沿这条小溪绕到他们侧面。快！离开公路！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0370__L6_Tuc_118__C5092B02.mp3": {
+    "asr_text": "What's the news from battalion, Sarge?",
+    "translation": "中士，营部有什么消息？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0371__L6_Tuc_122__C669769B.mp3": {
+    "asr_text": "So?",
+    "translation": "然后呢？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0372__L6_MAS_96__67C31C32.mp3": {
+    "asr_text": "On your feet, Gibson!",
+    "translation": "吉布森，起来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0374__L6_Tuc_93__2CE0CBAC.mp3": {
+    "asr_text": "TAKE!",
+    "translation": "坦克！",
+    "needs_review": true,
+    "note": "ASR只有TAKE，结合坦克遭遇语境疑似Tank，译文待听音确认。"
+  },
+  "0375__L6_MAS_117__E14449DE.mp3": {
+    "asr_text": "That's the last of them. The square's secure.",
+    "translation": "全干掉了，广场已经拿下。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0376__L6_Tuc_79__29CBA774.mp3": {
+    "asr_text": "Let's go! Move it! Go!",
+    "translation": "走！快走！快！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0377__L6_MAS_70__6404DDEE.mp3": {
+    "asr_text": "That's Side Street. If we flank the Panzer, we might get close enough to put a dent in it.",
+    "translation": "走那条小街。绕到坦克侧面，兴许能靠近了给它来一下。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0378__L6_Tuc_71__295AEB6C.mp3": {
+    "asr_text": "Too late, Sarge!",
+    "translation": "中士，来不及了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0379__L6_MAS_60__6250054F.mp3": {
+    "asr_text": "Gibson, we're moving out!",
+    "translation": "吉布森，要走了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0380__L6_BR1_55__F2379373.mp3": {
+    "asr_text": "Panzer! We got a Panzer on the road to the north!",
+    "translation": "坦克！北边路上有辆德军坦克！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0381__L6_MAS_56__60EFB9B6.mp3": {
+    "asr_text": "GET AWAY FROM THE WINDOWS!",
+    "translation": "离窗户远点！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0382__L6_MAS_20__5B7CA2D3.mp3": {
+    "asr_text": "Gibson, clear the upstairs rooms!",
+    "translation": "吉布森，把楼上的房间清干净！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0383__L6_BR1_29__ED51679A.mp3": {
+    "asr_text": "Hey, do you hear that?",
+    "translation": "嘿，听见了吗？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0384__L6_BR1_31__EE958431.mp3": {
+    "asr_text": "Enemy vehicles heading this way!",
+    "translation": "敌人的车朝这边来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0385__L6_BR1_32__EEA39BB2.mp3": {
+    "asr_text": "Maybe they're bringing up reinforcements!",
+    "translation": "可能是来增援的！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0386__L6_Tuc_33__22A3B7F2.mp3": {
+    "asr_text": "They know we're here?",
+    "translation": "他们知道咱们在这儿？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0387__L6_MAS_34__5D69D976.mp3": {
+    "asr_text": "Won't take them long to find out.",
+    "translation": "他们很快就会知道了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0388__L6_MAS_35__5D77F0F7.mp3": {
+    "asr_text": "Hold fire until they're in range. Gibson, be ready on that MG-42.",
+    "translation": "等他们进射程再打。吉布森，守好那挺MG42。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0389__L6_MAS_39__5DB04EFB.mp3": {
+    "asr_text": "Keep hitting them! Don't let them regroup!",
+    "translation": "继续打！别让他们重新集结！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0390__L6_MAS_81__65C7CE0E.mp3": {
+    "asr_text": "The door, Tucker! Get it open!",
+    "translation": "塔克，那扇门！把它打开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0391__L6_MAS_92__678ABE2E.mp3": {
+    "asr_text": "Looks clear. Move out.",
+    "translation": "看来没人了，走。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0392__L6_Tuc_79_3__3547B3A8.mp3": {
+    "asr_text": "That Panzer's moving! We need to be someplace else!",
+    "translation": "那辆坦克动了！咱们要换地方！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0393__L6_MAS_9__D1C9E940.mp3": {
+    "asr_text": "Keep your heads down.",
+    "translation": "脑袋低点。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0394__L6_Tuc_7__AEC090A1.mp3": {
+    "asr_text": "Freezing my ass off here! Krauts better be waiting with a nice log fire in there!",
+    "translation": "冷死我了！但愿德国佬生了堆暖和的火等咱们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0395__L6_BR1_8__B563C0C1.mp3": {
+    "asr_text": "How about some hot lead? That warm you up, Benny?",
+    "translation": "滚烫的子弹怎么样？够暖和吧，本尼？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0396__L6_MAS_119__E16078E0.mp3": {
+    "asr_text": "The Germans have given up the bridgehead. They're falling back across the Shur River.",
+    "translation": "德军放弃桥头堡了，正在撤过叙尔河。",
+    "needs_review": true,
+    "note": "Shur按此地河名Sûre处理为叙尔河，待听音核对。"
+  },
+  "0397__L6_MAS_123__E2C0C479.mp3": {
+    "asr_text": "Bastogne's where we're headed to next.",
+    "translation": "下一站是巴斯托涅。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0398__L6_MAS_97__67D133B3.mp3": {
+    "asr_text": "We're not done yet. We need to push up to secure the river crossings in the town center.",
+    "translation": "还没完，要继续推进，拿下镇中心的渡河点。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0399__L6_Tuc_103__C30DDCDE.mp3": {
+    "asr_text": "Looks like they're getting ready to pull out!",
+    "translation": "看样子他们准备撤了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0400__L6_MAS_104__DF652ABC.mp3": {
+    "asr_text": "We've caught them cold! Let's move on them fast!",
+    "translation": "打了他们个措手不及！赶紧压上去！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0401__L6_BR1_116_3__9C6FC653.mp3": {
+    "asr_text": "Where's the goddamn Sherman?",
+    "translation": "那辆该死的谢尔曼呢？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0402__L6_BR1_100_2__F71B1E6D.mp3": {
+    "asr_text": "PAGEANT TRACK! SECOND FOUR WINDOW!",
+    "translation": "反坦克火箭筒！二楼窗口！",
+    "needs_review": true,
+    "note": "PAGEANT TRACK / SECOND FOUR疑似Panzerschreck / second floor，结合窗口与坦克语境拟译，待听音。"
+  },
+  "0403__L6_Mas_100_3__16F497EC.mp3": {
+    "asr_text": "Get to cover! Spread out!",
+    "translation": "找掩护！散开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0404__L6_BR1_100_5__F74564F0.mp3": {
+    "asr_text": "Gunner, target that window!",
+    "translation": "炮手，瞄准那个窗户！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0405__L6_BR1_72__F576FE2E.mp3": {
+    "asr_text": "PANJER! PANJER TO THE NORTH!",
+    "translation": "坦克！北边有坦克！",
+    "needs_review": true,
+    "note": "PANJER疑似Panzer谐音，译为德军坦克。"
+  },
+  "0406__L6_Tuc_73__29771A6E.mp3": {
+    "asr_text": "Aw hell, it's coming this way!",
+    "translation": "妈的，朝这边来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0407__L6_BR1_74__F5932D30.mp3": {
+    "asr_text": "We're sitting ducks here!",
+    "translation": "咱们在这儿就是活靶子！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0408__L6_MAS_62__626C3451.mp3": {
+    "asr_text": "Go! Keep moving!",
+    "translation": "走！别停！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0409__L6_Tuc_57__2645C734.mp3": {
+    "asr_text": "Get out, Gibson! Move, you dumb son of a-",
+    "translation": "吉布森，快出来！快点，你这蠢货……",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0410__L6_MAS_36__5D860878.mp3": {
+    "asr_text": "Troop transports, hit em hard!",
+    "translation": "运兵车！狠狠地打！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0411__L6_MAS_18__5A38863C.mp3": {
+    "asr_text": "GET INSIDE!",
+    "translation": "冲进去！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0412__L6_BR1_13__EB4801F5.mp3": {
+    "asr_text": "MORE OF THEM! BY THE BROKEN WALL!",
+    "translation": "还有敌人！断墙旁边！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0413__L6_BR1_14__EB561976.mp3": {
+    "asr_text": "WATCH THE BEDROOM WINDOWS!",
+    "translation": "盯住卧室的窗户！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0414__L6_MAS_26__5BD12FD9.mp3": {
+    "asr_text": "Good work!",
+    "translation": "干得好！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0415__L6_Tuc_44__2466A812.mp3": {
+    "asr_text": "Jeez, I think we just punched the whole crowd division square on the nose.",
+    "translation": "天哪，咱们刚才怕是给整个德国师脸上来了一拳。",
+    "needs_review": true,
+    "note": "crowd division疑似Kraut division，按德国师翻译。"
+  },
+  "0416__L6_MAS_91__677CA6AD.mp3": {
+    "asr_text": "Gibson, take the lead.",
+    "translation": "吉布森，你打头阵。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0417__L6_BR1_102__78B1323C.mp3": {
+    "asr_text": "Look out! MG42 left side window!",
+    "translation": "小心！左边窗口有MG42！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0418__L6_Mas_102_1__80A4DF6C.mp3": {
+    "asr_text": "Wait for the tank to nail that MG position!",
+    "translation": "等坦克干掉那个机枪火力点！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0419__L6_MAS_83__65E3FD10.mp3": {
+    "asr_text": "MOVE! GET INTO THE CELLAR!",
+    "translation": "快！进地窖！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0420__L6_Mas_79_1__A20919E9.mp3": {
+    "asr_text": "Find your way through! Keep moving!",
+    "translation": "找路穿过去，别停！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0421__L6_Mas_116_1__BC1EF94F.mp3": {
+    "asr_text": "I need the tank forward! What's the holdup?",
+    "translation": "让坦克上来！磨蹭什么？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0422__L6_MAS_11__59D5E1B5.mp3": {
+    "asr_text": "Watch those ruins!",
+    "translation": "留意那些废墟！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0423__L6_Tuc_120__C64D4799.mp3": {
+    "asr_text": "In poor order too, I reckon. Look at all the gear they left behind. Not bad for a day's work by the Blue Ridgers.",
+    "translation": "依我看，撤得还挺狼狈。瞧他们扔下的装备。咱们蓝岭师今天干得不赖。",
+    "needs_review": true,
+    "note": "Blue Ridgers按部队绰号蓝岭师处理。"
+  },
+  "0424__L6_MAS_98__67DF4B34.mp3": {
+    "asr_text": "Move forward with the tank!",
+    "translation": "跟着坦克前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0425__L6_MAS_105__DF73423D.mp3": {
+    "asr_text": "We have to secure this square! Keep up the fire!",
+    "translation": "一定要拿下这个广场！继续开火！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0426__L6_MAS_82__65D5E58F.mp3": {
+    "asr_text": "HERE IT COMES!",
+    "translation": "来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0427__L6_BR1_49__F0BB18D8.mp3": {
+    "asr_text": "We got crowds in the yard! To the north!",
+    "translation": "院子里有德国佬！北边！",
+    "needs_review": true,
+    "note": "crowds疑似Krauts，按德国兵理解。"
+  },
+  "0428__L6_MAS_48__5F571019.mp3": {
+    "asr_text": "They're hitting our left flank!",
+    "translation": "他们在打我们的左边！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0429__L6_MAS_51__60A94431.mp3": {
+    "asr_text": "Gibson, get some fire onto them from the bedroom!",
+    "translation": "吉布森，到卧室里朝他们开火！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0430__L6_MAS_19__5A469DBD.mp3": {
+    "asr_text": "RUSH THEM!",
+    "translation": "冲上去！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0431__L6_BR1_12__EB39EA74.mp3": {
+    "asr_text": "Germans in the outhouse!",
+    "translation": "德国人在外头的小棚子里！",
+    "needs_review": true,
+    "note": "outhouse可指室外小屋或厕所，暂用小棚子，待结合画面校对。"
+  },
+  "0432__L6_Tuc_64__27D05950.mp3": {
+    "asr_text": "We ain't stopping a tank, Sarge. Not with these pea shooters.",
+    "translation": "中士，咱们这几杆破枪可拦不住坦克。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0433__L6_MAS_65__62967AD4.mp3": {
+    "asr_text": "Alright, we keep moving. Head further into town and hope we run into our own tanks.",
+    "translation": "那就接着走，往镇子里去，希望能碰上咱们的坦克。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0434__L6_BR1_68__F416B295.mp3": {
+    "asr_text": "Infantry in the building across the street!",
+    "translation": "街对面的楼里有步兵！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0435__L6_MAS_75__644B5373.mp3": {
+    "asr_text": "Move! Tucker, clear that doorway!",
+    "translation": "快！塔克，把那个门口清出来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0436__L6_Mas_79_4__A233606C.mp3": {
+    "asr_text": "GO GO!",
+    "translation": "快！快！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0437__L6_MAS_121__E2A49577.mp3": {
+    "asr_text": "Yeah, well the good news is we tied down at least two Kraut divisions in this sector. That's two divisions that won't be reaching Bastogne.",
+    "translation": "不过好消息是，我们至少在这片地区牵制了两个德国师。这两个师去不了巴斯托涅了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0438__L6_MAS_38__5DA2377A.mp3": {
+    "asr_text": "OPEN FIRE!",
+    "translation": "开火！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0439__L6_MAS_76__64596AF4.mp3": {
+    "asr_text": "Tucker, get that damn door open!",
+    "translation": "塔克，把那扇该死的门打开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0440__L6_Tuc_77__29AF7872.mp3": {
+    "asr_text": "I'm trying! It's jammed on something!",
+    "translation": "我在弄！不知道被什么卡住了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0441__L6_MAS_78__647599F6.mp3": {
+    "asr_text": "GET IT OPEN NOW!",
+    "translation": "现在就给我打开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0442__L6_BR1_58__F261D9F6.mp3": {
+    "asr_text": "We can't stay here! That tank's gonna bury us!",
+    "translation": "不能再待在这儿了！那辆坦克会把我们活埋的！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0443__L6_MAS_59__611A0039.mp3": {
+    "asr_text": "Okay, get across the street and regroup in the building opposite!",
+    "translation": "穿过街道，到对面的楼里集合！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0444__L6_Tuc_54__261B80B1.mp3": {
+    "asr_text": "That's Shoto-mu's boss! They're pulling back!",
+    "translation": "这下知道谁厉害了吧！他们往后退了！",
+    "needs_review": true,
+    "note": "Shoto-mu's boss疑似showed them who's boss，按这下知道谁厉害了吧拟译。"
+  },
+  "0445__L6_MAS_17__5A2A6EBB.mp3": {
+    "asr_text": "Push up. Storm the house.",
+    "translation": "推进，攻进那栋房子。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0446__L6_BR1_23__ECFCDA94.mp3": {
+    "asr_text": "Upstairs clear!",
+    "translation": "楼上清干净了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0447__L6_MAS_27__5BDF475A.mp3": {
+    "asr_text": "Regroup on me!",
+    "translation": "到我这儿集合！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0448__L6_BR1_40__F03C454F.mp3": {
+    "asr_text": "DON'T GIVE HIM A CHANCE TO DEPLOY!",
+    "translation": "别让他们展开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0449__L6_MAS_66__62A49255.mp3": {
+    "asr_text": "Move out!",
+    "translation": "出发！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0450__L6_Tuc_80__2B01AC8A.mp3": {
+    "asr_text": "No way out!",
+    "translation": "没路了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0451__L6_BR1_101__78A31ABB.mp3": {
+    "asr_text": "MG! Upper floor on the right side!",
+    "translation": "机枪！右边楼上！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0452__L6_Mas_116_4__BC493FD2.mp3": {
+    "asr_text": "Get clear! The Sherman's gonna blast that position!",
+    "translation": "让开！谢尔曼要轰那个阵地了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0453__L6_Mas_53_1__94E15CA5.mp3": {
+    "asr_text": "I want fire superiority! Keep it up!",
+    "translation": "用火力压住他们！别停！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0454__L6_Tuc_79_2__35399C27.mp3": {
+    "asr_text": "That tank's still out there!",
+    "translation": "那辆坦克还在外面！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  }
+}

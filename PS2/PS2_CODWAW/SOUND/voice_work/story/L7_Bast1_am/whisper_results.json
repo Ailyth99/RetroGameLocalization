@@ -1,0 +1,435 @@
+{
+  "0362__L7_DRI_90__FC264310.mp3": {
+    "asr_text": "You got him! Damn, that was beautiful.",
+    "translation": "打中了！妈的，太漂亮了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0363__L7_COM_91__EAA24FEB.mp3": {
+    "asr_text": "Bag yourself your first tiger, soldier. Nice work, kid.",
+    "translation": "小子，你第一辆虎式到手了，干得好！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0364__L7_DRI_21__F0426E38.mp3": {
+    "asr_text": "Some rough terrain. Nothing this baby can't handle though.",
+    "translation": "不好走，不过这宝贝什么路都能开。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0365__L7_COM_56__E41562F4.mp3": {
+    "asr_text": "Got it! Now find the other one and ace it the same way!",
+    "translation": "干掉了！找到另一辆，照样收拾！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0366__L7_DRI_162__EBC4D810.mp3": {
+    "asr_text": "AH! TIGER!",
+    "translation": "啊！虎式！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0367__L7_COM_65__E5BC2412.mp3": {
+    "asr_text": "He's hit! Pull back!",
+    "translation": "他中弹了！后撤！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0368__L7_COM_66__E5CA3B93.mp3": {
+    "asr_text": "Command tanks destroyed! Hell, the Krauts got a damn Tiger tank dug into that building over there!",
+    "translation": "指挥坦克被击毁了！妈的，德国佬在那栋楼里藏了辆虎式！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0369__L7_DRI_67__F76A5DBA.mp3": {
+    "asr_text": "That's it then! We try crossing that bridge to get within range of even scratching it from a frontal attack, and we're gonna get picked off like crows sitting on a telephone wire!",
+    "translation": "这下完了！要过桥靠近，才能从正面给它蹭掉点皮。可到那时候，咱们早被当成电线上排排坐的乌鸦，一个个打掉了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0370__L7_COM_60__E575AE8D.mp3": {
+    "asr_text": "It's gone. Road's clear ahead. Let's get rolling.",
+    "translation": "干掉了，前面的路通了，走！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0371__L7_OTH_157__A478967E.mp3": {
+    "asr_text": "Flak 88s, anti-tank guns, hidden in the tree line. Move forward and protect our infantry from any Jerry soldiers as they take out those damn guns!",
+    "translation": "树林边藏着八八反坦克炮！往前开，挡住德国步兵，掩护咱们的人端掉那些炮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0372__L7_DRI_146__E89384D6.mp3": {
+    "asr_text": "INFANTRY INCOMING!",
+    "translation": "敌军步兵过来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0373__L7_UNI_8__2012BCF0.mp3": {
+    "asr_text": "Okay, Halt! I'm batting down the hatches! Air Force are coming in now!",
+    "translation": "好，停车！关好舱盖，空军马上就到！",
+    "needs_review": true,
+    "note": "batting down疑似battening down，按关闭舱盖处理。"
+  },
+  "0374__L7_DRI_23__F05E9D3A.mp3": {
+    "asr_text": "Lotta crop positions in those fields. They're dug in real good, too.",
+    "translation": "田里全是德军阵地，工事也挖得够深。",
+    "needs_review": true,
+    "note": "crop positions疑似Kraut positions；AM可佐证，仅修正误词，不改写台词。"
+  },
+  "0375__L7_COM_24__DEDAAA15.mp3": {
+    "asr_text": "And we'll just have to dig him back out again! Nothing this baby can't handle, remember?",
+    "translation": "那就把他们挖出来！不是说这宝贝啥都能对付吗？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0376__L7_DRI_34__F2218D5A.mp3": {
+    "asr_text": "Got it! Fine shooting there, pal!",
+    "translation": "干掉了！伙计，打得漂亮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0377__L7_DRI_142__E85B26D2.mp3": {
+    "asr_text": "Northwest!",
+    "translation": "西北方！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0378__L7_COM_44__E2445B53.mp3": {
+    "asr_text": "Oh, hell! More of them in the tree line ahead!",
+    "translation": "操，前面的树林边还有！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0379__L7_OTH_127__9F5A0CA1.mp3": {
+    "asr_text": "FIRE!",
+    "translation": "开火！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0380__L7_DRI_45__F3E47D7A.mp3": {
+    "asr_text": "We got two of our guys!",
+    "translation": "咱们又损失了两辆！",
+    "needs_review": true,
+    "note": "ASR主语We got疑似They got，结合坦克战损失语境拟译，数量按ASR保留，待听音。"
+  },
+  "0381__L7_COM_125__C46C71FD.mp3": {
+    "asr_text": "IT'S NOT ENOUGH! WE'RE SURROUNDED! GET US THE HELL OUTTA HERE!",
+    "translation": "不行！我们被包围了！快开出去！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0382__L7_COM_36__E0ABB1B6.mp3": {
+    "asr_text": "On our right, traverse turret and fire!",
+    "translation": "右边！转炮塔，开炮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0383__L7_COM_70__E72A872C.mp3": {
+    "asr_text": "Enemy tanks on the far riverbank! You got any spare rounds left, you know where to put them!",
+    "translation": "对岸有敌军坦克！还有炮弹的话，知道该往哪儿送了吧！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0384__L7_COM_71__E7389EAD.mp3": {
+    "asr_text": "Blast that enemy armor, soldier! If we don't knock him out now, we'll be meeting him much closer up when we get across that river!",
+    "translation": "开炮打那些坦克！现在不干掉它们，过了河就要贴着脸打了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0385__L7_COM_61__E583C60E.mp3": {
+    "asr_text": "Take it easy. Watch those woods for ambush points.",
+    "translation": "慢点，留意树林，小心埋伏。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0386__L7_OTH_116__9D971C81.mp3": {
+    "asr_text": "Thanks for that, boys! We got it! Move out!",
+    "translation": "谢了，弟兄们！这儿拿下了，出发！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0387__L7_COM_104__C0F4A93E.mp3": {
+    "asr_text": "Finish off any remaining Jerrys, men!",
+    "translation": "干掉剩下的德国佬！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0388__L7_COM_19__DD6C46FB.mp3": {
+    "asr_text": "Hose him with the MG! That's what it's there for!",
+    "translation": "用机枪扫！不然装它干什么！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0389__L7_COM_20__DEA24C11.mp3": {
+    "asr_text": "We'll take it down the other side of the ridge and meet up with the rest of our guys. Watch out for any stray krauts.",
+    "translation": "从山脊另一边下去，跟大部队会合。留意散兵。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0390__L7_DRI_9__E71A28DC.mp3": {
+    "asr_text": "Here they come! Ha! Look at that! Crowds don't know what hit them!",
+    "translation": "他们来了！哈！瞧瞧，德国佬都不知道怎么回事！",
+    "needs_review": true,
+    "note": "crowds疑似Krauts，按德国佬翻译。"
+  },
+  "0391__L7_COM_103__C0E691BD.mp3": {
+    "asr_text": "Thanks boys, we'll finish off the rest. Fourth and 80th, move out at full speed.",
+    "translation": "谢了，剩下的交给我们。四师、八十师，全速前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0392__L7_OTH_149__A2DFECE1.mp3": {
+    "asr_text": "Grayson's tank just bought it!",
+    "translation": "格雷森的坦克刚被打掉了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0393__L7_DRI_137__E6ECC3B8.mp3": {
+    "asr_text": "Targets inbound!",
+    "translation": "目标正在接近！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0394__L7_DRI_156__EA485D75.mp3": {
+    "asr_text": "What the hell was that?!",
+    "translation": "妈的，刚才那是什么？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0395__L7_UNI_46__DBC15C06.mp3": {
+    "asr_text": "Incoming from those woods! All units, pull back!",
+    "translation": "树林里有炮火！所有部队后撤！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0396__L7_COM_136__C62F621D.mp3": {
+    "asr_text": "Incoming! Over to the southeast!",
+    "translation": "有敌袭！东南方向！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0397__L7_COM_41__E21A14D0.mp3": {
+    "asr_text": "That's it! Last one taken care of! Nice firing, son!",
+    "translation": "成了，最后一个也干掉了！小子，打得漂亮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0398__L7_COM_81__E8ED774C.mp3": {
+    "asr_text": "Keep it up with those shells, soldier!",
+    "translation": "继续开炮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0399__L7_COM_82__E8FB8ECD.mp3": {
+    "asr_text": "Another one down!",
+    "translation": "又干掉一个！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0400__L7_COM_11__DCFB8AF3.mp3": {
+    "asr_text": "Still some German guns in action up top of that ridge. We're breaking off to engage.",
+    "translation": "山脊上还有德军火炮在开火，我们脱离队列去收拾。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0401__L7_COM_28__DF130819.mp3": {
+    "asr_text": "Another one! They're on our flanks!",
+    "translation": "又一个！在我们侧面！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0402__L7_COM_75__E770FCB1.mp3": {
+    "asr_text": "Okay, we're across! Let's find that hidden tank and get that bridge secured!",
+    "translation": "过来了！找出那辆藏着的坦克，把桥拿下！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0403__L7_COM_73__E754CDAF.mp3": {
+    "asr_text": "Easy does it, boys.",
+    "translation": "弟兄们，稳着点。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0404__L7_DRI_74__F8F4EFD6.mp3": {
+    "asr_text": "Oh man, oh man, oh man, oh man, oh man, oh man.",
+    "translation": "糟了，糟了，糟了，糟了……",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0405__L7_DRI_62__F723E835.mp3": {
+    "asr_text": "Watch for German infantry! Give it to them, cowboy!",
+    "translation": "留意德国步兵！小伙子，给我狠狠地打！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0406__L7_OTH_158__A486ADFF.mp3": {
+    "asr_text": "That's how you do it in my town, boys. Ha ha! Move on out!",
+    "translation": "我们那儿就是这么打仗的，弟兄们！哈哈！继续走！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0407__L7_COM_92__EAB0676C.mp3": {
+    "asr_text": "Roads clear. Let's move on out to Bastogne. Gonna be a merry Christmas after all for our boys there.",
+    "translation": "路通了，开往巴斯托涅。那儿的弟兄们总算能过个好圣诞了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0408__L7_DRI_113__E34AB476.mp3": {
+    "asr_text": "What the- Jones just bought it!",
+    "translation": "什么……琼斯刚被打掉了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0409__L7_COM_1__EE5A643A.mp3": {
+    "asr_text": "Keep in formation and keep moving.",
+    "translation": "保持队形，继续前进。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0410__L7_DRI_2__E6B78455.mp3": {
+    "asr_text": "Visibility's lousy with all this snow.",
+    "translation": "雪太大，什么都看不清。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0411__L7_COM_3__EE76933C.mp3": {
+    "asr_text": "_SKIPPED_TOO_LONG_",
+    "translation": "天晓得那片树林里藏了多少德国鬼子。但咱们只能硬着头皮往前冲，要是赶不到巴斯托涅救出咱们的人，鬼知道德国佬的反扑还会捅出多大篓子",
+    "needs_review": true,
+    "note": "ASR因超长跳过。未使用AM旧稿补写，待补识别或听音。",
+    "asr_status": "skipped_too_long"
+  },
+  "0412__L7_DRI_96__FC7AD016.mp3": {
+    "asr_text": "Damn Jerry's, people here didn't stand a chance!",
+    "translation": "该死的德国佬！这儿的人根本没处躲！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0413__L7_COM_97__EAF6DCF1.mp3": {
+    "asr_text": "That's why we're here, soldier. To kick Jerry where it hurts.",
+    "translation": "所以我们才来这儿，小子。专挑德国佬的痛处打。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0414__L7_UNI_29__D881F14B.mp3": {
+    "asr_text": "German panzers on our right and left flanks. Units on those flanks, peel off and engage.",
+    "translation": "左右两翼发现德军坦克！两翼部队脱离队列，接敌！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0415__L7_COM_30__E05724B0.mp3": {
+    "asr_text": "That's us! Move right and engage! Damn, Krauts are trying to catch us in a pincer movement!",
+    "translation": "说咱们呢！向右，接敌！妈的，德国佬想两面夹击！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0416__L7_DRI_112__E33C9CF5.mp3": {
+    "asr_text": "WATCH YOURSELF, THEY HAVE PANZER SHREKTS!",
+    "translation": "小心！他们有反坦克火箭筒！",
+    "needs_review": true,
+    "note": "Panzer Shrekts疑似Panzerschrecks，按反坦克火箭筒翻译。"
+  },
+  "0417__L7_DRI_39__F26802DF.mp3": {
+    "asr_text": "GOT ANOTHER ONE!",
+    "translation": "又干掉一个！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0418__L7_DRI_42__F3BA36F7.mp3": {
+    "asr_text": "Taking us back around to rejoin formation!",
+    "translation": "绕回去，跟上队列！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0419__L7_DRI_80__FA716A71.mp3": {
+    "asr_text": "Man, they're dug in deep!",
+    "translation": "他们藏得可真深！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0420__L7_DRI_76__F9111ED8.mp3": {
+    "asr_text": "Here come those tanks! Told you we should have blasted them when we had the chance!",
+    "translation": "那些坦克来了！早说能打的时候就该干掉它们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0421__L7_COM_78__E79B4334.mp3": {
+    "asr_text": "Keep your eyes open! You just know that Tiger's gonna have its units in place to cover its ass end!",
+    "translation": "都盯紧点！那辆虎式肯定安排了人护着屁股！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0422__L7_UNI_63__DF00C6C1.mp3": {
+    "asr_text": "Bridge ahead! We'll have to cross single file only! Command is taking point! Cover me!",
+    "translation": "前面有桥！只能单列通过！指挥车先走，掩护我！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0423__L7_DRI_64__F7401737.mp3": {
+    "asr_text": "Oh man, I got a bad feeling about this one.",
+    "translation": "这下可不妙，我有种不好的预感。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0424__L7_COM_58__E43191F6.mp3": {
+    "asr_text": "That's it! The 80th can clear the tree line now it- Oh, hell!",
+    "translation": "好了！八十师现在能清理树林了……干！",
+    "needs_review": false,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0425__L7_DRI_59__F5D1B41D.mp3": {
+    "asr_text": "Panzer! Panzer coming out of those woods!",
+    "translation": "坦克！树林里开出来一辆坦克！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0426__L7_DRI_27__F096FB3E.mp3": {
+    "asr_text": "THEY GOT ONE OF OUR GUYS!",
+    "translation": "咱们有一辆被打掉了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0427__L7_DRI_5__E6E1CAD8.mp3": {
+    "asr_text": "Our lead Shermans are taking fire from German guns up on that ridge. Aren't we going to return fire?",
+    "translation": "前面的谢尔曼坦克正在被山脊的德军攻击，我们不还击吗？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0428__L7_COM_6__EEA0D9BF.mp3": {
+    "asr_text": "We keep going. Someone else is going to take care of that.",
+    "translation": "继续开，会有人收拾他们。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0429__L7_UNI_7__2004A56F.mp3": {
+    "asr_text": "All tanks, prepare to stop on my command. We've got air support coming in to clear that ridge.",
+    "translation": "所有坦克，听我命令停车。空中支援要来清理那道山脊。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0430__L7_COM_129__C4A4D001.mp3": {
+    "asr_text": "MORE OF THEM TO THE NORTH!",
+    "translation": "北边还有！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0431__L7_COM_38__E0C7E0B8.mp3": {
+    "asr_text": "There! Dead ahead! Fire!",
+    "translation": "那儿！正前方！开炮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0432__L7_DRI_48__F40EC3FD.mp3": {
+    "asr_text": "We got crowd infantry advancing out of that tree line!",
+    "translation": "德国步兵正从树林边冲出来！",
+    "needs_review": true,
+    "note": "crowd infantry疑似Kraut infantry，按德国步兵翻译。"
+  },
+  "0433__L7_COM_31__E0653C31.mp3": {
+    "asr_text": "There they are! FIRE!",
+    "translation": "就在那儿！开炮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  }
+}

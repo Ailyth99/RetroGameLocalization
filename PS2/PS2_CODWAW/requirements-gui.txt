@@ -1,0 +1,2 @@
+-r requirements.txt
+wxPython==4.2.2

@@ -1,0 +1,435 @@
+{
+  "0400__L5_POL_75__24306F25.mp3": {
+    "asr_text": "Some view, ain't it?",
+    "translation": "这景色不错吧？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0401__L5_MA1_70__3A6A3CD0.mp3": {
+    "asr_text": "DON'T MOVE!",
+    "translation": "不许动！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0402__L5_SUL_12__7040024B.mp3": {
+    "asr_text": "No one's getting to the summit unless we silence those guns.",
+    "translation": "不把那些炮打哑，谁都上不了山顶。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0403__L5_SUL_10__7023D349.mp3": {
+    "asr_text": "Rest up here for a moment.",
+    "translation": "先在这儿歇口气。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0404__L5_POL_13__19D72C69.mp3": {
+    "asr_text": "You know how many caves they got up on that mountain? Those guns could be hidden anywhere up there.",
+    "translation": "知道山上有多少洞吗？那些炮藏在哪儿都有可能。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0405__L5_POL_0__535ABBC5.mp3": {
+    "asr_text": "_SKIPPED_TOO_LONG_",
+    "translation": "弟兄们，鬼子要是这么想要这破岛，送他们算了！这一团糟的鬼地方，除了恶臭和烂丛林，还有……操！该死的虫子！它们跟这破岛可真是绝配！",
+    "needs_review": true,
+    "note": "ASR因超长跳过。未使用AM旧稿补写，待补识别或听音。",
+    "asr_status": "skipped_too_long"
+  },
+  "0406__L5_POL_61__22433882.mp3": {
+    "asr_text": "Oh, hell. The whole Japanese army could have been hiding in this joint and we'd have never known it. You can't see nothing.",
+    "translation": "妈的，就算整个日本陆军藏在这儿，我们也发现不了。这鬼地方什么都看不见。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0407__L5_SUL_62__78C83D66.mp3": {
+    "asr_text": "Damn it, Pulaski! Keep that big mouth of yours shut for once!",
+    "translation": "波隆斯基，你就不能闭上你那破嘴吗！",
+    "needs_review": false,
+    "note": "Pulaski疑似Polonsky误识别，结合角色及本关其它喊话统一为波隆斯基。"
+  },
+  "0408__L5_MA1_34_1__CC8E6C8A.mp3": {
+    "asr_text": "He's hit! Get out of there!",
+    "translation": "他中弹了！快离开那儿！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0409__L5_MA1_24__321A5FB9.mp3": {
+    "asr_text": "WATCH IT! SPIDER HOLE!",
+    "translation": "小心！藏兵洞！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0410__L5_POL_57__20E2ECE9.mp3": {
+    "asr_text": "Get back! Move! Move!",
+    "translation": "往后退！快！快！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0411__L5_POL_54__20B8A666.mp3": {
+    "asr_text": "Snipers! Up there on the rocks!",
+    "translation": "狙击手！上面的岩石上！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0412__L5_POL_22__1B7DED87.mp3": {
+    "asr_text": "Snipers! Enter the gully!",
+    "translation": "狙击手！进沟里！",
+    "needs_review": true,
+    "note": "ASR为Enter the gully，按进沟理解；可能存在连读误识别，待听音，不套用旧稿。"
+  },
+  "0413__L5_SUL_26__722D38EE.mp3": {
+    "asr_text": "We gotta knock out those MGs. Miller, head left and flank their position. We'll cover you.",
+    "translation": "要端掉那些机枪。米勒，从左边绕过去，我们掩护你。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0414__L5_MA1_63__38DFAAB4.mp3": {
+    "asr_text": "M.G.! Take cover!",
+    "translation": "机枪！找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0415__L5_SUL_36__73E2118D.mp3": {
+    "asr_text": "Get some fire in there!",
+    "translation": "往里面喷火！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0416__L5_JAP_67__ECA5C03C.mp3": {
+    "asr_text": "surrender! we surrender!",
+    "translation": "投降！我们投降！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0417__L5_SUL_76__7AB57409.mp3": {
+    "asr_text": "Best seat in the house. Okay, we've done our part, Marines. The summit's clear for the 27th.",
+    "translation": "看戏的好位置。弟兄们，咱们的活干完了，二十七师可以上山顶了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0418__L5_POL_71__23F81121.mp3": {
+    "asr_text": "Hey you! Turn around! I said turn around you dumb son of a-",
+    "translation": "喂！转过身来！叫你转身呢，蠢货……",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0419__L5_SUL_11__7031EACA.mp3": {
+    "asr_text": "Quit your belly-aching, Polonsky. We got our orders. The enemy's dug in across this whole damn mountain. And hell if they didn't go up there and hide a couple of 88s.",
+    "translation": "别抱怨了，波隆斯基。命令下来了。敌人在整座山上都挖了工事，居然还藏了几门八八炮。",
+    "needs_review": true,
+    "note": "八八炮为ASR明确说出的88s，保留游戏录音说法。"
+  },
+  "0420__L5_MA1_16_1__6698894E.mp3": {
+    "asr_text": "You got point, Miller.",
+    "translation": "米勒，你打头阵。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0421__L5_MA1_16_2__66A6A0CF.mp3": {
+    "asr_text": "Sergeant wants you out front, Marine.",
+    "translation": "中士叫你到前面去，大兵。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0422__L5_POL_34_2__55204CDB.mp3": {
+    "asr_text": "Didn't stand a chance. Once the fuel tanks hit...",
+    "translation": "根本救不了，燃料罐一中弹就……",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0423__L5_SUL_49__75C130AF.mp3": {
+    "asr_text": "Keep up the pressure. Roll them up.",
+    "translation": "继续压上去，把他们一窝端了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0424__L5_SUL_29__72577F71.mp3": {
+    "asr_text": "Hold your fire! Hold your fire! Marines up ahead!",
+    "translation": "停火！停火！前面是自己人！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0425__L5_SUL_15__706A48CE.mp3": {
+    "asr_text": "Spread out and watch for ambush points.",
+    "translation": "散开，小心埋伏。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0426__L5_SUL_16__7078604F.mp3": {
+    "asr_text": "Miller, take two men and scout the area up ahead.",
+    "translation": "米勒，带两个人去前面侦察。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0427__L5_SUL_19__70A2A6D2.mp3": {
+    "asr_text": "Watch that gully! They're trying to flank us!",
+    "translation": "盯住那条沟！他们想绕到侧面！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0428__L5_SUL_34__73C5E28B.mp3": {
+    "asr_text": "Okay, let's clear out this cave and take it slow, men.",
+    "translation": "把这个洞清干净，弟兄们，慢点走。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0429__L5_POL_21__1B6FD606.mp3": {
+    "asr_text": "More of them! In the mouth of that cave!",
+    "translation": "还有敌人！在洞口！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0430__L5_MA1_39__3415ADDD.mp3": {
+    "asr_text": "Look out! He's still moving!",
+    "translation": "小心！他还在动！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0431__L5_JAP_66__EC97A8BB.mp3": {
+    "asr_text": "DON'T SHOOT! DON'T SHOOT!",
+    "translation": "别开枪！别开枪！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0432__L5_SUL_68__791CCA6C.mp3": {
+    "asr_text": "Hold your fire! They're surrendering!",
+    "translation": "停火！他们要投降！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0433__L5_POL_69__22B3F48A.mp3": {
+    "asr_text": "Heh, that's a switch. Usually they're trying to kill me. Alright, let's see him. Hands in the air!",
+    "translation": "嘿，新鲜了。平时他们只想着杀我。好，让我看看，举起手来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0434__L5_MA1_72__3A866BD2.mp3": {
+    "asr_text": "GET DOWN!",
+    "translation": "趴下！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0435__L5_SUL_73__7A8B2D86.mp3": {
+    "asr_text": "God damn it, Polanski, you lucky son of a...",
+    "translation": "妈的，波隆斯基，你这走狗运的混蛋……",
+    "needs_review": true,
+    "note": "Polanski疑似Polonsky，沿用既定人名波隆斯基。"
+  },
+  "0436__L5_POL_74__242257A4.mp3": {
+    "asr_text": "You can't get rid of me that easy, Sergeant. Besides, who's going to keep Miller from fouling up the works, huh?",
+    "translation": "中士，想甩掉我可没那么容易。再说了，我不在，谁看着米勒不让他捅娄子？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0437__L5_SUL_27__723B506F.mp3": {
+    "asr_text": "Covering fire! Move it, Miller!",
+    "translation": "火力掩护！米勒，快！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0438__L5_POL_77__244C9E27.mp3": {
+    "asr_text": "Hell, the Japanese are gonna run out of island real soon at this rate.",
+    "translation": "照这样打下去，日本人很快就没岛可守了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0439__L5_SUL_14__705C314D.mp3": {
+    "asr_text": "Artillery makes noise, Polonsky. Just follow the sound and you'll find the guns. That's why the Marine Corps issued those ears, remember?",
+    "translation": "炮会响，波隆斯基。顺着声音找，就能找到炮。陆战队给你配这对耳朵就是干这个的，记得吧？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0440__L5_MA1_1__B73B6A16.mp3": {
+    "asr_text": "Who's that over there? The 27th? Jeez, looks like those guys are catching hell.",
+    "translation": "那边是谁？二十七师？天哪，他们被打的好惨。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0441__L5_SUL_59__7776094E.mp3": {
+    "asr_text": "Clear the entrance! Couple grenades should finish him!",
+    "translation": "清掉入口的敌人！丢两颗手雷应该就够了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0442__L5_SUL_28_1__553B1622.mp3": {
+    "asr_text": "Get in the trench!",
+    "translation": "进战壕！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0443__L5_SUL_50__76F735C5.mp3": {
+    "asr_text": "Come on, Marines! Let's get up there and give them hell!",
+    "translation": "弟兄们，冲上去，给他们点厉害！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0444__L5_SUL_51__77054D46.mp3": {
+    "asr_text": "Up there, see the guns?",
+    "translation": "上面，看见那些炮了吗？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0445__L5_POL_52__209C7764.mp3": {
+    "asr_text": "Look how they're dug into that rock! No wonder the Navy couldn't hit them!",
+    "translation": "看他们把炮藏进岩石里了！难怪海军打不着！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0446__L5_POL_48__1F3C2BCB.mp3": {
+    "asr_text": "DON'T LET HIM GET AWAY!",
+    "translation": "别让他跑了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0447__L5_SUL_46__7596EA2C.mp3": {
+    "asr_text": "We got him on the run now!",
+    "translation": "他们被我们打跑了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0448__L5_POL_47__1F2E144A.mp3": {
+    "asr_text": "You hear that? We're getting close to those guns now.",
+    "translation": "听见没？离那些炮不远了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0449__L5_POL_30__1D169724.mp3": {
+    "asr_text": "Good job, Miller. You're becoming a one-man slaughterhouse, ain't you?",
+    "translation": "干得好，米勒。你一个人都快赶上屠宰场了。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0450__L5_SUL_20__71D8ABE8.mp3": {
+    "asr_text": "Push up! Don't stop for anything!",
+    "translation": "往前压！什么都别管！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0451__L5_MA1_31__33A4F1D5.mp3": {
+    "asr_text": "Hey, I've got something here!",
+    "translation": "嘿，这儿有东西！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0452__L5_POL_64__226D7F05.mp3": {
+    "asr_text": "Look at all these maps. We hit the jackpot, boys. Battalion's gonna love this, I'm telling you.",
+    "translation": "瞧瞧这些地图。弟兄们，捡到宝了！营部要高兴坏。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0453__L5_SUL_65__78F283E9.mp3": {
+    "asr_text": "Some jackpot. More like booby traps. Don't touch anything.",
+    "translation": "什么宝，诡雷还差不多，别乱碰。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0454__L5_MA1_17__308FCD9D.mp3": {
+    "asr_text": "Ambush! Take cover!",
+    "translation": "有埋伏！找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0455__L5_SUL_2__7F8B4504.mp3": {
+    "asr_text": "Captain!",
+    "translation": "上尉！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0456__L5_ROE_3__09C24183.mp3": {
+    "asr_text": "At the 27th, they're going nowhere fast. We got Japanese dug in hard all across the front, and hell if they haven't managed to hide a couple of 88s up there, too. They're pounding the life out of our boys.",
+    "translation": "二十七师，寸步难行。日军把整条战线守得死死的，上头居然还藏了几门八八炮，咱们的人快被炸光了。",
+    "needs_review": true,
+    "note": "ASR句首At the 27th疑似That's the 27th，结合上下文译为指认二十七师。"
+  },
+  "0457__L5_ROE_4__09D05904.mp3": {
+    "asr_text": "I want those guns silent, Sergeant. Now take your men and push on. See if you can work your way around.",
+    "translation": "中士，我要那些炮闭嘴。带上你的人继续推进，看看能不能绕过去。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0458__L5_POL_5__53A1314A.mp3": {
+    "asr_text": "Know how many caves they got up on that mountain, Captain? Those guns could be hidden anywhere up there.",
+    "translation": "上尉，知道那座山上有多少洞吗？那些炮可能藏在任何地方。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0459__L5_ROE_6__09EC8806.mp3": {
+    "asr_text": "Artillery guns make noise, Polonsky. Just follow the noise, you'll find the guns. That's why the Marine Corps issued you with a pair of ears, remember?",
+    "translation": "炮会响，波隆斯基。顺着声音找，就能找到炮。陆战队给你配这对耳朵就是干这个的，记得吧？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0460__L5_MA1_7__B78FF71C.mp3": {
+    "asr_text": "Yeah, too bad they gave him that big mouth at the same time.",
+    "translation": "可惜配耳朵的时候，还给他配了张大嘴。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0461__L5_ROE_8__0A08B708.mp3": {
+    "asr_text": "Get to it, Marines! Let's just go up there and silence those guns!",
+    "translation": "弟兄们，行动！上去端掉那些炮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0462__L5_SUL_9__7FEDE98B.mp3": {
+    "asr_text": "You heard the captain!",
+    "translation": "都听见上尉的话了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0463__L5_SUL_78__7AD1A30B.mp3": {
+    "asr_text": "Two things we ain't short on around here, Polonsky. Islands and enemies. This still ain't over.",
+    "translation": "波隆斯基，这儿有两样东西不缺：岛，还有敌人。这仗还没打完呢。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0464__L5_SUL_38__73FE408F.mp3": {
+    "asr_text": "Go! Clear it out!",
+    "translation": "上！清干净！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0465__L5_SUL_28_2__55492DA3.mp3": {
+    "asr_text": "We gotta clear this trench!",
+    "translation": "得把这条战壕清干净！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0466__L5_SUL_53__77217C48.mp3": {
+    "asr_text": "Rush the entrance, let's go!",
+    "translation": "冲进洞口，快！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0467__L5_SUL_55__773DAB4A.mp3": {
+    "asr_text": "Polonsky, get a satchel charge into that bunker!",
+    "translation": "波隆斯基，把炸药包扔进那个碉堡！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0468__L5_POL_56__20D4D568.mp3": {
+    "asr_text": "Cover me! I ain't delivering newspapers here!",
+    "translation": "掩护我！我可不是去送报纸的！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0469__L5_SUL_25__721F216D.mp3": {
+    "asr_text": "MGs, take cover!",
+    "translation": "机枪！找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0470__L5_SUL_60__78AC0E64.mp3": {
+    "asr_text": "Miller, check it out. We're right behind you.",
+    "translation": "米勒，去看看。我们就在后面。",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0471__L5_SUL_18__70948F51.mp3": {
+    "asr_text": "Clear those spider holes!",
+    "translation": "清掉那些藏兵洞！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  }
+}

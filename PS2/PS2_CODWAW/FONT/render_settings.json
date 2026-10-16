@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "fonts": {
+    "Times New Roman_20_Bold.asr": "FONT/source/USMCCyuanjiantecu.otf",
+    "Verdana_10.asr": "FONT/source/IBMPlexSansSC-Regular.ttf",
+    "Verdana_20.asr": "FONT/source/IBMPlexSansSC-Regular.ttf"
+  },
+  "fallback_font": "FONT/source/IBMPlexSansSC-Regular.ttf",
+  "synthetic_bold_px": {
+    "Verdana_10.asr": 0.25,
+    "Verdana_20.asr": 0.5
+  },
+  "subtitles": {
+    "color": "#CDF8FE",
+    "scale_percent": 112.5,
+    "shadow": true
+  },
+  "build": {
+    "reviewed_only": false,
+    "hardware_frame_safe": true
+  }
+}

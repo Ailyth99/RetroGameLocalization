@@ -1,0 +1,1214 @@
+{
+  "0049__JA_0_inform_incoming_grenade_00__36BCC9D2.mp3": {
+    "asr_text": "てるーだんだー!",
+    "translation": "（日语）手榴弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0050__JA_0_inform_incoming_grenade_01__36CAE153.mp3": {
+    "asr_text": "投擲だー!伏せろー!",
+    "translation": "（日语）手榴弹！卧倒！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0051__JA_0_inform_incoming_grenade_02__36D8F8D4.mp3": {
+    "asr_text": "退避",
+    "translation": "（日语）快撤！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0052__JA_0_inform_incoming_grenade_03__36E71055.mp3": {
+    "asr_text": "くそー! 天竜弾だ!",
+    "translation": "（日语）可恶！手榴弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0053__JA_0_inform_incoming_grenade_04__36F527D6.mp3": {
+    "asr_text": "照らす気目!",
+    "translation": "（日语）手榴弹！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0054__JA_0_inform_incoming_grenade_05__37033F57.mp3": {
+    "asr_text": "危ないぞー!",
+    "translation": "（日语）危险！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0055__JA_0_inform_attack_grenade_00__D008A5F0.mp3": {
+    "asr_text": "これでもくれー!",
+    "translation": "（日语）吃我这招！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0056__JA_0_inform_attack_grenade_01__D016BD71.mp3": {
+    "asr_text": "手榴弾、投擲!",
+    "translation": "（日语）投掷手榴弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0057__JA_0_inform_attack_grenade_02__D024D4F2.mp3": {
+    "asr_text": "手榴弾投擲! 逆れ!",
+    "translation": "（日语）投掷手榴弹！退后！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0058__JA_0_inform_attack_grenade_03__D032EC73.mp3": {
+    "asr_text": "安全性を伸ばした!自信を!",
+    "translation": "（日语）保险销拔掉了！小心！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0059__JA_0_inform_attack_grenade_04__D04103F4.mp3": {
+    "asr_text": "敵団転か!気付けろ!",
+    "translation": "（日语）手榴弹！小心！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0060__JA_0_inform_attack_grenade_05__D04F1B75.mp3": {
+    "asr_text": "ミタロウ!",
+    "translation": "（日语）给我看好了！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0061__JA_0_inform_killfirm_generic_00__0C69FBF3.mp3": {
+    "asr_text": "どうだ",
+    "translation": "（日语）见识到了吧！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0062__JA_0_inform_killfirm_generic_01__0C781374.mp3": {
+    "asr_text": "うおおおおおおおおお!!!",
+    "translation": "",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0063__JA_0_inform_killfirm_generic_02__0C862AF5.mp3": {
+    "asr_text": "ざまぁみろぼけぇ!",
+    "translation": "（日语）活该，笨蛋！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0064__JA_0_inform_killfirm_generic_03__0C944276.mp3": {
+    "asr_text": "どんな問題ねー!",
+    "translation": "（日语）见识到厉害了吧！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0065__JA_0_inform_killfirm_generic_04__0CA259F7.mp3": {
+    "asr_text": "やったー",
+    "translation": "（日语）干掉了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0066__JA_0_inform_killfirm_generic_05__0CB07178.mp3": {
+    "asr_text": "当たったぞー!",
+    "translation": "（日语）打中了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0067__JA_0_reaction_casualty_generic_00__73D63F9F.mp3": {
+    "asr_text": "いせー!",
+    "translation": "",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0068__JA_0_reaction_casualty_generic_01__73E45720.mp3": {
+    "asr_text": "エセヘオタヌマ!",
+    "translation": "",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0069__JA_0_reaction_casualty_generic_02__73F26EA1.mp3": {
+    "asr_text": "うわあああああしまった",
+    "translation": "（日语）啊，糟了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0070__JA_0_reaction_casualty_generic_03__74008622.mp3": {
+    "asr_text": "先生!先生を呼んでくれ!",
+    "translation": "（日语）军医！快把军医叫来！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0071__JA_0_reaction_casualty_generic_04__740E9DA3.mp3": {
+    "asr_text": "やられたー!",
+    "translation": "（日语）被打中了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0072__JA_0_reaction_casualty_generic_05__741CB524.mp3": {
+    "asr_text": "しっかりしろ!",
+    "translation": "（日语）振作点！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0073__JA_0_order_cover_generic_00__EB97289F.mp3": {
+    "asr_text": "さあ",
+    "translation": "",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0074__JA_0_order_cover_generic_01__EBA54020.mp3": {
+    "asr_text": "格納!!",
+    "translation": "（日语）隐蔽！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0075__JA_0_order_cover_generic_02__EBB357A1.mp3": {
+    "asr_text": "危ねえぞ!",
+    "translation": "（日语）危险！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0076__JA_0_order_cover_generic_03__EBC16F22.mp3": {
+    "asr_text": "そこから離れろ!",
+    "translation": "（日语）快离开那里！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0077__JA_0_order_cover_generic_04__EBCF86A3.mp3": {
+    "asr_text": "逃げと!",
+    "translation": "（日语）快躲开！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0078__JA_0_order_cover_generic_05__EBDD9E24.mp3": {
+    "asr_text": "頭下げろ!",
+    "translation": "（日语）低头！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0079__JA_0_order_move_forward_00__3E7DD315.mp3": {
+    "asr_text": "いくぞ!",
+    "translation": "（日语）要上了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0080__JA_0_order_move_forward_01__3E8BEA96.mp3": {
+    "asr_text": "モダモダすんな!",
+    "translation": "（日语）别磨磨蹭蹭的！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0081__JA_0_order_move_forward_02__3E9A0217.mp3": {
+    "asr_text": "斬新!",
+    "translation": "（日语）前进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0082__JA_0_order_move_forward_03__3EA81998.mp3": {
+    "asr_text": "前へ進め!",
+    "translation": "（日语）向前推进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0083__JA_0_order_move_forward_04__3EB63119.mp3": {
+    "asr_text": "こっちだよねー",
+    "translation": "（日语）这边走！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0084__JA_0_order_move_forward_05__3EC4489A.mp3": {
+    "asr_text": "さあ一体どうや!",
+    "translation": "（日语）上啊！快，快！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0085__JA_0_order_action_suppress_00__6C2FA030.mp3": {
+    "asr_text": "うたぁぁぁぁ!!",
+    "translation": "（日语）开火——！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0086__JA_0_order_action_suppress_01__6C3DB7B1.mp3": {
+    "asr_text": "やっちまえ!",
+    "translation": "（日语）干掉他们！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0087__JA_0_order_action_suppress_02__6C4BCF32.mp3": {
+    "asr_text": "あそこだ!",
+    "translation": "（日语）在那儿！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0088__JA_0_order_action_suppress_03__6C59E6B3.mp3": {
+    "asr_text": "よくねー!",
+    "translation": "（日语）打那儿！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0089__JA_0_order_action_suppress_04__6C67FE34.mp3": {
+    "asr_text": "生きて返すな!",
+    "translation": "（日语）别让他们活着回去！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0090__JA_0_order_action_suppress_05__6C7615B5.mp3": {
+    "asr_text": "半飛ばせ!",
+    "translation": "（日语）把他们轰飞！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0091__JA_0_inform_suppressed_generic_00__37431AFB.mp3": {
+    "asr_text": "くっそー!敵さんだらけだぞ!",
+    "translation": "（日语）可恶！到处都是敌人！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0092__JA_0_inform_suppressed_generic_01__3751327C.mp3": {
+    "asr_text": "奴らどっから撃ってきたんだ!",
+    "translation": "（日语）那些家伙是从哪里开的枪！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0093__JA_0_inform_suppressed_generic_02__375F49FD.mp3": {
+    "asr_text": "このままでは全滅だいね!",
+    "translation": "（日语）这样下去，我们会全灭的！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0094__JA_0_inform_suppressed_generic_03__376D617E.mp3": {
+    "asr_text": "なんとかしてくれー!",
+    "translation": "（日语）快想想办法啊！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0095__JA_0_inform_suppressed_generic_04__377B78FF.mp3": {
+    "asr_text": "狙われてます",
+    "translation": "（日语）我们被盯上了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0096__JA_0_inform_suppressed_generic_05__37899080.mp3": {
+    "asr_text": "包囲されてます",
+    "translation": "（日语）我们被包围了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0097__bc_jap_banzai_01__8209611E.mp3": {
+    "asr_text": "外 martan",
+    "translation": "（日语）天皇陛下万岁！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0098__bc_jap_banzai_02__8217789F.mp3": {
+    "asr_text": "",
+    "translation": "（日语）天皇陛下万岁——！",
+    "needs_review": true,
+    "note": ""
+  },
+  "0099__bc_jap_banzai_03__82259020.mp3": {
+    "asr_text": "",
+    "translation": "（日语）天皇陛下万岁！",
+    "needs_review": true,
+    "note": ""
+  },
+  "0100__bc_jap_banzai_04__8233A7A1.mp3": {
+    "asr_text": "",
+    "translation": "（日语）天皇陛下！万岁！",
+    "needs_review": true,
+    "note": ""
+  },
+  "0101__bc_jap_banzai_05__8241BF22.mp3": {
+    "asr_text": "",
+    "translation": "（日语）天皇陛下！万岁——！",
+    "needs_review": true,
+    "note": ""
+  },
+  "0102__bc_jap_banzai_06__824FD6A3.mp3": {
+    "asr_text": "To Nuka Bonsai!",
+    "translation": "（日语）天皇陛下万岁——！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0103__bc_jap_banzai_07__825DEE24.mp3": {
+    "asr_text": "",
+    "translation": "（日语）天皇陛下万岁！",
+    "needs_review": true,
+    "note": ""
+  },
+  "0104__bc_jap_banzai_08__826C05A5.mp3": {
+    "asr_text": "",
+    "translation": "（日语）天皇陛下万岁！",
+    "needs_review": true,
+    "note": ""
+  },
+  "0105__bc_jap_onfire_01__5BB6ADFC.mp3": {
+    "asr_text": "AHHHHHHHHHH!!!!",
+    "translation": "",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0106__bc_jap_onfire_02__5BC4C57D.mp3": {
+    "asr_text": "AAAAAAAAAAAAAAAAAAAAH!",
+    "translation": "",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0150__JA_1_inform_incoming_grenade_00__BEED09B1.mp3": {
+    "asr_text": "アムネ!",
+    "translation": "（日语）危险！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0151__JA_1_inform_incoming_grenade_01__BEFB2132.mp3": {
+    "asr_text": "早っ! タコつぶに!",
+    "translation": "（日语）快！躲进掩体！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0152__JA_1_inform_incoming_grenade_02__BF0938B3.mp3": {
+    "asr_text": "デリューダンだ!",
+    "translation": "（日语）是手榴弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0153__JA_1_inform_incoming_grenade_03__BF175034.mp3": {
+    "asr_text": "うっせー!",
+    "translation": "（日语）烦死了！",
+    "needs_review": true,
+    "note": "待听音：ASR 为うっせー（吵死了），但本条为手雷来袭警告，可能误识别伏せろ（卧倒）；不能直接按当前识别定稿。"
+  },
+  "0154__JA_1_inform_incoming_grenade_04__BF2567B5.mp3": {
+    "asr_text": "死にしろ!",
+    "translation": "（日语）去死吧！",
+    "needs_review": true,
+    "note": "待听音：死にしろ不是自然日语；“去死吧”可能把警告误译成挑衅，须听音确定。"
+  },
+  "0155__JA_1_inform_incoming_grenade_05__BF337F36.mp3": {
+    "asr_text": "敵の手榴弾です!",
+    "translation": "（日语）是敌人的手榴弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0156__JA_1_inform_attack_grenade_00__D0B5518F.mp3": {
+    "asr_text": "手油弾投げるぞ!",
+    "translation": "（日语）我要扔手榴弹了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0157__JA_1_inform_attack_grenade_01__D0C36910.mp3": {
+    "asr_text": "気付けろ!",
+    "translation": "（日语）小心！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0158__JA_1_inform_attack_grenade_02__D0D18091.mp3": {
+    "asr_text": "下がれ!",
+    "translation": "（日语）退后！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0159__JA_1_inform_attack_grenade_03__D0DF9812.mp3": {
+    "asr_text": "僕ら!",
+    "translation": "（日语）吃我这招！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0160__JA_1_inform_attack_grenade_04__D0EDAF93.mp3": {
+    "asr_text": "ほらよ!",
+    "translation": "（日语）接招吧！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0161__JA_1_inform_attack_grenade_05__D0FBC714.mp3": {
+    "asr_text": "見てろよ!",
+    "translation": "（日语）给我看好了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0162__JA_1_inform_killfirm_generic_00__949A3BD2.mp3": {
+    "asr_text": "あなたー!",
+    "translation": "（日语）打中了！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0163__JA_1_inform_killfirm_generic_01__94A85353.mp3": {
+    "asr_text": "よーし!",
+    "translation": "（日语）好极了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0164__JA_1_inform_killfirm_generic_02__94B66AD4.mp3": {
+    "asr_text": "命中だ!",
+    "translation": "（日语）命中！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0165__JA_1_inform_killfirm_generic_03__94C48255.mp3": {
+    "asr_text": "お見事!",
+    "translation": "（日语）干得漂亮！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0166__JA_1_inform_killfirm_generic_04__94D299D6.mp3": {
+    "asr_text": "ちょうど!ちょうど!",
+    "translation": "（日语）正中！正中！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0167__JA_1_inform_killfirm_generic_05__94E0B157.mp3": {
+    "asr_text": "ざまぁみろ!",
+    "translation": "（日语）活该！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0168__JA_1_reaction_casualty_generic_00__B0F603BE.mp3": {
+    "asr_text": "伊勢平和どうだー!",
+    "translation": "（日语）卫生兵！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0169__JA_1_reaction_casualty_generic_01__B1041B3F.mp3": {
+    "asr_text": "負傷者だ!",
+    "translation": "（日语）有人负伤了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0170__JA_1_reaction_casualty_generic_02__B11232C0.mp3": {
+    "asr_text": "手当を!",
+    "translation": "（日语）快包扎伤口！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0171__JA_1_reaction_casualty_generic_03__B1204A41.mp3": {
+    "asr_text": "一人やられたぞー!",
+    "translation": "（日语）有人倒下了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0172__JA_1_reaction_casualty_generic_04__B12E61C2.mp3": {
+    "asr_text": "血が飛んだーーーーー",
+    "translation": "（日语）血溅出来了！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0173__JA_1_reaction_casualty_generic_05__B13C7943.mp3": {
+    "asr_text": "アガーーーーーー!",
+    "translation": "",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0174__JA_1_order_cover_generic_00__DC682FFE.mp3": {
+    "asr_text": "危ない!",
+    "translation": "（日语）危险！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0175__JA_1_order_cover_generic_01__DC76477F.mp3": {
+    "asr_text": "スロー!",
+    "translation": "（日语）趴下！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0176__JA_1_order_cover_generic_02__DC845F00.mp3": {
+    "asr_text": "頭を下げろ!",
+    "translation": "（日语）把头低下！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0177__JA_1_order_cover_generic_03__DC927681.mp3": {
+    "asr_text": "ゴーディアンいれー!",
+    "translation": "（日语）快躲进掩体！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0178__JA_1_order_cover_generic_04__DCA08E02.mp3": {
+    "asr_text": "逃げろー!",
+    "translation": "（日语）快跑！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0179__JA_1_order_cover_generic_05__DCAEA583.mp3": {
+    "asr_text": "sabes",
+    "translation": "（日语）卫生兵！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0180__JA_1_order_move_forward_00__77CEE3D6.mp3": {
+    "asr_text": "前進!",
+    "translation": "（日语）前进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0181__JA_1_order_move_forward_01__77DCFB57.mp3": {
+    "asr_text": "奥へを取るな!",
+    "translation": "（日语）向前推进！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0182__JA_1_order_move_forward_02__77EB12D8.mp3": {
+    "asr_text": "するぞ!",
+    "translation": "（日语）要上了！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0183__JA_1_order_move_forward_03__77F92A59.mp3": {
+    "asr_text": "早っ!",
+    "translation": "（日语）快！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0184__JA_1_order_move_forward_04__780741DA.mp3": {
+    "asr_text": "アシュー!ヒッパンだー!",
+    "translation": "（日语）冲啊——！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0185__JA_1_order_move_forward_05__7815595B.mp3": {
+    "asr_text": "さあ、いったいった!",
+    "translation": "（日语）来，快前进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0186__JA_1_order_action_suppress_00__6CDC4BCF.mp3": {
+    "asr_text": "うだーーーーー!!",
+    "translation": "（日语）开火——！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0187__JA_1_order_action_suppress_01__6CEA6350.mp3": {
+    "asr_text": "今だ!撃てー!",
+    "translation": "（日语）就是现在！开火！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0188__JA_1_order_action_suppress_02__6CF87AD1.mp3": {
+    "asr_text": "茨城ケンジーゴーニアリだ!",
+    "translation": "",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0189__JA_1_order_action_suppress_03__6D069252.mp3": {
+    "asr_text": "叩きのめせー!",
+    "translation": "（日语）狠狠教训他们！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0190__JA_1_order_action_suppress_04__6D14A9D3.mp3": {
+    "asr_text": "右に回れ!強撃する!",
+    "translation": "（日语）绕到右侧！发起强攻！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0191__JA_1_order_action_suppress_05__6D22C154.mp3": {
+    "asr_text": "八乃隼すんべぇ!",
+    "translation": "（日语）集中火力！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0192__JA_1_inform_suppressed_generic_00__7462DF1A.mp3": {
+    "asr_text": "撃沈",
+    "translation": "（日语）敌袭！",
+    "needs_review": true,
+    "note": "待听音：撃沈意为击沉，与当前译文“遭到猛烈射击”不对应；ASR 与受压制语境也有冲突，须确认原声。"
+  },
+  "0193__JA_1_inform_suppressed_generic_01__7470F69B.mp3": {
+    "asr_text": "妙覚醒!",
+    "translation": "",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0194__JA_1_inform_suppressed_generic_02__747F0E1C.mp3": {
+    "asr_text": "どこだー!",
+    "translation": "（日语）在哪里！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0195__JA_1_inform_suppressed_generic_03__748D259D.mp3": {
+    "asr_text": "奴らどっから来たんだー!",
+    "translation": "（日语）那些家伙是从哪里冒出来的！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0196__JA_1_inform_suppressed_generic_04__749B3D1E.mp3": {
+    "asr_text": "オケラ勝てると思うなよ!",
+    "translation": "（日语）别以为你们赢定了！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0197__JA_1_inform_suppressed_generic_05__74A9549F.mp3": {
+    "asr_text": "くそ!稲子の体現みてぇだ!",
+    "translation": "（日语）可恶！简直像蝗虫大军一样！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0248__JA_2_inform_incoming_grenade_00__471D4990.mp3": {
+    "asr_text": "よげろー!",
+    "translation": "（日语）躲开！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0249__JA_2_inform_incoming_grenade_01__472B6111.mp3": {
+    "asr_text": "捨てろ!危なーい!",
+    "translation": "（日语）扔掉！危险！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0250__JA_2_inform_incoming_grenade_02__47397892.mp3": {
+    "asr_text": "ちくしょう!デリューランダー!",
+    "translation": "（日语）可恶！手榴弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0251__JA_2_inform_incoming_grenade_03__47479013.mp3": {
+    "asr_text": "気をつけろ! りゅうだんだー!",
+    "translation": "（日语）小心！手榴弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0252__JA_2_inform_incoming_grenade_04__4755A794.mp3": {
+    "asr_text": "逃げろー!",
+    "translation": "（日语）快跑！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0253__JA_2_inform_incoming_grenade_05__4763BF15.mp3": {
+    "asr_text": "くそ!大変!",
+    "translation": "（日语）可恶！糟了！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0254__JA_2_inform_attack_grenade_00__D161FD2E.mp3": {
+    "asr_text": "テリューダン行くぞー!",
+    "translation": "（日语）我要投弹了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0255__JA_2_inform_attack_grenade_01__D17014AF.mp3": {
+    "asr_text": "くらえ!吹っ飛ばしてやろうぞ!",
+    "translation": "（日语）接招！把你炸飞！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0256__JA_2_inform_attack_grenade_02__D17E2C30.mp3": {
+    "asr_text": "逆れー!手榴弾投擲するー!",
+    "translation": "（日语）退后！我要投弹了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0257__JA_2_inform_attack_grenade_03__D18C43B1.mp3": {
+    "asr_text": "下がれ!諸君!投げるぞー!",
+    "translation": "（日语）诸位，退后！我要投弹了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0258__JA_2_inform_attack_grenade_04__D19A5B32.mp3": {
+    "asr_text": "気をつけろー!",
+    "translation": "（日语）小心！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0259__JA_2_inform_attack_grenade_05__D1A872B3.mp3": {
+    "asr_text": "足元に注意しろ!",
+    "translation": "（日语）注意脚下！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0260__JA_2_inform_killfirm_generic_00__1CCA7BB1.mp3": {
+    "asr_text": "よーし、やったー!",
+    "translation": "（日语）好！干掉了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0261__JA_2_inform_killfirm_generic_01__1CD89332.mp3": {
+    "asr_text": "片付いた!",
+    "translation": "（日语）解决掉了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0262__JA_2_inform_killfirm_generic_02__1CE6AAB3.mp3": {
+    "asr_text": "おーたれーっ!!",
+    "translation": "（日语）打中了——！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0263__JA_2_inform_killfirm_generic_03__1CF4C234.mp3": {
+    "asr_text": "敵中だー!",
+    "translation": "（日语）敌袭！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0264__JA_2_inform_killfirm_generic_04__1D02D9B5.mp3": {
+    "asr_text": "ど真ん中だいねー!",
+    "translation": "（日语）正中靶心！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0265__JA_2_inform_killfirm_generic_05__1D10F136.mp3": {
+    "asr_text": "お見事ー!",
+    "translation": "（日语）干得漂亮！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0266__JA_2_reaction_casualty_generic_00__EE15C7DD.mp3": {
+    "asr_text": "イジェオリオメット!",
+    "translation": "",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0267__JA_2_reaction_casualty_generic_01__EE23DF5E.mp3": {
+    "asr_text": "前線に衛星兵を押せ!",
+    "translation": "（日语）让卫生兵到前线来！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0268__JA_2_reaction_casualty_generic_02__EE31F6DF.mp3": {
+    "asr_text": "医者に呼び遣いをこせー!",
+    "translation": "（日语）快把医生叫来！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0269__JA_2_reaction_casualty_generic_03__EE400E60.mp3": {
+    "asr_text": "ウジョウジャイソー!",
+    "translation": "",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0270__JA_2_reaction_casualty_generic_04__EE4E25E1.mp3": {
+    "asr_text": "手を貸せ!運ぶぞ!",
+    "translation": "（日语）帮把手！把他抬走！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0271__JA_2_reaction_casualty_generic_05__EE5C3D62.mp3": {
+    "asr_text": "先生を呼べ!",
+    "translation": "（日语）快叫军医！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0272__JA_2_order_cover_generic_00__CD39375D.mp3": {
+    "asr_text": "危ない!",
+    "translation": "（日语）危险！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0273__JA_2_order_cover_generic_01__CD474EDE.mp3": {
+    "asr_text": "失せろー!",
+    "translation": "（日语）滚开！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0274__JA_2_order_cover_generic_02__CD55665F.mp3": {
+    "asr_text": "頭を下げろー!",
+    "translation": "（日语）低头！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0275__JA_2_order_cover_generic_03__CD637DE0.mp3": {
+    "asr_text": "カグネロー!予言だー!",
+    "translation": "（日语）快躲！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0276__JA_2_order_cover_generic_04__CD719561.mp3": {
+    "asr_text": "いかん!逃げろー!",
+    "translation": "（日语）不好！快跑！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0277__JA_2_order_cover_generic_05__CD7FACE2.mp3": {
+    "asr_text": "そ",
+    "translation": "",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0278__JA_2_order_move_forward_00__B11FF497.mp3": {
+    "asr_text": "続いて前進",
+    "translation": "（日语）继续前进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0279__JA_2_order_move_forward_01__B12E0C18.mp3": {
+    "asr_text": "全員前へ進め!",
+    "translation": "（日语）全员前进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0280__JA_2_order_move_forward_02__B13C2399.mp3": {
+    "asr_text": "諸君、行くぞー!",
+    "translation": "（日语）诸位，上吧！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0281__JA_2_order_move_forward_03__B14A3B1A.mp3": {
+    "asr_text": "急速を",
+    "translation": "（日语）加快行军！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0282__JA_2_order_move_forward_04__B158529B.mp3": {
+    "asr_text": "みんな前進するぞー!",
+    "translation": "（日语）各位，向前进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0283__JA_2_order_move_forward_05__B1666A1C.mp3": {
+    "asr_text": "全身出動",
+    "translation": "（日语）全体出动！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0284__JA_2_order_action_suppress_00__6D88F76E.mp3": {
+    "asr_text": "醜い鬼め!撃て!",
+    "translation": "（日语）可恶的家伙！开火！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0285__JA_2_order_action_suppress_01__6D970EEF.mp3": {
+    "asr_text": "行け!一掃攻撃だー!",
+    "translation": "（日语）上！把他们一扫而空！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0286__JA_2_order_action_suppress_02__6DA52670.mp3": {
+    "asr_text": "うでぇーーーーの",
+    "translation": "（日语）开火——！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0287__JA_2_order_action_suppress_03__6DB33DF1.mp3": {
+    "asr_text": "逃がすなー!",
+    "translation": "（日语）别让他们跑了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0288__JA_2_order_action_suppress_04__6DC15572.mp3": {
+    "asr_text": "狙っていけー!",
+    "translation": "（日语）瞄准了再打！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0289__JA_2_order_action_suppress_05__6DCF6CF3.mp3": {
+    "asr_text": "アズコを狙っていけー!",
+    "translation": "（日语）瞄准那边，开火！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0290__JA_2_inform_suppressed_generic_00__B182A339.mp3": {
+    "asr_text": "集中砲火を浴びる",
+    "translation": "（日语）我们遭到集中炮火了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0291__JA_2_inform_suppressed_generic_01__B190BABA.mp3": {
+    "asr_text": "キャッツラー攻撃を緩めねえなあ!",
+    "translation": "（日语）那些家伙的攻势丝毫不减啊！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0292__JA_2_inform_suppressed_generic_02__B19ED23B.mp3": {
+    "asr_text": "反撃しよう!反撃!",
+    "translation": "（日语）反击！快反击！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0293__JA_2_inform_suppressed_generic_03__B1ACE9BC.mp3": {
+    "asr_text": "総員反撃せよー!",
+    "translation": "（日语）全员反击！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0294__JA_2_inform_suppressed_generic_04__B1BB013D.mp3": {
+    "asr_text": "くそー!左に注意しろー!",
+    "translation": "（日语）可恶！注意左边！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0295__JA_2_inform_suppressed_generic_05__B1C918BE.mp3": {
+    "asr_text": "攻撃を続けろー!",
+    "translation": "（日语）继续进攻！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0346__JA_3_inform_incoming_grenade_00__CF4D896F.mp3": {
+    "asr_text": "敵の出龍だー!",
+    "translation": "（日语）是敌人的手榴弹！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0347__JA_3_inform_incoming_grenade_01__CF5BA0F0.mp3": {
+    "asr_text": "いけねー!",
+    "translation": "（日语）糟了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0348__JA_3_inform_incoming_grenade_02__CF69B871.mp3": {
+    "asr_text": "緊急退避",
+    "translation": "（日语）立即撤离！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0349__JA_3_inform_incoming_grenade_03__CF77CFF2.mp3": {
+    "asr_text": "手榴弾であります!",
+    "translation": "（日语）是手榴弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0350__JA_3_inform_incoming_grenade_04__CF85E773.mp3": {
+    "asr_text": "大変!",
+    "translation": "（日语）糟了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0351__JA_3_inform_incoming_grenade_05__CF93FEF4.mp3": {
+    "asr_text": "離れろ!",
+    "translation": "（日语）快离开！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0352__JA_3_inform_attack_grenade_00__D20EA8CD.mp3": {
+    "asr_text": "手榴弾攻撃に入る!",
+    "translation": "（日语）用手榴弹进攻！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0353__JA_3_inform_attack_grenade_01__D21CC04E.mp3": {
+    "asr_text": "下がってろ!テリューなんだ!",
+    "translation": "（日语）退开！是手榴弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0354__JA_3_inform_attack_grenade_02__D22AD7CF.mp3": {
+    "asr_text": "待て! 手に入らんがっから!",
+    "translation": "（日语）等等！我有手榴弹！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0355__JA_3_inform_attack_grenade_03__D238EF50.mp3": {
+    "asr_text": "爆発するぞー!",
+    "translation": "（日语）要爆炸了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0356__JA_3_inform_attack_grenade_04__D24706D1.mp3": {
+    "asr_text": "気をつけろー!",
+    "translation": "（日语）小心！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0357__JA_3_inform_attack_grenade_05__D2551E52.mp3": {
+    "asr_text": "手榴弾でもくらえ!",
+    "translation": "（日语）吃我一颗手榴弹！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0358__JA_3_inform_killfirm_generic_00__A4FABB90.mp3": {
+    "asr_text": "どうだー!",
+    "translation": "（日语）见识到了吧！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0359__JA_3_inform_killfirm_generic_01__A508D311.mp3": {
+    "asr_text": "一目さぁ!",
+    "translation": "（日语）一枪一个！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0360__JA_3_inform_killfirm_generic_02__A516EA92.mp3": {
+    "asr_text": "一撃必殺!見たかー!",
+    "translation": "（日语）一击必杀！看到了吗！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0361__JA_3_inform_killfirm_generic_03__A5250213.mp3": {
+    "asr_text": "手こずらせよって",
+    "translation": "（日语）真是个难缠的家伙！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0362__JA_3_inform_killfirm_generic_04__A5331994.mp3": {
+    "asr_text": "人中報告!",
+    "translation": "（日语）报告，命中！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0363__JA_3_inform_killfirm_generic_05__A5413115.mp3": {
+    "asr_text": "敵を撃破!",
+    "translation": "（日语）敌人已被击破！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0364__JA_3_reaction_casualty_generic_00__2B358BFC.mp3": {
+    "asr_text": "くそ!あいつがやられた!",
+    "translation": "（日语）可恶！那家伙中弹了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0365__JA_3_reaction_casualty_generic_01__2B43A37D.mp3": {
+    "asr_text": "負傷者であります",
+    "translation": "（日语）报告，有人负伤！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0366__JA_3_reaction_casualty_generic_02__2B51BAFE.mp3": {
+    "asr_text": "SAA!",
+    "translation": "",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0367__JA_3_reaction_casualty_generic_03__2B5FD27F.mp3": {
+    "asr_text": "衛星兵はおらんのかー!",
+    "translation": "（日语）没有卫生兵吗！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0368__JA_3_reaction_casualty_generic_04__2B6DEA00.mp3": {
+    "asr_text": "くたばりよった!",
+    "translation": "（日语）那家伙死了！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0369__JA_3_reaction_casualty_generic_05__2B7C0181.mp3": {
+    "asr_text": "どこから撃たれた!?",
+    "translation": "（日语）是从哪里打来的？！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0370__JA_3_order_cover_generic_00__BE0A3EBC.mp3": {
+    "asr_text": "この目",
+    "translation": "",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0371__JA_3_order_cover_generic_01__BE18563D.mp3": {
+    "asr_text": "遮蔽物を探せ!",
+    "translation": "（日语）找掩体！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0372__JA_3_order_cover_generic_02__BE266DBE.mp3": {
+    "asr_text": "クソッ!離れろ!",
+    "translation": "（日语）可恶！快散开！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0373__JA_3_order_cover_generic_03__BE34853F.mp3": {
+    "asr_text": "ゴーに飛び込め!",
+    "translation": "（日语）跳进战壕！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0374__JA_3_order_cover_generic_04__BE429CC0.mp3": {
+    "asr_text": "スロー!",
+    "translation": "（日语）趴下！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0375__JA_3_order_cover_generic_05__BE50B441.mp3": {
+    "asr_text": "動くな!",
+    "translation": "（日语）不许动！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0376__JA_3_order_move_forward_00__EA710558.mp3": {
+    "asr_text": "進めー!",
+    "translation": "（日语）前进——！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0377__JA_3_order_move_forward_01__EA7F1CD9.mp3": {
+    "asr_text": "いくぞー!",
+    "translation": "（日语）上啊！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0378__JA_3_order_move_forward_02__EA8D345A.mp3": {
+    "asr_text": "前進するぞ!",
+    "translation": "（日语）向前进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0379__JA_3_order_move_forward_03__EA9B4BDB.mp3": {
+    "asr_text": "こっちだー!",
+    "translation": "（日语）这边！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0380__JA_3_order_move_forward_04__EAA9635C.mp3": {
+    "asr_text": "前進を続けろ!",
+    "translation": "（日语）继续前进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0381__JA_3_order_move_forward_05__EAB77ADD.mp3": {
+    "asr_text": "この先だ!進め!",
+    "translation": "（日语）就在前方！前进！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0382__JA_3_order_action_suppress_00__6E35A30D.mp3": {
+    "asr_text": "早く歌んかー!",
+    "translation": "（日语）还不快开火！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0383__JA_3_order_action_suppress_01__6E43BA8E.mp3": {
+    "asr_text": "重砲火を浴びせろ!",
+    "translation": "（日语）用炮火狠狠轰击他们！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0384__JA_3_order_action_suppress_02__6E51D20F.mp3": {
+    "asr_text": "ここを足場に攻撃速攻せよ!",
+    "translation": "（日语）以这里为据点，发动进攻！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  },
+  "0385__JA_3_order_action_suppress_03__6E5FE990.mp3": {
+    "asr_text": "うでー!",
+    "translation": "（日语）开火——！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0386__JA_3_order_action_suppress_04__6E6E0111.mp3": {
+    "asr_text": "火力が足らんぞ!",
+    "translation": "（日语）火力还不够！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0387__JA_3_order_action_suppress_05__6E7C1892.mp3": {
+    "asr_text": "ちくしょうどもを生きて返すなぁ!",
+    "translation": "（日语）那群混账，别让他们活着回去！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0388__JA_3_inform_suppressed_generic_00__EEA26758.mp3": {
+    "asr_text": "的中であります!",
+    "translation": "（日语）报告，敌袭！",
+    "needs_review": true,
+    "note": "待听音：的中为命中，但本条属于受压制喊话，可能误识别敵襲等词；原声未确认，不能断言是命中报告。"
+  },
+  "0389__JA_3_inform_suppressed_generic_01__EEB07ED9.mp3": {
+    "asr_text": "どこから撃たれた?報告せよ!",
+    "translation": "（日语）从哪里打来的？快报告！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0390__JA_3_inform_suppressed_generic_02__EEBE965A.mp3": {
+    "asr_text": "敵兵はどこかー!",
+    "translation": "（日语）敌兵在哪里！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0391__JA_3_inform_suppressed_generic_03__EECCADDB.mp3": {
+    "asr_text": "直ちに反撃せよ!",
+    "translation": "（日语）立即反击！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0392__JA_3_inform_suppressed_generic_04__EEDAC55C.mp3": {
+    "asr_text": "一時撤退しましょう!",
+    "translation": "（日语）我们先撤退吧！",
+    "needs_review": true,
+    "note": "译文已填；ASR 识别未听音校对。"
+  },
+  "0393__JA_3_inform_suppressed_generic_05__EEE8DCDD.mp3": {
+    "asr_text": "敵応手といえど広めな!",
+    "translation": "（日语）敌人实在太多了！",
+    "needs_review": true,
+    "note": "待听音：ASR 疑有误识别、截断或语境冲突；当前译文存在推测，尚不能确认准确，未凭文件名重新编写台词。"
+  }
+}

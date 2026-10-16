@@ -1,0 +1,1028 @@
+{
+  "0000__bc_uk1_greande_incoming_01__DF19885E.mp3": {
+    "asr_text": "GRENADE! GET DOWN!",
+    "translation": "手雷！趴下！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0001__bc_uk1_greande_incoming_02__DF279FDF.mp3": {
+    "asr_text": "Incoming grenade! Take cover!",
+    "translation": "手雷扔过来了！找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0002__bc_uk1_greande_incoming_03__DF35B760.mp3": {
+    "asr_text": "Bloody hell, get down!",
+    "translation": "妈的，趴下！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0003__bc_uk1_greande_incoming_04__DF43CEE1.mp3": {
+    "asr_text": "Incoming grenade! Duck!",
+    "translation": "手雷！低头！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0004__bc_uk1_greande_incoming_05__DF51E662.mp3": {
+    "asr_text": "AHH! GRENADE!",
+    "translation": "啊！手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0005__bc_uk1_greande_incoming_06__DF5FFDE3.mp3": {
+    "asr_text": "Watch it! Grenade incoming!",
+    "translation": "小心！手雷来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0006__bc_uk1_greande_incoming_07__DF6E1564.mp3": {
+    "asr_text": "Enemy grenade, down!",
+    "translation": "敌人扔手雷了！趴下！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0007__bc_uk1_greande_throw_01__F4AAE212.mp3": {
+    "asr_text": "GET A LOAD OF THIS!",
+    "translation": "尝尝这个！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0008__bc_uk1_greande_throw_02__F4B8F993.mp3": {
+    "asr_text": "Throw in a frag!",
+    "translation": "扔手雷！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0009__bc_uk1_greande_throw_03__F4C71114.mp3": {
+    "asr_text": "FRIG OUT!",
+    "translation": "手雷扔出去了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0010__bc_uk1_greande_throw_04__F4D52895.mp3": {
+    "asr_text": "HAVE IT!",
+    "translation": "接招！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0011__bc_uk1_greande_throw_05__F4E34016.mp3": {
+    "asr_text": "Throw in a grenade!",
+    "translation": "扔手雷了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0012__bc_uk1_greande_throw_06__F4F15797.mp3": {
+    "asr_text": "GRENADE OUT!",
+    "translation": "手雷扔出去了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0013__bc_uk1_greande_throw_07__F4FF6F18.mp3": {
+    "asr_text": "FIRE IN THE HOLE!",
+    "translation": "要炸了，躲开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0014__bc_uk1_greande_throw_08__F50D8699.mp3": {
+    "asr_text": "GET ON THIS!",
+    "translation": "吃我这颗！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0015__bc_uk1_greande_throw_09__F51B9E1A.mp3": {
+    "asr_text": "OI! CATCH THIS!",
+    "translation": "喂！接着！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0016__bc_uk1_enemy_hit_01__856A19C5.mp3": {
+    "asr_text": "I GOT ONE!",
+    "translation": "干掉一个！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0017__bc_uk1_enemy_hit_02__85783146.mp3": {
+    "asr_text": "GO ANOTHER ONE!",
+    "translation": "又干掉一个！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0018__bc_uk1_enemy_hit_03__858648C7.mp3": {
+    "asr_text": "MAN, DID YOU SEE THAT?!",
+    "translation": "嘿，看见没有？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0019__bc_uk1_enemy_hit_04__85946048.mp3": {
+    "asr_text": "One less to worry about!",
+    "translation": "少了一个麻烦！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0020__bc_uk1_enemy_hit_05__85A277C9.mp3": {
+    "asr_text": "God of Blighter!",
+    "translation": "干掉那混蛋了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0021__bc_uk1_enemy_hit_06__85B08F4A.mp3": {
+    "asr_text": "AND STAY DOWN!",
+    "translation": "别想再爬起来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0022__bc_uk1_enemy_hit_07__85BEA6CB.mp3": {
+    "asr_text": "GO EM!",
+    "translation": "干掉他了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0023__bc_uk1_enemy_hit_08__85CCBE4C.mp3": {
+    "asr_text": "GOT HIM!",
+    "translation": "打中了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0024__bc_uk1_enemy_hit_09__85DAD5CD.mp3": {
+    "asr_text": "Haha, I got him!",
+    "translation": "哈哈，干掉他了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0025__bc_uk1_enemy_hit_10__8710DAE3.mp3": {
+    "asr_text": "That one was mine!",
+    "translation": "那个是我打的！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0026__bc_uk1_enemy_hit_11__871EF264.mp3": {
+    "asr_text": "Ha! He didn't see that coming!",
+    "translation": "哈！没想到吧！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0027__bc_uk1_enemy_hit_12__872D09E5.mp3": {
+    "asr_text": "Now that was a shot!",
+    "translation": "这一枪打得漂亮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0028__bc_uk1_enemy_hit_13__873B2166.mp3": {
+    "asr_text": "Scratch another bad guy!",
+    "translation": "又收拾了一个！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0029__bc_uk1_enemy_hit_14__874938E7.mp3": {
+    "asr_text": "That's one less enemy to worry about!",
+    "translation": "又少了一个敌人！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0030__bc_uk1_enemy_hit_15__87575068.mp3": {
+    "asr_text": "HAHAHAHA! AVECH!",
+    "translation": "哈哈哈！接招！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0031__bc_uk1_been_hit_01__09ECA83B.mp3": {
+    "asr_text": "MEDIC!",
+    "translation": "卫生员！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0032__bc_uk1_been_hit_02__09FABFBC.mp3": {
+    "asr_text": "Aaaaa опять",
+    "translation": "啊！我中弹了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0033__bc_uk1_been_hit_03__0A08D73D.mp3": {
+    "asr_text": "rules",
+    "translation": "",
+    "needs_review": true,
+    "note": "ASR仅有rules，与受伤喊话语境不符，无法可靠还原；译文暂空，待听音。"
+  },
+  "0034__bc_uk1_been_hit_04__0A16EEBE.mp3": {
+    "asr_text": "DAMMIT! I'M IT!",
+    "translation": "妈的！我中弹了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0035__bc_uk1_been_hit_05__0A25063F.mp3": {
+    "asr_text": "DAMMIT! I'VE BEEN HIT!",
+    "translation": "妈的！我被打中了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0036__bc_uk1_been_hit_06__0A331DC0.mp3": {
+    "asr_text": "OPEN IT!",
+    "translation": "我中弹了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0037__bc_uk1_been_hit_07__0A413541.mp3": {
+    "asr_text": "OW!",
+    "translation": "哎哟！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0038__bc_uk1_been_hit_08__0A4F4CC2.mp3": {
+    "asr_text": "AGH!",
+    "translation": "啊！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0039__bc_uk1_been_hit_09__0A5D6443.mp3": {
+    "asr_text": "Oh! They got me!",
+    "translation": "啊！他们打中我了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0040__bc_uk1_reloading_01__9E3283D8.mp3": {
+    "asr_text": "I NEED ANOTHER CLIP!",
+    "translation": "再给我个弹夹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0041__bc_uk1_reloading_02__9E409B59.mp3": {
+    "asr_text": "I NEED ANOTHER MAGAZINE!",
+    "translation": "再给我个弹匣！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0042__bc_uk1_reloading_03__9E4EB2DA.mp3": {
+    "asr_text": "I NEED ANOTHER MAG!",
+    "translation": "我需要弹匣！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0043__bc_uk1_reloading_04__9E5CCA5B.mp3": {
+    "asr_text": "Reloading! Cover me!",
+    "translation": "装弹！掩护我！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0044__bc_uk1_reloading_05__9E6AE1DC.mp3": {
+    "asr_text": "I'M OUT! RELOADING!",
+    "translation": "打空了！装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0045__bc_uk1_reloading_06__9E78F95D.mp3": {
+    "asr_text": "AMALDEMO!",
+    "translation": "没子弹了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0046__bc_uk1_reloading_07__9E8710DE.mp3": {
+    "asr_text": "COVER ME! I'M RELOADING!",
+    "translation": "掩护我！我在装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0047__bc_uk1_reloading_08__9E95285F.mp3": {
+    "asr_text": "DAMMIT I'M OUT OF AMMO!",
+    "translation": "妈的，没子弹了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0048__bc_uk1_reloading_09__9EA33FE0.mp3": {
+    "asr_text": "DAMMIT! OUT OF AMMO!",
+    "translation": "妈的！子弹没了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0049__bc_uk1_reloading_10__9FD944F6.mp3": {
+    "asr_text": "No ammo! Reloading!",
+    "translation": "没子弹了！装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0050__bc_uk1_get_to_cover_01__38A7E77F.mp3": {
+    "asr_text": "MOVE IT!",
+    "translation": "快动起来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0051__bc_uk1_get_to_cover_02__38B5FF00.mp3": {
+    "asr_text": "GET DOWN!",
+    "translation": "趴下！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0052__bc_uk1_get_to_cover_03__38C41681.mp3": {
+    "asr_text": "FORCE HIM COVER!",
+    "translation": "找个掩体！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0053__bc_uk1_get_to_cover_04__38D22E02.mp3": {
+    "asr_text": "TURN COVER!",
+    "translation": "找掩护！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0054__bc_uk1_get_to_cover_05__38E04583.mp3": {
+    "asr_text": "GET TO COVER!",
+    "translation": "快找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0055__bc_uk1_advance_01__B2E4CD9F.mp3": {
+    "asr_text": "GO!",
+    "translation": "上！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0056__bc_uk1_advance_02__B2F2E520.mp3": {
+    "asr_text": "GO!",
+    "translation": "快！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0057__bc_uk1_advance_03__B300FCA1.mp3": {
+    "asr_text": "ADVANCE!",
+    "translation": "前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0058__bc_uk1_advance_04__B30F1422.mp3": {
+    "asr_text": "MOVE UP!",
+    "translation": "往前压！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0059__bc_uk1_advance_05__B31D2BA3.mp3": {
+    "asr_text": "MOVE IT!",
+    "translation": "快走！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0060__bc_uk1_stop_to_engage_01__C84ED0D3.mp3": {
+    "asr_text": "Come on then, lads! Let's have them!",
+    "translation": "来吧，弟兄们！收拾他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0061__bc_uk1_stop_to_engage_02__C85CE854.mp3": {
+    "asr_text": "Come on then, lads! Let's take them on!",
+    "translation": "弟兄们，上！跟他们干！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0062__bc_uk1_stop_to_engage_03__C86AFFD5.mp3": {
+    "asr_text": "TAKE IT TO HIM, BOYS!",
+    "translation": "给他们点厉害，弟兄们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0063__bc_uk1_stop_to_engage_04__C8791756.mp3": {
+    "asr_text": "GO!",
+    "translation": "上！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0064__bc_uk1_stop_to_engage_05__C8872ED7.mp3": {
+    "asr_text": "FORWARD!",
+    "translation": "前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0065__bc_uk1_retreat_01__CC0294BA.mp3": {
+    "asr_text": "RETREAT! RETREAT!",
+    "translation": "撤退！撤退！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0066__bc_uk1_retreat_02__CC10AC3B.mp3": {
+    "asr_text": "LIKE IT!",
+    "translation": "快跑！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0067__bc_uk1_retreat_03__CC1EC3BC.mp3": {
+    "asr_text": "FALL BACK!",
+    "translation": "后撤！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0068__bc_uk1_retreat_04__CC2CDB3D.mp3": {
+    "asr_text": "LET'S GET OUT OF HERE!",
+    "translation": "快离开这儿！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0069__bc_uk1_retreat_05__CC3AF2BE.mp3": {
+    "asr_text": "Come on, lads! Let's scarper!",
+    "translation": "弟兄们，快撤！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0070__bc_uk1_retreat_06__CC490A3F.mp3": {
+    "asr_text": "Come on, lads! Let's move it!",
+    "translation": "快，弟兄们！走！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0071__bc_uk1_retreat_07__CC5721C0.mp3": {
+    "asr_text": "This doesn't look good. Fall back!",
+    "translation": "情况不妙，后撤！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0072__bc_uk1_retreat_08__CC653941.mp3": {
+    "asr_text": "It doesn't look good! Fall back!",
+    "translation": "情况不妙！快撤！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0073__bc_uk1_retreat_09__CC7350C2.mp3": {
+    "asr_text": "MOVE BACK!",
+    "translation": "往后退！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0074__bc_uk1_retreat_10__CDA955D8.mp3": {
+    "asr_text": "Bloody hell, let's move!",
+    "translation": "妈的，快走！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0075__bc_uk1_friendly_fire_01__D55E6D97.mp3": {
+    "asr_text": "Oi! Watch where you're firing, buddy!",
+    "translation": "喂！看准了再打！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0076__bc_uk1_friendly_fire_02__D56C8518.mp3": {
+    "asr_text": "OI WATCH YOUR FIRE!",
+    "translation": "喂！别打着自己人！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0077__bc_uk1_friendly_fire_03__D57A9C99.mp3": {
+    "asr_text": "WATCH YOUR FIRE DAMMIT!",
+    "translation": "妈的！看准了再开枪！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0078__bc_uk1_friendly_fire_04__D588B41A.mp3": {
+    "asr_text": "OI! I'm on your side!",
+    "translation": "喂！我是自己人！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0079__bc_uk1_friendly_fire_05__D596CB9B.mp3": {
+    "asr_text": "Hey! The bad guys are over there!",
+    "translation": "喂！敌人在那边！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0080__bc_uk1_friendly_fire_06__D5A4E31C.mp3": {
+    "asr_text": "STOP SHOOTING AT ME, YOU IDIOT!",
+    "translation": "别朝我开枪，蠢货！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0081__bc_uk1_friendly_fire_07__D5B2FA9D.mp3": {
+    "asr_text": "WATCH YOUR BLOODY FIRE!",
+    "translation": "妈的，看准再打！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0123__bc_uk2_greande_incoming_01__6349D55F.mp3": {
+    "asr_text": "GRENADE! GET DOWN!",
+    "translation": "手雷！趴下！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0124__bc_uk2_greande_incoming_02__6357ECE0.mp3": {
+    "asr_text": "Incoming grenade! Take cover!",
+    "translation": "手雷扔过来了！找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0125__bc_uk2_greande_incoming_03__63660461.mp3": {
+    "asr_text": "Bloody hell! Get down!",
+    "translation": "妈的！趴下！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0126__bc_uk2_greande_incoming_04__63741BE2.mp3": {
+    "asr_text": "Incoming grenade! Duck!",
+    "translation": "手雷！低头！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0127__bc_uk2_greande_incoming_05__63823363.mp3": {
+    "asr_text": "AHHHHH! GRENADE!",
+    "translation": "啊！手雷！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0128__bc_uk2_greande_incoming_06__63904AE4.mp3": {
+    "asr_text": "WATCH IT! GRENADE INCOMING!",
+    "translation": "小心！手雷来了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0129__bc_uk2_greande_incoming_07__639E6265.mp3": {
+    "asr_text": "AND THE MINT GRENADE! DOWN!",
+    "translation": "敌人扔手雷了！趴下！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0130__bc_uk2_greande_throw_01__7B309CB1.mp3": {
+    "asr_text": "GET LOWER THAN THIS!",
+    "translation": "尝尝这个！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0131__bc_uk2_greande_throw_02__7B3EB432.mp3": {
+    "asr_text": "Throw in a frog!",
+    "translation": "扔手雷！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0132__bc_uk2_greande_throw_03__7B4CCBB3.mp3": {
+    "asr_text": "FROG OUT!",
+    "translation": "手雷扔出去了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0133__bc_uk2_greande_throw_04__7B5AE334.mp3": {
+    "asr_text": "OVEH!",
+    "translation": "接招！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0134__bc_uk2_greande_throw_05__7B68FAB5.mp3": {
+    "asr_text": "THROWING A GRENADE!",
+    "translation": "扔手雷了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0135__bc_uk2_greande_throw_06__7B771236.mp3": {
+    "asr_text": "GRENADE OUT!",
+    "translation": "手雷扔出去了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0136__bc_uk2_greande_throw_07__7B8529B7.mp3": {
+    "asr_text": "FIRE IN THE HOLE!",
+    "translation": "要炸了，躲开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0137__bc_uk2_greande_throw_08__7B934138.mp3": {
+    "asr_text": "FIRE IN THE HOLE!",
+    "translation": "要炸了，躲开！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0138__bc_uk2_greande_throw_09__7BA158B9.mp3": {
+    "asr_text": "GET ON THIS!",
+    "translation": "吃我这颗！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0139__bc_uk2_greande_throw_10__7CD75DCF.mp3": {
+    "asr_text": "OY! CATCHES!",
+    "translation": "喂！接着！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0140__bc_uk2_enemy_hit_01__49FBFBE4.mp3": {
+    "asr_text": "I GOT ONE!",
+    "translation": "干掉一个！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0141__bc_uk2_enemy_hit_02__4A0A1365.mp3": {
+    "asr_text": "GOT ANOTHER ONE!",
+    "translation": "又干掉一个！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0142__bc_uk2_enemy_hit_03__4A182AE6.mp3": {
+    "asr_text": "Man, did you see that?",
+    "translation": "嘿，看见没有？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0143__bc_uk2_enemy_hit_04__4A264267.mp3": {
+    "asr_text": "Cool! Did you see that?",
+    "translation": "漂亮！看见没？",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0144__bc_uk2_enemy_hit_05__4A3459E8.mp3": {
+    "asr_text": "One less to worry about!",
+    "translation": "少了一个麻烦！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0145__bc_uk2_enemy_hit_06__4A427169.mp3": {
+    "asr_text": "GOT THE BLOITER!",
+    "translation": "干掉那混蛋了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0146__bc_uk2_enemy_hit_07__4A5088EA.mp3": {
+    "asr_text": "And stay down!",
+    "translation": "别想再爬起来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0147__bc_uk2_enemy_hit_08__4A5EA06B.mp3": {
+    "asr_text": "GO EM!",
+    "translation": "干掉他了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0148__bc_uk2_enemy_hit_09__4A6CB7EC.mp3": {
+    "asr_text": "HAHA! I GOT HIM!",
+    "translation": "哈哈！干掉他了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0149__bc_uk2_enemy_hit_10__4BA2BD02.mp3": {
+    "asr_text": "THAT ONE WAS MINE!",
+    "translation": "那个是我打的！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0150__bc_uk2_enemy_hit_11__4BB0D483.mp3": {
+    "asr_text": "Ha! You didn't see that coming!",
+    "translation": "哈！没想到吧！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0151__bc_uk2_enemy_hit_12__4BBEEC04.mp3": {
+    "asr_text": "Now that was a shot!",
+    "translation": "这一枪打得漂亮！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0152__bc_uk2_enemy_hit_13__4BCD0385.mp3": {
+    "asr_text": "Scratch another bad guy!",
+    "translation": "又收拾了一个！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0153__bc_uk2_enemy_hit_14__4BDB1B06.mp3": {
+    "asr_text": "That's one less enemy to worry about!",
+    "translation": "又少了一个敌人！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0154__bc_uk2_enemy_hit_15__4BE93287.mp3": {
+    "asr_text": "HAHA! I'M BACK!",
+    "translation": "哈哈！接招！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0155__bc_uk2_been_hit_01__5A96863C.mp3": {
+    "asr_text": "MEDIC!",
+    "translation": "卫生员！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0156__bc_uk2_been_hit_02__5AA49DBD.mp3": {
+    "asr_text": "AHHHHH THEY CUT ME!",
+    "translation": "啊！他们打中我了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0157__bc_uk2_been_hit_03__5AB2B53E.mp3": {
+    "asr_text": "AHH!",
+    "translation": "啊！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0158__bc_uk2_been_hit_04__5AC0CCBF.mp3": {
+    "asr_text": "OUCH!",
+    "translation": "哎哟！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0159__bc_uk2_been_hit_05__5ACEE440.mp3": {
+    "asr_text": "EN BENNÉE !",
+    "translation": "我中弹了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0160__bc_uk2_been_hit_06__5ADCFBC1.mp3": {
+    "asr_text": "I'VE BEEN HIT!",
+    "translation": "我中弹了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0161__bc_uk2_been_hit_07__5AEB1342.mp3": {
+    "asr_text": "DAMMIT, OH MATE!",
+    "translation": "妈的！我中弹了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0162__bc_uk2_been_hit_08__5AF92AC3.mp3": {
+    "asr_text": "DAMMIT! I'M EAT!",
+    "translation": "妈的！我中弹了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0163__bc_uk2_been_hit_09__5B074244.mp3": {
+    "asr_text": "AHHHHH!",
+    "translation": "啊！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0164__bc_uk2_been_hit_10__5C3D475A.mp3": {
+    "asr_text": "UGH!",
+    "translation": "呃！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0165__bc_uk2_reloading_01__62C465F7.mp3": {
+    "asr_text": "I NEED ANOTHER CLIP!",
+    "translation": "再给我个弹夹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0166__bc_uk2_reloading_02__62D27D78.mp3": {
+    "asr_text": "I NEED ANOTHER MAGAZINE!",
+    "translation": "再给我个弹匣！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0167__bc_uk2_reloading_03__62E094F9.mp3": {
+    "asr_text": "I'm out! Reloading!",
+    "translation": "打空了！装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0168__bc_uk2_reloading_04__62EEAC7A.mp3": {
+    "asr_text": "Cover me! I'm reloading!",
+    "translation": "掩护我！我在装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0169__bc_uk2_reloading_05__62FCC3FB.mp3": {
+    "asr_text": "DAMN IT! OUT OF AMO!",
+    "translation": "妈的！没子弹了！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0170__bc_uk2_reloading_06__630ADB7C.mp3": {
+    "asr_text": "I'll need another mag!",
+    "translation": "我需要弹匣！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0171__bc_uk2_reloading_07__6318F2FD.mp3": {
+    "asr_text": "Reloading! Cover me!",
+    "translation": "装弹！掩护我！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0172__bc_uk2_reloading_08__63270A7E.mp3": {
+    "asr_text": "I'M UP TO VAMO!",
+    "translation": "没子弹了！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0173__bc_uk2_reloading_09__633521FF.mp3": {
+    "asr_text": "COVER ME I'M RELOADING!",
+    "translation": "掩护我！我在装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0174__bc_uk2_reloading_10__646B2715.mp3": {
+    "asr_text": "No ammo! Reloading!",
+    "translation": "没子弹了！装弹！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0175__bc_uk2_get_to_cover_01__4540DD00.mp3": {
+    "asr_text": "MOVE IT!",
+    "translation": "快动起来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0176__bc_uk2_get_to_cover_02__454EF481.mp3": {
+    "asr_text": "FOIN SOME COVER!",
+    "translation": "找个掩体！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0177__bc_uk2_get_to_cover_03__455D0C02.mp3": {
+    "asr_text": "GIG TO COVER!",
+    "translation": "快找掩护！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0178__bc_uk2_get_to_cover_04__456B2383.mp3": {
+    "asr_text": "GET DOWN!",
+    "translation": "趴下！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0179__bc_uk2_get_to_cover_05__45793B04.mp3": {
+    "asr_text": "TAKE COVER!",
+    "translation": "找掩护！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0180__bc_uk2_advance_01__9476AB7E.mp3": {
+    "asr_text": "Go!",
+    "translation": "上！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0181__bc_uk2_advance_02__9484C2FF.mp3": {
+    "asr_text": "ADVANCE!",
+    "translation": "前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0182__bc_uk2_advance_03__9492DA80.mp3": {
+    "asr_text": "MOVE IT!",
+    "translation": "快走！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0183__bc_uk2_advance_04__94A0F201.mp3": {
+    "asr_text": "ADVANCE!",
+    "translation": "前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0184__bc_uk2_advance_05__94AF0982.mp3": {
+    "asr_text": "MOVE IT!",
+    "translation": "快动起来！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0185__bc_uk2_advance_06__94BD2103.mp3": {
+    "asr_text": "MOVE UP!",
+    "translation": "往前压！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0186__bc_uk2_stop_to_engage_01__12806A14.mp3": {
+    "asr_text": "Come on then lads, let's have em!",
+    "translation": "来吧，弟兄们！收拾他们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0187__bc_uk2_stop_to_engage_02__128E8195.mp3": {
+    "asr_text": "TAKE IT TO EM, BOYS!",
+    "translation": "给他们点厉害，弟兄们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0188__bc_uk2_stop_to_engage_03__129C9916.mp3": {
+    "asr_text": "GO!",
+    "translation": "上！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0189__bc_uk2_stop_to_engage_04__12AAB097.mp3": {
+    "asr_text": "Come on then, lads! Let's take him on!",
+    "translation": "弟兄们，上！跟他们干！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0190__bc_uk2_stop_to_engage_05__12B8C818.mp3": {
+    "asr_text": "TAKE IT TO EM LADS!",
+    "translation": "收拾他们，弟兄们！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0191__bc_uk2_stop_to_engage_06__12C6DF99.mp3": {
+    "asr_text": "FORWARD!",
+    "translation": "前进！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0192__bc_uk2_retreat_01__AD947299.mp3": {
+    "asr_text": "Retreat! Retreat!",
+    "translation": "撤退！撤退！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0193__bc_uk2_retreat_02__ADA28A1A.mp3": {
+    "asr_text": "RETREAT! RETREAT!",
+    "translation": "撤退！撤退！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0194__bc_uk2_retreat_03__ADB0A19B.mp3": {
+    "asr_text": "LICK IT!",
+    "translation": "快跑！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0195__bc_uk2_retreat_04__ADBEB91C.mp3": {
+    "asr_text": "FULL PACK!",
+    "translation": "后撤！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0196__bc_uk2_retreat_05__ADCCD09D.mp3": {
+    "asr_text": "Let's get out of there!",
+    "translation": "快离开那儿！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0197__bc_uk2_retreat_06__ADDAE81E.mp3": {
+    "asr_text": "Come on lads, let's score pa!",
+    "translation": "弟兄们，快撤！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0198__bc_uk2_retreat_07__ADE8FF9F.mp3": {
+    "asr_text": "Come on lads, let's move it!",
+    "translation": "快，弟兄们！走！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0199__bc_uk2_retreat_08__ADF71720.mp3": {
+    "asr_text": "THIS DOESN'T LOOK GOOD, FALL BACK!",
+    "translation": "情况不妙，后撤！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0200__bc_uk2_retreat_09__AE052EA1.mp3": {
+    "asr_text": "Oh, this doesn't look good! Fall back!",
+    "translation": "情况不妙！快撤！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0201__bc_uk2_retreat_10__AF3B33B7.mp3": {
+    "asr_text": "MOVE BACK!",
+    "translation": "往后退！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0202__bc_uk2_retreat_11__AF494B38.mp3": {
+    "asr_text": "Oh, bloody hell! Let's move!",
+    "translation": "妈的，快走！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0203__bc_uk2_friendly_fire_01__5BE42836.mp3": {
+    "asr_text": "Oi! Watch where you're firing, buddy!",
+    "translation": "喂！看准了再打！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0204__bc_uk2_friendly_fire_02__5BF23FB7.mp3": {
+    "asr_text": "Oi, what's with your firing, mate?",
+    "translation": "喂，你往哪儿打呢？",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0205__bc_uk2_friendly_fire_03__5C005738.mp3": {
+    "asr_text": "Oi, what's your fire?",
+    "translation": "喂！别打着自己人！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  },
+  "0206__bc_uk2_friendly_fire_04__5C0E6EB9.mp3": {
+    "asr_text": "WATCH YOUR FIRE DAMMIT!",
+    "translation": "妈的！看准了再开枪！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0207__bc_uk2_friendly_fire_05__5C1C863A.mp3": {
+    "asr_text": "I am on your side!",
+    "translation": "我是自己人！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0208__bc_uk2_friendly_fire_06__5C2A9DBB.mp3": {
+    "asr_text": "I am on your side!",
+    "translation": "我是自己人！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0209__bc_uk2_friendly_fire_07__5C38B53C.mp3": {
+    "asr_text": "Oi! The bad guys are over there!",
+    "translation": "喂！敌人在那边！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0210__bc_uk2_friendly_fire_08__5C46CCBD.mp3": {
+    "asr_text": "STOP SHOOTING AT ME YOU IDIOT!",
+    "translation": "别朝我开枪，蠢货！",
+    "needs_review": true,
+    "note": "按ASR翻译，待听音校对。"
+  },
+  "0211__bc_uk2_friendly_fire_09__5C54E43E.mp3": {
+    "asr_text": "WATCH UP BLOODY FIRE!",
+    "translation": "妈的，看准再打！",
+    "needs_review": true,
+    "note": "ASR疑似连读/谐音误识别，结合可辨词和喊话语境拟译，待听音。"
+  }
+}
