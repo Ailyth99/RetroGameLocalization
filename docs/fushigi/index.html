@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>汉化补丁应用工具</title>
+<link rel="icon" href="lib/ico.ico">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@chinese-fonts/stdgt@2.0.0/dist/%E4%B8%8A%E5%9B%BE%E4%B8%9C%E8%A7%82%E4%BD%93-%E5%B8%B8%E8%A7%84/result.min.css">
+<style>
+    :root{
+    --ink:#eef2fb;        /* 标题：亮 */
+    --ink2:#c6cfe0;       /* 正文 */
+    --ink3:#8d9ab2;       /* 次要 */
+    --line:rgba(255,255,255,.17);
+    --card:rgba(9,17,35,.66);
+    --drop:rgba(5,11,24,.55);
+    --accent:#d9bf8c;     /* 金色 */
+    --accent-d:#c4a877;
+    --ok:#5ecb96;
+    --warn:#e0b25c;
+    --err:#f0727c;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;min-height:100%}
+  body{
+    font:14px/1.7 "Segoe UI","Microsoft YaHei","PingFang SC","Hiragino Sans GB",sans-serif;
+    color:var(--ink2);
+    background:#080e1e url("https://pic1.imgdb.cn/i/034ehl0QdcLoFBT8B2tt6m.png") center top / cover no-repeat fixed;
+    display:flex;flex-direction:column;min-height:100vh;
+  }
+  .wrap{width:100%;max-width:760px;margin:0 auto;padding:44px 18px 34px;flex:1 0 auto}
+
+  /* ---------- 标题 ---------- */
+  header{text-align:center;margin-bottom:26px}
+  h1{
+    font-family:"STDongGuanTi","Segoe UI","Microsoft YaHei","PingFang SC",sans-serif;
+    font-size:34px;font-weight:400;color:var(--ink);margin:0 0 8px;line-height:1.24;
+    letter-spacing:4px;
+    text-shadow:0 2px 18px rgba(0,0,0,.92),0 0 3px rgba(0,0,0,.85);
+  }
+  .sub{
+    font-size:17px;color:#fff;letter-spacing:3px;margin-top:2px;
+    text-shadow:
+      0 0 4px  rgba(255,255,255,1),
+      0 0 10px rgba(255,255,255,.95),
+      0 0 22px rgba(214,233,255,.85),
+      0 0 40px rgba(160,198,255,.6),
+      0 1px 14px rgba(0,0,0,.9);
+  }
+
+  /* ---------- 卡片 ---------- */
+  .card{
+    background:var(--card);
+    -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:16px;padding:24px;
+    box-shadow:0 18px 50px rgba(0,0,0,.48),inset 0 1px 0 rgba(255,255,255,.07);
+  }
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .grid.solo{grid-template-columns:1fr}
+  @media(max-width:620px){.grid,.grid.solo{grid-template-columns:1fr}}
+
+  .drop{
+    position:relative;
+    background:var(--drop);
+    border:1.5px dashed rgba(255,255,255,.2);border-radius:12px;
+    padding:18px 14px;min-height:124px;
+    display:flex;flex-direction:column;justify-content:center;
+    cursor:pointer;transition:border-color .15s,background .15s,box-shadow .15s;
+  }
+  .drop:hover{border-color:rgba(217,191,140,.75);background:rgba(12,22,44,.72)}
+  .drop.over{border-color:var(--accent);background:rgba(16,28,54,.85);
+    box-shadow:inset 0 0 0 3px rgba(217,191,140,.12)}
+  .drop.filled{border-style:solid;border-color:rgba(217,191,140,.42);background:rgba(13,23,45,.8)}
+  .drop .t{font-size:13px;font-weight:600;color:var(--ink);letter-spacing:.6px}
+  .drop .t i{font-style:normal;color:var(--accent);margin-left:5px}
+  .drop .h{font-size:12px;color:var(--ink3);margin-top:3px}
+  .drop .n{margin-top:9px;font-size:12.5px;color:var(--ink2);word-break:break-all;line-height:1.5}
+  .drop .m{font-size:11.5px;color:var(--ink3);font-variant-numeric:tabular-nums}
+  .drop .m .pass{color:var(--ok);font-weight:600;letter-spacing:.5px}
+
+  /* 拖入后立刻顶起的等待气泡：深底 + 金色发光字，字本身持续脉动 */
+  .bubble{
+    position:absolute;left:50%;top:0;z-index:5;
+    background:rgba(9,17,35,.96);
+    color:var(--accent);
+    font-size:12.5px;font-weight:700;letter-spacing:1px;
+    padding:7px 16px;border-radius:20px;white-space:nowrap;
+    border:1px solid rgba(217,191,140,.6);
+    box-shadow:0 8px 26px rgba(0,0,0,.6),0 0 18px rgba(217,191,140,.28);
+    opacity:0;pointer-events:none;
+    transform:translate(-50%,-62%);
+    transition:opacity .18s ease,transform .18s ease;
+    animation:bubPulse 1.35s ease-in-out infinite;
+  }
+  .bubble.on{opacity:1;transform:translate(-50%,-50%)}
+  @keyframes bubPulse{
+    0%,100%{color:var(--accent);
+      text-shadow:0 0 4px rgba(217,191,140,.55),0 0 12px rgba(217,191,140,.30)}
+    50%{color:#fff8e6;
+      text-shadow:0 0 8px rgba(255,235,190,1),0 0 20px rgba(217,191,140,.9),0 0 34px rgba(217,191,140,.55)}
+  }
+  .bubble::after{
+    content:"";position:absolute;left:50%;top:100%;margin-left:-5px;
+    border:5px solid transparent;border-top-color:rgba(9,17,35,.96);
+  }
+
+  .bar{display:flex;align-items:center;gap:10px;margin-top:20px;flex-wrap:wrap}
+  button{
+    font:inherit;font-weight:600;border:0;border-radius:10px;padding:10px 22px;
+    cursor:pointer;transition:background .15s,color .15s,border-color .15s,opacity .15s;
+    background:var(--accent);color:#141d33;letter-spacing:1px;
+  }
+  button:hover:not(:disabled){background:var(--accent-d)}
+  button:disabled{opacity:.35;cursor:not-allowed}
+  button.ghost{background:transparent;border:1px solid var(--line);color:var(--ink2);font-weight:500}
+  button.ghost:hover:not(:disabled){border-color:var(--accent);color:var(--accent);background:transparent}
+  .chk{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink3);
+    cursor:pointer;user-select:none;margin-left:auto}
+  input[type=checkbox]{accent-color:var(--accent);width:14px;height:14px;margin:0}
+
+  .prog{height:3px;background:rgba(255,255,255,.12);border-radius:3px;overflow:hidden;
+    margin-top:16px;display:none}
+  .prog.on{display:block}
+  .prog i{display:block;height:100%;width:34%;background:var(--accent);border-radius:3px;
+    animation:sl 1.15s ease-in-out infinite}
+  @keyframes sl{0%{margin-left:-34%}100%{margin-left:100%}}
+  /* 加载补丁时切成真实百分比进度条 */
+  .prog.det i{width:0;margin-left:0;animation:none;transition:width .18s ease}
+  .prog .pct{position:absolute;right:0;top:8px;font-size:11.5px;color:var(--ink3);
+    font-variant-numeric:tabular-nums}
+  .prog{position:relative}
+
+  /* ---------- 模式开关 ---------- */
+  .modes{display:flex;gap:8px;margin-bottom:16px}
+  .mode{
+    flex:1;text-align:center;padding:9px 10px;border-radius:10px;cursor:pointer;
+    border:1px solid rgba(255,255,255,.14);background:rgba(9,17,35,.42);
+    transition:border-color .15s,background .15s;
+  }
+  .mode:hover{border-color:rgba(217,191,140,.5)}
+  .mode b{display:block;font-size:13px;color:var(--ink2);font-weight:600;letter-spacing:.8px}
+  .mode span{display:block;font-size:11px;color:var(--ink3);margin-top:2px}
+  .mode.on{background:rgba(217,191,140,.14);border-color:rgba(217,191,140,.7)}
+  .mode.on b{color:var(--accent)}
+  .hide{display:none !important}
+
+  /* 自动模式下的补丁状态槽 */
+  .slot{
+    display:none;align-items:center;gap:10px;position:relative;
+    margin-top:14px;padding:12px 14px;border-radius:11px;
+    border:1px solid rgba(255,255,255,.12);background:rgba(9,17,35,.42);
+  }
+  .slot.on{display:flex}
+  .slot .ico{flex:0 0 auto;width:9px;height:9px;border-radius:50%;
+    background:rgba(255,255,255,.22);transition:background .2s}
+  .slot.wait .ico{background:var(--accent);animation:pulse 1s ease-in-out infinite}
+  .slot.done .ico{background:var(--ok)}
+  .slot.fail .ico{background:var(--err)}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.28}}
+  .slot .tx{flex:1;min-width:0}
+  .slot .tx b{display:block;font-size:12.5px;color:var(--ink2);font-weight:600}
+  .slot .tx small{display:block;font-size:11px;color:var(--ink3);margin-top:2px;
+    word-break:break-all;font-variant-numeric:tabular-nums}
+  .slot .rt{flex:0 0 auto;font-size:11.5px;color:var(--ink3);cursor:pointer}
+  .slot .rt:hover{color:var(--accent)}
+
+  /* 状态槽：只靠左侧圆点和文字变色区分状态，不做流光 */
+  .slot.wait{border-color:rgba(217,191,140,.5);background:rgba(16,28,54,.62)}
+  .slot.wait b{color:var(--accent)}
+  .slot.wait small{color:var(--accent);opacity:.8}
+
+  .st{margin-top:14px;font-size:12.5px;color:var(--ink3);text-align:center;min-height:20px}
+  .st.ok{color:var(--ok)}
+  .st.err{color:var(--err)}
+  .st .perk{color:var(--ink2)}
+
+  /* ---------- 结果 ---------- */
+  .res{display:none;margin-top:18px;padding:16px 18px;border-radius:12px;
+    background:rgba(94,203,150,.1);border:1px solid rgba(94,203,150,.32);text-align:center}
+  .res.on{display:block}
+  .res .f{font-size:14px;color:var(--ink);font-weight:600;word-break:break-all}
+  .res .d{font-size:12px;color:var(--ink3);margin-top:3px;font-variant-numeric:tabular-nums}
+  .res .acts{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:12px}
+  .res .acts button{margin-top:0}
+  .res .hint{font-size:11.5px;color:var(--ink3);margin-top:9px;opacity:.85}
+
+  /* 保存到磁盘时的进度条，放在结果框内 */
+  .savebar{display:none;margin-top:12px;align-items:center;gap:10px}
+  .savebar.on{display:flex}
+  .savebar .prog{flex:1;margin:0;display:block;position:static;overflow:hidden}
+  .savebar .prog i{width:0;margin-left:0;animation:none;transition:width .12s linear}
+  .savebar .pct{flex:0 0 auto;font-size:12px;color:var(--accent);
+    font-variant-numeric:tabular-nums;letter-spacing:.5px;position:static}
+
+  /* ---------- 日志按钮 + 面板 ---------- */
+  #logBtn{
+    position:fixed;top:14px;right:14px;z-index:30;
+    padding:6px 13px;font-size:12px;font-weight:500;letter-spacing:1px;border-radius:20px;
+    background:rgba(9,17,35,.8);color:var(--ink2);
+    border:1px solid rgba(255,255,255,.16);
+    -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+    box-shadow:0 4px 16px rgba(0,0,0,.45);
+  }
+  #logBtn:hover{background:rgba(16,28,54,.95);color:var(--accent);border-color:rgba(217,191,140,.5)}
+  #logBtn .dot{display:inline-block;width:5px;height:5px;border-radius:50%;
+    background:rgba(255,255,255,.28);margin-right:6px;vertical-align:1px}
+  #logBtn.err .dot{background:var(--err)}
+
+  #logPanel{
+    position:fixed;top:52px;right:14px;z-index:29;
+    width:min(460px,calc(100vw - 28px));max-height:min(62vh,520px);
+    display:none;flex-direction:column;
+    background:rgba(6,12,26,.97);
+    border:1px solid rgba(255,255,255,.15);border-radius:14px;
+    box-shadow:0 20px 54px rgba(0,0,0,.6);overflow:hidden;
+  }
+  #logPanel.on{display:flex}
+  #logPanel .hd{padding:8px 14px;font-size:12px;color:var(--ink3);
+    border-bottom:1px solid rgba(255,255,255,.1);display:flex;align-items:center}
+  #logPanel .hd b{color:var(--ink);font-weight:600}
+  #logPanel .hd span{margin-left:auto;cursor:pointer;color:var(--ink3)}
+  #logPanel .hd span:hover{color:var(--accent)}
+  #log{
+    margin:0;padding:12px 14px;overflow:auto;flex:1;
+    font:11.5px/1.75 ui-monospace,SFMono-Regular,Consolas,"Courier New",monospace;
+    color:#b9c4d8;white-space:pre-wrap;word-break:break-all;
+  }
+  #log .t{color:#6d7b93}
+  #log .ok{color:var(--ok)}
+  #log .warn{color:var(--warn)}
+  #log .err{color:var(--err)}
+
+  /* ---------- 支持镜像表 ---------- */
+  .info{
+    margin-top:22px;background:var(--card);
+    -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+    border:1px solid rgba(255,255,255,.15);border-radius:16px;
+    padding:18px 20px 12px;
+    box-shadow:0 18px 50px rgba(0,0,0,.48),inset 0 1px 0 rgba(255,255,255,.07);
+  }
+  .info h2{margin:0 0 13px;font-size:13px;font-weight:600;color:var(--ink);
+    letter-spacing:2px;text-align:center}
+  .info h2 i{font-style:normal;color:var(--ink2);font-weight:500;letter-spacing:0}
+  table.iso{width:100%;border-collapse:collapse;font-size:12.5px;table-layout:auto}
+  table.iso th{font-size:11.5px;font-weight:600;color:var(--ink3);letter-spacing:1px;
+    text-align:left;padding:0 10px 8px;border-bottom:1px solid rgba(255,255,255,.13)}
+  table.iso th.r,table.iso td.r{text-align:right}
+  table.iso td{padding:9px 10px;border-bottom:1px solid rgba(255,255,255,.07);
+    color:var(--ink2);vertical-align:top}
+  table.iso tr:last-child td{border-bottom:0}
+  table.iso td.plat{color:var(--accent);font-weight:600;font-size:12px;
+    letter-spacing:.5px;white-space:nowrap;vertical-align:middle;padding-right:14px}
+  table.iso .no{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+  table.iso .no i{font-style:normal;font-weight:500;color:var(--ink3);
+    margin-left:7px;font-size:11.5px;letter-spacing:0}
+  table.iso .fn{color:var(--ink3);font-size:10.5px;margin-top:3px;line-height:1.45;
+    word-break:break-all}
+  table.iso .crc{font:11.5px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;
+    color:var(--ink2);white-space:nowrap}
+
+  /* ---------- 另一部作品的补丁页入口：独立一块，放在支持列表下面 ---------- */
+  .cross{
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+    margin-top:14px;padding:16px 20px;border-radius:16px;
+    text-decoration:none;
+    background:var(--card);
+    -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+    border:1px solid rgba(217,191,140,.42);
+    box-shadow:0 18px 50px rgba(0,0,0,.48),inset 0 1px 0 rgba(255,255,255,.07);
+    transition:border-color .15s,background .15s,transform .15s,box-shadow .15s;
+  }
+  .cross:hover{
+    border-color:var(--accent);
+    background:rgba(14,24,46,.78);
+    transform:translateY(-1px);
+    box-shadow:0 20px 54px rgba(0,0,0,.55),0 0 22px rgba(217,191,140,.18),
+               inset 0 1px 0 rgba(255,255,255,.09);
+  }
+  .cross .ct{min-width:0}
+  .cross .ct b{display:block;font-size:13px;color:var(--ink);font-weight:600;
+    letter-spacing:.8px}
+  .cross .ct span{display:block;font-size:11px;color:var(--ink3);margin-top:4px;
+    line-height:1.4}
+  .cross .ca{flex:0 0 auto;font-size:12.5px;font-weight:600;color:var(--accent);
+    letter-spacing:1.5px;white-space:nowrap}
+  .cross:hover .ca{color:#fff8e6}
+
+  /* ---------- 页脚 ---------- */
+  footer{flex:0 0 auto;margin-top:auto;padding-top:44px;position:relative}
+  footer img{display:block;width:100%;height:auto}
+  /* 版权行浮动在底部图的底部（花丛是实心白的，所以用深色字） */
+  .credit{
+    position:absolute;left:0;right:0;bottom:0;
+    text-align:center;padding:10px 18px 11px;
+    font-size:11.5px;color:#1f2836;letter-spacing:.3px;
+    text-shadow:0 1px 0 rgba(255,255,255,.7);
+  }
+  .credit a{color:#74495a;text-decoration:none;text-shadow:0 1px 0 rgba(255,255,255,.7)}
+  .credit a:hover{text-decoration:underline}
+
+  /* ---------- 攻略入口（显眼位置） ---------- */
+  .guide{
+    display:flex;align-items:center;justify-content:center;gap:9px;
+    margin:0 0 18px;padding:13px 20px;border-radius:12px;
+    text-decoration:none;
+    background:linear-gradient(135deg,rgba(9,17,35,.9),rgba(9,17,35,.78));
+    -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+    border:1px solid rgba(217,191,140,.68);
+    color:var(--accent);font-size:14.5px;font-weight:700;letter-spacing:1.5px;
+    text-shadow:0 1px 8px rgba(0,0,0,.85),0 0 14px rgba(217,191,140,.35);
+    box-shadow:0 8px 24px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.07);
+    transition:border-color .15s,background .15s,transform .15s,box-shadow .15s,color .15s;
+  }
+  .guide:hover{
+    border-color:var(--accent);color:#fff8e6;
+    background:linear-gradient(135deg,rgba(20,32,58,.96),rgba(12,22,44,.9));
+    transform:translateY(-1px);
+    box-shadow:0 10px 28px rgba(0,0,0,.6),0 0 22px rgba(217,191,140,.3);
+  }
+  .guide svg{flex:0 0 auto}
+  .guide .arw{font-size:13px;opacity:.85;transition:transform .15s}
+  .guide:hover .arw{transform:translateX(3px)}
+
+  /* ---------- 左上角访问统计 ---------- */
+  #visitor{
+    position:fixed;top:15px;left:14px;z-index:30;display:block;line-height:0;
+    border-radius:20px;overflow:hidden;opacity:.92;
+    box-shadow:0 4px 16px rgba(0,0,0,.45);
+    transition:opacity .15s;
+  }
+  #visitor:hover{opacity:1}
+  #visitor img{display:block;height:20px;width:auto}
+  @media(max-width:620px){#visitor{top:13px;left:10px}#visitor img{height:17px}}
+
+  /* ---------- 手动模式：补丁下载入口 ---------- */
+  .dl{
+    margin-top:16px;padding:14px 16px;border-radius:12px;
+    background:rgba(9,17,35,.68);border:1px solid rgba(255,255,255,.13);
+    -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.05);
+  }
+  .dl .dl-h{font-size:12.5px;color:var(--ink2);text-align:center;letter-spacing:.5px}
+  .dl .dl-h span{display:block;font-size:11px;color:var(--ink3);margin-top:3px;letter-spacing:0}
+  .dl .dl-b{display:flex;gap:10px;margin-top:11px}
+  .dl .dl-b a{
+    flex:1;display:flex;align-items:center;justify-content:center;gap:8px;
+    padding:10px 12px;border-radius:10px;text-decoration:none;
+    background:rgba(217,191,140,.10);border:1px solid rgba(217,191,140,.45);
+    color:var(--accent);letter-spacing:1px;
+    transition:background .15s,border-color .15s,color .15s,box-shadow .15s;
+  }
+  .dl .dl-b a:hover{
+    background:rgba(217,191,140,.22);border-color:var(--accent);color:#fff8e6;
+    box-shadow:0 0 16px rgba(217,191,140,.22);
+  }
+  .dl .dl-b a b{font-size:13.5px;font-weight:700}
+  .dl .dl-b a span{font-size:11.5px;font-weight:500;opacity:.85}
+  @media(max-width:620px){.dl .dl-b{flex-direction:column}}
+</style>
+</head>
+<body>
+
+<img id="visitor" src="https://visitor-badge.laobi.icu/badge?page_id=fushigi.visitor-badge&amp;left_text=dear%20friends&amp;left_color=%23ea8a8a&amp;right_color=%23b1d6ec" alt="访问统计">
+
+<button id="logBtn"><span class="dot"></span>日志</button>
+
+<div id="logPanel">
+  <div class="hd"><b>运行日志</b><span id="logClr">清空</span></div>
+  <div id="log"></div>
+</div>
+
+<div class="wrap">
+
+  <header>
+    <h1>不思议游戏<br>在线补丁工具</h1>
+    <div class="sub">汉化制作：不思议汉化组</div>
+  </header>
+
+  <a class="guide" href="https://www.bilibili.com/toy/fushigi_genbu_guide" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polygon points="15.5 8.5 10.5 10.5 8.5 15.5 13.5 13.5"/></svg>
+    游戏攻略 · 玩法指南
+    <span class="arw">→</span>
+  </a>
+
+  <div class="card">
+    <div class="modes">
+      <div class="mode on" id="mAuto">
+        <b>自动模式</b><span>只选 ISO，补丁自动获取</span>
+      </div>
+      <div class="mode" id="mMan">
+        <b>手动模式</b><span>自己指定补丁文件</span>
+      </div>
+    </div>
+
+    <div class="grid solo" id="grid">
+      <div class="drop" id="dRom">
+        <div class="t">原版 ISO/ROM <i>必需</i></div>
+        <div class="h">点击选择，或把文件拖进来</div>
+        <div class="n" id="nRom"></div>
+        <div class="m" id="mRom"></div>
+        <input type="file" id="fRom" hidden>
+      </div>
+      <div class="drop hide" id="dPat">
+        <div class="t">补丁文件 <i>手动指定</i></div>
+        <div class="h">点击选择，或把文件拖进来</div>
+        <div class="n" id="nPat"></div>
+        <div class="m" id="mPat"></div>
+        <input type="file" id="fPat" hidden>
+      </div>
+    </div>
+
+    <div class="slot" id="slot">
+      <div class="ico"></div>
+      <div class="tx"><b id="slotT">补丁</b><small id="slotS"></small></div>
+      <div class="rt" id="slotR">重新获取</div>
+    </div>
+
+    <div class="bar" id="bar">
+      <button id="bRun" disabled>应用补丁</button>
+      <button id="bRst" class="ghost">重置</button>
+      <label class="chk"><input type="checkbox" id="optV" checked>校验文件校验和</label>
+    </div>
+
+    <div class="prog" id="prog"><i></i></div>
+    <div class="st" id="st">选择原版 ISO/ROM 和补丁文件后开始&nbsp;&nbsp;·&nbsp;&nbsp;<span class="perk">文件不会上传服务器，全部在本地完成</span></div>
+
+    <div class="dl hide" id="dl">
+      <div class="dl-h">按你的平台下载补丁文件（直接点击下载按钮，无需任何客户端，也无需登录）
+        <span>手动模式下需自行下载补丁，再在上方「补丁文件」处选择</span>
+      </div>
+      <div class="dl-b">
+        <a href="https://www.ilanzou.com/s/2ENBtD6l" target="_blank" rel="noopener">
+          <b>PS2</b><span>补丁下载</span>
+        </a>
+        <a href="https://www.ilanzou.com/s/aKABtqxq" target="_blank" rel="noopener">
+          <b>PSP</b><span>补丁下载</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="res" id="res">
+      <div class="f" id="rName"></div>
+      <div class="d" id="rMeta"></div>
+      <div class="acts">
+        <button id="bDl">直接下载</button>
+        <button id="bSave" class="ghost">另存为…</button>
+      </div>
+      <div class="hint" id="saveHint">保存前请确认目标磁盘至少有 3GB 空余空间</div>
+      <div class="savebar" id="sbWrap">
+        <div class="prog" id="sbProg"><i></i></div>
+        <div class="pct" id="sbPct">0%</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="info">
+    <h2>支持的镜像版本</h2>
+    <table class="iso">
+      <thead>
+        <tr><th>平台</th><th>镜像编号</th><th class="r">CRC32</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="plat" rowspan="2">PS2</td>
+          <td><span class="no">SLPM-66023<i>限定版</i></span>
+            <div class="fn">Fushigi Yuugi - Genbu Kaiden Gaiden - Kagami no Miko (Japan) (Genteiban).iso</div></td>
+          <td class="crc r">fa881391</td>
+        </tr>
+        <tr>
+          <td><span class="no">SLPM-66024 / SLPM-67000<i>普通版</i></span>
+            <div class="fn">Fushigi Yuugi - Genbu Kaiden Gaiden - Kagami no Miko (Japan).iso</div></td>
+          <td class="crc r">6fd8dff6</td>
+        </tr>
+        <tr>
+          <td class="plat">PSP</td>
+          <td><span class="no">ULJM-05175</span>
+            <div class="fn">Fushigi Yuugi - Genbu Kaiden Gaiden - Kagami no Miko (Japan).iso</div></td>
+          <td class="crc r">0d68af2e</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <a class="cross" href="https://ailyth99.github.io/fushigi/suzaku" target="_blank" rel="noopener">
+    <span class="ct">
+      <b>不思议游戏 朱雀异闻 / 不思议游戏DS</b>
+      <span>另一部作品的汉化补丁网页（NDS 版）</span>
+    </span>
+    <span class="ca">前往 →</span>
+  </a>
+
+</div>
+
+<footer>
+    <img src="https://pic1.imgdb.cn/i/034ehiNRGfPq2T1sGw4e7H.png" alt="">
+    <div class="credit">
+      Powered by <a href="https://github.com/marcrobledo/RomPatcher.js" target="_blank" rel="noopener">RomPatcher.js</a>
+      &nbsp;by Marc Robledo&nbsp;·&nbsp;MIT License
+    </div>
+  </footer>
+
+<!-- RomPatcher.js core + modules (classic scripts, no bundler needed) -->
+<script src="lib/rom-patcher-js/modules/HashCalculator.js"></script>
+<script src="lib/rom-patcher-js/modules/BinFile.js"></script>
+<script src="lib/rom-patcher-js/RomPatcher.js"></script>
+<script src="lib/rom-patcher-js/modules/RomPatcher.format.ips.js"></script>
+<script src="lib/rom-patcher-js/modules/RomPatcher.format.aps_n64.js"></script>
+<script src="lib/rom-patcher-js/modules/RomPatcher.format.aps_gba.js"></script>
+<script src="lib/rom-patcher-js/modules/RomPatcher.format.ups.js"></script>
+<script src="lib/rom-patcher-js/modules/RomPatcher.format.bps.js"></script>
+<script src="lib/rom-patcher-js/modules/RomPatcher.format.rup.js"></script>
+<script src="lib/rom-patcher-js/modules/RomPatcher.format.ppf.js"></script>
+<script src="lib/rom-patcher-js/modules/RomPatcher.format.bdf.js"></script>
+<script src="lib/rom-patcher-js/modules/RomPatcher.format.pmsr.js"></script>
+<script src="lib/rom-patcher-js/modules/RomPatcher.format.vcdiff.js"></script>
+
+<!-- release fix-up table (generated by ../mknorm.py), defines global NORM -->
+<script src="norm.js"></script>
+
+<script>
+(function () {
+  'use strict';
+
+  var logEl = document.getElementById('log');
+  var panel = document.getElementById('logPanel');
+  var logBtn = document.getElementById('logBtn');
+  var stEl = document.getElementById('st');
+  var prog = document.getElementById('prog');
+  var progBar = prog.querySelector('i');
+  var resEl = document.getElementById('res');
+  var slotEl = document.getElementById('slot');
+  var slotT = document.getElementById('slotT');
+  var slotS = document.getElementById('slotS');
+
+  var S = { rom: null, pat: null, out: null, name: '' };
+
+  /* ---------------- helpers ---------------- */
+  function esc(s) {
+    return String(s).replace(/[&<>]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c];
+    });
+  }
+  function size(n) {
+    if (n < 1024) return n + ' B';
+    if (n < 1048576) return (n / 1024).toFixed(1) + ' KB';
+    if (n < 1073741824) return (n / 1048576).toFixed(2) + ' MB';
+    return (n / 1073741824).toFixed(3) + ' GB';
+  }
+  function crcHex(u8) {
+    try { return HashCalculator.crc32(u8.buffer).toString(16).toUpperCase().padStart(8, '0'); }
+    catch (e) { return null; }
+  }
+  function crc32(u8) {
+    var h = crcHex(u8);
+    return h === null ? 'n/a' : '0x' + h;
+  }
+
+  /* 支持镜像表里列出的三个整盘 CRC32，命中即判为「验证通过」 */
+  var KNOWN_CRC = ['FA881391', '6FD8DFF6', '0D68AF2E'];
+
+  /* ========== 补丁源开关 ==========
+     平时只改下面这一行就能切换补丁来源：
+
+       SRC = 'ms'   -> ModelScope 数据集整包（单文件，当前使用）
+       SRC = 'jsd'  -> jsDelivr 分片（4 片，备用；配置保留，别删）
+
+     ModelScope 直链要点（2026-10-14 实测）：
+       · 公开数据集无需权限，直接下，不带 token
+       · 两跳都带 Access-Control-Allow-Origin: *，浏览器 fetch 可直接用
+       · 大文件会 302 跳到 cdn-lfs-cn-1.modelscope.cn，URL 上挂短时效 auth_key 签名
+         => 必须始终用下面的 resolve 原始地址，绝不能缓存重定向后的 URL（几十秒就失效）
+       · 支持 HEAD 与 Range，所以进度条能按真实字节走
+
+     jsDelivr 分片：按字节切开、顺序列出，拼回来即完整补丁（见 mkpatch_gui.py 的 split_file）。 */
+  var SRC = 'ms';
+
+  var MS  = 'https://modelscope.cn/datasets/flyheadko/TRANSLATE/resolve/master/';
+  var CDN = 'https://cdn.jsdelivr.net/gh/';
+
+  var PATCHES = {
+    ps2: {
+      label: 'PS2',
+      crc: ['FA881391', '6FD8DFF6'],
+      /* ModelScope：整包单文件，不切片 */
+      ms: [
+        MS + 'Fushigi%20Yuugi%20-%20Genbu%20Kaiden%20Gaiden%20-%20Kagami%20no%20Miko%20(Japan)_patch.xdelta?view=false'
+      ],
+      /* jsDelivr：4 片，备用 */
+      jsd: [
+        CDN + 'EiliaLan/lzsd@HEAD/Fushigi%20Yuugi%20-%20Genbu%20Kaiden%20Gaiden%20-%20Kagami%20no%20Miko%20(Japan)_patch.001.bin',
+        CDN + 'EiliaLan/lzsd@HEAD/Fushigi%20Yuugi%20-%20Genbu%20Kaiden%20Gaiden%20-%20Kagami%20no%20Miko%20(Japan)_patch.002.bin',
+        CDN + 'EiliaLan/rELPKckr@HEAD/Fushigi%20Yuugi%20-%20Genbu%20Kaiden%20Gaiden%20-%20Kagami%20no%20Miko%20(Japan)_patch.003.bin',
+        CDN + 'EiliaLan/rELPKckr@HEAD/Fushigi%20Yuugi%20-%20Genbu%20Kaiden%20Gaiden%20-%20Kagami%20no%20Miko%20(Japan)_patch.004.bin'
+      ]
+    },
+    psp: {
+      label: 'PSP',
+      crc: ['0D68AF2E'],
+      /* ModelScope：整包单文件，不切片 */
+      ms: [
+        MS + 'PSP_Fushigi%20Yuugi%20-%20Genbu%20Kaiden%20Gaiden%20-%20Kagami%20no%20Miko_patch.xdelta?view=false'
+      ],
+      /* jsDelivr：4 片，备用 */
+      jsd: [
+        CDN + 'EiliaLan/RTB-QuickBMS-Scripts@HEAD/Textures/PSP_Fushigi%20Yuugi%20-%20Genbu%20Kaiden%20Gaiden%20-%20Kagami%20no%20Miko_patch.001.bin',
+        CDN + 'EiliaLan/RTB-QuickBMS-Scripts@HEAD/Textures/PSP_Fushigi%20Yuugi%20-%20Genbu%20Kaiden%20Gaiden%20-%20Kagami%20no%20Miko_patch.002.bin',
+        CDN + 'EiliaLan/PS2_RidgeRacerV_ArchiveTool@HEAD/RidgeRacerVArchiveTool/PSP_Fushigi%20Yuugi%20-%20Genbu%20Kaiden%20Gaiden%20-%20Kagami%20no%20Miko_patch.003.bin',
+        CDN + 'EiliaLan/PS2_RidgeRacerV_ArchiveTool@HEAD/RidgeRacerVArchiveTool/PSP_Fushigi%20Yuugi%20-%20Genbu%20Kaiden%20Gaiden%20-%20Kagami%20no%20Miko_patch.004.bin'
+      ]
+    }
+  };
+
+  /* 按镜像整盘 CRC32 找出该用哪套补丁 */
+  function pickPatch(hx) {
+    for (var k in PATCHES) {
+      if (PATCHES[k].crc.indexOf(hx) >= 0) return PATCHES[k];
+    }
+    return null;
+  }
+
+  var AUTO = { busy: false, done: false, size: 0 };
+
+  /* 拖入后立刻在卡片上沿顶起一个等待气泡 */
+  function bubble(el, msg) {
+    var b = el.querySelector('.bubble');
+    if (!b) {
+      b = document.createElement('div');
+      b.className = 'bubble';
+      el.appendChild(b);
+    }
+    b.textContent = msg;
+    b.classList.add('on');
+  }
+  function dropBubble(el) {
+    var b = el.querySelector('.bubble');
+    if (b) b.classList.remove('on');
+  }
+  function log(msg, cls) {
+    var t = new Date().toTimeString().slice(0, 8);
+    logEl.insertAdjacentHTML('beforeend',
+      '<div><span class="t">[' + t + ']</span> <span class="' + (cls || '') + '">' + esc(msg) + '</span></div>');
+    logEl.scrollTop = logEl.scrollHeight;
+  }
+  function status(msg, cls) {
+    stEl.textContent = msg;
+    stEl.className = 'st' + (cls ? ' ' + cls : '');
+  }
+  function showLog(on) {
+    panel.classList.toggle('on', on);
+    logBtn.textContent = '';
+    logBtn.insertAdjacentHTML('beforeend', '<span class="dot"></span>' + (on ? '收起日志' : '日志'));
+    if (on) logEl.scrollTop = logEl.scrollHeight;
+  }
+
+  logBtn.addEventListener('click', function () { showLog(!panel.classList.contains('on')); });
+  document.getElementById('logClr').addEventListener('click', function () { logEl.innerHTML = ''; });
+
+  /* ---------------- file input ---------------- */
+  function bind(dropId, inputId, key, nameId, metaId) {
+    var drop = document.getElementById(dropId);
+    var input = document.getElementById(inputId);
+    drop.addEventListener('click', function () { input.click(); });
+    input.addEventListener('change', function () { if (input.files[0]) take(input.files[0]); });
+    ['dragenter', 'dragover'].forEach(function (e) {
+      drop.addEventListener(e, function (ev) { ev.preventDefault(); drop.classList.add('over'); });
+    });
+    ['dragleave', 'drop'].forEach(function (e) {
+      drop.addEventListener(e, function (ev) { ev.preventDefault(); drop.classList.remove('over'); });
+    });
+    drop.addEventListener('drop', function (ev) {
+      if (ev.dataTransfer.files[0]) take(ev.dataTransfer.files[0]);
+    });
+
+    function take(f) {
+      var fr = new FileReader();
+      var metaEl = document.getElementById(metaId);
+
+      metaEl.textContent = '';
+      if (key === 'rom') {
+        /* 重新选镜像：把上一轮的成品和收起的面板都还原 */
+        S.out = null;
+        resEl.classList.remove('on');
+        document.getElementById('bar').classList.remove('hide');
+        slotEl.classList.remove('hide');
+        if (mode === 'auto') slotEl.classList.add('on');
+        bubble(drop, '正在验证镜像，请稍等片刻…');
+      }
+
+      fr.onload = function () {
+        var u8 = new Uint8Array(fr.result);
+        var info = identify(u8);
+        var hx = crcHex(u8);          /* 整盘 CRC32，最慢的一步，气泡就挂在这一步上 */
+
+        dropBubble(drop);
+
+        S[key] = { name: f.name, bytes: u8, fmt: info.name, crc: hx };
+        S.out = null;
+        document.getElementById(nameId).innerHTML = esc(f.name);
+        metaEl.textContent = size(u8.length) +
+          (key === 'pat' ? '  ·  ' + (info.name || '未知格式') : '') +
+          '  ·  CRC32 ' + (hx === null ? 'n/a' : '0x' + hx);
+        if (key === 'rom' && hx !== null && KNOWN_CRC.indexOf(hx) >= 0) {
+          metaEl.insertAdjacentHTML('beforeend', '  ·  <span class="pass">验证通过</span>');
+        }
+        drop.classList.add('filled');
+        log((key === 'rom' ? 'ROM' : 'PATCH') + ': ' + f.name + ' (' + size(u8.length) + ')');
+        if (key === 'pat') report(info, u8);
+        if (key === 'rom') {
+          chkRom(u8);
+          /* 自动模式：镜像一到手就按 CRC 判断并去取补丁 */
+          if (mode === 'auto') autopatch();
+        }
+        reset();
+        refresh();
+      };
+      fr.onerror = function () {
+        dropBubble(drop);
+        metaEl.textContent = '';
+        log('读取文件失败: ' + f.name, 'err');
+      };
+      fr.readAsArrayBuffer(f);
+    }
+  }
+
+  /* ---------- 文件头识别：只看 magic，绝不看扩展名 ---------- */
+  var MAGICS = [
+    { m: 'PATCH', n: 'IPS' },
+    { m: 'UPS1', n: 'UPS' },
+    { m: 'APS10', n: 'APS (N64)' },
+    { m: 'APS1', n: 'APS (GBA)' },
+    { m: 'BPS1', n: 'BPS' },
+    { m: 'NINJA2', n: 'RUP' },
+    { m: 'PPF', n: 'PPF' },
+    { m: 'BSDIFF40', n: 'BDF (bsdiff)' },
+    { m: 'PMSR', n: 'PMSR' },
+    { m: 'Yay0', n: 'PMSR / Yay0' }
+  ];
+
+  function head(b, n) {
+    var s = '';
+    for (var i = 0; i < n && i < b.length; i++) {
+      if (b[i] < 0x20 || b[i] > 0x7e) return null;
+      s += String.fromCharCode(b[i]);
+    }
+    return s;
+  }
+  function hex2(v) { return ('0' + v.toString(16)).slice(-2).toUpperCase(); }
+  function hexs(b, n) {
+    var a = [];
+    for (var i = 0; i < n && i < b.length; i++) a.push(hex2(b[i]));
+    return a.join(' ') || '(empty)';
+  }
+
+  /* 返回值完全由文件头决定，文件名/扩展名不参与 */
+  function identify(b) {
+    if (b.length >= 3 && b[0] === 0xd6 && b[1] === 0xc3 && b[2] === 0xc4) {
+      return { name: 'VCDIFF (xdelta)', flags: b.length > 3 ? b[3] : 0,
+               second: b.length > 4 ? b[4] : -1 };
+    }
+    for (var i = 0; i < MAGICS.length; i++) {
+      if (head(b, MAGICS[i].m.length) === MAGICS[i].m) {
+        return { name: MAGICS[i].n, flags: 0, second: 0 };
+      }
+    }
+    return { name: null, flags: 0, second: 0 };
+  }
+
+  function report(info, b) {
+    if (info.name) log('magic  : ' + info.name + '   [' + hexs(b, 4) + ']');
+    else log('magic  : unrecognized header [' + hexs(b, 8) + ']', 'warn');
+    if (info.name === 'VCDIFF (xdelta)') {
+      log('VCDIFF 头标志 = 0x' + hex2(info.flags));
+      if (info.flags & 0x01) {
+        log('检测到二次压缩 id=' + info.second + ' —— RomPatcher.js 不支持，应用会失败', 'warn');
+      } else {
+        log('无二次压缩，可正常应用', 'ok');
+      }
+    }
+  }
+
+  /* ---------- 版次适配：把限定版 ISO 归一化成通常版布局 ----------
+     两版的游戏数据完全相同，差别只在 ISO9660 元数据（启动文件名、
+     目录记录时间戳）和 PS2-logo 区的填充字节。补丁里存的是「从源文件
+     第 N 字节抄 N 字节」，源变了就会抄错，所以必须在打补丁前先把
+     这几个字节改回来。表格由 ../mknorm.py 生成（norm.js）。          */
+  function u32(b, o) {
+    return (b[o] | (b[o + 1] << 8) | (b[o + 2] << 16) | (b[o + 3] << 24)) >>> 0;
+  }
+
+  /* 标准 ISO9660：PVD(扇区16) -> 根目录 -> 启动文件名，与扩展名无关 */
+  function elfName(b) {
+    var p = 16 * 2048;
+    if (b.length < p + 176) return null;
+    if (b[p + 1] !== 0x43 || b[p + 2] !== 0x44 || b[p + 3] !== 0x30 ||
+        b[p + 4] !== 0x30 || b[p + 5] !== 0x31) return null;      /* "CD001" */
+    var o = u32(b, p + 158) * 2048;
+    var end = Math.min(o + u32(b, p + 166), b.length);
+    while (o + 33 < end) {
+      var len = b[o];
+      if (!len) { o = (Math.floor(o / 2048) + 1) * 2048; continue; }
+      var s = '';
+      for (var i = 0; i < b[o + 32]; i++) s += String.fromCharCode(b[o + 33 + i]);
+      var m = /^([A-Z]{4}_\d{3}\.\d{2});\d$/.exec(s);
+      if (m) return m[1];
+      o += len;
+    }
+    return null;
+  }
+
+  function headCrc(b) {
+    return HashCalculator.crc32(b.slice(0, NORM.limit).buffer) >>> 0;
+  }
+
+  /* 'ref' = 补丁基准版, 'alt' = 需适配的另一版, 'unknown' = 不认识 */
+  function edition(b) {
+    if (typeof NORM === 'undefined' || b.length < NORM.limit) return 'unknown';
+    var c = headCrc(b);
+    return c === NORM.headCrc ? 'ref' : (c === NORM.tgtHeadCrc ? 'alt' : 'unknown');
+  }
+
+  function normalize(b) {
+    var r = NORM.rules, i, k, x, v, h;
+    for (i = 0; i < r.length; i++) {
+      x = r[i];
+      if (x.b !== undefined) {
+        v = parseInt(x.b, 16);
+        for (k = 0; k < x.n; k++) b[x.o + k] = v;
+      } else if (x.x !== undefined) {
+        v = parseInt(x.x, 16);
+        for (k = 0; k < x.n; k++) b[x.o + k] ^= v;
+      } else {
+        h = x.h;
+        for (k = 0; k < h.length; k += 2) b[x.o + (k >> 1)] = parseInt(h.substr(k, 2), 16);
+      }
+    }
+  }
+
+  function chkRom(b) {
+    if (typeof NORM === 'undefined') { log('未载入版次表 norm.js，跳过版次识别', 'warn'); return; }
+    var e = edition(b);
+    log('启动文件: ' + (elfName(b) || '未识别') + '   版次: ' + e);
+    if (e === 'ref') log('版本比对通过 —— 这就是补丁的基准版，直接应用', 'ok');
+    else if (e === 'alt') log('这是另一版碟（限定版）—— 应用补丁时会自动适配，无需手动改', 'warn');
+    else log('与本工具已知的两个版次都不符 —— 仍可应用，但若补丁报校验错就是版本不对', 'warn');
+  }
+
+  /* 打补丁前调用：必要时就地改写源字节 */
+  function adapt(b) {
+    if (typeof NORM === 'undefined' || edition(b) !== 'alt') return;
+    if (b.length !== NORM.targetSize) {
+      throw new Error('release size ' + b.length + ' != expected ' + NORM.targetSize);
+    }
+    log('检测到限定版，正在适配为通常版布局...');
+    normalize(b);
+    log('适配完成：启动文件已变为 ' + (elfName(b) || '?') + '，按通常版应用补丁', 'ok');
+  }
+
+  /* ---------------- 模式：自动 / 手动 ---------------- */
+  var mode = 'auto';
+
+  function setMode(m) {
+    if (m === mode) return;
+    /* 已经打好补丁：模式开关锁死，切了也不重跑，避免成品被冲掉 */
+    if (S.out) {
+      log('已生成汉化版镜像，如需重来请先点「重置」', 'warn');
+      return;
+    }
+    mode = m;
+    document.getElementById('mAuto').classList.toggle('on', m === 'auto');
+    document.getElementById('mMan').classList.toggle('on', m === 'man');
+    document.getElementById('dPat').classList.toggle('hide', m === 'auto');
+    document.getElementById('grid').classList.toggle('solo', m === 'auto');
+    /* 手动模式才显示补丁下载入口 */
+    document.getElementById('dl').classList.toggle('hide', m === 'auto');
+    slotEl.classList.remove('hide');
+    slotEl.classList.toggle('on', m === 'auto');
+    if (m === 'auto') {
+      /* 切回自动：丢掉手动选的补丁，按当前镜像重新判断 */
+      S.pat = null;
+      S.out = null;
+      AUTO.done = false;
+      document.getElementById('nPat').textContent = '';
+      document.getElementById('mPat').textContent = '';
+      document.getElementById('dPat').classList.remove('filled');
+      document.getElementById('fPat').value = '';
+      slotReset();
+      if (S.rom) autopatch();
+    } else {
+      prog.classList.remove('on', 'det');
+      AUTO.busy = false;
+      if (S.rom) log('切换到手动模式 —— 请自行选择补丁文件');
+    }
+    reset();
+    refresh();
+  }
+
+  function slotReset() {
+    slotEl.className = 'slot on';
+    slotT.textContent = '等待镜像';
+    slotS.textContent = '选择原版 ISO/ROM 后自动获取补丁';
+  }
+
+  /* 加载分片 -> 拼回完整补丁 */
+  function autopatch() {
+    if (AUTO.busy) return;
+    var hx = S.rom && S.rom.crc;
+    var group = hx ? pickPatch(hx) : null;
+    if (!group) {
+      slotEl.className = 'slot on';
+      slotT.textContent = '未匹配到补丁';
+      slotS.textContent = hx ? 'CRC32 0x' + hx + ' 不在支持列表内' : '镜像 CRC 未知';
+      log('自动模式：该镜像不在支持列表，跳过自动获取补丁', 'warn');
+      return;
+    }
+    var PIECES = group[SRC];
+    log('镜像匹配 ' + group.label + ' 版 —— 走 ' + (SRC === 'ms' ? 'ModelScope 整包' : 'jsDelivr 分片') +
+      '，共 ' + PIECES.length + ' 个文件', 'ok');
+
+    AUTO.busy = true;
+    AUTO.done = false;
+    S.pat = null;
+    S.out = null;
+    refresh();
+
+    slotEl.className = 'slot wait on';
+    slotT.textContent = '正在加载补丁…';
+    slotS.textContent = '准备中';
+    prog.classList.add('on', 'det');
+    setPct(0);
+    status('自动模式：正在获取补丁，请稍等片刻…');
+
+    /* 气泡：在补丁状态槽上提示，并提醒硬盘空间 */
+    bubble(slotEl, '正在加载补丁，请稍等片刻…');
+    log('提示：打补丁会在内存里生成约 1.3GB 的结果，请确保硬盘至少留 3GB 空余', 'warn');
+
+    var total = 0, got = 0;
+    var chunks = [];
+    var loaded = new Uint8Array(PIECES.length);
+
+    function bump() {
+      var p = total > 0 ? got / total : 0;
+      setPct(Math.min(100, Math.round(p * 100)));
+      slotS.textContent = '已加载 ' + size(got) + ' / ' + size(total || 0);
+    }
+
+    /* 先探一次各片大小，好让进度按真实总字节走 */
+    Promise.all(PIECES.map(function (u) {
+      return fetch(u, { method: 'HEAD', cache: 'no-store' }).then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        total += parseInt(r.headers.get('content-length') || '0', 10) || 0;
+      }).catch(function () { /* HEAD 失败不致命，退回按片数计 */ });
+    })).then(function () {
+      if (!total) total = PIECES.length;   /* 拿不到长度就按片数当分母 */
+      bump();
+
+      return Promise.all(PIECES.map(function (u, i) {
+        return fetch(u, { cache: 'no-store' }).then(function (r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          var rd = r.body && r.body.getReader ? r.body.getReader() : null;
+          if (!rd) {
+            /* 没有流式 reader 就整块拿 */
+            return r.arrayBuffer().then(function (ab) {
+              chunks[i] = new Uint8Array(ab);
+              loaded[i] = 1;
+              got += ab.byteLength;
+              bump();
+            });
+          }
+          var chunksOf = [], len = 0;
+          return (function pump() {
+            return rd.read().then(function (res) {
+              if (res.done) {
+                var outb = new Uint8Array(len), off = 0;
+                chunksOf.forEach(function (c) { outb.set(c, off); off += c.length; });
+                chunks[i] = outb;
+                return;
+              }
+              chunksOf.push(res.value);
+              len += res.value.length;
+              got += res.value.length;
+              bump();
+              return pump();
+            });
+          })();
+        });
+      }));
+    }).then(function () {
+      var n = 0;
+      chunks.forEach(function (c) { if (c) n += c.length; });
+      var all = new Uint8Array(n), off = 0;
+      chunks.forEach(function (c) { if (c) { all.set(c, off); off += c.length; } });
+
+      var info = identify(all);
+      S.pat = { name: 'patch.xdelta', bytes: all, fmt: info.name };
+      AUTO.busy = false;
+      AUTO.done = true;
+      AUTO.size = all.length;
+
+      dropBubble(slotEl);
+      prog.classList.remove('on', 'det');
+      slotEl.className = 'slot done on';
+      slotT.textContent = '补丁已就绪';
+      slotS.textContent = size(all.length) + '  ·  ' + (info.name || '未知格式') +
+        '  ·  CRC32 ' + crc32(all);
+      log('AUTO patch: ' + PIECES.length + ' file(s) -> ' + size(all.length) +
+        ' (' + (info.name || '?') + ')', 'ok');
+      report(info, all);
+
+      /* 自动模式：补丁到手就直接开打，无需再点按钮 */
+      if (mode === 'auto') {
+        status('补丁加载完成，正在自动打补丁，请勿关闭页面…');
+        setTimeout(applyPatch, 60);
+      } else {
+        status('补丁加载完成，可以开始打补丁了');
+      }
+      refresh();
+    }).catch(function (e) {
+      AUTO.busy = false;
+      dropBubble(slotEl);
+      prog.classList.remove('on', 'det');
+      slotEl.className = 'slot fail on';
+      slotT.textContent = '补丁加载失败';
+      slotS.textContent = String(e && e.message || e);
+      log('自动获取补丁失败: ' + (e && e.message || e), 'err');
+      log('可点「重新获取」重试，或切换到手动模式自行选补丁', 'warn');
+      status('补丁加载失败，详情见日志', 'err');
+      refresh();
+    });
+  }
+
+  var pctEl = null;
+  function setPct(p) {
+    if (!pctEl) {
+      pctEl = document.createElement('div');
+      pctEl.className = 'pct';
+      prog.appendChild(pctEl);
+    }
+    progBar.style.width = p + '%';
+    pctEl.textContent = p + '%';
+  }
+
+  document.getElementById('mAuto').addEventListener('click', function () { setMode('auto'); });
+  document.getElementById('mMan').addEventListener('click', function () { setMode('man'); });
+  document.getElementById('slotR').addEventListener('click', function () {
+    if (mode === 'auto' && S.rom) autopatch();
+  });
+
+  bind('dRom', 'fRom', 'rom', 'nRom', 'mRom');
+  bind('dPat', 'fPat', 'pat', 'nPat', 'mPat');
+  slotReset();
+
+  function refresh() {
+    var ok = S.rom && S.pat && !AUTO.busy;
+    document.getElementById('bRun').disabled = !ok;
+  }
+  function reset() {
+    resEl.classList.remove('on');
+    prog.classList.remove('on');
+    logBtn.classList.remove('err');
+  }
+
+  /* ---------------- apply ---------------- */
+  function applyPatch() {
+    if (!S.rom || !S.pat) return;
+    document.getElementById('bRun').disabled = true;
+    prog.classList.add('on');
+    logBtn.classList.remove('err');
+    reset();
+    bubble(document.getElementById('dRom'), '正在打补丁，请勿关闭页面…');
+    status('正在处理，' + size(S.rom.bytes.length) + ' 的文件需要几十秒，请勿关闭页面…');
+
+    setTimeout(function () {
+      try {
+        adapt(S.rom.bytes);
+
+        var romFile = new BinFile(S.rom.bytes);
+        romFile.fileName = S.rom.name;
+        var patFile = new BinFile(S.pat.bytes);
+        patFile.fileName = S.pat.name;
+
+        log('parsing patch...');
+        var patch = RomPatcher.parsePatchFile(patFile);
+        if (!patch) throw new Error('Invalid patch file');
+        log('format: ' + patch.toString());
+
+        log('applying...');
+        var t0 = performance.now();
+        var out = RomPatcher.applyPatch(romFile, patch, {
+          requireValidation: document.getElementById('optV').checked
+        });
+        var dt = (performance.now() - t0) / 1000;
+
+        S.out = out._u8array;
+        var m = S.rom.name.match(/(\.[^.]+)$/);
+        S.name = S.rom.name.replace(/(\.[^.]+)$/, '') + '_汉化' + (m ? m[1] : '.bin');
+
+        log('done in ' + dt.toFixed(2) + 's', 'ok');
+        log('output: ' + S.name + ' (' + size(S.out.length) + ') CRC32 ' + crc32(S.out), 'ok');
+
+        document.getElementById('rName').textContent = S.name;
+        document.getElementById('rMeta').textContent =
+          size(S.out.length) + '  ·  CRC32 ' + crc32(S.out) + '  ·  用时 ' + dt.toFixed(1) + ' 秒';
+        resEl.classList.add('on');
+        status('补丁应用成功', 'ok');
+        afterApply();
+      } catch (e) {
+        var msg = String(e && e.message || e);
+        log('FAILED: ' + msg, 'err');
+        afterApply();
+        if (/secondary decompressor|deltaIndicator|not implemented/i.test(msg)) {
+          log('原因：该补丁使用了 LZMA 等二次压缩，RomPatcher.js 无法解码。', 'warn');
+          log('请让补丁作者改用 -S none 重新生成。', 'warn');
+          status('补丁格式不受支持（二次压缩），详情见日志', 'err');
+        } else {
+          status('应用失败，详情见日志', 'err');
+        }
+        logBtn.classList.add('err');
+        showLog(true);
+      } finally {
+        prog.classList.remove('on');
+        refresh();
+      }
+    }, 30);
+  }
+
+  document.getElementById('bRun').addEventListener('click', applyPatch);
+
+  /* 打完补丁：收起气泡 */
+  function afterApply() {
+    var d = document.getElementById('dRom');
+    dropBubble(d);
+    /* 只留「保存汉化版镜像」——按钮区和补丁状态槽一并收起，模式也不许再切 */
+    if (S.out) {
+      document.getElementById('bar').classList.add('hide');
+      slotEl.classList.add('hide');
+    }
+  }
+
+  /* 分块把结果写进文件，顺便推进度条。1.36GB 一次性 write 会让进度条永远停在 0%，
+     所以切成 8MB 一块，每块写完更新一次。 */
+  function writeAll(w, u8, onStep) {
+    var CHUNK = 8 * 1024 * 1024;
+    var off = 0;
+    return (function step() {
+      if (off >= u8.length) return Promise.resolve();
+      var end = Math.min(off + CHUNK, u8.length);
+      /* 复制一份，避免把整块底层 buffer 交给 writer */
+      var part = u8.slice(off, end);
+      return w.write(part).then(function () {
+        off = end;
+        if (onStep) onStep(off / u8.length);
+        return step();
+      });
+    })();
+  }
+
+  var sbWrap = document.getElementById('sbWrap');
+  var sbProg = document.getElementById('sbProg').querySelector('i');
+  var sbPct = document.getElementById('sbPct');
+  function saveBar(on, p) {
+    sbWrap.classList.toggle('on', on);
+    if (p !== undefined) {
+      sbProg.style.width = Math.round(p * 100) + '%';
+      sbPct.textContent = Math.round(p * 100) + '%';
+    }
+  }
+
+  /* ---------- 保存：按运行环境分路 ----------
+     桌面：<a download> 落进默认下载目录；另存为走 showSaveFilePicker。
+     手机：blob 链接点开只会被当成网页打开，**不会触发保存**，
+           必须走系统分享面板（iOS「存储到『文件』」/ Android「下载」），
+           这条是移动端唯一可靠的落盘路径。
+     App 内置浏览器（微信/QQ/B站等）里下载常被彻底封掉，只能提示换浏览器。 */
+  var MOBILE = /Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent) ||
+    (navigator.maxTouchPoints > 1 && /Macintosh|Mac OS X/.test(navigator.userAgent));
+  var INAPP = /MicroMessenger|QQ\/|Weibo|BiliApp|baiduboxapp|AlipayClient|DingTalk/i.test(navigator.userAgent);
+
+  /* 系统分享面板存文件：成功返回 'ok'，用户取消 'cancel'，不支持 'no' */
+  function shareFile() {
+    return new Promise(function (resolve) {
+      var f;
+      try { f = new File([S.out], S.name, { type: 'application/octet-stream' }); }
+      catch (e) { resolve('no'); return; }
+      if (!navigator.share || !navigator.canShare || !navigator.canShare({ files: [f] })) {
+        resolve('no'); return;
+      }
+      navigator.share({ files: [f], title: S.name }).then(function () {
+        resolve('ok');
+      }).catch(function (e) {
+        resolve(e && e.name === 'AbortError' ? 'cancel' : 'no');
+      });
+    });
+  }
+
+  /* 常规 <a download> 下载；被 iframe 拦掉时改开新页。
+     okMsg 可覆盖成功后的提示语（手机端说法与桌面不同）。 */
+  function anchorDownload(okMsg) {
+    var hint = document.getElementById('saveHint');
+    var url = URL.createObjectURL(new Blob([S.out]));
+    var framed = false;
+    try { framed = window.top !== window.self; } catch (e) { framed = true; }
+
+    if (!framed) {
+      try {
+        var a = document.createElement('a');
+        a.href = url;
+        a.download = S.name;
+        a.rel = 'noopener';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        log('已交给浏览器下载: ' + S.name, 'ok');
+        status('已开始下载，请留意浏览器下载列表', 'ok');
+        if (hint) hint.textContent = okMsg || '文件将保存到浏览器默认下载目录';
+      } catch (e) {
+        log('直接下载被拦：' + (e && e.message || e) + '，改用新页面下载', 'warn');
+        window.open(url, '_blank');
+        status('已在新页面开始下载，请留意浏览器下载列表', 'ok');
+      }
+    } else {
+      /* 被嵌入（B站等 iframe 部署页）：<a download> 常被拦，新页是同源文档，不受限 */
+      window.open(url, '_blank');
+      log('当前页面被嵌入，已改为在新页面下载', 'warn');
+      status('已在新页面开始下载，请留意浏览器下载列表', 'ok');
+      if (hint) hint.textContent = '文件已在新页面开始下载，请留意浏览器下载列表';
+    }
+    /* 兜底：60 秒后释放，给下载留足时间 */
+    setTimeout(function () { URL.revokeObjectURL(url); }, 60000);
+  }
+
+  /* 直接下载：进浏览器默认下载目录；手机上改走系统保存面板 */
+  function downloadDirect() {
+    if (!S.out) return;
+    var hint = document.getElementById('saveHint');
+
+    /* 手机：优先系统分享面板，这是唯一能真正写进手机的路径 */
+    if (MOBILE) {
+      if (INAPP) {
+        log('当前是 App 内置浏览器，下载通常被禁止', 'warn');
+        log('请点右上角「…」→「在浏览器打开」，再回来下载', 'warn');
+        status('请改用系统浏览器打开本页后再下载', 'err');
+        if (hint) hint.textContent = '请点右上角「…」→「在浏览器打开」后重试';
+        return;
+      }
+      status('正在准备文件，稍后会弹出系统面板…');
+      shareFile().then(function (r) {
+        if (r === 'ok') {
+          log('已交给系统保存面板', 'ok');
+          status('已通过系统面板保存', 'ok');
+          if (hint) hint.textContent = '文件已交给系统保存';
+          return;
+        }
+        if (r === 'cancel') { log('已取消保存'); status('已取消保存'); return; }
+        /* 分享不可用（老系统/部分定制浏览器）：退回 <a download>，并在提示里给手动办法 */
+        log('系统分享不可用，改用浏览器下载', 'warn');
+        anchorDownload('已开始下载，请到「文件」App 或浏览器下载列表里查看');
+      });
+      return;
+    }
+
+    anchorDownload();
+  }
+
+  /* 另存为：桌面走系统对话框；手机端浏览器没有这个能力，退回分享/下载 */
+  function saveAs() {
+    if (!S.out) return;
+    var hint = document.getElementById('saveHint');
+
+    /* 跨域 iframe 里 showSaveFilePicker 必然抛错，先判断能不能用 */
+    var canPicker = false;
+    try {
+      canPicker = !!(window.showSaveFilePicker && window.top === window.self);
+    } catch (e) { canPicker = false; }   /* 读 window.top 本身可能就抛跨域错 */
+
+    if (!canPicker) {
+      log('当前环境不支持「另存为」（被嵌入、手机浏览器或权限受限），改用其他方式', 'warn');
+      downloadDirect();
+      return;
+    }
+
+    window.showSaveFilePicker({
+      suggestedName: S.name,
+      types: [{ description: 'PlayStation 2 镜像', accept: { 'application/octet-stream': ['.iso', '.bin'] } }]
+    }).then(function (h) {
+      log('保存到: ' + h.name);
+      return h.createWritable();
+    }).then(function (w) {
+      status('正在写入文件，请勿关闭页面…');
+      saveBar(true, 0);
+      return writeAll(w, S.out, function (p) { saveBar(true, p); })
+        .then(function () { return w.close(); });
+    }).then(function () {
+      saveBar(false);
+      log('文件已保存', 'ok');
+      status('汉化版镜像已保存', 'ok');
+      if (hint) hint.textContent = '文件已保存到指定位置';
+    }).catch(function (e) {
+      saveBar(false);
+      /* 用户点了取消不算错误 */
+      if (e && e.name === 'AbortError') { log('已取消保存'); status('已取消保存'); return; }
+      /* 其余情况（含跨域受限）改用下载 */
+      log('「另存为」不可用（' + (e && e.message || e) + '），改用直接下载', 'warn');
+      downloadDirect();
+    });
+  }
+
+  /* 按环境给提示语，手机端不显示「另存为」（浏览器没这能力，留着只会误导） */
+  (function envHint() {
+    var hint = document.getElementById('saveHint');
+    if (MOBILE) {
+      var b2 = document.getElementById('bSave');
+      if (b2) b2.style.display = 'none';
+    }
+    if (!hint) return;
+    if (INAPP) hint.textContent = '当前在 App 内置浏览器中，点右上角「…」→「在浏览器打开」后再下载';
+    else if (MOBILE) hint.textContent = '手机会弹出系统面板，选「存储到文件 / 下载」保存';
+    else hint.textContent = '直接下载进浏览器默认目录；另存为可自选位置（目标磁盘需留足 3GB）';
+  })();
+
+  document.getElementById('bDl').addEventListener('click', downloadDirect);
+  document.getElementById('bSave').addEventListener('click', saveAs);
+
+  document.getElementById('bRst').addEventListener('click', function () {
+    S = { rom: null, pat: null, out: null, name: '' };
+    AUTO.busy = false;
+    AUTO.done = false;
+    ['nRom', 'mRom', 'nPat', 'mPat'].forEach(function (id) { document.getElementById(id).textContent = ''; });
+    document.getElementById('fRom').value = '';
+    document.getElementById('fPat').value = '';
+    document.getElementById('dRom').classList.remove('filled');
+    document.getElementById('dPat').classList.remove('filled');
+    prog.classList.remove('on', 'det');
+    if (pctEl) { pctEl.textContent = ''; progBar.style.width = '0'; }
+    document.getElementById('bar').classList.remove('hide');
+    slotEl.classList.remove('hide');
+    saveBar(false);
+    if (sbProg) sbProg.style.width = '0';
+    if (sbPct) sbPct.textContent = '0%';
+    slotReset();
+    logEl.innerHTML = '';
+    reset();
+    status('选择原版 ISO/ROM 和补丁文件后开始  ·  文件不会上传服务器，全部在本地完成');
+    refresh();
+    log('reset');
+  });
+
+  log('ready');
+  log('RomPatcher: ' + (typeof RomPatcher !== 'undefined' ? 'loaded' : 'FAILED'),
+    typeof RomPatcher !== 'undefined' ? 'ok' : 'err');
+})();
+</script>
+</body>
+</html>
